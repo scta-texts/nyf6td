@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 3</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 3</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="366-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1410" type="et-sextus-l5t3"><!-- mo-l5t3"
+              -->
+            <head xml:id="nyf6td-d1e1410-Hd1e101">Titulus 3</head>
+            <div xml:id="nyf6td-d1e1410-Dd1e103" type="et-sextus-l5t3-rubric"><!-- mo-l5t3-rubric" -->
+               <head xml:id="nyf6td-d1e1410-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1410-d1e108">
+                  <lb ed="#P" n="5" type="fixed=365-v"/>QVe sit differnntia inter herein at sim 
+      <lb ed="#P" n="6"/>e i lexius  gio. xxiiii. 
+      <lb ed="#P" n="7"/>questione. iii. capi. inter scisma. Ex quibus 
+      han<lb ed="#P" n="8" break="no"/>rubricam continuo ad premissa. Ioannes 
+      Mo<lb ed="#P" n="9" break="no"/>nachus Cardinalis
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1410-Dd1e122" type="et-sextus-l5t3-c1"><!-- mo-l5t3-c1" -->
+               <head xml:id="nyf6td-d1e1410-Hd1e125">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1410-d1e127">
+                  <lb ed="#P" n="94" type="fixed=366-r"/>AD succidendos. hecc 
+      ha<lb ed="#P" n="95" break="no"/>bet quinque 
+      <lb ed="#P" n="96"/>partes. Primo narrat facta de 
+      <lb ed="#P" n="97"/>testabilia Iocobi / et Petri de 
+      co<lb ed="#P" n="98" break="no"/>lumna olim cardinalium et 
+      pro<lb ed="#P" n="99" break="no"/>cessus in grosso habitos / contra 
+      <lb ed="#P" n="100"/>eos et filios quondam Ioannis. 
+      <lb ed="#P" n="101"/>de columna / et sequaces. Secum 
+      <lb ed="#P" n="102"/>do versi. quorum sententias 
+      la<lb ed="#P" n="103" break="no"/>tas contra ipsos Iacobum et 
+      Pe<lb ed="#P" n="104" break="no"/>trum recitat. Tertio in ver. 
+      con<lb ed="#P" n="105" break="no"/>tra natos sententias latas contra filios a olim Ioannis 
+      <lb ed="#P" n="106"/>de columna fratris Iacobi et Petri bpredictorum. 
+      Quan<lb ed="#P" n="107" break="no"/>to in versi. omnem penas habitas contra tenentes 
+      eos<lb ed="#P" n="108" break="no"/>dem per cardinalem recitat. Quinto in versi. hec et alia: 
+      <lb ed="#P" n="109"/>processus et sententias alias habitos contra eos ratificat 
+      <lb ed="#P" n="110"/>et confirmat / et innouat. Et hec decreta. in multis suis 
+      arti<lb ed="#P" n="111" break="no"/>culis per successorem ipsius est sublata / et incipit dudum 
+      <lb ed="#P" n="112"/>cetiam si foret Si hec verba apposita non essent / dicerem et 
+      <lb ed="#P" n="113"/>cardinales non complecti: et sic fuit obtentum in 
+      pre<lb ed="#P" n="114" break="no"/>bendis quas expectabant duo cardinales ante sui 
+      creatio<lb ed="#P" n="115" break="no"/>nem canonici autoritate apostolica effecti / qui videbantur. 
+      <lb ed="#P" n="116"/>in renocatione expectantium prebendas per clausulam 
+      ge<lb ed="#P" n="117" break="no"/>neralem complecti / quam fecit papa Bonifacius octauus 
+      <lb ed="#P" n="118"/>argu. ff. de iniur l. item apud Labeonem. § hoc edictum. et 
+      <lb ed="#P" n="119"/>infra hoc lib. de senten. ex communica. quia periculosum / quo 
+      <lb ed="#P" n="120"/>tamen non loquitur de excommunicationis sententia: sed 
+      <lb ed="#P" n="121"/>interdicti / et suspensionis: sed si idem sit in 
+      excommunicatio<lb ed="#P" n="122" break="no"/>ne no. ibi et maior est ratio in cardinalibus quam in episcopis : 
+      <lb ed="#P" n="123"/>quia quanto sunt viciniores pape: tantominus presumium 
+      <lb ed="#P" n="124"/>tur penam inferri ab ipso. Et est ratio / cardinales vere 
+      <lb ed="#P" n="125"/>sunt patricii scripti in diademate principis / inst. quib. mod 
+      <lb ed="#P" n="126"/>ius patrie potest. sol. §. filiusfa. Et pars corporis 
+      princi<lb ed="#P" n="127" break="no"/>pis sunt eidem in consistorio assistentes §. vi. q. i. §. verum 
+      <lb ed="#P" n="128"/>versi. si quis cum militibus. C. ad leg. Iul. maiesta. quisquis 
+      <lb ed="#P" n="129"/>Et ipsi dicuntur fratres principis: preceteris 
+      preroga<lb ed="#P" n="130" break="no"/>tiua gaudentes. supra hoc lib. de off. de leg. c. offici. 
+    </p>
+               <p xml:id="nyf6td-d1e1410-d1e210">
+                  <lb ed="#P" n="131"/>¶ Item consimilis questio no. de off. lega. quod 
+      translatio<lb ed="#P" n="132" break="no"/>nem / papa enim eximendo a iurisditione cuiuslibet 
+      ordi<lb ed="#P" n="133" break="no"/>narii non videtur eximere a potestate legati de latere 
+      mi<lb ed="#P" n="134" break="no"/>si / ergo minus videtur partem corporis sui per sententiam 
+      <lb ed="#P" n="135"/>generalem excludere per excommunicationem: a se latam 
+      <lb ed="#P" n="136"/>nec verba hic posita quidpiam operantur: scilicet 
+      cuiuscum<lb ed="#P" n="137" break="no"/>que etc. ar. supra hoc lib. de procurato. qui ad agendum i. Nrso. 
+      <lb ed="#P" n="138"/>collegium) contra. supra hoc lib. de maio. et obed. c. i. Sol. illud / 
+      <lb ed="#P" n="139"/>regulare / hic fuit plenitudo potestatis / quae subtrahere 
+      vo<lb ed="#P" n="140" break="no"/>luit potestatem / alii competentem / tempore quo erat futr 
+      <lb ed="#P" n="141"/>rus priuatus / contra l. ff. de iurisd. omn. iud. eum qui. item. 
+      <lb ed="#P" n="142"/>datiua administratio data pape per cardinales / non tollii¬ 
+      <!--cod-gh333a-0867.xml-->
+      <pb ed="#P" n="366-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>legitimam: no. in simili. supra titu. proxi. ne aliqui. Et papa sic 
+      <lb ed="#P" n="2"/>se habet ad collegium cardinalium: sicut alter 
+      episcopi<lb ed="#P" n="3" break="no"/>respectu sui collegii / cum ergo episcopus non possit 
+      tolle<lb ed="#P" n="4" break="no"/>re administrationem legitimam sui capituli / nec pape lice. 
+      <lb ed="#P" n="5"/>bit persistentibus Nota ergo rem intelligi cum 
+      perse<lb ed="#P" n="6" break="no"/>uerantia l supra eo. statutum. ii. P. successorem. C. de penic. 
+      <lb ed="#P" n="7"/>si operis. supra hoc lib. de off. ordina. si canonici in fine 
+      incer<lb ed="#P" n="8" break="no"/>ta quod enim modo est certum: et potest fieri incertum 
+      <lb ed="#P" n="9"/>in statu certitudinis poni debet. Argu. supra de testib. signit 
+      <lb ed="#P" n="10"/>cauit et. c. Albericus  similibus Nam in equali delicto 
+      pro<lb ed="#P" n="11" break="no"/>ximas imminere penas iustum est: auten. vt fratr. fil. in 
+      fi<lb ed="#P" n="12" break="no"/>ne colla. ix. Et equitatis ratio similia iura suadere 
+      vide<lb ed="#P" n="13" break="no"/>tur. C. ad leg. falc. l. fina. et supra de rescrip. inter cetera in 
+      fin<lb ed="#P" n="14" break="no"/>Ioan. Mona. Cardi.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

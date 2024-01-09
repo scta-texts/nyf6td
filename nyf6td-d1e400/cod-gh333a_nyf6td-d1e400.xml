@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 17</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 17</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="165-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e400" type="et-sextus-l1t17"><!-- mo-l1t17"
+              -->
+            <head xml:id="nyf6td-d1e400-Hd1e101">Titulus 17</head>
+            <div xml:id="nyf6td-d1e400-Dd1e103" type="et-sextus-l1t17-rubric"><!-- mo-l1t17-rubric" -->
+               <head xml:id="nyf6td-d1e400-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e400-d1e108">
+                  <lb ed="#P" n="57" type="fixed=164-r"/>DIcto de electione 
+      preficien<lb ed="#P" n="58" break="no"/>dorum et officiis electo 
+      <lb ed="#P" n="59"/>rum ex quibus habetur 
+      que<lb ed="#P" n="60" break="no"/>dam maioritas / cui habent in 
+      <lb ed="#P" n="61"/>feriores impendere 
+      obedien<lb ed="#P" n="62" break="no"/>tiam. lxxxix. dist. singula: et c. 
+      <lb ed="#P" n="63"/>ad hoc. xciii. di. legimus: in 
+      fi<lb ed="#P" n="64" break="no"/>Ideo post predicta annectit 
+      <lb ed="#P" n="65"/>de maior. et obedien¬ 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e130">
+                  <lb ed="#P" n="66"/>¶ Et notandum quod 
+      maiori<lb ed="#P" n="67" break="no"/>tas est status excellens / 
+      eog<lb ed="#P" n="68" break="no"/>quibus preest dirigens. Nam 
+      <lb ed="#P" n="69"/>qui prouehitur a minori: ad maius progreditur. d. c. legimus. in fine. 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e141">
+                  <lb ed="#P" n="70"/>¶ Et quia prelatus non debet querere predam in 
+      sub<lb ed="#P" n="71" break="no"/>ditis: sed eis preesse: vt prosit. xciii. dist. diaconi: versi. nunc 
+      <lb ed="#P" n="72"/>autem. Et dicitur ad electum / rectorem preposuerunt te 
+      no<lb ed="#P" n="73" break="no"/>li extolli / sed esto in illis quasi vnus ex ipsis / curam eorum 
+      <lb ed="#P" n="74"/>habe. Eccle. xxxii. 
+      <!--cod-gh333a-0454.xml-->
+      <cb ed="#P" n="b"/>
+               </p>
+               <p xml:id="nyf6td-d1e400-d1e159">
+                  <lb ed="#P" n="75"/>¶ Et ita maioritas habet certum ordinem ad subditos / 
+      <lb ed="#P" n="76"/>cuius excessus parit tyrannidem / et eius neglectus 
+      coari<lb ed="#P" n="77" break="no"/>tationem / et discretio rectum ordinem. supra de offi. custo. 
+      capi<lb ed="#P" n="78" break="no"/>tulo primo 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e171">
+                  <lb ed="#P" n="79"/>¶ Et nota quod quedam maioritas est ordinis / vt qui est 
+      ma<lb ed="#P" n="80" break="no"/>ior in ordine maior censeatur. supra eo. statuimus 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e178">
+                  <lb ed="#P" n="81"/>¶ Item est maioritas consecrationis / et sic episcopus 
+      ma<lb ed="#P" n="82" break="no"/>ior est simplici sacerdote. xcv. di. olim. 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e185">
+                  <lb ed="#P" n="83"/>¶ Item est maioritas dispensationis seu potestatis: sic quad 
+      <lb ed="#P" n="84"/>chidiaconus maior est archipresbytero. supra de offi. archi. ca. 
+      <lb ed="#P" n="85"/>primo. et de offi. archipresbyteri. c. primo. 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e194">
+                  <lb ed="#P" n="86"/>¶ Item est maioritas antiquitatis / cui decreta sanctorum. 
+      <lb ed="#P" n="87"/>patrum reueretiam exhibendam iusserunt. ff. de iur. 
+      imnuni<lb ed="#P" n="88" break="no"/>ta. super. supra eo. c. primo. et. lxxv. di. c. fi. ff. de albo scrib l. pri. 
+      <lb ed="#P" n="89"/>Item est maioritas respectu ordinantis. supra eo. per tuas 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e205">
+                  <lb ed="#P" n="90"/>¶ Notandum est etiam quod est obedientia hominis ad de 
+      <lb ed="#P" n="91"/>um / et hec obedientia secundum Anselmum est affectio 
+      ve<lb ed="#P" n="92" break="no"/>luntatis deo coniuncte: sic econtrario inobedientia est 
+      af<lb ed="#P" n="93" break="no"/>fectio voluntatis diabolo instrumentaliter copulate 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e216">
+                  <lb ed="#P" n="94"/>¶ Nam sicut homo per instrumentum operatur / sic 
+      diabo<lb ed="#P" n="95" break="no"/>lus per inobedientiam operatur separationem hominis a 
+      <lb ed="#P" n="96"/>deo / vt Gene. tertio 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e226">
+                  <lb ed="#P" n="97"/>¶ Et ideo deo semper est obediendum sicut summo 
+      quic<lb ed="#P" n="98" break="no"/>quid alter imperet. xi. q. iii. si dominus. et. c. Iuliamus. et. ca. 
+      <lb ed="#P" n="99"/>qui resistit 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e235">
+                  <lb ed="#P" n="100"/>¶ Et nota quod obedientia hominis ad hominem est 
+      debi<lb ed="#P" n="101" break="no"/>ta minoris ad maiorem a reuerentia: vnde si mandatur ius 
+      <lb ed="#P" n="102"/>stum est obediendum / et si iniustum / nequaquam. si dubium 
+      pro<lb ed="#P" n="103" break="no"/>pter bonum obedientie est explendum. xxiii. q. i. quid culpa. 
+      <lb ed="#P" n="104"/>tur / de hoc infra hoc lib. de sen. ex communica. c. ceterum. §. 
+      po<lb ed="#P" n="105" break="no"/>test. Unde Ber. quedam sunt pure bona quendam pure 
+      ma<lb ed="#P" n="106" break="no"/>la: et in his nullam debet homo hominibus obedientiam / 
+      <lb ed="#P" n="107"/>quia nec prima omittenda / sunt etiam cum prohibentur: nec 
+      <lb ed="#P" n="108"/>alia etiam committenda si iubentur. 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e257">
+                  <lb ed="#P" n="109"/>¶ Quedam sunt inter hec media que pro loco temporeque 
+      <lb ed="#P" n="110"/>seu persona possunt esse bona et mala: et in his lex obediem 
+      <lb ed="#P" n="111"/>tie est posita: in his etiam fas non est nostrum sensum 
+      sen<lb ed="#P" n="112" break="no"/>stentie prescribere magistrorum: in his omnino prelatorum 
+      <lb ed="#P" n="113"/>nec iussio / nec prohibitio est contemnenda nec etiam 
+      con<lb ed="#P" n="114" break="no"/>demnanda 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e273">
+                  <lb ed="#P" n="115"/>¶ Uel dic secundum Hugonem de sancto Uictore / quod 
+      obe<lb ed="#P" n="116" break="no"/>dientia est salus omnium fidelium genitrix regni celorum 
+      ce<lb ed="#P" n="117" break="no"/>lum aperiens / hominem de terra eleuans / cohabitatrix 
+      an<lb ed="#P" n="118" break="no"/>gelorum / et cibus omnium sanctorum 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e284">
+                  <lb ed="#P" n="119"/>¶ Et obedientia diuiditur in obedientiam / reuerentie et praecepti. 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e289">
+                  <lb ed="#P" n="120"/>¶ Et obedientia reuerentie est respectu maioritatis 
+      ordi<lb ed="#P" n="121" break="no"/>nis et consecrationis antiquitatis et etiam ordinantis 
+    </p>
+               <p xml:id="nyf6td-d1e400-d1e297">
+                  <lb ed="#P" n="122"/>¶ Sed obedientia precepti est respectu maioritatis 
+      dispen<lb ed="#P" n="123" break="no"/>sationis / seu potestatis de quibus est premissum. Ioannes. 
+      <lb ed="#P" n="124"/>mona. Card. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e400-Dd1e307" type="et-sextus-l1t17-c1"><!-- mo-l1t17-c1" -->
+               <head xml:id="nyf6td-d1e400-Hd1e310">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e400-d1e312">
+                  <lb ed="#P" n="19" type="fixed=164-v"/>Psconali. Hc tangituum 
+      <lb ed="#P" n="20"/>vnus casus in 
+      <lb ed="#P" n="21"/>quo. capitulum succedit 
+      epi<lb ed="#P" n="22" break="no"/>scopo sede vacante: et sic etiam 
+      <lb ed="#P" n="23"/>in confirmatione 
+      impenden<lb ed="#P" n="24" break="no"/>da. supra eo. cum olim. Sic in 
+      pro<lb ed="#P" n="25" break="no"/>sentatione admittenda / et 
+      in<lb ed="#P" n="26" break="no"/>stitutione facienda infra hoc libi 
+      <lb ed="#P" n="27"/>de insti. cap. i. sic etiam. in casu 
+      <lb ed="#P" n="28"/>heresis infra de hereti. ad abolen 
+      <lb ed="#P" n="29"/>dam in princi. Et regularite 
+      <lb ed="#P" n="30"/>sede vacante  / capitulum in 
+      <lb ed="#P" n="31"/>omnibus prelatum representat. supra eo. is qui. Sed dices: in 
+      <lb ed="#P" n="32"/>la non loquitur in episcopo. Solu. Respondit mihi Papa. 
+      <lb ed="#P" n="33"/>quod cardinales in suis ecclesiis obtinent ius episcopale a 
+      <lb ed="#P" n="34"/>rallit tamen in collatione prebendarum infra. ne sede 
+      vacan<lb ed="#P" n="35" break="no"/>te: illa cum moderatione infra. eo. ti. c. vno. Item non 
+      po<lb ed="#P" n="36" break="no"/>test dare presbytero licentiam transeundi sede vacante. xxiii. 
+      <lb ed="#P" n="37"/>dist. presbyteri. lxxi. dist. fraternitatem. Et est ratio / qui 
+      <lb ed="#P" n="38"/>tum non possit res alienare. xii. quest. ii. si qua de rebus 
+      mul<lb ed="#P" n="39" break="no"/>tominus personas / cum maior sit alienatio personarum. 
+      <lb ed="#P" n="40"/>quam rerum b. xii. que. i. precipimus. Illa ergo que sunt de 
+      in<lb ed="#P" n="41" break="no"/>sticia prosequitur capitulum sede vacante / etiam si illa competunt 
+      <lb ed="#P" n="42"/>episcopis / vt delegatis delegatione generali a sede 
+      apostoli<lb ed="#P" n="43" break="no"/>ta: vt dt c. ad abolendam in fine: et infra hoc lib. de preben. capi. 
+      <lb ed="#P" n="44"/>primo in fi. etiam tam in spiritualibus quam temporalibus. supra 
+      <lb ed="#P" n="45"/>hoc lib. de sup. negl. prela. si episcopus / non illa que sunt de 
+      <lb ed="#P" n="46"/>gratia / vt dictis casibus capitulum Nota quod in collegium 
+      <lb ed="#P" n="47"/>cadit iurisdictio infra de foro compet. cum contingat 
+      perti<lb ed="#P" n="48" break="no"/>nere: vt in ecclesia Ambianem. sede vacante / duo 
+      archi<lb ed="#P" n="49" break="no"/>diaconi in suis territoriis iurisdictionem episcopalem 
+      ex<lb ed="#P" n="50" break="no"/>ercent iuris infra de senten. ex communica. peruenit. et infra hoc 
+      <lb ed="#P" n="51"/>lib. et titu. Religioso primo responso hominis supra de offi. 
+      or<lb ed="#P" n="52" break="no"/>di. ad reprimendam potestas expresse / vel per 
+      commissio<lb ed="#P" n="53" break="no"/>nem factam alii secundum formam. supra hoc lib. de elec. is cui. 
+      <lb ed="#P" n="54"/>et. supra hoc libro de supplen. negli. prela. capit. finali in fine. 
+      <lb ed="#P" n="55"/>Ioan. Mona. Cardi. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

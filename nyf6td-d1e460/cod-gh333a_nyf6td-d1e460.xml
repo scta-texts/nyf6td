@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 20</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 20</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="174-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e460" type="et-sextus-l1t20"><!-- mo-l1t20"
+              -->
+            <head xml:id="nyf6td-d1e460-Hd1e101">Titulus 20</head>
+            <div xml:id="nyf6td-d1e460-Dd1e103" type="et-sextus-l1t20-rubric"><!-- mo-l1t20-rubric" -->
+               <head xml:id="nyf6td-d1e460-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e460-d1e108">
+                  <lb ed="#P" n="116" type="fixed=173-v"/>Dicto sura depiocuratoribus quo 
+      <lb ed="#P" n="117"/>rum officium est gratuiti 
+      <lb ed="#P" n="118"/>ff. de procura. litem. et ff manda l. 
+      <lb ed="#P" n="119"/>prima. in fine¬ 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e119">
+                  <lb ed="#P" n="120"/>¶ Et quia ea que vi vel metu 
+      fi<lb ed="#P" n="121" break="no"/>unt / gratuita non sunt / sed ipsis 
+      con<lb ed="#P" n="122" break="no"/>traria: ideo post premissa (cum 
+      ope<lb ed="#P" n="123" break="no"/>posita iuxta se posita magis 
+      elu<lb ed="#P" n="124" break="no"/>cescunt) tracta de his etc¬ 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e132">
+                  <lb ed="#P" n="125"/>¶ Uel dic dicto. supra proximo de pao 
+      <lb ed="#P" n="126"/>que sunt voluntaria / sequitur de 
+      <lb ed="#P" n="127"/>his que non sunt voluntaria vt vis. lv. di. si 
+      euangelica<lb ed="#P" n="128" break="no"/>et metus. ff. eo. si mulier. §. si metu / et ff. de ritu nup. si patre. 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e143">
+                  <lb ed="#P" n="129"/>¶ Nam secundum philosophum ethi. iii. Que metu 
+      ve<lb ed="#P" n="130" break="no"/>risimili fiunt / sunt simpliciter inuoluntaria: set ex circunsta 
+      <lb ed="#P" n="131"/>tiis sunt volunt aria / vt dictis legibus probatur. 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e153">
+                  <lb ed="#P" n="132"/>¶ Et dic quod metus est instantis vel futuri periculi causa / 
+      <lb ed="#P" n="133"/>mentis trepidatio. ff. eo l. prima. 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e160">
+                  <lb ed="#P" n="134"/>¶ Et dicitur metus / quasi mentemtenens nesitlibera¬ 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e165">
+                  <lb ed="#P" n="135"/>¶ Et qui metus excuset et qui non not. supra eo. cum dilecti. 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e170">
+                  <lb ed="#P" n="136"/>¶ Et que sint species vis / notatur. supra eo. ad audientiam / 
+      <lb ed="#P" n="137"/>Ioannes Monachus Cardinalis. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e460-Dd1e178" type="et-sextus-l1t20-c1"><!-- mo-l1t20-c1" -->
+               <head xml:id="nyf6td-d1e460-Hd1e181">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e460-d1e183">
+                  <lb ed="#P" n="79" type="fixed=174-r"/>ABsolutionis, Hec decretalis 
+      <lb ed="#P" n="80"/>habet duas 
+      par<lb ed="#P" n="81" break="no"/>tes. Primo absolutionem per vim 
+      <lb ed="#P" n="82"/>vel per metum extortam / viribus 
+      <lb ed="#P" n="83"/>vacuat. Secundo versi. ne 
+      au<lb ed="#P" n="84" break="no"/>tem) extorquentem ipso facto 
+      ex<lb ed="#P" n="85" break="no"/>communicat absolutionis. 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e201">
+                  <lb ed="#P" n="86"/>¶ Nota casum in quo factum 
+      <lb ed="#P" n="87"/>per vim vel metum non tenet in 
+      <lb ed="#P" n="88"/>so iure a vt hic idem matrimonio
+      <lb ed="#P" n="89"/>infra de spon. cum locum: et c. 
+      requisi<lb ed="#P" n="90" break="no"/>uit. C. de spon l. vlti. in fine. Idem in dote. ff. quod metus 
+      <lb ed="#P" n="91"/>causa si mulier. §. si dos / et alios casus habes notatos 
+      su<lb ed="#P" n="92" break="no"/>pra eodem abbas 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e219">
+                  <lb ed="#P" n="93"/>¶ Est tamen regulare quod facta per metum tenent clicet 
+      <lb ed="#P" n="94"/>possint rescindi / quia habent voluntatem licet coactam. ff. 
+      <lb ed="#P" n="95"/>quod met. causa si mulier. §. si metur 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e228">
+                  <lb ed="#P" n="96"/>¶ Sed quid si excommunicatio sit iniusta / nunquid habet. 
+      <lb ed="#P" n="97"/>locum hoc. c. Dic d quod sic: quia sententia pastoris siue 
+      iusta<lb ed="#P" n="98" break="no"/>siue iniusta semper est timenda et non contemnenda . xi. quod 
+      <lb ed="#P" n="99"/>iii. c. i. Unde iste debet humiliter petere absolutionem / 
+      no<lb ed="#P" n="100" break="no"/>per vim seu metum extorquere vt hic. Et parificantur 
+      <lb ed="#P" n="101"/>hec tria ex communicatio / interdictum / et suspensio. Et 
+      inte<lb ed="#P" n="102" break="no"/>dicti et suspensionis sententia naturam sapiunt 
+      excommunicatio<lb ed="#P" n="103" break="no"/>nis et in multis pari passum ambulant i1nfra hoc libro de 
+      senten<lb ed="#P" n="104" break="no"/>excommunica. cum medicinalis. §. et hec eadem. Et hec 
+      sta<lb ed="#P" n="105" break="no"/>tim ad se trahunt suam executionem: adeo quod appellatio 
+      sub<lb ed="#P" n="106" break="no"/>secuta istorum effectum non suspendit infra de appella. 
+      pasto<lb ed="#P" n="107" break="no"/>ralis in fine: licet sit regulariter contra. ff. ad turpil. l. i. 
+      ad<lb ed="#P" n="108" break="no"/>finem reuocationem differentiam ponit inter 
+      absolutio<lb ed="#P" n="109" break="no"/>nem et reuocationem. Absoluitur enim quis proprie ab 
+      ex<lb ed="#P" n="110" break="no"/>communicatione: sed reuocatur suspensio et interdictum. 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e264">
+                  <lb ed="#P" n="111"/>¶ Uel dic verius / quod voluit hic prouidere vt illud quod fit per 
+      <lb ed="#P" n="112"/>vim vel metum circa relaxationem excommunicationis / 
+      si<lb ed="#P" n="113" break="no"/>spensionis vel interdicti quocunque nomine censeatur 
+      viri<lb ed="#P" n="114" break="no"/>bus careat ipso iure vt liquet ex textu ipsius scilicet 
+      ex<lb ed="#P" n="115" break="no"/>communicationis interdicti hec tria appellatione 
+      censu<lb ed="#P" n="116" break="no"/>re ecclesiastice continentur. supra de verbo. significa. querenti 
+      <lb ed="#P" n="117"/>vacuamus ipso iure. Alias quod metu fit euacuatur per 
+      <lb ed="#P" n="118"/>actionem quod metus causa: et per alias vias nota. supra cum 
+      <lb ed="#P" n="119"/>dilecti  vindicta. 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e286">
+                  <lb ed="#P" n="120"/>¶ Et sic nota crimina non debere remanere 
+      impunita<lb ed="#P" n="121" break="no"/>ff. ad legem aquil. ita vulneratus in fi. huinsmodi id est per 
+      <lb ed="#P" n="122"/>vim vel metum extortum  / vel quocunque nomine vocetu / 
+      <lb ed="#P" n="123"/>Lextorserint. 3 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e297">
+                  <lb ed="#P" n="124"/>¶ Sed quid si metum intulit / metum tamen passus 
+      absol<lb ed="#P" n="125" break="no"/>uere noluit: nunquid habebit locum pena huius 
+      constitu<lb ed="#P" n="126" break="no"/>tionis / dic quod non: quia hoc verbum ex torserit est intelligent 
+      <lb ed="#P" n="127"/>dum cum effectui infra de cler. non residem. relatum de penitem. 
+      <lb ed="#P" n="128"/>di. prima. hec autem verba et arg. ff. de in ius voc. quanuis 
+      <lb ed="#P" n="129"/>sententie. 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e313">
+                  <lb ed="#P" n="130"/>¶ Et sic nota excommunicatum itterato 
+      excommuni<lb ed="#P" n="131" break="no"/>cari / et qualiter hoc esse possit notatur infra de iude. ita quo 
+      <lb ed="#P" n="132"/>rundam. 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e322">
+                  <lb ed="#P" n="133"/>¶ Sed quid si per metum amissionis s rerum / compellat 
+      <lb ed="#P" n="134"/>excommunicatorem ad absoluendum: nunquid incidit 
+      ista<lb ed="#P" n="135" break="no"/>compulsor in penam huius decre. dic quod sic. supra eo. abbas 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e331">
+                  <lb ed="#P" n="136"/>¶ Sed si compellit permetum  vanum: dic hunc non 
+      in<lb ed="#P" n="137" break="no"/>cidere in penam huius decre. Quia talis metus non 
+      indu<lb ed="#P" n="138" break="no"/>cit restitutionem / nec proprie metus appellatur. ff. eo l. 
+      me<lb ed="#P" n="139" break="no"/>tum. et l. sequen. et. l. nec timorem et de hoc nota. supra eo. cum dile. 
+      <lb ed="#P" n="140"/>cti subiacere Ipso. iure: quia hic canon est late sententie. 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e345">
+                  <lb ed="#P" n="141"/>¶ Sed quid si alius obtinet talem absolutionem pro alio: 
+      <lb ed="#P" n="142"/>nunquid est excommunicatus / dic quod sic / quia constitutio 
+      <!--cod-gh333a-0475.xml-->
+      <pb ed="#P" n="174-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>generaliter loquitur / ergo siue pro se / siue pro alio / locum 
+      ha<lb ed="#P" n="2" break="no"/>bet. C. de accu. non ideo. 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e363">
+                  <lb ed="#P" n="3"/>¶ Sed nunquid ille pro quo obtinetur absolutio incidit in 
+      <lb ed="#P" n="4"/>penam huius constitutionis dic quod sic / si mandauit / vel 
+      <lb ed="#P" n="5"/>ratum habuit. supra hoc lib. de elec. sciant infra de senten. 
+      excommunica<lb ed="#P" n="6" break="no"/>mulieres. ff. de vi. et vi arma l. prima. §. quotiens et infra hoc 
+      li<lb ed="#P" n="7" break="no"/>bro de senten. excommunica. cum quis. 
+    </p>
+               <p xml:id="nyf6td-d1e460-d1e376">
+                  <lb ed="#P" n="8"/>¶ Et ideo dico istos absolui posse per suum ordinarium / 
+      <lb ed="#P" n="9"/>cum conditor canonis absolutionem sibi non reseruauerit 
+      <lb ed="#P" n="10"/>infra de senten. excommuni. nuper. Io. Mo. Car.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

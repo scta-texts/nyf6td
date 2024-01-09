@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 19</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 19</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="327-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1177" type="et-sextus-l3t19"><!-- mo-l3t19"
+              -->
+            <head xml:id="nyf6td-d1e1177-Hd1e101">Titulus 19</head>
+            <div xml:id="nyf6td-d1e1177-Dd1e103" type="et-sextus-l3t19-rubric"><!-- mo-l3t19-rubric" -->
+               <head xml:id="nyf6td-d1e1177-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1177-d1e108">
+                  <lb ed="#P" n="83" type="fixed=326-r"/>DIcto de praebendis &amp; religiosis 
+      do<lb ed="#P" n="84" break="no"/>mibus / in quibus plerunque institutio est facie 
+      <lb ed="#P" n="85"/>da ad presentationem a patroni ideo subiicit 
+      <lb ed="#P" n="86"/>de iure patronatus. Ioannes Monachu. 
+      <lb ed="#P" n="87"/>Cardinalis 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1177-Dd1e122" type="et-sextus-l3t19-c1"><!-- mo-l3t19-c1" -->
+               <head xml:id="nyf6td-d1e1177-Hd1e125">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1177-d1e127">
+                  <lb ed="#P" n="129" type="fixed=327-r"/>SI laicus, hec decretalis piio 
+      <lb ed="#P" n="130"/>factum antiquitus 
+      du<lb ed="#P" n="131" break="no"/>bium decidit in ii. et. iii. responsis. 
+      <lb ed="#P" n="132"/>duo dub ia circa dictam 
+      decisio<lb ed="#P" n="133" break="no"/>nemtollit. Ecce primum 
+      censen<lb ed="#P" n="134" break="no"/>da olim fuit opinio notata. supra 
+      eo<lb ed="#P" n="135" break="no"/>illud.
+     </p>
+               <p xml:id="nyf6td-d1e1177-d1e145">
+      ¶ Sed quero laicus 
+      <lb ed="#P" n="136"/>dedit c loco religioso ius 
+      patro<lb ed="#P" n="137" break="no"/>natus  hoc adiecto / quod quando 
+      <lb ed="#P" n="138"/>vacaret ecclesia / cuius ius patro 
+      <lb ed="#P" n="139"/>natus datum erat ad nominatio¬ 
+      <!--cod-gh333a-0787.xml-->
+      <pb ed="#P" n="327-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>nem cuiusdam episcopi: dicti religiosi ad illam ecclesiam 
+      illa<lb ed="#P" n="2" break="no"/>vice haberent presentare. Queritur vtrum hec adiectio vt 
+      <lb ed="#P" n="3"/>leat: dic quod non  / quia est contra Lateranen. concilium. supra 
+      <lb ed="#P" n="4"/>de conce. prebende nulla / et. c. constitutus / et capi. fina. 
+    </p>
+               <p xml:id="nyf6td-d1e1177-d1e171">
+                  <lb ed="#P" n="5"/>¶ Sed nunquid hec adiectio vitiet / vel vitietur / dic quod 
+      vi<lb ed="#P" n="6" break="no"/>tiatur arg. x. q. i. sic quidam / et c. nouerint. Nam in 
+      beneficiali<lb ed="#P" n="7" break="no"/>bus quod est licitum approbantes / et quod est illicitum 
+      re<lb ed="#P" n="8" break="no"/>probantes supra de preben. dilectus i. e c. dilecto infra hoc lib. 
+      <lb ed="#P" n="9"/>de regu. iuris / vtile vt frangatur turpis adiectio infra de 
+      con<lb ed="#P" n="10" break="no"/>di. appo. ca. i. Cum sit contra naturam rei. ff. de preca. cum 
+      preca<lb ed="#P" n="11" break="no"/>rio aliquid / et supra de preca. cap. vlti. ff. depo. l. i. §. vlti. per 
+      pre<lb ed="#P" n="12" break="no"/>fatam ex decisione. supra posita simpliciter facta videtur 
+      ep<lb ed="#P" n="13" break="no"/>scopo preiudicium generari / quod hic tollitur. Nam 
+      conces<lb ed="#P" n="14" break="no"/>sa simpliciter sic concedi censentur s / quod alii preiudicium non 
+      <lb ed="#P" n="15"/>fiat. C. de emancipa. lib. l. nec auus. ff. ne quid in loco. 
+      pub<lb ed="#P" n="16" break="no"/>l. ii. §. merito / et. § sequen.
+     </p>
+               <p xml:id="nyf6td-d1e1177-d1e200">
+      ¶ Uerum hic aliud remouet 
+      du<lb ed="#P" n="17" break="no"/>bium: nam cum ecclesia succedat patrono laico in iure patro 
+      <lb ed="#P" n="18"/>natus: videtur fungi iure illius patroni concedentis. ff. de 
+      <lb ed="#P" n="19"/>eden. quidam. §. nihil interest: sed hic hoc remouet. Nam 
+      <lb ed="#P" n="20"/>ex quo ius patronatus ad ecclesiam peruenit / est 
+      iudican<lb ed="#P" n="21" break="no"/>dum vt de patronatu ecclesiastico argu. supra de prebend. 
+      di<lb ed="#P" n="22" break="no"/>lectus filius. iii. et in libro feudo. de pace tenenda ad hoc 
+      si<lb ed="#P" n="23" break="no"/>allodium. ff. de vsur. cum quidam. § si debitores. ff. de iur. 
+      <lb ed="#P" n="24"/>fisci l. fiscus cum in priuati. Ioan. Mona. Cardi.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

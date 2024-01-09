@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 5</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 5</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="56-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e158" type="et-sextus-l1t5"><!-- mo-l1t5"
+              -->
+            <head xml:id="nyf6td-d1e158-Hd1e101">Titulus 5</head>
+            <div xml:id="nyf6td-d1e158-Dd1e103" type="et-sextus-l1t5-rubric"><!-- mo-l1t5-rubric" -->
+               <head xml:id="nyf6td-d1e158-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e158-d1e108">
+                  <lb ed="#P" n="114" type="fixed=56-r"/>DIctio de a iure scripto. Et quia 
+      <lb ed="#P" n="115"/>paruum prodesset iura 
+      ha<lb ed="#P" n="116" break="no"/>bere nisi essent qui illa redde 
+      <lb ed="#P" n="117"/>rent. ff. de origi. iur l. ii. §. post 
+      <lb ed="#P" n="118"/>originem. et insti. de iure 
+      na<lb ed="#P" n="119" break="no"/>gen. et ciuili. §. fi in fine: post 
+      prae<lb ed="#P" n="120" break="no"/>licta videndum est de 
+      iudici<lb ed="#P" n="121" break="no"/>bus / et ipsi quandoque creantur vt 
+      eli<lb ed="#P" n="122" break="no"/>gendo et transferendo / et quandoque 
+      <lb ed="#P" n="123"/>eligi non possunt defectu o: 
+      di<lb ed="#P" n="124" break="no"/>num vel etatis: sen alio 
+      impoe<lb ed="#P" n="125" break="no"/>dimento obsistente. Et isti 
+      di<lb ed="#P" n="126" break="no"/>cuntur posturati: ideo de postula. subiicit per quam perue 
+      <lb ed="#P" n="127"/>nitur ad prouisionem: benigna presidentis gratia. Et sicum 
+      <lb ed="#P" n="128"/>via terminum vie precedit: sic et hec rubrica sequen¬ 
+    </p>
+               <p xml:id="nyf6td-d1e158-d1e143">
+                  <lb ed="#P" n="129"/>¶ Uel dic quod postulatio a poscere descendit: et est inter 
+      he<lb ed="#P" n="130" break="no"/>differentia. Nam poscere est improbe: sed postulare honesta 
+      <lb ed="#P" n="131"/>quia postulatio honesta fit in causis per aduocatos. 
+      <lb ed="#P" n="132"/>propter causarum indigentiam. C. de aduo. diuer. iudi. l. 
+      ad<lb ed="#P" n="133" break="no"/>uocati. quorum instructio habetur. C. de postula. quisquis. 
+      <lb ed="#P" n="134"/>Ideo postulare pro aduocare sumitur ff. C. et infra de postul. 
+      <lb ed="#P" n="135"/>Et quid sit postulare hoc casu habetur. ff. de postula l. i. §. 
+      <lb ed="#P" n="136"/>primo. Et postulans id est patronus cause esse dicitur: quia causam 
+      pa<lb ed="#P" n="137" break="no"/>trat reparando. C. de aduocatis diuer. iudi l. aduocati: 
+      si<lb ed="#P" n="138" break="no"/>ue aduocatus hoc est ad causam tuendam vocatus. Et 
+      <lb ed="#P" n="139"/>inde est quod habet honeste petere: quo ad magistratum 
+      <lb ed="#P" n="140"/>cuius insignia habet reuereri. ff. de postul. l. prima. §. casum 
+      <lb ed="#P" n="141"/>et quo ad partem. cuius causam omni virtute sua / omnique 
+      <lb ed="#P" n="142"/>ope quod iustum et verum est suo clientulo inferendo nihil 
+      ua<lb ed="#P" n="143" break="no"/>relinquens quodsue possibilitatis existat. C. de iudi. rem 
+      no<lb ed="#P" n="144" break="no"/>nouam. § patroni. et sic postulatio dicto casu fitindigentia 
+      cau<lb ed="#P" n="145" break="no"/>se. sic postulatio in proposito fit propter vrgentem necessita. 
+      <lb ed="#P" n="146"/>tem ecclesie vel euidentem vtilitatem: et sic hic requirantur in eo quae datr 
+      <lb ed="#P" n="147"/>ecclesie procurator in spiritualibus et tempralibus. supra de elec. cum non 
+      <lb ed="#P" n="148"/>bis olim ergo hec magis in postulatione que agratia 
+      depen<lb ed="#P" n="149" break="no"/>det. supra eo bone i. et infra hoc lib. de elec. cupientes. in fine 
+    </p>
+               <p xml:id="nyf6td-d1e158-d1e191">
+                  <lb ed="#P" n="150"/>¶ Et ideo ex postulatione nihil via iusticie peti potest 
+      <lb ed="#P" n="151"/>sed potius debet huiliter supplicari: vi postulatio 
+      benignita<lb ed="#P" n="152" break="no"/>te praesidentis admittatur. supra eo postulationem.
+     </p>
+               <p xml:id="nyf6td-d1e158-d1e200">
+      ¶ Et dic quod 
+      poe<lb ed="#P" n="153" break="no"/>stulatio est persone intelligibilis / non propter vitium admissio 
+      gne<lb ed="#P" n="154" break="no"/>tiosa ex circunstantiis saltem ex honestate debita. verbi gratia. Ali 
+      <lb ed="#P" n="155"/>quis non est in sacris vel est minus legitine natus: seu ecclesiae episcopal 
+      <lb ed="#P" n="156"/>astrictus. Iste eligi non potest: vbi tamenbone circumstantie 
+      perso<lb ed="#P" n="157" break="no"/>ne: vel ecclesie necessitas: vel vtilitas pensata aliuod exposncam¬ 
+      <!--cod-gh333a-0237.xml-->
+      <pb ed="#P" n="56-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>postulatio debito honestatis exigente est gratia se 
+      admitta<lb ed="#P" n="2" break="no"/>da infra de eta. et qualita a multis / infra de elect. Innotuit. 
+      <lb ed="#P" n="3"/>infra de tramslatio. episcopi. quanto. Et ob hoc fit postulato gratia. si 
+      <lb ed="#P" n="4"/>admittatur: sed iniuria / si repellatur si circunstantie 
+      faci<lb ed="#P" n="5" break="no"/>unt eum admissibilem. nota. supra eo. postulationem.
+     </p>
+               <p xml:id="nyf6td-d1e158-d1e232">
+      ¶ Et sicut 
+      ma<lb ed="#P" n="6" break="no"/>trimonium carnale initiatur in sponsalibus / et perficitur in 
+      con<lb ed="#P" n="7" break="no"/>sensu de praesenti: et consummatur in carnali commixtione / sic et 
+      <lb ed="#P" n="8"/>fedus matrimonii spiritualis initiatur in consensu eligentium / et 
+      <lb ed="#P" n="9"/>electi ratificatur in confirmatione vtiliter in consecratione 
+      <lb ed="#P" n="10"/>consummatur infra de transla. epi. c. fi. Et ideo ille potest elig 
+      <lb ed="#P" n="11"/>qui per mutuum consensum eligentium / vel electi potest 
+      fiern<lb ed="#P" n="12" break="no"/>sponsus.
+     </p>
+               <p xml:id="nyf6td-d1e158-d1e250">
+      ¶ Sicut monachus electus ad regimen sui 
+      mo<lb ed="#P" n="13" break="no"/>nasterii / vel quando secularis qui non est adeo astrictus 
+      <lb ed="#P" n="14"/>prelato suo: sicut monachus abbati eligitur ad 
+      ecclesia<lb ed="#P" n="15" break="no"/>non suam infra de elec. Cum inter canonicos. 1fa hoc libro de elec. 
+      i<lb ed="#P" n="16" break="no"/>religiosus.
+     </p>
+               <p xml:id="nyf6td-d1e158-d1e261">
+      ¶ Si vero non potest statim fieri sponsus. Aum 
+      <lb ed="#P" n="17"/>hoc est ex titulo commendabili: vt monachus alterius 
+      mo<lb ed="#P" n="18" break="no"/>nasterii / et tunc potest eligi: vt d. c. si religiosus / et. c. si abbatem 
+      <lb ed="#P" n="19"/>et. c. quam sit. §. nisi vbi / et infra de voto et voti redemp. c. per tuas: 
+      <lb ed="#P" n="20"/>postulandus est tamen / ab abbate infra de renunciatio. post 
+      trans<lb ed="#P" n="21" break="no"/>lationem primo resp.
+     </p>
+               <p xml:id="nyf6td-d1e158-d1e274">
+      ¶ Sed fallit in episcopo: quia est 
+      <lb ed="#P" n="22"/>sponsus ecclesie / vt pote episcopus qui proprie dicitur 
+      <lb ed="#P" n="23"/>sponsus / propter quod annulum portat / et propter tam 
+      gran<lb ed="#P" n="24" break="no"/>de vinculum iste non potest eligi. supra eo. c. fi. Nec fieri sponsus 
+      <lb ed="#P" n="25"/>iam alteri ecclesie alligatus: vt sponsus / et sic contra iura esser 
+      <lb ed="#P" n="26"/>sponsus duarum. C. de adulte. eum qui infra de biga. c. nuper. A 
+      <lb ed="#P" n="27"/>ex titulo non commendabili / et tunc eligi non potest / quia est 
+      in<lb ed="#P" n="28" break="no"/>habilis / vel propter etatis / vel ordinis defectum seu aliud 
+      im<lb ed="#P" n="29" break="no"/>pedimentum / sed habet postulari. Et postulationis 
+      ad<lb ed="#P" n="30" break="no"/>missio est prouisio et confirmatio.
+     </p>
+               <p xml:id="nyf6td-d1e158-d1e296">
+      ¶ Sicut video. P. cum 
+      <lb ed="#P" n="31"/>Berta. vult contrahere que dicto. P. attinet in gradi 
+      <lb ed="#P" n="32"/>prohibito. Et sic. P. in bertam consentire non potest: tanquam in 
+      <lb ed="#P" n="33"/>vxorem: sublato impedimento ex causa potest fieri vxor: sic 
+      <lb ed="#P" n="34"/>hic amoto defectus impedimento: iste erit sponsus habens 
+      <lb ed="#P" n="35"/>iura electi confirmati per admissionem postulationis. Et est 
+      <lb ed="#P" n="36"/>horum ratio diuersitatis Monachus alterius monasteri 
+      <lb ed="#P" n="37"/>non habet velle nec nolle: sed ipse superior cuius imperio 
+      <lb ed="#P" n="38"/>se subiecit: vt d c. si religiosus / vnde cum breviter vt in 
+      plu<lb ed="#P" n="39" break="no"/>ribus cito possit requiri suus abbas sunt per paria / quod 
+      sta<lb ed="#P" n="40" break="no"/>tim possit consentire vel in breui argu. ff de damno infec l. 
+      <lb ed="#P" n="41"/>damni infecti stipulatio. §. sabini / et infra de eta. et quali. 
+      pre<lb ed="#P" n="42" break="no"/>terea. Sed episcopus / vt vir ecclesie sue astrictus / iam 
+      suf<lb ed="#P" n="43" break="no"/>potestatem non habet: sed eius vxor scilicet sua ecclesia que 
+      <lb ed="#P" n="44"/>coiunctum matrimonium inter ipsam et sponsum suum: de 
+      se<lb ed="#P" n="45" break="no"/>dissoluere non potest: sed in hoc suus superior / et iste est in 
+      <lb ed="#P" n="46"/>hoc solus papa infra de transla. episco. capi. primo 
+    </p>
+               <p xml:id="nyf6td-d1e158-d1e333">
+                  <lb ed="#P" n="47"/>¶ Et ob hoc iste a Papa solo est postulandus: vt ipso 
+      abso<lb ed="#P" n="48" break="no"/>luto a vinculo quo prime ecclesie tenebatur astrictus / 
+      tum<lb ed="#P" n="49" break="no"/>ad illam transferatur / et hec translatio est postulationis 
+      <lb ed="#P" n="50"/>admissio que habet vim electionis et confirmationis: ipso 
+      <lb ed="#P" n="51"/>primitus absoluto a vinculo quo priori ecclesie tenebatur 
+      <lb ed="#P" n="52"/>supra eo. bone. ii. in fine. Ioan. Mona. Cardi.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e158-Dd1e350" type="et-sextus-l1t5-c1"><!-- mo-l1t5-c1" -->
+               <head xml:id="nyf6td-d1e158-Hd1e353">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e158-d1e355">
+                  <lb ed="#P" n="54" type="fixed=57-r"/>PErpetuo. Hec decretalis 
+      pui<lb ed="#P" n="55" break="no"/>mo ponit quosdam / 
+      <lb ed="#P" n="56"/>modos postuladi quos omnino 
+      <lb ed="#P" n="57"/>rteprobat.
+     </p>
+               <p xml:id="nyf6td-d1e158-d1e366">
+      ¶ Secundo alium. §. sub 
+      <lb ed="#P" n="58"/>ea. quem excipiendo temperat 
+    </p>
+               <p xml:id="nyf6td-d1e158-d1e371">
+                  <lb ed="#P" n="59"/>¶ Tertio versi. quo casu in 
+      tempe<lb ed="#P" n="60" break="no"/>ramento / excepto tempus optand. 
+      <lb ed="#P" n="61"/>dat resultet.  Et est ratio. 
+      Ge<lb ed="#P" n="62" break="no"/>rudia et supina sunt communis 
+      sign<lb ed="#P" n="63" break="no"/>ficationis secundum Priscianum: vt hic 
+      <lb ed="#P" n="64"/>vado amadum / hoc est vt ame / vel 
+      <!--cod-gh333a-0238.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="65"/>amer. Sed passiua hic competere non possunt cum nullus 
+      <lb ed="#P" n="66"/>seipsum eligere / postulare / seu presentare possit. nota infra de 
+      <lb ed="#P" n="67"/>insti. c. vltimo. Et ipsa gerundia habent idem significatum 
+      <lb ed="#P" n="68"/>rum infinito cum adiectione prepositionis pre. vt genitinus 
+      <lb ed="#P" n="69"/>cum prepositione de. Ablatiuns cum in. Et accusatiuus cum 
+      <lb ed="#P" n="70"/>ad: vnde si dico. Eligo postulando. vel econtra. Est sensus 
+      <lb ed="#P" n="71"/>Eligo in postulare: vel posfulo in eligere 
+    </p>
+               <p xml:id="nyf6td-d1e158-d1e406">
+                  <lb ed="#P" n="72"/>¶ Similiter si dico. Eligo postulandum vel econta. Est se 
+      <lb ed="#P" n="73"/>sus. Eligo ad postulare vel econtra. Et constat quod hic nec 
+      <lb ed="#P" n="74"/>est electio vera: ne postulatio: sed potius aduersatio vt 
+      col<lb ed="#P" n="75" break="no"/>ligitur ex dictis sub rubrica¬ 
+    </p>
+               <p xml:id="nyf6td-d1e158-d1e418">
+                  <lb ed="#P" n="76"/>¶ Sed oppones infra de renuncia. post translationem primo 
+      re<lb ed="#P" n="77" break="no"/>ponso. Solu. Monachus vt supra dictum est. in 
+      rublrcaele<lb ed="#P" n="78" break="no"/>gi potest in abbatem alterius monasteri: et in episcom: post 
+      <lb ed="#P" n="79"/>que tamen est electus postulari debet a suo abbate. Et de hac 
+      <lb ed="#P" n="80"/>postulatione hic non loquitur sed de ea que electione 
+      pro<lb ed="#P" n="81" break="no"/>cedit et est via ad eleccionem Noscatur Et est ratio per 
+      pra<lb ed="#P" n="82" break="no"/>missa: cum dico postulo in eligendum. vel ecotra. est dictu 
+      po<lb ed="#P" n="83" break="no"/>stulo in ad eligere infra postulo in hac via. vt ad electionem 
+      ve<lb ed="#P" n="84" break="no"/>nire possim vel econtra / vnde nec electionem per se nec 
+      posti<lb ed="#P" n="85" break="no"/>lationem per se. ista facit premissa sua temeritate 
+      permi<lb ed="#P" n="86" break="no"/>acens: et ideo nihil perfectum signat.
+     </p>
+               <p xml:id="nyf6td-d1e158-d1e444">
+      ¶ Et ideo dicte formo 
+      <lb ed="#P" n="87"/>reprobantur: quae naturam electionis per se sumpte et 
+      postu<lb ed="#P" n="88" break="no"/>lationis similiter simul confunduntur verbi gratia. Ecclia 
+      <lb ed="#P" n="89"/>cuius sum canonicus vacat: ipsa est filla mea. Auten. de 
+      sa<lb ed="#P" n="90" break="no"/>ti. epi. §. Sed hoc in presenti. col. ix. Et filie mee possum 
+      <lb ed="#P" n="91"/>eligere maritum: sed vbi per quod non possum eligere 
+      ma<lb ed="#P" n="92" break="no"/>ritum postulare habeo a superiore vt sublato 
+      impedimen<lb ed="#P" n="93" break="no"/>to afrinitatis vel consanguinitatis illum de gratia concedat 
+      <lb ed="#P" n="94"/>ff. de spon. sed qui patris est et. ff. de ritu nup. l. qui liberos. 
+      <lb ed="#P" n="95"/>infra de spon. et matrimo. c. vno. hoc. lib. et de consangui. et affi. 
+      <lb ed="#P" n="96"/>quod dilectio: vnde istas vias iuris confundo nec vere postulo 
+      <lb ed="#P" n="97"/>nec vere eligo: sed rem imperrectam ago. Et ideo sic ages 
+      <lb ed="#P" n="98"/>reprobor vt hic carere.
+     </p>
+               <p xml:id="nyf6td-d1e158-d1e473">
+      ¶ Sed numquid hoc refertur ac 
+      ca<lb ed="#P" n="99" break="no"/>us no expeditos post istam constitutionem habitos tamen 
+      an<lb ed="#P" n="100" break="no"/>te / et dic quod non arg. C. de testame. lubemus in fine. Et hec 
+      <lb ed="#P" n="101"/>forma habebatur ante istam constitutione indicio omnim bona¬ 
+    </p>
+               <p xml:id="nyf6td-d1e158-d1e482">
+                  <lb ed="#P" n="102"/>¶ Et sic iam decipi videntur et laqueus iniri ei qui 
+      iudi<lb ed="#P" n="103" break="no"/>cio communi non peccauit quod esse non debet. ff. ad 
+      mace<lb ed="#P" n="104" break="no"/>do l. iii. Nec hic distingo propter ratioes dictas An hec 
+      <lb ed="#P" n="105"/>constitutio sit noui iuris editio / quo casu indubitanter 
+      tra<lb ed="#P" n="106" break="no"/>hit ad futura rno ad precedetia. Autem. vt cum de appella. 
+      co<lb ed="#P" n="107" break="no"/>gno. in prin. col. viii. et. supra de consti. c. finali seu iuris 
+      declara<lb ed="#P" n="108" break="no"/>tiua cum comunis cursus electionum esset in hoc contra hac 
+      <lb ed="#P" n="109"/>costitutio. dubitatur
+     </p>
+               <p xml:id="nyf6td-d1e158-d1e502">
+      ¶ Et sic nota quea probabilis 
+      dubi<lb ed="#P" n="110" break="no"/>tario excusat sicut et ignorantia verisimilis  supra hoc lib. 
+      <lb ed="#P" n="111"/>de constitu. c. ii. teneatur Nota quem artari ad eligendum 
+      <lb ed="#P" n="112"/>et hoc duplici de causa vt tollatur vagatio: et non fiat iuri 
+      <lb ed="#P" n="113"/>alterius impedimento vt hic et. supra hoc libro de rescrp. gra: 
+      <lb ed="#P" n="114"/>t infra hoc lib. ti. i. vt quis. ff. de optio. lega. macipiorum. ff. de 
+      re<lb ed="#P" n="115" break="no"/>gul. iur. ex his. § quotiens interdicta. ff. de optio. leg. 
+      apu<lb ed="#P" n="116" break="no"/>aufidium. Io. mo. Cardinalis.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

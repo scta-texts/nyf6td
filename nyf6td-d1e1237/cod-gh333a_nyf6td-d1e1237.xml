@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 22</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 22</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="332-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1237" type="et-sextus-l3t22"><!-- mo-l3t22"
+              -->
+            <head xml:id="nyf6td-d1e1237-Hd1e101">Titulus 22</head>
+            <div xml:id="nyf6td-d1e1237-Dd1e103" type="et-sextus-l3t22-rubric"><!-- mo-l3t22-rubric" -->
+               <head xml:id="nyf6td-d1e1237-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1237-d1e108">
+                  <lb ed="#P" n="62" type="fixed=332-r"/>CVm ecclsesie vel altaria consecrari non 
+      <lb ed="#P" n="63"/>debeant sine reliquiis de consecra. distinctio. 
+      pri<lb ed="#P" n="64" break="no"/>mariaciim naffdesi fa derciiquis e vencfa: 
+      <lb ed="#P" n="65"/>tione sanctorum annectit. Io. Mo. Card.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1237-Dd1e120" type="et-sextus-l3t22-c1"><!-- mo-l3t22-c1" -->
+               <head xml:id="nyf6td-d1e1237-Hd1e123">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1237-d1e125">
+      <!--cod-gh333a-0797.xml-->
+                  <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="51" type="fixed=332-v"/>GLoriosus, Hec decretalis habet quinque 
+      <lb ed="#P" n="52"/>dicta: primo prefationem 
+      pre<lb ed="#P" n="53" break="no"/>mittit. ii. iii. et. iiii. duodecim apostolos 
+      <lb ed="#P" n="54"/>quatuor euangelistas / et quatuor doctores 
+      <lb ed="#P" n="55"/>audibus et preconiis attollit: in versicu. si 
+      <lb ed="#P" n="56"/>et alma / et versic. Reuerendissimos / et versic. 
+      <lb ed="#P" n="57"/>Egregios quoque / versi. ideoque. ipsorum 
+      pr<lb ed="#P" n="58" break="no"/>cipuas festiuitates sub duplici officio celebrari perpetur 
+      <lb ed="#P" n="59"/>vult / statuit / et precipit / sanguine) non dilitando vt hodio 
+      <lb ed="#P" n="60"/>sed effundendo pro tuitione fidei orihodoxe lucernas hoc / 
+      <lb ed="#P" n="61"/>est lucem cernentes diuinam) non mundi temporalia 
+      con<lb ed="#P" n="62" break="no"/>gregantes / sunt etiam lucerne quia diuine lucis arche / quiad 
+      <lb ed="#P" n="63"/>sicut ex archa res ibi posita extrahitur: sic per istos 
+      do<lb ed="#P" n="64" break="no"/>ctores lucis secreta panduntur enigmata a secundum 
+      Do<lb ed="#P" n="65" break="no"/>natum enigma est dira seu dura similitudo / et ponit exem 
+      <lb ed="#P" n="66"/>plum: Mater me genuit: eadem mox gignitur ex me: et sic 
+      <lb ed="#P" n="67"/>loquitur de niue generata a matre: sicut aqua que liquefi. 
+      <lb ed="#P" n="68"/>cta generat matrem duplici 
+    </p>
+               <p xml:id="nyf6td-d1e1237-d1e171">
+                  <lb ed="#P" n="69"/>¶ Sed quid si sacrista vnius ecclesie tenebatur campanas 
+      <lb ed="#P" n="70"/>pulsare / et post istam constitutionem propter duplex festur 
+      <lb ed="#P" n="71"/>plus expenditur in pulsatione: an istud grauamen spectet 
+      <lb ed="#P" n="72"/>ad sacristam / et videtur quod non. ff. de aqua cotidia. et estiua. 
+      <lb ed="#P" n="73"/>l. i. §. illud Labeo. ff de damno. infec l. damni. §. si is qui. C. 
+      <lb ed="#P" n="74"/>de serui. si non modus. supra de censib. quanto contra dic 
+      ar<lb ed="#P" n="75" break="no"/>supra de loca. et conduc. propter sterilitatem insti. loca. et 
+      con<lb ed="#P" n="76" break="no"/>duct. § primo. 
+    </p>
+               <p xml:id="nyf6td-d1e1237-d1e191">
+                  <lb ed="#P" n="77"/>¶ Item si sumptus minorarentur: esset commodum 
+      sa<lb ed="#P" n="78" break="no"/>criste / ergo et incommondum debet sustinere. ff de regul. 
+      <lb ed="#P" n="79"/>iur. secundum naturam arg. C. de solutio. cum pro pecunia. 
+    </p>
+               <p xml:id="nyf6td-d1e1237-d1e200">
+                  <lb ed="#P" n="80"/>¶ Est etiam alia ratio / fructus augent et minuunt 
+      heredi<lb ed="#P" n="81" break="no"/>tatem. ff. de peti. heredi. sed si lege. §. vltimo / et l. sequenti et 
+      <lb ed="#P" n="82"/>sequenti. ff. de vsuris l. equis: vnde aliud est in 
+      singu<lb ed="#P" n="83" break="no"/>lari iudicio / et vniuersali: nam in iudicio singulari quande 
+      <lb ed="#P" n="84"/>peto quod nec est meum nec fuit meum / fructus non 
+      ve<lb ed="#P" n="85" break="no"/>niunt. ff. de vsuris l. videamus. § si actionem: secus est in vni 
+      <lb ed="#P" n="86"/>uersali argu. op. ff de vsur. equis / vel quasi / vt quando 
+      agi<lb ed="#P" n="87" break="no"/>tur de beneficio vt not. supra de libelli obla. c. primo et vbi 
+      <lb ed="#P" n="88"/>agitur de beneficio fructus percepti et qui percipi 
+      potue<lb ed="#P" n="89" break="no"/>runt in iudicio isto veniunt / supro de iure patro. cum 
+      dile<lb ed="#P" n="90" break="no"/>ctus in fine. 
+    </p>
+               <p xml:id="nyf6td-d1e1237-d1e227">
+                  <lb ed="#P" n="91"/>¶ Item sacriste non fit aliquid per suum capitulum / sed 
+      <lb ed="#P" n="92"/>per Papam hoc constituentem qui potest sacristiam 
+      auge<lb ed="#P" n="93" break="no"/>re et minuere de fructibus. Io. Mo. Card.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

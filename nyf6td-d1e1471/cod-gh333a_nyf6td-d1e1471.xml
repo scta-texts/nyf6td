@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 6</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 6</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="380-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1471" type="et-sextus-l5t6"><!-- mo-l5t6"
+              -->
+            <head xml:id="nyf6td-d1e1471-Hd1e101">Titulus 6</head>
+            <div xml:id="nyf6td-d1e1471-Dd1e103" type="et-sextus-l5t6-rubric"><!-- mo-l5t6-rubric" -->
+               <head xml:id="nyf6td-d1e1471-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1471-d1e108">
+                  <lb ed="#P" n="84" type="fixed=378-v"/>Dicto de preccantibus in deum / personas 
+      <!-- missing line break -->et res. Et quia isti prout sunt in 
+      <lb ed="#P" n="85"/>statu celsiori: grauius omnibus paribus 
+      <lb ed="#P" n="86"/>peccant et minores minus: supra de 
+      <lb ed="#P" n="87"/>iureiuran. cum quidam. et. xl. distinctio. 
+      <lb ed="#P" n="88"/>homo christianus: ideo post premissa 
+      <lb ed="#P" n="89"/>de excessibus prelatorum et subditorum 
+      <lb ed="#P" n="90"/>e subiungit. Ioan. Mo. Car. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1471-Dd1e129" type="et-sextus-l5t6-c1"><!-- mo-l5t6-c1" -->
+               <head xml:id="nyf6td-d1e1471-Hd1e132">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1471-d1e134">
+                  <lb ed="#P" n="6" type="fixed=379-r"/>CVm ex eo, hec decretalis 
+      <lb ed="#P" n="7"/>
+                  <!-- line coord error -->tria dicit. Primo 
+      <lb ed="#P" n="8"/>
+                  <!-- line coord error -->
+                  <lb ed="#P" n="9"/>
+                  <!-- line coord error -->
+                  <lb ed="#P" n="10"/>ponit prohemium ad dicenda. 
+      <lb ed="#P" n="11"/>Secunda ibi nos super hoc. r 
+      <lb ed="#P" n="12"/>hibitionem facit. Tertio ibi 
+      per<lb ed="#P" n="13" break="no"/>hoc suam prohibitionem mode 
+      <lb ed="#P" n="14"/>ratur seu interpretatur 
+      mendi<lb ed="#P" n="15" break="no"/>cantes de qbus habetur. supra hoc 
+      <lb ed="#P" n="16"/>lib. de relig. domi. religionum: 
+      <lb ed="#P" n="17"/>infra hoc lib. de ver. signifi. priuilegium. Io. Mo. Car.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

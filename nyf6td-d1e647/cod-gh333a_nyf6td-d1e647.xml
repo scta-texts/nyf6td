@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 7</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 7</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="199-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e647" type="et-sextus-l2t7"><!-- mo-l2t7"
+              -->
+            <head xml:id="nyf6td-d1e647-Hd1e101">Titulus 7</head>
+            <div xml:id="nyf6td-d1e647-Dd1e103" type="et-sextus-l2t7-rubric"><!-- mo-l2t7-rubric" -->
+               <head xml:id="nyf6td-d1e647-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e647-d1e108">
+      <!-- authorship a little unclear but probably monachus-->
+                  <lb ed="#P" n="141" type="fixed=195-r"/>PRopter contumaciam fit sepe missio in 
+      possesi<lb ed="#P" n="142" break="no"/>sionem causa rei seruande. supra vt lite non 
+      contesta<lb ed="#P" n="143" break="no"/>tue. supra eo. capitu. primo / et ideo subiicitur rubrica 
+      <lb ed="#P" n="144"/>de eod. et 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e647-Dd1e122" type="et-sextus-l2t7-c1"><!-- mo-l2t7-c1" -->
+               <head xml:id="nyf6td-d1e647-Hd1e125">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e647-d1e127">
+                  <lb ed="#P" n="35" type="fixed=195-v"/>Vn qui. Hec decretalis 
+      vo<lb ed="#P" n="36" break="no"/>nit instantiam 
+      contra<lb ed="#P" n="37" break="no"/>regulam positam. supra vt lite non conte 
+      <lb ed="#P" n="38"/>sta. quoniam frequenter primo 
+      responso<lb ed="#P" n="39" break="no"/>loquitur quando agitur de beneficio: vt 
+      <lb ed="#P" n="40"/>beneficium / et non vt est propietas: quod 
+      <lb ed="#P" n="41"/>tunc bene fit missio causa rei 
+      se<lb ed="#P" n="42" break="no"/>uande. supra eo. capi. primo. et. ii. 
+    </p>
+               <p xml:id="nyf6td-d1e647-d1e147">
+                  <lb ed="#P" n="43"/>¶ Et hec decretalis habet a 
+      trio<lb ed="#P" n="44" break="no"/>dicta. Primo / regula ponitur. Secunde 
+      <lb ed="#P" n="45"/>versi. ne per hocratio regule redditur. Tertio versi. sed liceat: 
+      <lb ed="#P" n="46"/>questioni tacite respondetur bneficio quocumque nomine 
+      censen<lb ed="#P" n="47" break="no"/>tur. q. d. locum habet hec decretalis de quocumque beneficio agatur 
+      <lb ed="#P" n="48"/>arg. infra de preben. ca. maioribus ecclesiasticor id est spirituali: secus. 
+      <lb ed="#P" n="49"/>esset si ecclesia dedisset alicui laico: vel etiam clerico tamquam 
+      lai<lb ed="#P" n="50" break="no"/>co / fundum vel vineam ad substentationem vite sue / tanquam 
+      beneme<lb ed="#P" n="51" break="no"/>rito. xvi. q. i. posse ssiones / et dic temporaliter non perpetuo: vt 
+      <lb ed="#P" n="52"/>d. c. possessiones. et C. de sacrosan. eccle. l. iubemus l. nulli. §. 
+      <lb ed="#P" n="53"/>nam hoc casu posset fieri missio. supra eo. c. iii. infra. de sequest. 
+      posses<lb ed="#P" n="54" break="no"/>sio. c. i. secus si agatur de iure patronatus / quod licet non 
+      sit<lb ed="#P" n="55" break="no"/>spirituale est tamenspirituali annexum. supra de iudic. quanto infra de 
+      iuri<lb ed="#P" n="56" break="no"/>patro. c. de iure. ff. de rei vendi. que religiosis obtinendis 
+    </p>
+               <p xml:id="nyf6td-d1e647-d1e180">
+                  <lb ed="#P" n="57"/>¶ Quid de obtento / vt quia est confirmatus / et in possessionem in 
+      <lb ed="#P" n="58"/>ductus: tandem spoliaius. supra de cau. pos. cum olim / et. c. cum super / vel 
+      <lb ed="#P" n="59"/>dato quod sit confirmatus / vel collatio sibi facta / et petit vt hec 
+      <lb ed="#P" n="60"/>sortiantur effectum infra de appel. constituti ii. et de conces. praeben. post. 
+      <lb ed="#P" n="61"/>clectionem / vt dato quod petat possessionem per constitutionem cum 
+      <lb ed="#P" n="62"/>quaerebatur. C. vnde vi l. si quis in tantam / vel conditione ex 
+      i<lb ed="#P" n="63" break="no"/>lo canone. iii. q. i. cap. reintegranda et de resti. spolia. c. 
+      sep<lb ed="#P" n="64" break="no"/>contingit. nunquid debebit fieri missio in possessionem. 
+    </p>
+               <p xml:id="nyf6td-d1e647-d1e200">
+                  <lb ed="#P" n="65"/>¶ Dicunt quidam quod sic / propter littram istam quae loquitur in obtinendo 
+      <lb ed="#P" n="66"/>et sic non in obtento. §. Dic contra. Et dic in omnibus dictis casi 
+      <lb ed="#P" n="67"/>bus agi de obtinendo beneficium / vel simpitiliter: vt quia dico beneficum 
+      <lb ed="#P" n="68"/>mihi debitum / vel dato quod sit meum: dico quod ago de obtinendo 
+      <lb ed="#P" n="69"/>quod non est meum / sicut est detentatio que est apud alium 
+      <!--cod-gh333a-0517.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="70"/>ff. de rei vendica. officium: nam rem habeo et rem peto / non 
+      <lb ed="#P" n="71"/>propter rem quam habeo sed propter id quod est consequens 
+      <lb ed="#P" n="72"/>ad rem quam non habeo. ff. de ver. oblig. l. Iullanus. §. qui 
+      <lb ed="#P" n="73"/>gundum 
+    </p>
+               <p xml:id="nyf6td-d1e647-d1e227">
+                  <lb ed="#P" n="74"/>¶ Et est alia ratio hic in quocunque casu de predictis 
+      rema<lb ed="#P" n="75" break="no"/>net ratio decretalis: scilicet ne pateat ad beneficium vitio 
+      <lb ed="#P" n="76"/>sus ingressus / cum beneficium sine institutione e 
+      canm<lb ed="#P" n="77" break="no"/>nica obtineri non possit. ff. de decur l. Herennius infra hoc 
+      li<lb ed="#P" n="78" break="no"/>bro de reg. iur. c. primo. 
+    </p>
+               <p xml:id="nyf6td-d1e647-d1e240">
+                  <lb ed="#P" n="79"/>¶ Item omnes isti casus sunt connexi prima. q. iii. si quis 
+      <lb ed="#P" n="80"/>obiecerit. Et ideo terminus hic expressus in omnibus 
+      pre<lb ed="#P" n="81" break="no"/>dictis casibus locum habet. Item auxilium missionis in 
+      <lb ed="#P" n="82"/>possessionem est extraordinarium pro tanto quod ordo iuris 
+      <lb ed="#P" n="83"/>non potest habere locum propter contumaciam rei quod non 
+      <lb ed="#P" n="84"/>habet locum vbi suppetit tr ordinarium. ff. de minori l. in 
+      cau<lb ed="#P" n="85" break="no"/>se. ii. in princ. nisi extraordinarium plenius subueniat. ff. nau. 
+      <lb ed="#P" n="86"/>te caupo. stabu. l. et ita de facto. §. primo 
+    </p>
+               <p xml:id="nyf6td-d1e647-d1e260">
+                  <lb ed="#P" n="87"/>¶ Sed hic non est plenius / et procedi potest hoc casu id est 
+      pro<lb ed="#P" n="88" break="no"/>cessum iudiciario lite non contesta. supra vt lite non conte. 
+      quo<lb ed="#P" n="89" break="no"/>niam. §. porro et § sequen. Ergo et subsidium 
+      extraordinari<lb ed="#P" n="90" break="no"/>um cessabit possessore quod si duo sint competitores / et 
+      nul<lb ed="#P" n="91" break="no"/>lus possessor: vt quia agunt de beneficio sibi debito / adhue 
+      <lb ed="#P" n="92"/>idem: propter rationes predictas possessionem Sed est 
+      pro<lb ed="#P" n="93" break="no"/>cedendum ad negotii examinationem et decisionem vt 
+      se<lb ed="#P" n="94" break="no"/>quitur non mittendum Et est ratio huius statuti vt 
+      sequin<lb ed="#P" n="95" break="no"/>tur ad ea scilicet beneficia / siue sint tangentia beneficia vt 
+      <lb ed="#P" n="96"/>accessoria que naturam sequuntur principalis. infra hoc lib. de 
+      <lb ed="#P" n="97"/>reg. iur. accessorium vitiosus qui haberi non potest ex 
+      so<lb ed="#P" n="98" break="no"/>la possessione vt d. l. Herennius et ii. q. prima legum sed 
+      li<lb ed="#P" n="99" break="no"/>ceat contumax ergo de sua contumacia commodum non 
+      <lb ed="#P" n="100"/>reportabit in hoc casu cum agitur de beneficio ecclesiasti 
+      <lb ed="#P" n="101"/>co spirituali / non vt proprietas est obtinendo vel obtento 
+      <lb ed="#P" n="102"/>presentia supra hoc libro de arbitr. c. ii. in fine diligenter: 
+      <lb ed="#P" n="103"/>hoc semper est faciendum. xxx. q. v. iudicantem fine 
+      debito<lb ed="#P" n="104" break="no"/>nam si liquet de causa pro actore fertur sententia pro eo: 
+      su<lb ed="#P" n="105" break="no"/>autem non liquet fiat fructuum sequestratio de 
+      rescrip<lb ed="#P" n="106" break="no"/>olim: nec ibi est sequestratio prohibita / vt not. infra hoc lib. d. 
+      <lb ed="#P" n="107"/>reg. iur. locupletari / et hoc casu sic debet fieri: quia nisi 
+      fie<lb ed="#P" n="108" break="no"/>ret missio in possessionem reus non gauderet de fructibus / 
+      <lb ed="#P" n="109"/>vt not. supra vt lite non contest. quoniam. §. in aliis. Ergo nec 
+      <lb ed="#P" n="110"/>hoc casu cum sequestratio hoc casu sit loco missionis in po. 
+      <lb ed="#P" n="111"/>sessionem causa rei seruande subrogata. Io. Mo. Card. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

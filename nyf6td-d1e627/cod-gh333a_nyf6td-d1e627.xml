@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 6</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 6</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="199-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e627" type="et-sextus-l2t6"><!-- mo-l2t6"
+              -->
+            <head xml:id="nyf6td-d1e627-Hd1e101">Titulus 6</head>
+            <div xml:id="nyf6td-d1e627-Dd1e103" type="et-sextus-l2t6-rubric"><!-- mo-l2t6-rubric" -->
+               <head xml:id="nyf6td-d1e627-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e627-d1e108">
+                  <lb ed="#P" n="111" type="fixed=194-r"/>¶ Summarium Domini 
+      Phai<lb ed="#P" n="112" break="no"/>lippi Probi. 
+      <lb ed="#P" n="113"/>Dolum quelibet causa (etiam bestialis) excusat. 
+      <lb ed="#P" n="114"/>Grauius punitur qui in iudicio falsa crimina obiicit / quam qui 
+      <lb ed="#P" n="115"/>extra iudicium 
+      <lb ed="#P" n="116"/>Dolus non presumitur nisi ex maxima lesione 
+      <lb ed="#P" n="117"/>Contumax perdit priuilegium declinatorium forim 
+      <lb ed="#P" n="118"/>Sicut quis potest expresse renunciare priuilegio suo / sic uad 
+      <lb ed="#P" n="119"/>tacite 
+      <lb ed="#P" n="120"/>Ius commune difficilius perditur quam priuilegium 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e132">
+                  <lb ed="#P" n="121"/>Dicto de iudiciis in quorum 
+      proc<lb ed="#P" n="122" break="no"/>cessibus a nonnullis dolus 
+      <lb ed="#P" n="123"/>et contumacia committitur: ideo 
+      sub<lb ed="#P" n="124" break="no"/>iicit de dolo a et contumacia. b 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e143">
+                  <lb ed="#P" n="125"/>¶ Uel sic / dicto de spoliatis quia 
+      <lb ed="#P" n="126"/>extra iudicium grauantur: nunc 
+      sub<lb ed="#P" n="127" break="no"/>iicit de his qui dolo vel contuma 
+      <lb ed="#P" n="128"/>cia aduersariorum fatigantur. 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e154">
+                  <lb ed="#P" n="129"/>¶ Et dolus est caliditas 
+      falla<lb ed="#P" n="130" break="no"/>cia seu machinatio ad circumus 
+      <lb ed="#P" n="131"/>niendum  / fallendum / et 
+      decipien<lb ed="#P" n="132" break="no"/>dum alterum adhibita. ff de dolo l. prima. §. primo 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e166">
+                  <lb ed="#P" n="133"/>¶ Uel dic secundum Hysido. dolus est occulta malitia 
+      bla<lb ed="#P" n="134" break="no"/>dis sermonibus adornata. Et ille est contumax qui 
+      tra<lb ed="#P" n="135" break="no"/>bus edictis vel vno pro omnibus quod peremptorium 
+      ap<lb ed="#P" n="136" break="no"/>pellatur vocatus / presentiam sui facere contemnit. ff. de 
+      re<lb ed="#P" n="137" break="no"/>iudic contumacia § prino. Io. to. Cardi 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e627-Dd1e180" type="et-sextus-l2t6-c1"><!-- mo-l2t6-c1" -->
+               <head xml:id="nyf6td-d1e627-Hd1e183">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e627-d1e185">
+                  <lb ed="#P" n="79" type="fixed=194-v"/>ACtor. Primo ius antiquum repetitur 
+      se<lb ed="#P" n="80" break="no"/>cundo versi. ad citationem ius 
+      <lb ed="#P" n="81"/>nouuma adiicitur. Ecce ergo actor in 
+      reo<lb ed="#P" n="82" break="no"/>hoc erat statutum. C. de iudic. sancimus. 
+      <lb ed="#P" n="83"/>supra vt lite non contesta. quoniam 
+      freqnen<lb ed="#P" n="84" break="no"/>ter: idem etiam in actore. C. quomodo / et 
+      <lb ed="#P" n="85"/>(quando iudex autem. qui semel. C. de fruc. 
+      <lb ed="#P" n="86"/>et li. e xpen. non ignoret. supra de procura. auditis / et sic hoc esm 
+      <lb ed="#P" n="87"/>antiquum ius / vt tam actor quam reus non veniens in 
+      termi<lb ed="#P" n="88" break="no"/>no b in expensis condemnetur vt d. l. sancimus que in 
+      vtro<lb ed="#P" n="89" break="no"/>que loquitur: in actore tamen qui habet instare. iiii. q. iiii. 
+      ca<lb ed="#P" n="90" break="no"/>capitulo primo 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e214">
+                  <lb ed="#P" n="91"/>¶ Contumacia est magis punienda in actore quam in reo 
+      cen<lb ed="#P" n="92" break="no"/>qui in iure vocatur fugiens. C. de iudic. properandum. §. 
+      si<lb ed="#P" n="93" break="no"/>quid pars. ff de reg. iur. qui in alterius ad terminum 
+      quen<lb ed="#P" n="94" break="no"/>cunque / cum indefinite loquatur. xix. distinctio. si 
+      Romane<lb ed="#P" n="95" break="no"/>rum infra de priuileg. quia circa. ff. de publicia. de precio. Id 
+      <lb ed="#P" n="96"/>si venit / et temere aduersarium vocari fecit. ff. de iudic. l. eum 
+      <lb ed="#P" n="97"/>quem: idem in accusatore. iiii. q. v. quisquis quod est verum 
+      <lb ed="#P" n="98"/>nisi iusta causa vocantem excuset. supra de procura. querelam 
+      <lb ed="#P" n="99"/>infra de re iudic. cum Bertholdus et d. c. quisquis in fin 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e236">
+                  <lb ed="#P" n="100"/>¶ Sed qualiter constabit de hoc / dic testibus vel instrumen 
+      <lb ed="#P" n="101"/>tis: vel ex qualitate persone vel circunstantiisd cause: alid 
+      <lb ed="#P" n="102"/>quin iudex plenam probationem requiret / et aliquando de 
+      <lb ed="#P" n="103"/>feret parti alteri iuramentum. supra de procura. ex 
+      insinuatio<lb ed="#P" n="104" break="no"/>ne infra. de testib. preterea infra de iureiur. c. vlti. fecerit. 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e249">
+                  <lb ed="#P" n="105"/>¶ Et sic debet magis sibi impingi quam reo. iii. q. iii. §. spatium 
+      <lb ed="#P" n="106"/>non curauit) cum hoc facere potuisset. supra hoc lib. de restit. 
+      <lb ed="#P" n="107"/>spolia. frequens. § solet / reorergo non veniente reo in 
+      nu<lb ed="#P" n="108" break="no"/>lo condemnabitur. 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e261">
+                  <lb ed="#P" n="109"/>¶ Sed et culpa culpe / et contumacia contumacie / 
+      compen<lb ed="#P" n="110" break="no"/>sabitur. ff. de dolo si duo. ff. de compensa. si ambo. ff. solu. 
+      ma<lb ed="#P" n="111" break="no"/>tri viri 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e270">
+                  <lb ed="#P" n="112"/>¶ Sed quid si iudex fuit absens vel presens: sed non potuit 
+      <lb ed="#P" n="113"/>procedere: nunquid fiet hic condemnatio dic quod non. ff. 
+      de<lb ed="#P" n="114" break="no"/>iurisdi. omn. iudic. si quis id. §. doli. ff. si quis in ius voca. 
+      <lb ed="#P" n="115"/>non ier l. ii. propter hoca id est quia non venit: et sic fuit 
+      imper<lb ed="#P" n="116" break="no"/>ditus iudex procedere propter contumaciam actoris 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e283">
+                  <lb ed="#P" n="117"/>¶ Et quales debeant esse expense non supra hoc libro. de 
+      re<lb ed="#P" n="118" break="no"/>scrip. statutum. §. insuper legitime scilicet premissa taxa. 
+      <lb ed="#P" n="119"/>tione / et iuramento sequuto supra hoc lib. de restit. spolia. 
+      fre<lb ed="#P" n="120" break="no"/>quens. § sed si et auten. de iudici. §. oportet colla. vi. supra quod 
+      <lb ed="#P" n="121"/>met. causa capitulo vltimo admittendus vt puniatur 
+      <lb ed="#P" n="122"/>in quo deliquit. supra de tempor. ordinan. litteras in fine 
+      <lb ed="#P" n="123"/>sufficienter. 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e301">
+                  <lb ed="#P" n="124"/>¶ Et sic per pignora vel fide iussores. ff manda l. si 
+      man<lb ed="#P" n="125" break="no"/>dato Titii. §. vlti. vbi tamen non posset dabit iuratoriam. C. 
+      <lb ed="#P" n="126"/>de episcopis et cleric. auten. generaliter. C. de ordi. 
+      cogni<lb ed="#P" n="127" break="no"/>tio l. vlti. § quod si ei. Inno. tamen hic dicit quod sufficit solo 
+      <lb ed="#P" n="128"/>verbo cauere cum pena: quod credo secundum distinctis 
+      <lb ed="#P" n="129"/>nem premissam in termino ha scilicet primo arg. ff. de 
+      ver<lb ed="#P" n="130" break="no"/>obliga. eum qui calendis. ff. de ver. significa. boues. §. hoc 
+      <lb ed="#P" n="131"/>sermone: tu dic in termino quocunque cum hec sit 
+      indefini<lb ed="#P" n="132" break="no"/>ta que equipollet vniuesali / vt hic videtur propter 
+      contu<lb ed="#P" n="133" break="no"/>maciam actoris reuocata auten. generaliter. C. de episco. 
+      <lb ed="#P" n="134"/>et cleric. que est excusabilior in reo quam in actore auten. de 
+      liti<lb ed="#P" n="135" break="no"/>gio. §. omnem / colla. viii. Io. Mo. Card.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e627-Dd1e331" type="et-sextus-l2t6-c2"><!-- mo-l2t6-c2" -->
+               <head xml:id="nyf6td-d1e627-Hd1e334">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e627-d1e336">
+                  <lb ed="#P" n="56" type="fixed=195-r"/>EVm qui. hic deciditur 
+      dubi<lb ed="#P" n="57" break="no"/>um antiquum tactum 
+      per<lb ed="#P" n="58" break="no"/>Ino i1nfra de accusa. ad peitionem 
+      <lb ed="#P" n="59"/>grauamine quid si a 
+      diffinitiui<lb ed="#P" n="60" break="no"/>secus / cum tunc non sit cognoscendum 
+      <lb ed="#P" n="61"/>quod requirit ista constitutio: nec est 
+      <lb ed="#P" n="62"/>aliquid regulariter per executio 
+      <lb ed="#P" n="63"/>nem innouandum infra hoc libr. de 
+      appel<lb ed="#P" n="64" break="no"/>non solum appellans et male nam / 
+      <lb ed="#P" n="65"/>bene facit illum a quo appellaut 
+      <lb ed="#P" n="66"/>non iudicem / et sic non potest dici 
+      con<lb ed="#P" n="67" break="no"/>tumax qui ex iusta causa se absentat. ff. de re iudic. 
+      contu<lb ed="#P" n="68" break="no"/>macia §. venul. et vlti. protestari Nota quod quedam est pote. 
+      <!--cod-gh333a-0516.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="69"/>statio hominis infra hoc lib. de homicid. prelatis / quedam 
+      au<lb ed="#P" n="70" break="no"/>tem est iuris et tacita vt hic 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e375">
+                  <lb ed="#P" n="71"/>¶ Sunt etiam aliemulte diuisiones protestationum nota 
+      <lb ed="#P" n="72"/>te. infra. hoc lib. de reg. iur. in generali renunciet quod potest 
+      <lb ed="#P" n="73"/>C. de appella l. si quis libellos: que est. ii. q. vi. si quis libe 
+      <lb ed="#P" n="74"/>los non teneris. 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e386">
+                  <lb ed="#P" n="75"/>¶ Sed nunquid idem in contumace verbi gratia aliquisa 
+      <lb ed="#P" n="76"/>est contumax in vno actu: nunquid ad alium vocabitur / 
+      <lb ed="#P" n="77"/>dic quod sic: quia licet sit in vno actu contumax / non tamen 
+      pro<lb ed="#P" n="78" break="no"/>testatur quod in aliis velit esse contumax: secus est hic / nam 
+      <lb ed="#P" n="79"/>male appellans / et malam appellationem pretextu 
+      prote<lb ed="#P" n="80" break="no"/>stationis defendens censetur in maiori culpa quam in casu alio. 
+      <lb ed="#P" n="81"/>Quia malum sub colore boni defendit / sed contumax non 
+      <lb ed="#P" n="82"/>ratio notatur infra hoc lib. de senten. excom. is cui processeris 
+      <lb ed="#P" n="83"/>alias canonice debebit. 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e408">
+                  <lb ed="#P" n="84"/>¶ Sed quero negotium est commissum tribus / cum clausula. 
+      <lb ed="#P" n="85"/>quod si non omnes potueritis interesse duo vestrum ea nihilo 
+      <lb ed="#P" n="86"/>minus exequantur: tres pronunclauerunt / duo vunm / et tenr 
+      <lb ed="#P" n="87"/>tius aliud duo volunt exequi pronunciatum: queritur an 
+      pol<lb ed="#P" n="88" break="no"/>sint (tertio non vocato) et videtur quod non sit vocandus: quia va- 
+      <lb ed="#P" n="89"/>let duorum sententia. supra hoc libro. de arbitr. c. i. ff. de rein. 
+      <lb ed="#P" n="90"/>dic. duo ex tribus ergo et duorum executio¬ 
+    </p>
+               <p xml:id="nyf6td-d1e627-d1e427">
+                  <lb ed="#P" n="91"/>¶ Dic contra nam licet ius vellit duorum sententiam 
+      tene<lb ed="#P" n="92" break="no"/>re / dato quod alter articulus emergat / ille est communis 
+      tri<lb ed="#P" n="93" break="no"/>bus ita quod duo (tertio non vocato) procedere nequeunt. supra 
+      <lb ed="#P" n="94"/>de offi. de leg. prudentiam. §. adiicimus. Io. Mo. Cardi.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

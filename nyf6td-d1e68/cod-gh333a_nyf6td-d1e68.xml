@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 1</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 1</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="10-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e68" type="et-sextus-l1t1"><!-- mo-l1t1"
+              -->
+            <head xml:id="nyf6td-d1e68-Hd1e99">Titulus 1</head>
+            <div xml:id="nyf6td-d1e68-Dd1e101" type="et-sextus-l1t1-rubric"><!-- mo-l1t1-rubric" -->
+               <head xml:id="nyf6td-d1e68-Hd1e104">Rubrica</head>
+               <p xml:id="nyf6td-d1e68-d1e106">
+      <!--cod-gh333a-0142.xml-->
+                  <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="76" type="fixed=10-r"/>HIc incipit secunda pars huius 
+      li<lb ed="#P" n="77" break="no"/>bri: qui diuiditur in quinque 
+      li<lb ed="#P" n="78" break="no"/>bros partiales. Nam in primo 
+      <lb ed="#P" n="79"/>tractatur de creandis iudicibus 
+      <lb ed="#P" n="80"/>vt titulo de postulatione / de 
+      ele<lb ed="#P" n="81" break="no"/>ctione / de renunciatione / et de sup 
+      <lb ed="#P" n="82"/>plenda negl. praela. Nam 
+      renuncia<lb ed="#P" n="83" break="no"/>tione facta et negligentia in 
+      pre<lb ed="#P" n="84" break="no"/>lato existente: iudices haben. 
+      <lb ed="#P" n="85"/>creari. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e135">
+                  <lb ed="#P" n="86"/>¶ Et quia creati habent 
+      ordi<lb ed="#P" n="87" break="no"/>nari: et in certa etate constitui: et a creatione repelluntur 
+      il<lb ed="#P" n="88" break="no"/>legitimi: et bigami: Ideo ponuntur rubrice de tempo. ordi. 
+      <lb ed="#P" n="89"/>nandorum: et de etate et qualitate preficiendorum. Et 
+      de<lb ed="#P" n="90" break="no"/>filiis presbiterorum ac de bigamis. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e148">
+                  <lb ed="#P" n="91"/>¶ Et tandem habito de creatione iudicum et de 
+      impedi<lb ed="#P" n="92" break="no"/>mentis eorum: tunc ponitur de officio eorum in multis titulis. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e155">
+                  <lb ed="#P" n="93"/>¶ Et quia iudicibus creatis officio eorum est obediendum 
+      <lb ed="#P" n="94"/>Ideo subiicitur post officia / de maioritate et obedientia 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e163">
+                  <lb ed="#P" n="95"/>¶ Et quia coram iudicibus fiunt pacta procuratores 
+      consu<lb ed="#P" n="96" break="no"/>tuuntur. In integrum restitutiones postulantur / et in 
+      ar<lb ed="#P" n="97" break="no"/>bitros compromittitur. Ideo de predictis rubrice 
+      subii<lb ed="#P" n="98" break="no"/>ciuntur.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e174">
+      ¶ Uerum ad totalem hunc librum quatuor 
+      titu<lb ed="#P" n="99" break="no"/>li premittuntur. Primus est de summa trinita. que est 
+      om<lb ed="#P" n="100" break="no"/>nium principium vt supra eo. c. i.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e181">
+      ¶ Secundo ponitur titulus 
+      <lb ed="#P" n="101"/>de constitutionibus. Nam sunt leges  legum: et leges 
+      ne<lb ed="#P" n="102" break="no"/>gociorum / et leges legum tractantur in tribus titulis 
+      se<lb ed="#P" n="103" break="no"/>quentibus / Et postmodum in totali libro: 
+      regulariter<lb ed="#P" n="104" break="no"/>communiter legis negociorum: et legum quedam sunt 
+      ecclesia<lb ed="#P" n="105" break="no"/>stice: quedam seculares. iii. di. §. officium. x. di. §. ecce.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e194">
+      ¶ De 
+      le<lb ed="#P" n="106" break="no"/>gibus igitur ecclesiasticis generalibus tractatur titulo 
+      <lb ed="#P" n="107"/>de constitutio. Sed de legibus specialibus hoc est 
+      in<lb ed="#P" n="108" break="no"/>ter certas partes disceptantibus tractatur infra de res. 
+      vel<lb ed="#P" n="109" break="no"/>tractando de legibus legum tractatur primo de magis 
+      genera<lb ed="#P" n="110" break="no"/>libus vt de constitu. et secundo de magis ad factum 
+      condescen<lb ed="#P" n="111" break="no"/>dentibus vt sunt rescripta que dicuntur recte scripta in 
+      <lb ed="#P" n="112"/>secundum obseruantiam iuris communis habita.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e212">
+      ¶ Et quia 
+      <lb ed="#P" n="113"/>consuetudo pro lege seruatur. xi. di. consuetudo et. c. 
+      sequenti<lb ed="#P" n="114" break="no"/>et infra. de consue. c. i. ff. de leg. l. de quibus titulus de 
+      consuetu<lb ed="#P" n="115" break="no"/>dine subiicitur.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e221">
+      ¶ Item in secundo libro / tractatur de 
+      iu<lb ed="#P" n="116" break="no"/>diciis: et partibus iudiciorum.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e227">
+      ¶ Item in tertio de 
+      spe<lb ed="#P" n="117" break="no"/>ctantibus ad clerum. In quarto de matrimoniis et 
+      impe<lb ed="#P" n="118" break="no"/>dimentis eorum. In quinto de criminibus et penis eorum: 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e234">
+                  <lb ed="#P" n="119"/>¶ Unde versus. Iudex iudicium / clerus / connubia / erimon¬ 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e239">
+                  <lb ed="#P" n="120"/>¶ Ceterum hec rubrica non continuatur ad superiora: sae 
+      <lb ed="#P" n="121"/>ad sequentia 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e246">
+                  <lb ed="#P" n="122"/>¶ Et est ratio. Quia prohemium quod precedit non est nist 
+      <lb ed="#P" n="123"/>propter dicenda. Et ideo hec prima rubrica non ad precedem 
+      <lb ed="#P" n="124"/>tia: sed ad sequentia continuatur. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e255">
+                  <lb ed="#P" n="125"/>¶ Et dicitur trinitas secundum Boetium id est trini vnitas 
+      <lb ed="#P" n="126"/>scilicet patris / et filii / et spiritusiancti. vt sit in personis 
+      pro<lb ed="#P" n="127" break="no"/>prietas / et in essentia vnitas / et in maiestate adoretur equalita 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e264">
+                  <lb ed="#P" n="128"/>¶ Et nota quod nominum dictis tribus personis 
+      competen<lb ed="#P" n="129" break="no"/>tium / quedam sunt essentialia / quedam personalia / qued. 
+      <lb ed="#P" n="130"/>notionalia / de quibus notatur. supra eo. c. ii. Et hic dicitur 
+      <lb ed="#P" n="131"/>summa id est prestantissima quia ipsa est vnum vniuersorum 
+      prin<lb ed="#P" n="132" break="no"/>cipium: tam visibilium quam inuisibilium / tam spiritualium quam 
+      <lb ed="#P" n="133"/>corporalium. supra eo. c. i. circa principium.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e281">
+      ¶ Igitur de 
+      inre<lb ed="#P" n="134" break="no"/>dicturus premittit de principio / a quo suint omnia / vt est 
+      si<lb ed="#P" n="135" break="no"/>ma trinitas. Et de principio in quo omnia fiunt / fructum 
+      <lb ed="#P" n="136"/>afferentia. Quia quod non est ex fide peccatum est. i. 
+      in<lb ed="#P" n="137" break="no"/>intile ad vitam eternam. Ex quo enim bonum est ex 
+      gene<lb ed="#P" n="138" break="no"/>re non habet finem ad quod est per fidem illud bonum 
+      di<lb ed="#P" n="139" break="no"/>rigentem. Illud habet defectum finis debiti. Et per 
+      con<lb ed="#P" n="140" break="no"/>sequens inutilem. de consecr. di. iiii. c. nullus infra de prescrip. 
+      <lb ed="#P" n="141"/>c. pe.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e301">
+      ¶ Nec sufficit fides recta sine operibus bonis. 
+      <lb ed="#P" n="142"/>Nec opera bona absque fide recta. supra eo. c. i. in fine. Et fides 
+      <lb ed="#P" n="143"/>sine operibus mortua est Iacobi. ii. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e308">
+                  <lb ed="#P" n="144"/>¶ Et notandum quad fides multipliciter accipitur vt supra in 
+      ru<lb ed="#P" n="145" break="no"/>brica notatur. Sed hic accipitur pro collatione articulor 
+      <lb ed="#P" n="146"/>fidei id est pro obiecto fidei in quo fiunt omnia ad vitam 
+      ete<lb ed="#P" n="147" break="no"/>nam proficientia vt in symbolo Athanasii. Quicumque 
+      vuli<lb ed="#P" n="148" break="no"/>saluus esse. et. xxiiii. q. prima Hec est fides. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e321">
+                  <lb ed="#P" n="149"/>¶ Et sunt. xiiii. articuli. septem respicientes diuinitatem. 
+      <lb ed="#P" n="150"/>Nam aut diuina essentia respicitur in se: et tunc est ille 
+      ar<lb ed="#P" n="151" break="no"/>ticulus singularis. Credo in deum. Aut respiciuntur 
+      di<lb ed="#P" n="152" break="no"/>uine essentie tres persone. et tunc sunt tres articuli vnus 
+      <lb ed="#P" n="153"/>scilicet respectu patris scilicet / Credo in deum patrem 
+      omnipoten<lb ed="#P" n="154" break="no"/>tem. Alter respectu filii. Et in Iesum christum filium eius 
+      <lb ed="#P" n="155"/>vnicum dominum nostrum. Alter etiam respectu spiritus 
+      <lb ed="#P" n="156"/>sancti. Credo in deum spiritum sanctum. 
+      <!--cod-gh333a-0143.xml-->
+      <pb ed="#P" n="10-v"/>
+                  <cb ed="#P" n="a"/>
+               </p>
+               <p xml:id="nyf6td-d1e68-d1e347">
+                  <lb ed="#P" n="1"/>¶ Authuius articuli respiciunt diuinel essentie opera. 
+      <lb ed="#P" n="2"/>tiones quarum vna est in collatione nature: et hec est 
+      crea<lb ed="#P" n="3" break="no"/>tio suum habens articulum / scilicet Credo in creatorem 
+      celi<lb ed="#P" n="4" break="no"/>terre. Altera est in collatione gratie: et hec est sanctificatio 
+      <lb ed="#P" n="5"/>habens suum articulum / scilicet vnam sanctam ecclesiam 
+      <lb ed="#P" n="6"/>catholicam sanctorum communionem remissionem peccatorum 
+      <lb ed="#P" n="7"/>Altera vero est in collatione glorie / et hec est gloriosa 
+      re<lb ed="#P" n="8" break="no"/>suscitatio habens suum articulum / scilicet carnis 
+      resurre<lb ed="#P" n="9" break="no"/>ctionem vitam eternam Amen. Unde versus. Essen. persone 
+      <lb ed="#P" n="10"/>naturaque gratia glori. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e371">
+                  <lb ed="#P" n="11"/>¶ Similiter septem articuli accipiuntur respectu huma / 
+      <lb ed="#P" n="12"/>nitatis christi: iuxta septem actus principales quos ad 
+      <lb ed="#P" n="13"/>nostram reparationem ordinauit christus. Quorum 
+      pri<lb ed="#P" n="14" break="no"/>mus fuit incarnari / habens suum articulum: qui conce¬¬ 
+      <lb ed="#P" n="15"/>ptus est de spiritu sancto.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e385">
+      ¶ Secundus fuit nasci/ 
+      ha<lb ed="#P" n="16" break="no"/>bens hunc articulum: scilicet natus ex virgine maria 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e390">
+                  <lb ed="#P" n="17"/>¶ Tertius fuit pro nobis precium soluere / habens hunc 
+      ar<lb ed="#P" n="18" break="no"/>ticulum / passus sub pontio d pilato crucifixus mortuus et 
+      <lb ed="#P" n="19"/>sepultus.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e399">
+      ¶ Quartus fuit infernum spoliare habens hunc 
+      <lb ed="#P" n="20"/>articulum / descendit ad inferos.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e404">
+      ¶ Quintus fuit de 
+      mor<lb ed="#P" n="21" break="no"/>te triumphare / habens hunc articulum / tertia die resurrexit 
+      <lb ed="#P" n="22"/>a mortuis.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e411">
+      ¶ Sextus fuit celestia transcendere / habens 
+      <lb ed="#P" n="23"/>hunc articulum Ascendit ad celos: sedet ad dexteram patris. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e416">
+                  <lb ed="#P" n="24"/>¶ Septimus erit venire ad iudicum / habens hunc 
+      articu<lb ed="#P" n="25" break="no"/>lum / inde venturus est iudicare viuos et mortuos. Unde 
+      <lb ed="#P" n="26"/>versus. Concipi / nas. pati. des. surgit et as. veniet. Et dicta 
+      <lb ed="#P" n="27"/>sufficientia articulorum accipitur ex parte cause materialis 
+      <lb ed="#P" n="28"/>Si vero accipiatur ex parte cause efficientis: tunc sunt 
+      <lb ed="#P" n="29"/>xxii. articuli seu particule in symbolo apostolorum predicto 
+      <lb ed="#P" n="30"/>Ita quod princeps apostolorum dixit. Credo in deum patrem 
+      om<lb ed="#P" n="31" break="no"/>nipotentem e creatorem celi et terre / Inde Andreas subiumxit 
+      <lb ed="#P" n="32"/>Et in iesum christum filium eius vnicum dominum nostrum. Hine 
+      <lb ed="#P" n="33"/>Iohannes: qui conceptus est de spiritu sancto natus ex 
+      <lb ed="#P" n="34"/>maria virgine / Inde Iacobus maior / passus sub pontio 
+      pi<lb ed="#P" n="35" break="no"/>lato crucifixus mortuus et sepultus / Inde Thomas / 
+      des<lb ed="#P" n="36" break="no"/>cendit ad inferos tertia die resurrexit a mortuis. Inde 
+      <lb ed="#P" n="37"/>Iacobus minor / ascendit ad celos: sedet ad dexteram dei 
+      <lb ed="#P" n="38"/>patris omnipotentis. Inde Philippus. Inde venturus 
+      <lb ed="#P" n="39"/>iudicare viuos et mortuos. Inde Bartholomeus. Credo 
+      <lb ed="#P" n="40"/>in spiritum sanctum. Inde Mattheus sanctamr ecclesiam 
+      ca<lb ed="#P" n="41" break="no"/>tholicam: s et est sensus credo in spiritum sanctum 
+      sanctifi<lb ed="#P" n="42" break="no"/>cantem vniuersalem ecclesiam. Inde Simon cananeus: 
+      san<lb ed="#P" n="43" break="no"/>ctorum communionem remissionem peccatorum. Inde Iudas 
+      <lb ed="#P" n="44"/>Thadeus: carnis resurrectionem. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e465">
+                  <lb ed="#P" n="45"/>¶ Et est sensus credo quod deus resuscitabit ipsam carnem 
+      hu<lb ed="#P" n="46" break="no"/>manam. Ultimo mathias apposuit vitam eternam. Amen. 
+      <lb ed="#P" n="47"/>Et hec fides dicitur catholica id est recta vel vniuersalis. 
+      <lb ed="#P" n="48"/>Nam catholicon grece id est rectum vel vniuersale latinc¬ 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e476">
+                  <lb ed="#P" n="49"/>¶ Et secundum Isidorum: fides est quod veraciter 
+      credi<lb ed="#P" n="50" break="no"/>mus id quod nequaquam videre valemus: Inde dicta fides 
+      <lb ed="#P" n="51"/>vt fiat omnino quod dictum est aut promissum. de peni. d. iiii. 
+      <lb ed="#P" n="52"/>c. In domo. Io. Mo. car.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e68-Dd1e488" type="et-sextus-l1t1-c1"><!-- mo-l1t1-c1" -->
+               <head xml:id="nyf6td-d1e68-Hd1e491">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e68-d1e493">
+                  <lb ed="#P" n="88" type="fixed=11-r"/>
+                  <quote xml:id="nyf6td-d1e68-Qd1e497">Fideli</quote>. hoc. c. tria dicit 
+      Pr<lb ed="#P" n="89" break="no"/>mo processionem 
+      spi<lb ed="#P" n="90" break="no"/>ritus sancti narrat. Secunde 
+      <lb ed="#P" n="91"/>eam narratam firmat ibi 
+      he<lb ed="#P" n="92" break="no"/>professa est. Tertio contrarium 
+      <lb ed="#P" n="93"/>senti entes codemnat ibi sed 
+      <lb ed="#P" n="94"/>quia dicit igitur fideli hec 
+      <lb ed="#P" n="95"/>verba sunt. C. de his qui ad 
+      <lb ed="#P" n="96"/>eccle. confug. l. fideli: et 
+      de<lb ed="#P" n="97" break="no"/>bent intelligi abnegatiue id est 
+      <lb ed="#P" n="98"/>non simulate sed sincere / non 
+      <lb ed="#P" n="99"/>dolose: sed pure: et simplici. 
+      <lb ed="#P" n="100"/>ter / non dubie: sed 
+      firmiter<lb ed="#P" n="101" break="no"/>rimo infra de hereti. c. i professione 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e528">
+                  <lb ed="#P" n="102"/>¶ Notandum quod fatemur coacti / vnde fateor id est fari tenec 
+      <lb ed="#P" n="103"/>or. Sed confitemur voluntarii sed profitemur aliquid 
+      spon<lb ed="#P" n="104" break="no"/>dentes.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e537">
+      ¶ Sic dicitur quod habitus non facit monachum l 
+      <lb ed="#P" n="105"/>sed professio regularis infra de regulari. ex parte. et etiam fit 
+      pre<lb ed="#P" n="106" break="no"/>fessio in baptismate de conse. di. iiii. paruuli. Et etiam fit 
+      <lb ed="#P" n="107"/>professio quando electus in episcopum est consecratus. xxiii. 
+      di<lb ed="#P" n="108" break="no"/>qui episcopus ordinandus est. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e548">
+                  <lb ed="#P" n="109"/>¶ Et est profiteri porro fateri seu pro aliqua secta fateri 
+      <lb ed="#P" n="110"/>nec hic secta accipitur a secando sed a sectando quia est 
+      fre<lb ed="#P" n="111" break="no"/>quentatiuum de sequor Eternaliter 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e558">
+                  <lb ed="#P" n="112"/>¶ Eternitas est interminabilis vite possessio. tota 
+      si<lb ed="#P" n="113" break="no"/>mul vt ait Boetius: et dicta tota simul quia in ea non 
+      ca<lb ed="#P" n="114" break="no"/>dit prius et posterius: et sic nec successio que fit in his quo 
+      <lb ed="#P" n="115"/>tempore mensurantur Ex patre et filio. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e569">
+                  <lb ed="#P" n="116"/>¶ Sed nunquid hoc dicebatur in nicene synodi symbolo: 
+      <lb ed="#P" n="117"/>quod cantatur in missa ibi: qui ex patre filioque procedit. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e576">
+                  <lb ed="#P" n="118"/>¶ Sed dic quod hic expressius modum processionis notat. Et 
+      <lb ed="#P" n="119"/>hec verba filioque: non erant in concilio niceno: vt liquet. ia. 
+      <lb ed="#P" n="120"/>sententiarum di. xi. non tanquam duobus principiis. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e585">
+                  <lb ed="#P" n="121"/>¶ Quia pater et filius spirant spiritum sanctum: sicur 
+      <lb ed="#P" n="122"/>vnum spirandi principium non duo principia: vnde conue 
+      <lb ed="#P" n="123"/>niunt non solum in vna essentia in qua conuenit: etiam cum 
+      <lb ed="#P" n="124"/>eis spiritus sanctus. sed etiam inspiratione actiua: que est 
+      <lb ed="#P" n="125"/>notio communis patri et filio: que non conuenit. spiritui 
+      san<lb ed="#P" n="126" break="no"/>cto cui conuenit spirari seu procedere non spirare 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e601">
+                  <lb ed="#P" n="127"/>¶ Nam spirare spiritum sanctum. est actio non esentialis: 
+      <lb ed="#P" n="128"/>quia sic conueniret spirituisancto: sed notionalis que non 
+      <lb ed="#P" n="129"/>conuenit spiritui sancto: sed tantum patri et filio tanquam 
+      vni<lb ed="#P" n="130" break="no"/>spirandi principio. et ideo subiicit expositiue id est non duabus 
+      <lb ed="#P" n="131"/>spirationibus: non tam propter vnitatem essentie quam 
+      pro<lb ed="#P" n="132" break="no"/>pter vnitatem notionis scilicet actiue spirationis in 
+      patre<lb ed="#P" n="133" break="no"/>et filio communis non duabus spirationibus. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e619">
+                  <lb ed="#P" n="134"/>¶ Quia actiua spiratio patris et filii: est vna et eadem 
+      no<lb ed="#P" n="135" break="no"/>tio communis patri et filio: sicut operationes essentiales. 
+      <lb ed="#P" n="136"/>sunt tribus personis communes. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e629">
+                  <lb ed="#P" n="137"/>¶ Sunt enim inseparabilia opera trinitatis. de conse. 
+      di<lb ed="#P" n="138" break="no"/>iii. c. vltimo. in fi. xxviii. q. i. c. sic enim. licet quedam opera. 
+      <lb ed="#P" n="139"/>tiones attribuantur patri: quedam filio: quedam spiritui 
+      san<lb ed="#P" n="140" break="no"/>cto: vt in predictis. c. continetur. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e640">
+                  <lb ed="#P" n="141"/>¶ Sed contra: Pater et filius sunt duo supposita / et actus 
+      <!--cod-gh333a-0145.xml-->
+      <pb ed="#P" n="11-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>secundum philosophum sunt suppositorum: et secundum 
+      <lb ed="#P" n="2"/>plurificationem suppositorum habetur plurificatio actuum. 
+      <lb ed="#P" n="3"/>Et sic erunt duo principia et due spirationes.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e658">
+      ¶ Sol. 
+      pluri<lb ed="#P" n="4" break="no"/>ficatio actuum dependet a duobus: scilicet a ratione agendoa 
+      <lb ed="#P" n="5"/>principaliter / et secundario a supposito.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e665">
+      ¶ Si ergo 
+      suppo<lb ed="#P" n="6" break="no"/>sita agentia sunt plura et rationes agendi sunt plures 
+      se<lb ed="#P" n="7" break="no"/>quitur quod actiones sunt plures sicut patet quod generationes. 
+      <lb ed="#P" n="8"/>plurium hominum sunt plures. Et quia supposita sunt plura 
+      <lb ed="#P" n="9"/>et potentia generatiua plurificatur in eis.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e676">
+      ¶ Si vero 
+      sup<lb ed="#P" n="10" break="no"/>posita sunt plura et ratio agendi sit vna actio non erit nisi. 
+      <lb ed="#P" n="11"/>vna. Uerbi gratia. Pater et filius / et spiritus sanctus / sunt 
+      <lb ed="#P" n="12"/>tria supposita.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e685">
+      ¶ Quia cum potentia creatiua est vna: in eis 
+      <lb ed="#P" n="13"/>actus creationis non est nisi vnus / in proposito ergo. Dico. 
+      <lb ed="#P" n="14"/>quod nater et filius sunt duo supposita: quia tamen potentia 
+      seu<lb ed="#P" n="15" break="no"/>ratio spiratiua est vna et eadem in eis. Iam non est nisi vna 
+      <lb ed="#P" n="16"/>spiratio.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e697">
+      ¶ Et dico quod pater et filius ratione suppositi 
+      spi<lb ed="#P" n="17" break="no"/>rant vt duo: sed considerata ratione agendi: spirant vt vnum 
+      <lb ed="#P" n="18"/>hoc scilicet quod superius est narratum Mater) notatur. 
+      <lb ed="#P" n="19"/>supra. in prin. prohemiiortodoxorum. Recte gloriantium. 
+    </p>
+               <p xml:id="nyf6td-d1e68-d1e706">
+                  <lb ed="#P" n="20"/>¶ Nam ortos rectum: et doxos gloria scilicet christiano. 
+      <lb ed="#P" n="21"/>rum: qui soli recte gloriantur grecorum hoc videtur 
+      fal<lb ed="#P" n="22" break="no"/>sum: quia greci in symbolo nicene synodi habent qui ex 
+      pa<lb ed="#P" n="23" break="no"/>tre procedit.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e717">
+      ¶ Sed dic grecorum quorumdam vt Atanasit: 
+      <lb ed="#P" n="24"/>et Cirili et quorundam aliorum.
+     </p>
+               <p xml:id="nyf6td-d1e68-d1e722">
+      ¶ Uel dici quod in concilio 
+      lud<lb ed="#P" n="25" break="no"/>dunensi omnes greci per nuncios proprios in hanc 
+      sen<lb ed="#P" n="26" break="no"/>tentiam consenserunt premisse) in prin. huius. c. Nam 
+      ex<lb ed="#P" n="27" break="no"/>tirpato errore quod spiritus sanctus a solo patre procedat. vt 
+      <lb ed="#P" n="28"/>de conse. di. v. saluator / et in symbolo atanasii et nicene 
+      syno<lb ed="#P" n="29" break="no"/>di ids. quidem in varios errores inciderunt: scilicet quod 
+      spiri<lb ed="#P" n="30" break="no"/>tus sanctus a patre et filio non procederet eternaliter: et quod 
+      <lb ed="#P" n="31"/>procedebat ab eis tanquam a duobus principiis et 
+      dua<lb ed="#P" n="32" break="no"/>bus spirationibus: qui errores hic damnantur. Io. mo. car. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 3</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 3</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="340-v"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1344" type="et-sextus-l4t3"><!-- mo-l4t3"
+              -->
+            <head xml:id="nyf6td-d1e1344-Hd1e101">Titulus 3</head>
+            <div xml:id="nyf6td-d1e1344-Dd1e103" type="et-sextus-l4t3-rubric"><!-- mo-l4t3-rubric" -->
+               <head xml:id="nyf6td-d1e1344-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1344-d1e108">
+                  <lb ed="#P" n="38" type="fixed=340-r"/>DIcto de vno impedimento matrimonii vt de 
+      impu<lb ed="#P" n="39" break="no"/>bertate: nunc prosequitur de alio a. Ioannes Mona 
+      <lb ed="#P" n="40"/>chus Cardinalis:
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1344-Dd1e118" type="et-sextus-l4t3-c1"><!-- mo-l4t3-c1" -->
+               <head xml:id="nyf6td-d1e1344-Hd1e121">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1344-d1e123">
+                  <lb ed="#P" n="45" type="fixed=340-v"/>NEdum. Hcc decretalism 
+      rabettnati<lb ed="#P" n="46" break="no"/>cia. prisio reguiam que et 
+      quosn<lb ed="#P" n="47" break="no"/>cognationes spirituales contrahentur 
+      ex<lb ed="#P" n="48" break="no"/>suscipiente aliquem in baptismo  ponit 
+      <lb ed="#P" n="49"/>Secundo. §. et eadem hoc idem ad 
+      bap<lb ed="#P" n="50" break="no"/>tisantem extendit. Tertio. §. ex 
+      confir<lb ed="#P" n="51" break="no"/>matione) in suscipientem in confirmatio 
+      <lb ed="#P" n="52"/>ne / et confirmante idem esse asserit filios. supra eo veniens 
+      <lb ed="#P" n="53"/>ab eodem. supra eo. martinus. et. c. veniens censenda. supra eo. 
+      <lb ed="#P" n="54"/>ex literis contracta de consecra. dist. iiii. non plures. Iod 
+      <lb ed="#P" n="55"/>an. Mona. Cardinalis. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1344-Dd1e150" type="et-sextus-l4t3-c2"><!-- mo-l4t3-c2" -->
+               <head xml:id="nyf6td-d1e1344-Hd1e153">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e1344-d1e155">
+      <!--cod-gh333a-0814.xml-->
+                  <pb ed="#P" n="341-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1" type="fixed=341-r"/>DE cathecismum. Illa que 
+      <lb ed="#P" n="2"/>procedunt 
+      <lb ed="#P" n="3"/>baptismum in cathecismo / 
+      impe<lb ed="#P" n="4" break="no"/>diunt matrimonium 
+      contrahen<lb ed="#P" n="5" break="no"/>dum sed non dirimunt iam contro 
+      <lb ed="#P" n="6"/>ctum: simile supra hoc lib. de vo. 
+      <lb ed="#P" n="7"/>to. capi. vno. supra de iureturan. cap. 
+      <lb ed="#P" n="8"/>quemadmodum 
+    </p>
+               <p xml:id="nyf6td-d1e1344-d1e181">
+                  <lb ed="#P" n="9"/>¶ Et dicitur cathecismus a 
+      <lb ed="#P" n="10"/>cathetizo quod idem est instruo 
+      <lb ed="#P" n="11"/>seu doceo presertim in fide: vnde 
+      <lb ed="#P" n="12"/>apostolus Gala. vi. communicet his qui cathetizatur vel 
+      <lb ed="#P" n="13"/>bo dei / qui cathetizat id est instruit se in omnibus bonis. vnd. 
+      <lb ed="#P" n="14"/>cathecismus id est instructio seu doctrina: et de hac doctrina 
+      <lb ed="#P" n="15"/>seu instructione habetur de consecra. distin. iiii. 
+      cathecismi<lb ed="#P" n="16" break="no"/>fundamentum supra de presbytero non bap. vensens. in prin. 
+    </p>
+               <p xml:id="nyf6td-d1e1344-d1e201">
+                  <lb ed="#P" n="17"/>¶ Est enim baptismus primus et magis necessarius 
+      in<lb ed="#P" n="18" break="no"/>ter sacramenta / et ob hoc merito ianua sacramentorum 
+      dice<lb ed="#P" n="19" break="no"/>tur. xxxii. dist. §. porro. in fine euidenter supra eo contracto 
+      <lb ed="#P" n="20"/>dicendo enim i. Clemens in. d. decretali / quod talis 
+      eto<lb ed="#P" n="21" break="no"/>Ioan. Mona. Cardinalis. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1344-Dd1e215" type="et-sextus-l4t3-c3"><!-- mo-l4t3-c3" -->
+               <head xml:id="nyf6td-d1e1344-Hd1e218">Capitulum 3</head>
+               <p xml:id="nyf6td-d1e1344-d1e220">
+                  <lb ed="#P" n="57" type="fixed=341-r"/>Vamuis. Hec decretalis habet trria 
+      dicta<lb ed="#P" n="58" break="no"/>primo ius antiquum narrat / et 
+      ad<lb ed="#P" n="59" break="no"/>t illud addit. Secundo. §. de confirmatione. 
+      <lb ed="#P" n="60"/>premissa ad confirmationem extendit. 
+      Ter<lb ed="#P" n="61" break="no"/>tio. §. ex datione dubium excludit. dicit ex 
+      <lb ed="#P" n="62"/>go instituta de consecra. dist. iiii. non plu¬ 
+      <!--cod-gh333a-0814.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="63"/>res. supra eo. sunt. xxx. quest. iiii. quod autem vxor si tamen 
+      <lb ed="#P" n="64"/>hic ad ius antiquum adiicit accesserint eundem puerum. 
+      <lb ed="#P" n="65"/>de sacro fonte insimul suscipientes contrahitur) inter 
+      su<lb ed="#P" n="66" break="no"/>scipientes et susceptum licet plures non debuerunt 
+      su<lb ed="#P" n="67" break="no"/>scipere. supra eodem. primo . nulla tamen cognatio 
+      spiri<lb ed="#P" n="68" break="no"/>tualis inter suscipientes contrahitur: cum hoc non 
+      repe<lb ed="#P" n="69" break="no"/>riaturc iure cautum. Et licet per susceptionem in 
+      bar<lb ed="#P" n="70" break="no"/>ptismo inueniam fraternitatem / verbi gratia. Ego bapti 
+      <lb ed="#P" n="71"/>zaui Petrum: vel suscepi de sacro fonte: iste est filius 
+      me<lb ed="#P" n="72" break="no"/>Et si habuero filium naturalem / vel filiam non potest 
+      con<lb ed="#P" n="73" break="no"/>trahi matrimonium inter istos. super eo. et. c. ex literis / quod 
+      <lb ed="#P" n="74"/>isti sunt fratres inter se / et filii respectu mei: vnde hoc casu 
+      <lb ed="#P" n="75"/>reperitur / et filiatio / et fraternitas respectu eiusdem patri: 
+      <lb ed="#P" n="76"/>spiritualis ex parte vna / et ex alia carnalis. Sed non 
+      repe<lb ed="#P" n="77" break="no"/>rio suscipientes ad inuicem coniunctos. supra eo. nedum 
+      ha<lb ed="#P" n="78" break="no"/>bendum idem in cathecismo de consecra. distin. quarta. in 
+      <lb ed="#P" n="79"/>cathecismo: et. c. sequen. oritur Sed que est ratio / dic quod 
+      <lb ed="#P" n="80"/>ista sunt prima et principalia sacramenta / vnde ista plus in 
+      <lb ed="#P" n="81"/>fluunt in causatum quam alia 
+    </p>
+               <p xml:id="nyf6td-d1e1344-d1e281">
+                  <lb ed="#P" n="82"/>¶ Sacramentum tamen eucharistie est excellentius. 5. 
+    </p>
+               <p xml:id="nyf6td-d1e1344-d1e286">
+                  <lb ed="#P" n="83"/>¶ Item in baptismo est spiritualis generatio vnde 
+      sab<lb ed="#P" n="84" break="no"/>uator ait: oportet vos nasci denuo: supra / de baptismo. 
+      ca<lb ed="#P" n="85" break="no"/>debitum: et ideo dicitur ibidem esse paternitas / et filiatio¬. 
+      <lb ed="#P" n="86"/>non sic oritur ex aliis sacramentis. Ioannes Monachus. 
+      <lb ed="#P" n="87"/>Cardinalis 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

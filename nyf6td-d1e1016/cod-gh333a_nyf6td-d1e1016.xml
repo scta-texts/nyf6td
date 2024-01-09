@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 11</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 11</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="307-v"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1016" type="et-sextus-l3t11"><!-- mo-l3t11"
+              -->
+            <head xml:id="nyf6td-d1e1016-Hd1e101">Titulus 11</head>
+            <div xml:id="nyf6td-d1e1016-Dd1e103" type="et-sextus-l3t11-rubric"><!-- mo-l3t11-rubric" -->
+               <head xml:id="nyf6td-d1e1016-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1016-d1e108">
+                  <lb ed="#P" n="111" type="fixed=307-r"/>VIso de fus Quibus nobis 
+      pro<lb ed="#P" n="112" break="no"/>uideturl in vita: 
+      sequn<lb ed="#P" n="113" break="no"/>stur videre de prouisionibus quo 
+      <lb ed="#P" n="114"/>habent exitum post mortem: vnde 
+      sub<lb ed="#P" n="115" break="no"/>dit de testamentis etc. apra. 
+    </p>
+               <p xml:id="nyf6td-d1e1016-d1e121">
+                  <lb ed="#P" n="116"/>¶ Et dici quod testamentum est iust. 
+      <lb ed="#P" n="117"/>sententia voluntatis nostre de eo quod 
+      <lb ed="#P" n="118"/>post mortem nostram (herede 
+      insti<lb ed="#P" n="119" break="no"/>tuto) fieri volumus. ff. eo l. i. Et 
+      si<lb ed="#P" n="120" break="no"/>ciusta non fuerit non tenet. ff. de 
+      condi<lb ed="#P" n="121" break="no"/>tio. insti. quidam de lega ilcet si quis 
+      <lb ed="#P" n="122"/>nquilino sr. § pe. in fine 
+    </p>
+               <p xml:id="nyf6td-d1e1016-d1e139">
+                  <lb ed="#P" n="123"/>¶ Et est testamentum mentis testatio / et tunc omnem vli 
+      <lb ed="#P" n="124"/>timam voluntatem  comprehendit inst. eo. in prin. Io. Mo. Car.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1016-Dd1e147" type="et-sextus-l3t11-c1"><!-- mo-l3t11-c1" -->
+               <head xml:id="nyf6td-d1e1016-Hd1e150">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1016-d1e152">
+      <!--cod-gh333a-0748.xml-->
+                  <pb ed="#P" n="308-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1" type="fixed=308-r"/>SI pater filium, Hec decreta 
+      <lb ed="#P" n="2"/>lis sumpta est 
+      <lb ed="#P" n="3"/>de decre. Inno. iiii. que 
+      incipie<lb ed="#P" n="4" break="no"/>bat Ioannes / et illa visa hec 
+      in<lb ed="#P" n="5" break="no"/>telligi poterit leuius. Et vere 
+      <lb ed="#P" n="6"/>obscurus fio cum breuis esse 
+      <lb ed="#P" n="7"/>volo b.
+     </p>
+               <p xml:id="nyf6td-d1e1016-d1e176">
+      ¶ Et hec habet tria 
+      di<lb ed="#P" n="8" break="no"/>cta. Primum dubium surgens ex 
+      te<lb ed="#P" n="9" break="no"/>stamento decidit. Secundo versum 
+      <lb ed="#P" n="10"/>cu. premisse. et Tertio. §. licet. 
+      <lb ed="#P" n="11"/>duas argumentationes que fic 
+      <lb ed="#P" n="12"/>ri possent contra dictam decisionem dissoluit. Ecce primum 
+      <lb ed="#P" n="13"/>impuberes masculus est impubes vsque ad. xiiii. annum. 
+      <lb ed="#P" n="14"/>mulier vsque ad. xii. annum insti. quib. mod. tutel. fini. insti. de 
+      <lb ed="#P" n="15"/>pupil. substitu. § substituitur heredes. 
+    </p>
+               <p xml:id="nyf6td-d1e1016-d1e196">
+                  <lb ed="#P" n="16"/>¶ Et sic io. vbi vnus de liberis est institutus simplici. 
+      <lb ed="#P" n="17"/>ter / et alter ex certa re / ambo sunt heredes vt hic et. supra eod. 
+      <lb ed="#P" n="18"/>raynutius. Et si isti ex re certa institutio deest: aliud de 
+      le<lb ed="#P" n="19" break="no"/>gitima portione suppletur vt cesset querela in officio 
+      sa<lb ed="#P" n="20" break="no"/>testamenti in auten. vt cum de appel. cog. §. aliud quoque et § 
+      <lb ed="#P" n="21"/>ceterum / col. viii.
+     </p>
+               <p xml:id="nyf6td-d1e1016-d1e212">
+      ¶ Uerum si non est ex liberis loco legata 
+      <lb ed="#P" n="22"/>rii habetur institutus in re certa et alter simpliciter 
+      instu<lb ed="#P" n="23" break="no"/>tutus: erit omnium heres. C. de hered. iiisti. quotiens / et 
+      ho<lb ed="#P" n="24" break="no"/>res aliquando donatarium vel legatarium representat 
+      <lb ed="#P" n="25"/>ff. de verbo. significatio l. in conuentionibus 
+    </p>
+               <p xml:id="nyf6td-d1e1016-d1e224">
+                  <lb ed="#P" n="26"/>¶ Sed si vnus solus est institutus in re certa: erit heres 
+      <lb ed="#P" n="27"/>simpliciter. ff. de heredi. insti l. prima §. si ex fundo / et l. si ita 
+      <lb ed="#P" n="28"/>quis heres.
+     </p>
+               <p xml:id="nyf6td-d1e1016-d1e233">
+      ¶ Sed si instituti sunt plures in certis 
+      re<lb ed="#P" n="29" break="no"/>bus / erunt pro virilibus heredes nisi in casu vbi sunt duo 
+      <lb ed="#P" n="30"/>coniunctim / et alter diuisim. ff. de heredi. instituen. si 
+      alteri<lb ed="#P" n="31" break="no"/>us / et l. sequen. isti tamen fundos in quibus sunt instituti 
+      ha<lb ed="#P" n="32" break="no"/>bebunt ratione perceptionis. ff. de heredib. instituen l. ex 
+      <lb ed="#P" n="33"/>facto ii. respon. adiiciens hic tangit modum instituendi ex 
+      <lb ed="#P" n="34"/>quo postmodum dubium surgit vna cum facto / quod 
+      emerse<lb ed="#P" n="35" break="no"/>rit post mortem testatoris / vt infra eo. ver. testatore filie 
+      mo<lb ed="#P" n="36" break="no"/>reretur id est ad opus filie / hoc est dictu quod hereditas  
+      fi<lb ed="#P" n="37" break="no"/>ii directe ac immediate ad filiam deueniret / et econtra. Nam 
+      <lb ed="#P" n="38"/>si mater esset media in successione. Iam non moreretur 
+      fi<lb ed="#P" n="39" break="no"/>lius filiec directo / sed mater absque vsque huc est constitutio 
+      <lb ed="#P" n="40"/>suspensiua / et hic deciditur dubium ex dictis duobus 
+      emen<lb ed="#P" n="41" break="no"/>gens trebellianice  que debetur quando rogatus 
+      re<lb ed="#P" n="42" break="no"/>stituere hereditatem adiit sponte non coactus. ff. ad trebel. 
+      <lb ed="#P" n="43"/>quia poterat / et. C. ad trebel l. i. et. l. non iusta debite. Olim. 
+      <lb ed="#P" n="44"/>fuit illa quarta. Hodie si sunt quatuor liberi / vel 
+      paucio<lb ed="#P" n="45" break="no"/>res / tertia pars hereditatis: si vero plures est dimidia. C 
+      <lb ed="#P" n="46"/>de in offic. testamen. parentibus / et l. omnimodo / et l. 
+      sequen<lb ed="#P" n="47" break="no"/>et sequen. et auten. nouissima. 
+    </p>
+               <p xml:id="nyf6td-d1e1016-d1e277">
+                  <lb ed="#P" n="48"/>¶ Et de istis quartis ac distinctione substitutionum not. 
+      <lb ed="#P" n="49"/>supra eo. raynutius / et capitu. raynaldus / et insti. de pupil. 
+      sub<lb ed="#P" n="50" break="no"/>sti. §. primo pauperibus. Et sic instituere non est hero 
+      <lb ed="#P" n="51"/>dem incertum facere / sed talis institutio firma manet. C. de 
+      <lb ed="#P" n="52"/>episco. et cleri. id quod pauperibus / et l. nulli / et l. si quis ad 
+      <lb ed="#P" n="53"/>declinandam. §. primo premisse hic respondet tacite 
+      que<lb ed="#P" n="54" break="no"/>stioni seu argumentationi que insurgit ex decisione que 
+      st<lb ed="#P" n="55" break="no"/>tim precessit. 
+    </p>
+               <p xml:id="nyf6td-d1e1016-d1e297">
+                  <lb ed="#P" n="56"/>¶ Nam si dicte partes competant matri que succedit liber 
+      <lb ed="#P" n="57"/>ris decedentibus siue filiis iure communi / non omnia 
+      bo<lb ed="#P" n="58" break="no"/>na filii et filie pauperibus deferuntur. Sed hic respondet. 
+      <lb ed="#P" n="59"/>quia mater dictis filio et filie hoc casu non succedit / sed 
+      di<lb ed="#P" n="60" break="no"/>cti pauperes vt hic vulgaris substitutio et pupillaris 
+      dir<lb ed="#P" n="61" break="no"/>cte intelliguntur / non oblique que fit per fideicommissum. 
+      <lb ed="#P" n="62"/>Nam cum verba testatoris sint generalia / vt in ver. 
+      mo<lb ed="#P" n="63" break="no"/>reretur intelligenda sunt illa in casu in quo competunt 
+      vel<lb ed="#P" n="64" break="no"/>bis et personis institutis. C. de testamen. milita. in testamen 
+      <lb ed="#P" n="65"/>to / et de impuber. et aliis substitutio l. prima / et l. quamuis / et. l. 
+      <lb ed="#P" n="66"/>precibus. ff. de vulga. et pupilla. subst. Iam hoc iure in 
+      prin<lb ed="#P" n="67" break="no"/>argu. op. ff de regu. iur. quotiens sermo trahatur ff. ad 
+      <lb ed="#P" n="68"/>trebellia. sceuola insti. de pupil. substi. §. vlti. licet respon. 
+      <lb ed="#P" n="69"/>det tacite questioni que fieri posset contra predictam 
+      de<lb ed="#P" n="70" break="no"/>cisionem.
+     </p>
+               <p xml:id="nyf6td-d1e1016-d1e332">
+      ¶ Nam si filius portione debita iure nature 
+      mo<lb ed="#P" n="71" break="no"/>trem priuare non potest que succedit filie ex testamento 
+      ve<lb ed="#P" n="72" break="no"/>ab intestato. C. ad tertulia l. mater. Ergo omnia bona filis 
+      <lb ed="#P" n="73"/>non deuenient ad pauperes / quod tamen dicebat dicta de 
+      <lb ed="#P" n="74"/>cisio.
+     </p>
+               <p xml:id="nyf6td-d1e1016-d1e343">
+      ¶ Sed predicta intelligunt nisi filius testatus 
+      vel<lb ed="#P" n="75" break="no"/>ab intestato decedat / quod non est hic. Quia dicti 
+      pau<lb ed="#P" n="76" break="no"/>peres non succedunt filio et filie nisi ex testamento 
+      patet<lb ed="#P" n="77" break="no"/>no vt sequitur pupillari id est quod pater fecit 
+      impube<lb ed="#P" n="78" break="no"/>ri qui est futurus heres pupillus post obitum patris 
+      cen<lb ed="#P" n="79" break="no"/>sendum) insti. de pupil. substi l. liberis. ff. de vulga. et 
+      pupil<lb ed="#P" n="80" break="no"/>patris. et l. qui plures liberos in fine. ff. de in offi. testa l. 
+      pa<lb ed="#P" n="81" break="no"/>pinianus. § si nec impuberis. Ioan. Mona. Cardi.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1016-Dd1e362" type="et-sextus-l3t11-c2"><!-- mo-l3t11-c2" -->
+               <head xml:id="nyf6td-d1e1016-Hd1e365">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e1016-d1e367">
+      <!--cod-gh333a-0754.xml-->
+                  <pb ed="#P" n="311-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1" type="fixed=311-r"/>REligiosus, vhec decretaliba. 
+      <lb ed="#P" n="2"/>bet duo dicta. 
+      Ecce<lb ed="#P" n="3" break="no"/>primum non habeat supra hoc libro 
+      <lb ed="#P" n="4"/>de elect. quam sit et scilicet si religiosus 
+      <lb ed="#P" n="5"/>et. supra hoc libr. de tempore ordinam 
+      <lb ed="#P" n="6"/>cum nullus 
+    </p>
+               <p xml:id="nyf6td-d1e1016-d1e389">
+                  <lb ed="#P" n="7"/>¶ Sed quid si monasterium 
+      va<lb ed="#P" n="8" break="no"/>cat / dic negotium differendum an 
+      <lb ed="#P" n="9"/>gu. supra de officio delega. 
+      quo<lb ed="#P" n="10" break="no"/>niam abbas. 
+    </p>
+               <p xml:id="nyf6td-d1e1016-d1e400">
+                  <lb ed="#P" n="11"/>¶ Sed quid si diu differtur 
+      pro<lb ed="#P" n="12" break="no"/>uisio monasterii propter litem pendentem: dic Papam 
+      con<lb ed="#P" n="13" break="no"/>sulendum qui solus potest ius ab eo constitutum im ¬ 
+      <lb ed="#P" n="14"/>mutare supra hoc libro de rescriptis statutum. pri. 
+      respon<lb ed="#P" n="15" break="no"/>so. obtenta. 
+    </p>
+               <p xml:id="nyf6td-d1e1016-d1e413">
+                  <lb ed="#P" n="16"/>¶ Sed quare hic requiritur obtinere licentiam / nec 
+      suffi<lb ed="#P" n="17" break="no"/>cit petere vt d. c. si religiosus adimplere contrarium est 
+      <lb ed="#P" n="18"/>verum regulariter. supra hoc libro de procura. si duo in princ. 
+    </p>
+               <p xml:id="nyf6td-d1e1016-d1e423">
+                  <lb ed="#P" n="19"/>¶ Sed hoc fallit fauore anime vt in causis electionum 
+      <lb ed="#P" n="20"/>vt in. d. c. si duo. §. sane et fauore pupillorum. ff. de admi. 
+      tu<lb ed="#P" n="21" break="no"/>to. decreto. §. vltimo et fauore testantium vt hic / nisi 
+      expres<lb ed="#P" n="22" break="no"/>se testator aliud dixerit. Quia plus habet voluntas ra 
+      <lb ed="#P" n="23"/>expressa quam tacita argu. C. de nego. gest. l. finali. 
+      <lb ed="#P" n="24"/>Ioan. Mona. Cardina.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

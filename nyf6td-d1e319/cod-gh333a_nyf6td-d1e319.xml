@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 13</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 13</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="139-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e319" type="et-sextus-l1t13"><!-- mo-l1t13"
+              -->
+            <head xml:id="nyf6td-d1e319-Hd1e101">Titulus 13</head>
+            <div xml:id="nyf6td-d1e319-Dd1e103" type="et-sextus-l1t13-rubric"><!-- mo-l1t13-rubric" -->
+               <head xml:id="nyf6td-d1e319-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e319-d1e108">
+                  <lb ed="#P" n="11" type="fixed=139-r"/>¶ Dicto de electis: qui quandoque per alium administrant 
+      <lb ed="#P" n="12"/>et isti dicuntur vicarii: quia vices agunt aliorum. Ideo hic. 
+      <lb ed="#P" n="13"/>subiicitur de officio vicarii. Ioan. Mona. Cardi. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e319-Dd1e118" type="et-sextus-l1t13-c1"><!-- mo-l1t13-c1" -->
+               <head xml:id="nyf6td-d1e319-Hd1e121">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e319-d1e123">
+                  <lb ed="#P" n="73" type="fixed=139-r"/>ROmana. Hec decretalis 
+      ha<lb ed="#P" n="74" break="no"/>rbet tria dicta: 
+      Pri<lb ed="#P" n="75" break="no"/>mo statuit: secundo versicule 
+      <lb ed="#P" n="76"/>cum non statut ponit rationem / 
+      <lb ed="#P" n="77"/>lertio versic. ea tamen /
+     </p>
+               <p xml:id="nyf6td-d1e319-d1e136">
+      ¶ 
+      Respeon<lb ed="#P" n="78" break="no"/>det tacite questioni officialem 
+    </p>
+               <p xml:id="nyf6td-d1e319-d1e141">
+                  <lb ed="#P" n="79"/>¶ Qui cum episcopo habet idema 
+      <lb ed="#P" n="80"/>consistorium infra hoc lib. de appel. 
+      <lb ed="#P" n="81"/>Romana primo. Pso. Ideo ex 
+      <lb ed="#P" n="82"/>ercendo iurisdictionem 
+      episco<lb ed="#P" n="83" break="no"/>palem officiales in hoc 
+      subsun<lb ed="#P" n="84" break="no"/>limmediate archiepiscopis / vnde quo 
+      <lb ed="#P" n="85"/>sententiis eorundem ad archiepiscopos appellatur / vt de 
+      <lb ed="#P" n="86"/>cap. Romanat 
+      <lb ed="#P" n="87"/>Et ideo archiepiscopi animaduertere possunt in eosdem: 
+      <lb ed="#P" n="88"/>sicut in episcopos / verbi gratia: si non seruant priuilegia sedis 
+      <lb ed="#P" n="89"/>apostolice. 1fa de priuileg. quanto / vel si sententiam proferant 
+      <lb ed="#P" n="90"/>per pecuniam / et per gratiam vel per sordes infra hoc libro de 
+      <lb ed="#P" n="91"/>senten. et re iud. cum eterni. §. si quis / vel si excommunicat 
+      <lb ed="#P" n="92"/>sine scriptis infra hoc lib. quae sentem. cxcommunica. cum medicinalis et 
+      in<lb ed="#P" n="93" break="no"/>aliis casibus infra hoc lib. de sentem. ex communica. Romana. §. 
+      <lb ed="#P" n="94"/>e. et fi. et infra hoc lib. de pe. Romana. 
+    </p>
+               <p xml:id="nyf6td-d1e319-d1e178">
+                  <lb ed="#P" n="95"/>¶ Si vero officialis episcopi possidet / vel facit aliquid tamquam 
+      pri<lb ed="#P" n="96" break="no"/>uatus: non habet archiepiscopus se intromittere plusquam de aliis 
+      sub<lb ed="#P" n="97" break="no"/>ditis suffraganei sui infra hoc lio de for. compe. Romana. § nec etiam 
+      <lb ed="#P" n="98"/>et. §. fi. Et ideo ad inueniendum hanc praemissam distinctionem 
+      subii<lb ed="#P" n="99" break="no"/>citur  ex aliqua rationabili causa vt quia deliquit circa officium 
+      <lb ed="#P" n="100"/>omissum / vt est superius declaratum causa) aliter non est 
+      fe<lb ed="#P" n="101" break="no"/>renda excommunicationis sententia notatur infra hoc lib. de senten. 
+      ex<lb ed="#P" n="102" break="no"/>communica. cum medicinalis vices) in iudicando / citando / vel 
+      ad<lb ed="#P" n="103" break="no"/>ministrando / vel vices officialatus quem consueuit officialis 
+      <lb ed="#P" n="104"/>exercere comittendo vtpote quando aliquem ponit loco sui sicut hic 
+      <lb ed="#P" n="105"/>habet consuetudo communis ipsis scilicet officialis gerunt ex 
+      con<lb ed="#P" n="106" break="no"/>missione episcopi / non officialis: videns enim episcopus officialem suum 
+      excom<lb ed="#P" n="107" break="no"/>catum vices suas aliis committit: sed hic casus non esset dubius 
+      i<lb ed="#P" n="108" break="no"/>et quia tunc non gereret vicarius iste vices officialis sed 
+      episcopi<lb ed="#P" n="109" break="no"/>Et idleo dic gerunt excommissione officialis facta antequam et 
+      <lb ed="#P" n="110"/>set excommunicatus: secus si postea quia tunc non valeret 
+      iuris<lb ed="#P" n="111" break="no"/>ditionis commissio / nec processus vt dicit hic in fine. 
+    </p>
+               <p xml:id="nyf6td-d1e319-d1e218">
+                  <lb ed="#P" n="112"/>¶ Sed pone officialis commisit et post commissionem est 
+      excommun<lb ed="#P" n="113" break="no"/>catus qualiter valet processus istius delegati / cum non 
+      ha<lb ed="#P" n="114" break="no"/>beat iurisdictionem: sed alienam exequatur ff. de offi. eius 
+      <lb ed="#P" n="115"/>cui manda. est iurisdi l. prima. §. qui mandatum infra de offi. del. 
+      <lb ed="#P" n="116"/>ga. sane. ii. Et intellige hoc verum si excommunicetur officialis 
+      re<lb ed="#P" n="117" break="no"/>integra / cum tunc officialis non haberet exercitium 
+      iurisdu<lb ed="#P" n="118" break="no"/>tionis infra de re iudic. ad probandum. 
+    </p>
+               <p xml:id="nyf6td-d1e319-d1e236">
+                  <lb ed="#P" n="119"/>¶ Secus si litiscontestatio vel etiam citatio precessisset ex 
+      <lb ed="#P" n="120"/>communicationem: quia tunc perpetuata fuisset 
+      iurisditio<lb ed="#P" n="121" break="no"/>vnde potest delegatus vicarius / postea ipsam exercere 
+      are<lb ed="#P" n="122" break="no"/>infra de offi. delega. gratum et. c. licet et de offi. lega. c. vli. 
+    </p>
+               <p xml:id="nyf6td-d1e319-d1e247">
+                  <lb ed="#P" n="123"/>¶ Sed queritur quid fiet de aliis causis / in quibus 
+      cita<lb ed="#P" n="124" break="no"/>tio non precessit: dic ad episcopum recurrendum: quando ipse non 
+      <lb ed="#P" n="125"/>est ex communicatus 
+    </p>
+               <p xml:id="nyf6td-d1e319-d1e256">
+                  <lb ed="#P" n="126"/>¶ Sed pone in casu conuerso puta / episcopus est 
+      excom<lb ed="#P" n="127" break="no"/>municatus / dic quod nullus cognoscit preter papam qui hoc / 
+      <lb ed="#P" n="128"/>casu habet prouidere vt supra hoc libro de sup. neglig. prela. 
+      <lb ed="#P" n="129"/>Romana. Nec distinguo hoc casu / aut fuerunt cause cept 
+      <lb ed="#P" n="130"/>vel non / cum officialis personam episcopi representet / non 
+      <lb ed="#P" n="131"/>secontra. 
+    </p>
+               <p xml:id="nyf6td-d1e319-d1e272">
+                  <lb ed="#P" n="132"/>¶ Et quod dicitur idem consistorium est episcopi et 
+      officia<lb ed="#P" n="133" break="no"/>lis: pinguius tamen habet ius episcopus in iurisdictione 
+      <lb ed="#P" n="134"/>quam officialis. Nam episcopus caput est et fons iurisdictionis / 
+      <lb ed="#P" n="135"/>Officialis vero riuulus / qui a fonte procedit. Et ideo. 
+      <lb ed="#P" n="136"/>fons plusquam riuulus / debet attendi ar. lxxxvi. di. c. ieiunium: 
+      <lb ed="#P" n="137"/>vnde episcopus officialem / non econtra / mutare potest. et 
+      <lb ed="#P" n="138"/>ideo principali deficiente: deficit et accessorium: non 
+      econ<lb ed="#P" n="139" break="no"/>tra. ff. de regul. iur. cum principale. supra de elec. qualiter 1fa de 
+      <lb ed="#P" n="140"/>offi. delega. prudentiam. §. penulti. et vlti. propter hoc 
+      scil<lb ed="#P" n="141" break="no"/>cet quod gerunt vices officialis / procedendo in causis 
+      si<lb ed="#P" n="142" break="no"/>bi commissis ante excommunicationem vt est permissum 
+      <lb ed="#P" n="143"/>ex communicationis maioris vel minoris / nisi aliter cum 
+      <lb ed="#P" n="144"/>ipsis participen¬ 
+    </p>
+               <p xml:id="nyf6td-d1e319-d1e303">
+                  <lb ed="#P" n="145"/>¶ Sm si ab officiali reciperent comissionem isti vicarii / non 
+      propte<lb ed="#P" n="146" break="no"/>hoc ligantur maiori: se minmori / nisi in crimine participent. criminoso vt 
+      <!--cod-gh333a-0403.xml-->
+      <pb ed="#P" n="139-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>statim subiicit infra de senten. excommunic. nuper / et. c. si concubine. xi. q. 
+      <lb ed="#P" n="2"/>iii. quoniam multos ob id quod tantum vices eius gerunt qui sic 
+      con<lb ed="#P" n="3" break="no"/>strue: qui scilicet officialis non artatur districtione censure 
+      <lb ed="#P" n="4"/>ecclesiastice pro eo) etc. sed propter aliam causam: ergo a 
+      con<lb ed="#P" n="5" break="no"/>trario si esset excommunicatus / pro eo quod suum exercet officium. 
+      <lb ed="#P" n="6"/>accipiens tunc causas ab eo scienter / tunc participaret in 
+      cri<lb ed="#P" n="7" break="no"/>mine damnato: et sic maiori ligaretur vt est premissum. 
+    </p>
+               <p xml:id="nyf6td-d1e319-d1e333">
+                  <lb ed="#P" n="8"/>¶ Sed qualiter potest excommunicari pro eo quod suum exercet 
+      offi<lb ed="#P" n="9" break="no"/>cium. Dic quod si archiepiscopus excommunicauit episcopum / et sic debet 
+      ces<lb ed="#P" n="10" break="no"/>sare officialis vt est dictum: et ipse officialis audit 
+      nihilomi<lb ed="#P" n="11" break="no"/>nus causas / et monitus per archiepiscopum non abstinet: archiepiscopus 
+      <lb ed="#P" n="12"/>potest ipsum excommunicare / quia de facto contra iura: suum officiu 
+      <lb ed="#P" n="13"/>exercet / vel alia committit a in officio sibi commisso / vt dicttur 
+      <lb ed="#P" n="14"/>est ea tamen causa.
+     </p>
+               <p xml:id="nyf6td-d1e319-d1e351">
+      ¶ Expremissis videretur / quod vicarius 
+      <lb ed="#P" n="15"/>no ligatus posset iurisdictionem sibi commissam per officalem 
+      <lb ed="#P" n="16"/>exercere: sed hic respondetur quod non: sed hoc non est / quia sit 
+      ex<lb ed="#P" n="17" break="no"/>communicatus vicarius: sed propter excommunicationem officialis que 
+      <lb ed="#P" n="18"/>existens in committente / facit defectum in vicario cui 
+      commit<lb ed="#P" n="19" break="no"/>titur / et hic subiicit ipsi scilicet vicari officialium agant 
+      reci<lb ed="#P" n="20" break="no"/>piendo vices ab officiali ctaliter) id est propter aliam causam /sur 
+      <lb ed="#P" n="21"/>et non propter officialitatem quam exercet / vel dic taliter si cita 
+      <lb ed="#P" n="22"/>tio non precessisset excommunicationem / vt est dictum eodem 
+      officia<lb ed="#P" n="23" break="no"/>li de facto cum sint excommunicati / quia excommunicatus non habet 
+      exen<lb ed="#P" n="24" break="no"/>citium iurisdictionis / nec per se / nec per alium / nec potest excommunicare 
+      <lb ed="#P" n="25"/>nec iudicare / nec procurator constitui / nec constituere: nec 
+      ali<lb ed="#P" n="26" break="no"/>que actum legitimum exercere. xxiiii. q. i. audiuimus infra de 
+      re<lb ed="#P" n="27" break="no"/>iudic. ad probandum infra de procur. consulti infra de probatio. post cessio¬. 
+      <lb ed="#P" n="28"/>nen. supra de ordi. ab episcopo qui epi. re. c. ii. supra de elec. cum 
+      inter<lb ed="#P" n="29" break="no"/>R supra de eta. et qualita. cum bone. infra. de dolo et contuma. 
+      veri<lb ed="#P" n="30" break="no"/>tatis. §. vltimo. et infra de excep. prela. tanta vigorem quia officia 
+      <lb ed="#P" n="31"/>lis excommunicatus non potuit alii committere cum effectu. 
+      <lb ed="#P" n="32"/>i. q. vii. Daibertum. Ioan. Mona. Cardi.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e319-Dd1e394" type="et-sextus-l1t13-c2"><!-- mo-l1t13-c2" -->
+               <head xml:id="nyf6td-d1e319-Hd1e397">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e319-d1e399">
+                  <lb ed="#P" n="136" type="fixed=140-r"/>Licet in officialem Cameracei. officialia 
+      <lb ed="#P" n="137"/>lamouit a abbatem 
+      san<lb ed="#P" n="138" break="no"/>cti Andree de castello Cameracen. diocesis. 
+      <lb ed="#P" n="139"/>a regimine abbatie: fuit appellatum ad sedem 
+      <lb ed="#P" n="140"/>metropolitanam: officialis sedis eiusdem / sen 
+      <lb ed="#P" n="141"/>Itentiam amotionis confirmauit: a qua 
+      confir<lb ed="#P" n="142" break="no"/>matione fuit appellatum ad sedem apostolicam: Alexan. 
+      <lb ed="#P" n="143"/>papa quartus sententias dictorum officialium infirmaui. 
+      <lb ed="#P" n="144"/>et abbatem ad possessionem sui monasterii reduxit. Et erat 
+      <lb ed="#P" n="145"/>ante hanc compilationem extrauagans que incipiebat du 
+      <lb ed="#P" n="146"/>dum: de qua est sumpta ista / ex qua notatur que committur 
+      <lb ed="#P" n="147"/>tur officialibus ex generali commissione eis facta / notatur 
+      eti<lb ed="#P" n="148" break="no"/>specialem commissionem plus valere in singulis quam generalam 
+      <!--cod-gh333a-0405.xml-->
+      <pb ed="#P" n="140-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>in omnibus: licet sit argu. contra. ff de admi. tutor. si duo. C. 
+      <lb ed="#P" n="2"/>de quadr. prescrip. l. ii. C. de praescrip. xxx. vel. xl. anno l. omnes 
+      <lb ed="#P" n="3"/>Nam sunt multa que non transeunt in generali commissione: vt 
+      <lb ed="#P" n="4"/>infra. cap. proximo. et. ff. de offi. eius cui manda. est iurisdi l. prima. 
+      <lb ed="#P" n="5"/>primo respon. excessus 
+    </p>
+               <p xml:id="nyf6td-d1e319-d1e447">
+                  <lb ed="#P" n="6"/>¶ Sed nunquid officialis inquiret de crimine vsurarum 
+      <lb ed="#P" n="7"/>vel consimili / sine episcopi speciali commissione: et videtur quod 
+      <lb ed="#P" n="8"/>non vt hic vbi statim subiicitur disiuncta / dic contra: et 
+      ver<lb ed="#P" n="9" break="no"/>bum seu / quod sequitur est ampliatiuum / et sic copulatiuum 
+      pro<lb ed="#P" n="10" break="no"/>pter quod oportet vtramque partem esse veram. ff. de reb. dub. 
+      <lb ed="#P" n="11"/>si is qui ducenta. §. vtrum ar. ff. de aur. et argem. lega l. si quis 
+      <lb ed="#P" n="12"/>ita vel expositiuum precedentium: vt hic intellectus colligi. 
+      <lb ed="#P" n="13"/>tur ex antiqua: vt supra eo. in casu not. 
+    </p>
+               <p xml:id="nyf6td-d1e319-d1e467">
+                  <lb ed="#P" n="14"/>¶ Unde dic quod vicarius seu officialis / ex officio potest 
+      con<lb ed="#P" n="15" break="no"/>gnoscere de omnibus de quibus posset episcopus 
+      a<lb ed="#P" n="16" break="no"/>partis instantiam: cum regulariter episcopi et officialis ider 
+      <lb ed="#P" n="17"/>sit auditorium. supra hoc lib. de consuetu. cap. li. 1fra. de appella. Ro. 
+      <lb ed="#P" n="18"/>mana. primo respon. et constat quod hoc potest episcopus. i1fra de 
+      offi<lb ed="#P" n="19" break="no"/>ordi. cap. primo. ergo et eius officialis vel vicarius 
+    </p>
+               <p xml:id="nyf6td-d1e319-d1e483">
+                  <lb ed="#P" n="20"/>¶ Et quia officialis seu vicarius beneficium non potest 
+      con<lb ed="#P" n="21" break="no"/>ferre / sine speciali commissione infra. eo. cap. proximo. Ita 
+      ne<lb ed="#P" n="22" break="no"/>ad instantiam partis: vel ex officio potest officialis 
+      beneficia<lb ed="#P" n="23" break="no"/>tum ab administratione sine speciali commissione amouere. 
+      <lb ed="#P" n="24"/>vt inde veniat cure priuatio vnde et datio autem. de 
+      deffe<lb ed="#P" n="25" break="no"/>ciuita §. non habente. col. iii. Ioan. Mo. Cardi.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e319-Dd1e500" type="et-sextus-l1t13-c3"><!-- mo-l1t13-c3" -->
+               <head xml:id="nyf6td-d1e319-Hd1e503">Capitulum 3</head>
+               <p xml:id="nyf6td-d1e319-d1e505">
+      <!--cod-gh333a-0406.xml-->
+                  <pb ed="#P" n="141-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1" type="fixed=141-r"/>CVm in generali., officialis 
+      <lb ed="#P" n="2"/>seu 
+      vicari<lb ed="#P" n="3" break="no"/>us episcopi generalis / non potet 
+      <lb ed="#P" n="4"/>conferre beneficia nisi hoc 
+      speciali<lb ed="#P" n="5" break="no"/>ter eidem sit commissum. Et ad 
+      <lb ed="#P" n="6"/>hoc hic due rationes adducuntur 
+      <lb ed="#P" n="7"/>concessurus  nota de hoc infra hoc 
+      <lb ed="#P" n="8"/>lib. de regu. iur. in generali 
+      con<lb ed="#P" n="9" break="no"/>cessa ff. de donatio. filiussa. 
+      pri<lb ed="#P" n="10" break="no"/>mo respon. nec in hoc casu est 
+      <lb ed="#P" n="11"/>liberalitas in dando / licet sit liberalitas / in cui a dando 
+      ar<lb ed="#P" n="12" break="no"/>ff. de lega. ii. vnum ex familia. §. primo. Ioan. Mo. Cardi.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

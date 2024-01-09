@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 13</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 13</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="218-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e748" type="et-sextus-l2t13"><!-- mo-l2t13"
+              -->
+            <head xml:id="nyf6td-d1e748-Hd1e101">Titulus 13</head>
+            <div xml:id="nyf6td-d1e748-Dd1e103" type="et-sextus-l2t13-rubric"><!-- mo-l2t13-rubric" -->
+               <head xml:id="nyf6td-d1e748-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e748-d1e108">
+                  <lb ed="#P" n="44" type="fixed=215-r"/>VIso de exceptionibus I genere 
+      se<lb ed="#P" n="45" break="no"/>tur de 
+      quada<lb ed="#P" n="46" break="no"/>exceptione in specie a vt pote de 
+      prescri<lb ed="#P" n="47" break="no"/>ptionibus. Prescriptio enim actionem 
+      <lb ed="#P" n="48"/>excludit c. supra eo ad aures. et exceptio est. 
+      <lb ed="#P" n="49"/>lactionis exclusio. ff. de exceptio l. prima. 
+      <lb ed="#P" n="50"/>set quid sit prescriptio et que prescriptionis 
+      <lb ed="#P" n="51"/>diuisio. no. xvi. q. iii. in summa. Io. Mo. Car.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e748-Dd1e129" type="et-sextus-l2t13-c1"><!-- mo-l2t13-c1" -->
+               <head xml:id="nyf6td-d1e748-Hd1e132">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e748-d1e134">
+                  <lb ed="#P" n="76" type="fixed=215-v"/>EPiscopum, hec decretalis sumpta est 
+      pau<lb ed="#P" n="77" break="no"/>cis exceptis de quadam 
+      litera<lb ed="#P" n="78" break="no"/>remissionis quae data fuit per Grego. ix. in causa queo 
+      <lb ed="#P" n="79"/>igebatur inter Rotomagem. archiepiscopum et 
+      La<lb ed="#P" n="80" break="no"/>xouien. episcopum / et incipiebat venerabilium: et 
+      lo<lb ed="#P" n="81" break="no"/>quitur hec et illa de titulo  proponendo et 
+      proban<lb ed="#P" n="82" break="no"/>do / et de hoc non infra hoc lib. de priuileg. cum persone. §. quod si tales 
+      <lb ed="#P" n="83"/>tiegitime / hec prescriptio est. xl. annorum cotra aliam / et 
+      <lb ed="#P" n="84"/>otra ecclesiam Romanam est centum annorum infra. eo. c. proximo et supra 
+      <lb ed="#P" n="85"/>eo. ad aures et c. illud et. c. cum nobis et c. si diligenti et. c. vlti. 
+      <lb ed="#P" n="86"/>Sed contra laicos dcurrit praescriptio. xxx. annorum / e cum 
+      <lb ed="#P" n="87"/>hoc det ius ciuile laico contra laicum: deterioris conditionis et 
+      <lb ed="#P" n="88"/>se non debet ecclesia praescribens laico prescribente arg. C. de 
+      <lb ed="#P" n="89"/>legib. quod fauore / nec est hoc immutatum per ius canonicum / 
+      er<lb ed="#P" n="90" break="no"/>go stet. C. de testa. sancimus Et probare. 
+    </p>
+               <p xml:id="nyf6td-d1e748-d1e169">
+                  <lb ed="#P" n="91"/>¶ Et est ratio. Episcopus in cuius territorio erant decime / et 
+      <lb ed="#P" n="92"/>ecclesie / intentionem suam fundat de iure communi: vt hic et 
+      <lb ed="#P" n="93"/>infra de dec. cum contingat.
+     </p>
+               <p xml:id="nyf6td-d1e748-d1e178">
+      ¶ Unde dic / aut duo contendentes 
+      sum<lb ed="#P" n="94" break="no"/>capaces rei vel iuris de qua vel quo contenditur / aut non: sui 
+      <lb ed="#P" n="95"/>non / vt quia laici / tunc prescribere non possunt: quia nec posside 
+      <lb ed="#P" n="96"/>re possunt. supra eo. causam et sine possessione praescriptio non procedit. 
+      <lb ed="#P" n="97"/>ff. de vsuca. sine de reg. iur. sine hoc lib. 
+    </p>
+               <p xml:id="nyf6td-d1e748-d1e189">
+                  <lb ed="#P" n="98"/>¶ Si sunt capaces / aut / vniformiter / aut difformiter. S 
+      <lb ed="#P" n="99"/>vniformiter vt habere fundum ita cadit in me sicut in 
+      ten<lb ed="#P" n="100" break="no"/>et tunc non oportet titulum allegare: vt in possessione. xxx. vel. 
+      <lb ed="#P" n="101"/>xl. annorum: et tunc sufficit bonas fides et C. de praescrip. xxx. vel. 
+      <lb ed="#P" n="102"/>xl. annorum si quis emptionis. C. de praescrip. longis. tempo. autem. 
+      <lb ed="#P" n="103"/>malefidei. supra eo. de quarta et c. ad aures: in prascriptione non 
+      <lb ed="#P" n="104"/>longi temporis cum bona fide requiritur titulus. C. de 
+      praescri<lb ed="#P" n="105" break="no"/>longis. tempo. diutina: et l. sequem. Si differunt: aut quis 
+      iu<lb ed="#P" n="106" break="no"/>re speciali aut communi se tuetur: si speciali contra 
+      haben<lb ed="#P" n="107" break="no"/>tem ius commune oportet illud ius speciale allegare et 
+      proba<lb ed="#P" n="108" break="no"/>re vt hic et infra. de decimis dudum. arg. ff de rei vendi l. i. §. i. 
+    </p>
+               <p xml:id="nyf6td-d1e748-d1e216">
+                  <lb ed="#P" n="109"/>¶ Aut iure communi / vt episcopus in sua diocesi contra priuilegia 
+      <lb ed="#P" n="110"/>tum infra. de priuileg. si de terra et. c. accedentibus: seu in alium 
+      <lb ed="#P" n="111"/>qui habet ius in decimis: istis casibus sufficit bona fides 
+      <lb ed="#P" n="112"/>in exordio. ff. de diuer. et tempo. prescrip. cum heres in sine cum 
+      <lb ed="#P" n="113"/>ius commune sit pro titulo. supra eo. quoniam omne commune vt quia duo 
+      <lb ed="#P" n="114"/>contendunt de decimis situatis in territorio tertie 
+      parrochia<lb ed="#P" n="115" break="no"/>supra eo. ad aureshabetur hec clausula non habetur in antiquar 
+      <lb ed="#P" n="116"/>vt pone exemplum. x. q. iii. quia cognouimus: vel pone quis 
+      ha<lb ed="#P" n="117" break="no"/>buit sententiam contra alterum. Et si sententia non faciat 
+      pre<lb ed="#P" n="118" break="no"/>iudicium quoad tertium quoad petitorium: facit tamen quo ad 
+      pos<lb ed="#P" n="119" break="no"/>sessorium 1 de re iudic. cum super: tunc non sufficit bona fides / cum 
+      <lb ed="#P" n="120"/>sit presumptio contra eum propter iudicatum prescribendi) quis 
+      <lb ed="#P" n="121"/>titulus dat libertatem / et quis dat causam prescribendinot. de 
+      <lb ed="#P" n="122"/>c. cum persone nisi hoc non habetur in antiqua existat tunc 
+      <lb ed="#P" n="123"/>enim iure constituti habetur ff. de aqua quotidia. et 
+      esti<lb ed="#P" n="124" break="no"/>ua l. hoc iure. §. ductus aque. ff. de aqua pluuia. arcen l. 
+      pri<lb ed="#P" n="125" break="no"/>ma in fine / et l. sequen. in prin. et infra de ver. signif. super 
+      quibus<lb ed="#P" n="126" break="no"/>dam tanto tempore tempus tollit dominium. ff. de acquir. rer. 
+      <lb ed="#P" n="127"/>domi. nunquam. § ihesaurus: ergo dabitlicet regulariter 
+      con<lb ed="#P" n="128" break="no"/>tra. ff. de actio. et obliga l. obligationum fere. §. placet: et ex 
+      tam<lb ed="#P" n="129" break="no"/>to tempore titulus presumi debet l. ff. de vsur l. cum de 
+      iu<lb ed="#P" n="130" break="no"/>re verso. 
+    </p>
+               <p xml:id="nyf6td-d1e748-d1e266">
+                  <lb ed="#P" n="131"/>¶ Et credo quod sit titulus prosuo. ff. pro suo l. prima in 
+      prin<lb ed="#P" n="132" break="no"/>et. l. iiii. in fine et fi. Io. Mo. Cardi. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e748-Dd1e274" type="et-sextus-l2t13-c2"><!-- mo-l2t13-c2" -->
+               <head xml:id="nyf6td-d1e748-Hd1e277">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e748-d1e279">
+                  <lb ed="#P" n="81" type="fixed=217-r"/>SI qui. Hec decretalis habrbus. 
+      <lb ed="#P" n="82"/>dicta: Ecce primum 
+      per<lb ed="#P" n="83" break="no"/>sententiam infra hoc lib. de scisma qui 
+      <lb ed="#P" n="84"/>mo. §. contra natos [ ipso iure infra 
+      <lb ed="#P" n="85"/>de penis in quibusdam: et infra hoc ua 
+      <lb ed="#P" n="86"/>bro de penis. c. penul. et vlt. §. si vt 
+      <lb ed="#P" n="87"/>ro feuda videantur auten. vt cum 
+      <lb ed="#P" n="88"/>de appel. cogno. § generalem / ver 
+      <lb ed="#P" n="89"/>sic. Si vero liberi colla. viii. autem 
+      <lb ed="#P" n="90"/>de sanctissi. episcopis. §. si quis 
+      ra<lb ed="#P" n="91" break="no"/>puerit primo respon. in fine titul. 
+      <lb ed="#P" n="92"/>colla. ix. arg. ff. de diuers. et tempo. prescrip. in omnibus et ibi 
+      <lb ed="#P" n="93"/>nota. centenaria vt supra eo. si diligenti in fine quadragens 
+      <lb ed="#P" n="94"/>ria axvi. q. iii. quas actiones. supra eo. ad aures auten. 
+      consti<lb ed="#P" n="95" break="no"/>tu. hec innouat. constitu. que prescript. centum anno. colla. 
+      <lb ed="#P" n="96"/>viii. completa sed subductis temporibus vacationum quo 
+      <lb ed="#P" n="97"/>semper deducuntur. supra eo c. i. molestandos  contra 
+      memo<lb ed="#P" n="98" break="no"/>ria potest damnari in perpetuum vt infra sequiturergo et bona quae hoc 
+      <lb ed="#P" n="99"/>casu sequuntur personam arg. C. de bonis dam. auten. bona Sol. 
+      <lb ed="#P" n="100"/>hoc sfacit hic bona fidespossidentium. Io. Mo. Cardi.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 4</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 4</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="193-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e586" type="et-sextus-l2t4"><!-- mo-l2t4"
+              -->
+            <head xml:id="nyf6td-d1e586-Hd1e101">Titulus 4</head>
+            <div xml:id="nyf6td-d1e586-Dd1e103" type="et-sextus-l2t4-rubric"><!-- mo-l2t4-rubric" -->
+               <head xml:id="nyf6td-d1e586-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e586-d1e108">
+                  <lb ed="#P" n="45" type="fixed=192-r"/>Ite contestata: iuramentum calumnie est 
+      pre<lb ed="#P" n="46" break="no"/>standum: vt timore iuramenti contentiosa 
+      liti<lb ed="#P" n="47" break="no"/>gantium instantia compescatur. C. eo l. prima 
+      <lb ed="#P" n="48"/>vnde subiicitur rubrica de iuramento calumnic 
+      <lb ed="#P" n="49"/>s vitande non committende et que capitula 
+      com<lb ed="#P" n="50" break="no"/>prehendat iuramentum calumnie. not. supra eodem capi. 
+      <lb ed="#P" n="51"/>primo. Ioannes Mona. Cardinalis. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e586-Dd1e127" type="et-sextus-l2t4-c1"><!-- mo-l2t4-c1" -->
+               <head xml:id="nyf6td-d1e586-Hd1e130">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e586-d1e132">
+                  <lb ed="#P" n="85" type="fixed=192-r"/>Si de calumnia, Hec decretalis habe 
+      ria<lb ed="#P" n="86" break="no"/>dicta. Primum hoc 
+      iu<lb ed="#P" n="87" break="no"/>ramentum qualibet parte litis potest 
+      presta<lb ed="#P" n="88" break="no"/>ri. Secundum hoc iuramentum omissum / 
+      proc<lb ed="#P" n="89" break="no"/>sum habitum non amnullat. Tertium in 
+      cau<lb ed="#P" n="90" break="no"/>sis piritualibus nedum de veritate 
+      dicen<lb ed="#P" n="91" break="no"/>da: sed de calumnia est iurandum exordio Exordium litis 
+      pro<lb ed="#P" n="92" break="no"/>prie dicitur litiscontestatio avt hic et in auten. de litigiosis: 
+      <lb ed="#P" n="93"/>§. si vero initium col. viii. potest etiam dici exordium litis 
+      ci<lb ed="#P" n="94" break="no"/>tatio: vt hic quo ad perpetuandum rescriptum / potest etiam 
+      <lb ed="#P" n="95"/>dici exordium / quo ad faciendam rem litigiosam vt no. supra a 
+      <lb ed="#P" n="96"/>offi. deleg. c. super questionum. §. primo precludatur Nota 
+      <lb ed="#P" n="97"/>hoc iuramentum hic prestari vt via malitiis 
+      precluda<lb ed="#P" n="98" break="no"/>tur infra. c. proximo in fine. 
+    </p>
+               <p xml:id="nyf6td-d1e586-d1e165">
+                  <lb ed="#P" n="99"/>¶ Et hec ratio fuit quare a principio hoc iuramentum non 
+      <lb ed="#P" n="100"/>fuit de substantia ordinis iudiciarii: sed hominum 
+      succrescen<lb ed="#P" n="101" break="no"/>te malitia ad finem imponendum litigiis hic fuit prouisum. 
+      <lb ed="#P" n="102"/>C. eo. l. ii. §. sinautem iurari Contra. supra eo. literas Sol. hic 
+      no<lb ed="#P" n="103" break="no"/>uum ius / illud vetus 
+    </p>
+               <p xml:id="nyf6td-d1e586-d1e178">
+                  <lb ed="#P" n="104"/>¶ Uel dic iuramentum calumnie in causis spiritualibus 
+      <lb ed="#P" n="105"/>principaliter non prestari vt ibi: sed subsequenter / sic mali¬: 
+      <lb ed="#P" n="106"/>tia hominum succrescente vt hic. Ioan. Mo. Car. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e586-Dd1e188" type="et-sextus-l2t4-c2"><!-- mo-l2t4-c2" -->
+               <head xml:id="nyf6td-d1e586-Hd1e191">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e586-d1e193">
+                  <lb ed="#P" n="44" type="fixed=192-v"/>IN appellationis. Hec decreta. habet 
+      <lb ed="#P" n="45"/>tria dicta que clara sunt malitie) 
+      li<lb ed="#P" n="46" break="no"/>cet iuramentum veritatis dicende a 
+      <lb ed="#P" n="47"/>calumnie sit comne / primum in spiritualibus 
+      <lb ed="#P" n="48"/>ecundum in ciuilibus questionibus. 
+      <lb ed="#P" n="49"/>Hoc tamen iuramentum malitio 
+      <lb ed="#P" n="50"/>communius est prestandum a / vt 
+      quo<lb ed="#P" n="51" break="no"/>tiens iudici videbitur expedire b. pr 
+      <lb ed="#P" n="52"/>de elec. c. cum dilectus. § nos vero 
+      <lb ed="#P" n="53"/>.de restitu. spolia. litteras circa finem 
+      <lb ed="#P" n="54"/>et etiam quandoque probatur per solum iuramentum infra de 
+      ex<lb ed="#P" n="55" break="no"/>ceptio. pastoralis in fine. supra hoc lib. de elec. vt circa. §. 
+      supe<lb ed="#P" n="56" break="no"/>huius. Ioan. Mona. Cardinalis. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e586-Dd1e225" type="et-sextus-l2t4-c3"><!-- mo-l2t4-c3" -->
+               <head xml:id="nyf6td-d1e586-Hd1e228">Capitulum 3</head>
+               <p xml:id="nyf6td-d1e586-d1e230">
+                  <lb ed="#P" n="99" type="fixed=192-v"/>NVllam. Contra. supra hoc lib. de iudic. in 
+      <lb ed="#P" n="100"/>ris in fine: sed dic vt ibi ad cam 
+      <lb ed="#P" n="101"/>sam. . 
+    </p>
+               <p xml:id="nyf6td-d1e586-d1e239">
+                  <lb ed="#P" n="102"/>¶ Nota quod causa multipliciter accipitur 
+      <lb ed="#P" n="103"/>et causa est animi impulsus ad aliquid 
+      agen<lb ed="#P" n="104" break="no"/>dum: sic accipitur ff. de postul. l. i. §. sexum 
+    </p>
+               <p xml:id="nyf6td-d1e586-d1e248">
+                  <lb ed="#P" n="105"/>¶ Sed ratio / est gerendorum ordo ex 
+      cau<lb ed="#P" n="106" break="no"/>a venientium: vnde causa potest esse sine ratione / sed 
+      ra<lb ed="#P" n="107" break="no"/>tio non potest esse sine causa verbi gratia / aliquis pro causa 
+      <lb ed="#P" n="108"/>allegat id quod non est sufficiens: dico quod est causa / sed non 
+      <lb ed="#P" n="109"/>est ratio: sic accipitur infra. de spon. c. i. Item causa est secundum. 
+      <lb ed="#P" n="110"/>artistas / ad cuius esse sequitur aliud a: et iste cause sunt 
+      qua<lb ed="#P" n="111" break="no"/>tuor / due essendi et due fiendi vt not. supra hoc lib. in proe. Et 
+      <lb ed="#P" n="112"/>sic causa est propter quod vnumquodque sit. Et sic causa 
+      di<lb ed="#P" n="113" break="no"/>citur achaos / quod fuit principium omnium rerum iuxta 
+      <lb ed="#P" n="114"/>illud Ouidii. Rudis indigestaque moles quam dixere chaos 
+    </p>
+               <p xml:id="nyf6td-d1e586-d1e272">
+                  <lb ed="#P" n="115"/>¶ Causa etiam dicitur modus quidam seu forma iudicii. 
+      <lb ed="#P" n="116"/>et tunc sic diffinitur causa est de preteritis accidens suasio: 
+      <lb ed="#P" n="117"/>vt cum dico lego vxori mee que eius causa paraui. ff. de aur. 
+      <lb ed="#P" n="118"/>et arg. leg. quintus. et ff. de cond. indeb. l. damus. 
+    </p>
+               <p xml:id="nyf6td-d1e586-d1e284">
+                  <lb ed="#P" n="119"/>¶ Alio modo causa dicitur facti explicatio. ff. ad l. aquium. 
+      si<lb ed="#P" n="120" break="no"/>ex plagis. §. incliuo ibi ius et iuris responsio positum est in 
+      <lb ed="#P" n="121"/>causa / hoc est in explicatione fact 
+    </p>
+               <p xml:id="nyf6td-d1e586-d1e293">
+                  <lb ed="#P" n="122"/>¶ Item alio modo insti. de actio. §. huic autem: versi. plus. 
+      <lb ed="#P" n="123"/>petitur causa: hoc est contractu qui est causa agend 
+    </p>
+               <p xml:id="nyf6td-d1e586-d1e300">
+                  <lb ed="#P" n="124"/>¶ Alio modo dicitur causa secundum Tullium / res in se 
+      ho<lb ed="#P" n="125" break="no"/>bens controuersiam in dicendo positam cum certarum 
+      in<lb ed="#P" n="126" break="no"/>terpositione personarum / sic accipitur. C. de transac. causas 
+    </p>
+               <p xml:id="nyf6td-d1e586-d1e309">
+                  <lb ed="#P" n="127"/>¶ Dicitur etiam causa a casu quo venit. Est enim causa 
+      ori<lb ed="#P" n="128" break="no"/>go et materia negotii que dum proponitur causa est infra de 
+      <lb ed="#P" n="129"/>ver. sig. forus: sic accipitur hic mandatum Nota prestatio 
+      <lb ed="#P" n="130"/>huius sacramenti spenale mandatum exigit et multa alia. Io. mo.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

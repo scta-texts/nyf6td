@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 18</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 18</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="327-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1157" type="et-sextus-l3t18"><!-- mo-l3t18"
+              -->
+            <head xml:id="nyf6td-d1e1157-Hd1e101">Titulus 18</head>
+            <div xml:id="nyf6td-d1e1157-Dd1e103" type="et-sextus-l3t18-rubric"><!-- mo-l3t18-rubric" -->
+               <head xml:id="nyf6td-d1e1157-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1157-d1e108">
+                  <lb ed="#P" n="114" type="fixed=325-v"/>QVia seculares de quibus est 
+      praemu<lb ed="#P" n="115" break="no"/>sum nedum morantur in monasteriis suis 
+      <lb ed="#P" n="116"/>sed in capellis  quandoque infra hoc 
+      libro<lb ed="#P" n="117" break="no"/>de verborum significatio. priuilegium / ideo 
+      <lb ed="#P" n="118"/>subiicit de capellis monachorum. Ioanes. 
+      <lb ed="#P" n="119"/>Monach. Cardinalis. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1157-Dd1e125" type="et-sextus-l3t18-c1"><!-- mo-l3t18-c1" -->
+               <head xml:id="nyf6td-d1e1157-Hd1e128">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1157-d1e130">
+                  <lb ed="#P" n="6" type="fixed=326-r"/>Resbyteri. 
+      Ponulimona<lb ed="#P" n="7" break="no"/>chi consuetudine. 
+      <lb ed="#P" n="8"/>vel statuto habebant / vt 
+      presen<lb ed="#P" n="9" break="no"/>tati per eos episcopis / et 
+      institu<lb ed="#P" n="10" break="no"/>ti ab ipsis per monachos 
+      posseni<lb ed="#P" n="11" break="no"/>remoueri / quod hic tollitur 
+      a<lb ed="#P" n="12" break="no"/>ipsis id est episcopis perpetuia 
+      <lb ed="#P" n="13"/>Nam cum sint patres non 
+      de<lb ed="#P" n="14" break="no"/>cet esse temporales argu. ff. 
+      de<lb ed="#P" n="15" break="no"/>asilasuius qaussausssalus 
+      <lb ed="#P" n="16"/>ta statutum et consuetudinem 
+      su<lb ed="#P" n="17" break="no"/>sint contra naturam rei de qua agitur non tenere vt hic 
+      <lb ed="#P" n="18"/>argu. de conditio. apposi. capitu. vlti. et. x. questio. prima / 
+      si<lb ed="#P" n="19" break="no"/>quidem / et capitu. nouerint per episcopos. Nam 
+      ind<lb ed="#P" n="20" break="no"/>venit cure priuatio / vnde et datio auten. de defen. ciuita § 
+      <lb ed="#P" n="21"/>non habente / col. iii. rationabili. Et sic nota seculares. 
+      <lb ed="#P" n="22"/>non debent a suis beneficiis sine causa rationabili amoue. 
+      <lb ed="#P" n="23"/>ri / sic in religiosis habentibus administrationes 
+      intitula<lb ed="#P" n="24" break="no"/>tas / de statu regula. supra capitu. monachi. §. priores. 
+      Ioan<lb ed="#P" n="25" break="no"/>Mona. Cardi. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

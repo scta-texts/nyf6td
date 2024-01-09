@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 8</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 8</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="199-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e667" type="et-sextus-l2t8"><!-- mo-l2t8"
+              -->
+            <head xml:id="nyf6td-d1e667-Hd1e101">Titulus 8</head>
+            <div xml:id="nyf6td-d1e667-Dd1e103" type="et-sextus-l2t8-rubric"><!-- mo-l2t8-rubric" -->
+               <head xml:id="nyf6td-d1e667-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e667-d1e108">
+                  <lb ed="#P" n="81" type="fixed=196-r"/>INnouetur. inullum 
+      be<lb ed="#P" n="82" break="no"/>neficium 
+      im<lb ed="#P" n="83" break="no"/>petretur sic loquitur. C. ne 
+      li<lb ed="#P" n="84" break="no"/>te penden. per totum infra. de 
+      te<lb ed="#P" n="85" break="no"/>stib. causam. ii. supra eo. c. dilectus 
+      <lb ed="#P" n="86"/>quod est verum quando 
+      impo<lb ed="#P" n="87" break="no"/>tratum esset contra litem 
+      pen<lb ed="#P" n="88" break="no"/>dentem seu preiudicium ipsiu 
+      <lb ed="#P" n="89"/>secus si esset secundum vel 
+      pro<lb ed="#P" n="90" break="no"/>ter / vt si copia actorum 
+      velvi<lb ed="#P" n="91" break="no"/>iudex procedat / vel sibi 
+      alten<lb ed="#P" n="92" break="no"/>associetur petatur. C. ne 
+      lite<lb ed="#P" n="93" break="no"/>penden l. ii. auten. in med. litis sacras iussio. non fieri. §. 
+      su<lb ed="#P" n="94" break="no"/>per hoc colla. viii. vel si accusetur matrimonium lite 
+      pen<lb ed="#P" n="95" break="no"/>dente / impetrent coniunges di spensationem super 
+      impe<lb ed="#P" n="96" break="no"/>dimento propter quod matrimonium accusatur: vnde iste 
+      <lb ed="#P" n="97"/>titulus prouidet ne litigautibus fiat preiudicium / sed non 
+      <lb ed="#P" n="98"/>tollit litigantium suffragium. arg. C. de leg. et constitu. quod 
+      <lb ed="#P" n="99"/>fauore i1nfra hoc lib. de reg. iur. quod ob gratiam potest tamen 
+      <lb ed="#P" n="100"/>quis vti possessione sua / quia hoc non est innouare: sed vel 
+      <lb ed="#P" n="101"/>teri iure vti. ff de rei vendi. vtique: potest etiam possessor non 
+      <lb ed="#P" n="102"/>ua facere / et ante litem contestatam et post: dummodo non 
+      <lb ed="#P" n="103"/>faciat in preiudicium iuris aduersarii infra de appella. 
+      signi<lb ed="#P" n="104" break="no"/>ficante. ff. de iniust. rup. et irri. test. l. si quis filio. §. hi autem 
+    </p>
+               <p xml:id="nyf6td-d1e667-d1e163">
+                  <lb ed="#P" n="105"/>¶ Item nihil est innouandum in preiudicium litis et 
+      cau<lb ed="#P" n="106" break="no"/>se pendentium: et sic fit inhibitio in causis lite contestata ot 
+      <lb ed="#P" n="107"/>regulariter et dic nil innouandum presertim 
+      appellatio<lb ed="#P" n="108" break="no"/>ne pendente in vi senine in qua est appellatum.
+     </p>
+               <p xml:id="nyf6td-d1e667-d1e174">
+      ¶ Unde 
+      po<lb ed="#P" n="109" break="no"/>ne est sententiatum que sententia habebat duos 
+      articu<lb ed="#P" n="110" break="no"/>los: et est appellatum ab vno non ab alio in alio potest 
+      fie<lb ed="#P" n="111" break="no"/>ri executio saltem post decendium infra hoc libro de 
+      ap<lb ed="#P" n="112" break="no"/>pellatione non solum. 
+    </p>
+               <p xml:id="nyf6td-d1e667-d1e185">
+                  <lb ed="#P" n="113"/>¶ Dicto igitur supra titulo proximo de quodam 
+      beneficio<lb ed="#P" n="114" break="no"/>quod competit actori contra reum contumacem nunc 
+      di<lb ed="#P" n="115" break="no"/>cit de quodam alio quod competit / presertim reo contra 
+      <lb ed="#P" n="116"/>actorem sicut vt lite pendente etc. Ioan. mo. Cardi.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e667-Dd1e197" type="et-sextus-l2t8-c1"><!-- mo-l2t8-c1" -->
+               <head xml:id="nyf6td-d1e667-Hd1e200">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e667-d1e202">
+                  <lb ed="#P" n="61" type="fixed=196-v"/>DIspendiis, Hec decretalis et sequens 
+      lo<lb ed="#P" n="62" break="no"/>quuntur in competitoribus: non 
+      <lb ed="#P" n="63"/>in petitore et contradictore de quibus 
+      habe<lb ed="#P" n="64" break="no"/>tur. ff. de decurio l. generaliter. §. spurios 
+      cele<lb ed="#P" n="65" break="no"/>bratis Sed contra. supra de resti. in integ. c. ii 
+    </p>
+               <p xml:id="nyf6td-d1e667-d1e215">
+                  <lb ed="#P" n="66"/>¶ Sol. hic loquitur in competitoribus quibus. 
+      <!--cod-gh333a-0519.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="67"/>debetur maior fauor. d § spurios illa vero in petitore et 
+      con<lb ed="#P" n="68" break="no"/>tradictore et qui innititur contra ius commune: et ideo hoc / 
+      <lb ed="#P" n="69"/>casu non proceditur ad aliam. supra de arbitr. ex parte renut. 
+      <lb ed="#P" n="70"/>ciare hoc enim potest (etiam electus in episcopum ante 
+      <lb ed="#P" n="71"/>confirmationem supra hoc lib. de elec. si electio secus post. supra 
+      <lb ed="#P" n="72"/>de transla. episcopi. c. inter corporalia excludi. supra hoc lib. de ele 
+      <lb ed="#P" n="73"/>ctio. cupientes: quia forsan non est prosequutus ius sum 
+      <lb ed="#P" n="74"/>infra tempus. supra statutum: vel pone exemplum. supra eo. quam 
+      sifi<lb ed="#P" n="75" break="no"/>§. quod si electus: et. §. fina. ipso iure hoc est sine adminici 
+      <lb ed="#P" n="76"/>lo hominis no. d. c. quam sit / in fine non subsistatahic loquitur 
+      <lb ed="#P" n="77"/>de duabus electionibus eodem contextu celebratis: sed 
+      si<lb ed="#P" n="78" break="no"/>non eodem contextu celebrentur / habet locum materia. non 
+      <lb ed="#P" n="79"/>supra de elect. auditis non ista / et tunc credo vbi electio prima 
+      <lb ed="#P" n="80"/>est nulla propter defectum vel reatum persone electe 
+      pri<lb ed="#P" n="81" break="no"/>mo dico secundam tenere: licet in processum liquere 
+      valea<lb ed="#P" n="82" break="no"/>de reatu vel defectu huius / tunc enim est defectus in 
+      ma<lb ed="#P" n="83" break="no"/>teria / que inhabili nulla forma potest induci. Sed si prima 
+      <lb ed="#P" n="84"/>electio posset quoquomo iustificari dico quod secunda a non de 
+      <lb ed="#P" n="85"/>bet at tentari prima non cassata / sic fnit propositum in 
+      fa<lb ed="#P" n="86" break="no"/>cto Antissiodoren. cuius prima electio fuit a minori parte 
+      <lb ed="#P" n="87"/>numero celebrata / modo hoc posset stare quod electio prim 
+      <lb ed="#P" n="88"/>sit celebrata a maiori parte numero attamen sit sanior quam 
+      ele<lb ed="#P" n="89" break="no"/>ctio. ii. celebrata vt no. in. d. c. auditis 
+    </p>
+               <p xml:id="nyf6td-d1e667-d1e274">
+                  <lb ed="#P" n="90"/>¶ Sed cum ius cassat electionem in discordia. supra de 
+      ele<lb ed="#P" n="91" break="no"/>tio. quorundam. §. primo / aut a minori parte numero factam 
+      <lb ed="#P" n="92"/>d. c. quorundam. §. circa. et. c. indemnitatibus. §. si qua vero 
+      po<lb ed="#P" n="93" break="no"/>test procedi ad secundam quia prima non potest 
+      iustifica<lb ed="#P" n="94" break="no"/>ri iam aiure reprobata dicto cap. quam sit. §. alioquin. 
+      o<lb ed="#P" n="95" break="no"/>Monachus Cardinalis 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e667-Dd1e291" type="et-sextus-l2t8-c2"><!-- mo-l2t8-c2" -->
+               <head xml:id="nyf6td-d1e667-Hd1e294">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e667-d1e296">
+                  <lb ed="#P" n="42" type="fixed=197-r"/>Si hi, Propter fraudes que 
+      fie<lb ed="#P" n="43" break="no"/>bant in hac materia fomen 
+      <lb ed="#P" n="44"/>tum habentes a glo. inno. supra de 
+      in<lb ed="#P" n="45" break="no"/>dic. quia vero contra dictam glo. 
+      <lb ed="#P" n="46"/>hic est prouisum et per dictam glo. 
+      <lb ed="#P" n="47"/>vidi in facto prepositure 
+      norma<lb ed="#P" n="48" break="no"/>nie posteaquam fuerat conclusum: 
+      il<lb ed="#P" n="49" break="no"/>lam conferri prouisione facta 
+      po<lb ed="#P" n="50" break="no"/>sessori / et etiam a capite inchoarit 
+      <lb ed="#P" n="51"/>etcontra. d. glo. allegabatur. ff de iudi. 
+      <lb ed="#P" n="52"/>tam ex contractib . ff. de adminis. tu. 
+      <lb ed="#P" n="53"/>chirographis. §. fi. ff de re iudi. ex contractu. ff fami. her l. ha 
+      <lb ed="#P" n="54"/>redes. §. idem scribit / et respondebatur illam loqui vbi est successio et 
+      <lb ed="#P" n="55"/>eodem iure / hic non: quia secundus non habet ius ex iure 
+      pr<lb ed="#P" n="56" break="no"/>mi / sed ex noua electione / vnde licet in beneficiis sit suo 
+      <lb ed="#P" n="57"/>cessio non tamen hereditaria: quia ex iure primi 
+      secun<lb ed="#P" n="58" break="no"/>dus nil sibi vendicat. viii. q. prima moises et c. seq. vbi tamen 
+      <lb ed="#P" n="59"/>esse t successio hereditaria / sicut sententia habita contra 
+      <lb ed="#P" n="60"/>vnum faceret sidem contra alium: vt d. ll. sic processus 
+      an<lb ed="#P" n="61" break="no"/>te sententiam habitus contra successorem esset firmus / quod 
+      <lb ed="#P" n="62"/>ergo hic est statutum non est de rigore sed de equitate vt 
+      mao<lb ed="#P" n="63" break="no"/>liciis occurratur / et vt lites super beneficiis citius finem 
+      <lb ed="#P" n="64"/>habeant beneficiis hoc expone vt supra titu. 
+      proximoadmit<lb ed="#P" n="65" break="no"/>tendos.
+     </p>
+               <p xml:id="nyf6td-d1e667-d1e351">
+      ¶ Sed pone reus erat in cadendo propter 
+      appel<lb ed="#P" n="66" break="no"/>lationem non initiatam / vel quia est sibi prescriptum per 
+      <lb ed="#P" n="67"/>prescriptionem iuris / vt per conclusionem / vel 
+      perempto<lb ed="#P" n="68" break="no"/>riam facti / vt per terminum hominis / nunquid preiudica: 
+      <!--cod-gh333a-0520.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="69"/>bitur alii cuius intererat / et videtur quod non: cum culpa te 
+      <lb ed="#P" n="70"/>neat suos auctores non alium inficiat infra de his que siunt a 
+      <lb ed="#P" n="71"/>maio. parte. capit. quesiuit 
+    </p>
+               <p xml:id="nyf6td-d1e667-d1e371">
+                  <lb ed="#P" n="72"/>¶ Dic contra quia si negocium est in curia per 
+      constitutio<lb ed="#P" n="73" break="no"/>nem statuimus. supra de electioni. hoc lib. iam omnes sunt 
+      ci<lb ed="#P" n="74" break="no"/>tati quorum interest et processus habitus cum 
+      possesso<lb ed="#P" n="75" break="no"/>re omnibus preiudicat 
+    </p>
+               <p xml:id="nyf6td-d1e667-d1e382">
+                  <lb ed="#P" n="76"/>¶ Sed pone negocium non est in curia / vel si est / non est per 
+      <lb ed="#P" n="77"/>dictam constitutionem: adhuc dico idem cum ille defendae 
+      <lb ed="#P" n="78"/>ret vt possessor cuius principaliter intererat argu. ff. de 
+      co<lb ed="#P" n="79" break="no"/>lusio. detegem. cum non iusto. Sed contra predicta iura 
+      lo<lb ed="#P" n="80" break="no"/>quuntur vbi plurimum intererat in presenti labet secundum gradus 
+      dif<lb ed="#P" n="81" break="no"/>ferentiam. Sed hic non incipiebat interesse / nisi ex post facto 
+      <lb ed="#P" n="82"/>vnde durum videtur si ist e excludatur qui antea 
+      admitt<lb ed="#P" n="83" break="no"/>non poterat / sicui ille cuius non intererat. Sol. iste non 
+      <lb ed="#P" n="84"/>repellitur ex sua persona / sed ex persona sui autoris: 
+      in<lb ed="#P" n="85" break="no"/>fra de hereticis fraternitatis: cuius manus sunt ligate: 
+      <lb ed="#P" n="86"/>per hoc. c. Unde si ille a quo iste habet causamrepelleretur. 
+      <lb ed="#P" n="87"/>per constitutionem statuimus / vel pro eo quod sciuit processu. 
+      <lb ed="#P" n="88"/>haberi cum possessore. infra de re iud. quamuis infra de testib. 
+      ven<lb ed="#P" n="89" break="no"/>ens. ii. non dico quod isti fit preiudicium. Sed non vbi auctor 
+      <lb ed="#P" n="90"/>suus ignoraret: c vt quia appellatio non fuit denunciata. 
+      <lb ed="#P" n="91"/>vel quia vbi non est appellatum ignorat causam agi / quo 
+      ca<lb ed="#P" n="92" break="no"/>su / nec sententia / nec processus firmus esset contra eum: vt 
+      <lb ed="#P" n="93"/>d. c.
+     </p>
+               <p xml:id="nyf6td-d1e667-d1e425">
+      ¶ Nec obstat. d. c. quesiuit: quia isti qui vult 
+      confen<lb ed="#P" n="94" break="no"/>re de nouo imputet sibi si causam non defendat 
+      considera<lb ed="#P" n="95" break="no"/>re d enim debuit quid accidere poterat. ff locati l. si quis 
+      <lb ed="#P" n="96"/>domum. Io. Mona. Cardinalis.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

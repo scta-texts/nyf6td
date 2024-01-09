@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 2</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 2</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="246-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e834" type="et-sextus-l3t2"><!-- mo-l3t2"
+              -->
+            <head xml:id="nyf6td-d1e834-Hd1e101">Titulus 2</head>
+            <div xml:id="nyf6td-d1e834-Dd1e103" type="et-sextus-l3t2-rubric"><!-- mo-l3t2-rubric" -->
+               <head xml:id="nyf6td-d1e834-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e834-d1e108">
+                  <lb ed="#P" n="68" type="fixed=238-v"/>CLerici in minoribus ordinibus 
+      <lb ed="#P" n="69"/>constituti matrimonia 
+      <lb ed="#P" n="70"/>cite contrahere possunt. supra eo. 
+      ca<lb ed="#P" n="71" break="no"/>proximo. et. c. ex parte. et. c. 
+      Ioan<lb ed="#P" n="72" break="no"/>nes: ideo dicto de honestate 
+      cle<lb ed="#P" n="73" break="no"/>ricorum / quorum aliqui 
+      contra<lb ed="#P" n="74" break="no"/>ount matrimonia: subiicit de 
+      cleri<lb ed="#P" n="75" break="no"/>cis conuigatis. 
+    </p>
+               <p xml:id="nyf6td-d1e834-d1e128">
+                  <lb ed="#P" n="76"/>¶ Uel dic. dicto de clericis in 
+      go<lb ed="#P" n="77" break="no"/>nere nunc in certa specie
+    </p>
+               <p xml:id="nyf6td-d1e834-d1e135">
+      <!--cod-gh333a-0607.xml-->
+                  <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="78"/>¶ Uel dic: dicto de honestate clericorum que diminuitur 
+      <lb ed="#P" n="79"/>per matrimonium infra eo. c. vno. Ideo de his tractat Io 
+      <lb ed="#P" n="80"/>an. cbona. Cardinalis. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e834-Dd1e149" type="et-sextus-l3t2-c1"><!-- mo-l3t2-c1" -->
+               <head xml:id="nyf6td-d1e834-Hd1e152">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e834-d1e154">
+                  <lb ed="#P" n="33" type="fixed=239-r"/>CLerici. e hen mibilolii elbt 
+      <lb ed="#P" n="34"/>ficis coniugatis 
+      con<lb ed="#P" n="35" break="no"/>suenit esse regula pro ecclesia 
+      <lb ed="#P" n="36"/>et instantie pro brachio 
+      secula<lb ed="#P" n="37" break="no"/>ri vt in mercaturis supra eo. ex 
+      <lb ed="#P" n="38"/>parte. supra de vita et honest. cle. 
+      <lb ed="#P" n="39"/>ex literis hic vero conuertitur et 
+      <lb ed="#P" n="40"/>melius. C. de epi. et cle. l. ii. xi. 
+      <lb ed="#P" n="41"/>1. i. quia tua: et no. xxxii. di. eos 
+    </p>
+               <p xml:id="nyf6td-d1e834-d1e176">
+                  <lb ed="#P" n="42"/>¶ Et hec decre. primo ponit. 
+      <lb ed="#P" n="43"/>duas exceptiones. Secund. 
+      <lb ed="#P" n="44"/>1f.§. inceteris ponit regulam 
+      <lb ed="#P" n="45"/>retineant contra 1fra de senten. excommunica. iii audientia vbi priu 
+      <lb ed="#P" n="46"/>uilegium hic tactum non amittit clericus / absque trina 
+      mo<lb ed="#P" n="47" break="no"/>nitione vt et alias 1fra de senten. excommunica. contingit. supra de vitat 
+      <lb ed="#P" n="48"/>et hone. cle. ex literis 
+    </p>
+               <p xml:id="nyf6td-d1e834-d1e194">
+                  <lb ed="#P" n="49"/>¶ Sol. illa corrigitur peristam / vel illa loquitur in non 
+      comn<lb ed="#P" n="50" break="no"/>iugatis: hic in coniugatis qui leuius amittunt 
+      priuile<lb ed="#P" n="51" break="no"/>gium clericale: quia iam non tenentur viuere clericaliter. supra eo. 
+      <lb ed="#P" n="52"/>Ioannes et. c. sequem. et seq. nstrorxvii. q. iiii. c. si. quis suader 
+      <lb ed="#P" n="53"/>te concilium supra de foro compe. c. ii. xi. q. i. c. ii. denegatur. 
+      <lb ed="#P" n="54"/>infra de regn. iu. cum quid vna / et ibi no. supra de resti. in integ. 
+      co<lb ed="#P" n="55" break="no"/>ramcondemnari) idem de vxoribus istorum no. xxxiii. dist. 
+      <lb ed="#P" n="56"/>eos in ceteris) et in contractibus. supra eo. ex parte / et etiam 
+      <lb ed="#P" n="57"/>in premissis vbi episcopi clerici coiugati vestes et tonsuram 
+      <lb ed="#P" n="58"/>non deferunt clericales vt infra sequitur. 
+    </p>
+               <p xml:id="nyf6td-d1e834-d1e218">
+                  <lb ed="#P" n="59"/>¶ Sed quero clericus coniugatus non deffert 
+      tonsur<lb ed="#P" n="60" break="no"/>nec vestem clericales: postmodum vult resumere et gauder que 
+      <lb ed="#P" n="61"/>priuilegio clericali / nunquid potest: videtur quod non arg. ff. de 
+      <lb ed="#P" n="62"/>acquir. here. nec is qui. vii. q. i. quam periculosum. 
+    </p>
+               <p xml:id="nyf6td-d1e834-d1e230">
+                  <lb ed="#P" n="63"/>¶ Contra dic d saltem in casibus resumptionem 
+      sequenti<lb ed="#P" n="64" break="no"/>bus. Nec dicit hic quod amittunt: sed non coguntur deferre. supra 
+      <lb ed="#P" n="65"/>eo. c. proxi. et si amittant hoc est vsquee ad resumptionem / ar. 
+      <lb ed="#P" n="66"/>ff. de testa milita l. pe. C. de cura. furio l. vltima. 
+    </p>
+               <p xml:id="nyf6td-d1e834-d1e241">
+                  <lb ed="#P" n="67"/>¶ Item nunquid hic tollitur consuetudo argu. quod sic. supra hoc 
+      <lb ed="#P" n="68"/>lib. de biga. c. vno. 
+    </p>
+               <p xml:id="nyf6td-d1e834-d1e248">
+                  <lb ed="#P" n="69"/>¶ Solu. ibi prorsus recessit a clero. Item ibi est expressum 
+      <lb ed="#P" n="70"/>de consuetudine / hic non: et ideo consuetudo non tollitur. supra hoc 
+      <lb ed="#P" n="71"/>lib. de consti. c. i. Io. Mona. Card. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

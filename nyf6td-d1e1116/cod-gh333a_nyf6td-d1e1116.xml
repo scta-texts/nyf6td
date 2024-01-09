@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 16</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 16</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="324-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1116" type="et-sextus-l3t16"><!-- mo-l3t16"
+              -->
+            <head xml:id="nyf6td-d1e1116-Hd1e101">Titulus 16</head>
+            <div xml:id="nyf6td-d1e1116-Dd1e103" type="et-sextus-l3t16-rubric"><!-- mo-l3t16-rubric" -->
+               <head xml:id="nyf6td-d1e1116-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1116-d1e108">
+                  <lb ed="#P" n="49" type="fixed=321-v"/>DIcto de regularibus quorum debet esse 
+      <lb ed="#P" n="50"/>tatus in clausura / vt presertim in 
+      mo<lb ed="#P" n="51" break="no"/>nialibus / vt infra. capitu. proximo / et in 
+      clau<lb ed="#P" n="52" break="no"/>tro. xvi. quest. prima / placuit ii. autem. de 
+      <lb ed="#P" n="53"/>lancti. epi. § prouidere / col. ix. Et etiam 
+      <lb ed="#P" n="54"/>vt precio non decipiantur / nec peculiuma 
+      <lb ed="#P" n="55"/>habere permittantur / nec soli per villas 
+      <lb ed="#P" n="56"/>et oppida morentur / sed insimul 
+      conui<lb ed="#P" n="57" break="no"/>uant: statum etiam debent habere per visitatores / et 
+      alia<lb ed="#P" n="58" break="no"/>que exprimuntur. supra eo. monachi / et capitu. quod dei / et 
+      cap<lb ed="#P" n="59" break="no"/>cum ad monasterium / et capitu. sequen. et sequem. Ideo 
+      subii<lb ed="#P" n="60" break="no"/>it de statum regularium. Ioan. Mona. Cardi.
+      </p>
+            </div>
+            <div xml:id="nyf6td-d1e1116-Dd1e138" type="et-sextus-l3t16-c1"><!-- mo-l3t16-c1" -->
+               <head xml:id="nyf6td-d1e1116-Hd1e141">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1116-d1e143">
+                  <lb ed="#P" n="9" type="fixed=322-v"/>PEriculoso. Hec. decretalis 
+      ha<lb ed="#P" n="10" break="no"/>e.. i. x tes. 
+      Pri<lb ed="#P" n="11" break="no"/>mo ad dicenda prohemium 
+      premi<lb ed="#P" n="12" break="no"/>tit. Secundo versi. presenti de 
+      <lb ed="#P" n="13"/>clausura monialium et § sane non 
+      <lb ed="#P" n="14"/>plures recipiantur quam facultates. 
+      <lb ed="#P" n="15"/>monasterii patiantur statuit. Ter. 
+      <lb ed="#P" n="16"/>tio. §. verum a regula excipit. 
+      <lb ed="#P" n="17"/>Quarto. §. porro presidentes se 
+      <lb ed="#P" n="18"/>culares: vt dent abbatissis et 
+      pri<lb ed="#P" n="19" break="no"/>rissis / ac aliis monialibus (
+      admi<lb ed="#P" n="20" break="no"/>nistrationem gerentibus) potestatem agendi / que incumbunt. 
+      <lb ed="#P" n="21"/>per alios exhortatur et requirit. Quinto. §. episcopis hoc idem 
+      <lb ed="#P" n="22"/>prelatis iniungit. Sexto. §. Et quoniam / statutum 
+      predi<lb ed="#P" n="23" break="no"/>ctum mandat exequi. Septimo. §. per hocsrespondet 
+      ta<lb ed="#P" n="24" break="no"/>cite questioni statui d est prouidere salubriter cupientes / quod 
+      <lb ed="#P" n="25"/>est infra clausura Sed quomodo aliqua artatur grauius 
+      <lb ed="#P" n="26"/>quam inceperit / vt ea inuita vinculo grauiori stringatur. 
+      <lb ed="#P" n="27"/>Sol. hic nil ad regulam adiicitur sed nodus  in 
+      cohabi<lb ed="#P" n="28" break="no"/>tando taxatur / et secundum naturam rei fit: cum non 
+      dece<lb ed="#P" n="29" break="no"/>at mulie res euagari nec virorum cetibus immisceri b. supra 
+      <lb ed="#P" n="30"/>hoc lib. de iudi. mulieres. C. de arbi l. vltima valeat) 
+      infra<lb ed="#P" n="31" break="no"/>hoc lib. de sen. exco. religioso in fine speciali Sed quia 
+      <lb ed="#P" n="32"/>dabit hanc licentiam / episcopus non: ar. xviii. quest. ii. hoc 
+      <lb ed="#P" n="33"/>tantum et. c. luminoso et. c. diffinimus in fine. Abbatissa non 
+      <lb ed="#P" n="34"/>quia ipsa artatur hac clausura: ergo contra eam non 
+      ha<lb ed="#P" n="35" break="no"/>bet facere. infra eodem. §. verum et. §. sequen. Et 
+      mulie<lb ed="#P" n="36" break="no"/>res vt plerunque aduersus sua commoda laborare 
+      nitun<lb ed="#P" n="37" break="no"/>turd. C. de spon. l. iiii. et. xxxiii. q. v. mulieres 
+    </p>
+               <p xml:id="nyf6td-d1e1116-d1e208">
+                  <lb ed="#P" n="38"/>¶ Dic hoc competere superioribus / qui habent facere 
+      clau<lb ed="#P" n="39" break="no"/>suram: infra eo. §. et quoniam / ergo et ea que eam 
+      concomi<lb ed="#P" n="40" break="no"/>tantur argu. ff. de iurisdi. omnium iudic. l. ii. supra de offic. 
+      <lb ed="#P" n="41"/>delega. preterea et infra de dot. post diuor. resti. de prudentia 
+      <lb ed="#P" n="42"/>substentari supra de insti. c. ii. decernentes secus in 
+      mascu<lb ed="#P" n="43" break="no"/>lis / quibus est permissum cetibus hominum immisceri: et 
+      <lb ed="#P" n="44"/>acquirere vite necessaria: vnde hic pinguius prouidetur 
+      <lb ed="#P" n="45"/>mulieribus / nec hanc penam extendam ad masculos 
+      e<lb ed="#P" n="46" break="no"/>uestigio sunt due partes: vel dic quod est vna pars vt 
+      di<lb ed="#P" n="47" break="no"/>catur euestigio id est cito: vt sit aduerbium temporis. Et nota 
+      <lb ed="#P" n="48"/>quod specia litas concessa: suis terminis debet esse 
+      conten<lb ed="#P" n="49" break="no"/>ta: qua expedita sine fraude ad ius commune est reuerten. 
+      <lb ed="#P" n="50"/>dum. Et causa specialitatis cessante / etiam cesset 
+      speciali<lb ed="#P" n="51" break="no"/>tas. C. de epi. et cle. auten. generaliter. ff. de vulga. et 
+      pu<lb ed="#P" n="52" break="no"/>pil. l. ex facto Atornati hoc est vulgare anglicorum supr 
+      <lb ed="#P" n="53"/>normanorum cogantur. C. de epi. et cleri. auten. causa quae 
+      <lb ed="#P" n="54"/>compellantur Nota seculares compelli per 
+      ordinari<lb ed="#P" n="55" break="no"/>os: si non faciant quod conuenit ecclesiastice 
+      institution<lb ed="#P" n="56" break="no"/>supra hoc lib. de foro compe. seculares et supra hoc lib. de 
+      iuretur<lb ed="#P" n="57" break="no"/>licet iniungimus primo dicit rogamus et requirimus 
+      <lb ed="#P" n="58"/>quo ad laicos qui primo habent requiri ar. supra de foro 
+      <lb ed="#P" n="59"/>competen. ex tenore et. c. licet. Sed prelatis prelatus 
+      pre<lb ed="#P" n="60" break="no"/>latorum vt papa iniungere potest demandarent. ff. 
+      <lb ed="#P" n="61"/>de origi. iur. l. ii. §. post originem supra hoc lib. de elec. vbi 
+      <lb ed="#P" n="62"/>§. preterea Acrimoniam i. excommunicationem. C. de 
+      <lb ed="#P" n="63"/>sacrosanct. eccle. placet in fine: vel dic acrimonia 
+      de<lb ed="#P" n="64" break="no"/>scendit ab acer: et moneo / vnde acrimonia acris monitio vt 
+      <lb ed="#P" n="65"/>de designat austeritatem in vultu brachii l 
+      <lb ed="#P" n="66"/>hoc enim 
+      <lb ed="#P" n="67"/>decet vt potestas ecclesiastica iuuetur per secularem / non 
+      <lb ed="#P" n="68"/>ad preiudicandum / sed potius ad ea que deo sunt placita 
+      <lb ed="#P" n="69"/>prosequendum. supra de offi. ordi. capitulo primo. Ioan. 
+      <lb ed="#P" n="70"/>Mona. Cardinalis. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

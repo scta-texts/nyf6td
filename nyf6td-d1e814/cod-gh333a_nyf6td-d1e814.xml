@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 1</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 1</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="246-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e814" type="et-sextus-l3t1"><!-- mo-l3t1"
+              -->
+            <head xml:id="nyf6td-d1e814-Hd1e101">Titulus 1</head>
+            <div xml:id="nyf6td-d1e814-Dd1e103" type="et-sextus-l3t1-rubric"><!-- mo-l3t1-rubric" -->
+               <head xml:id="nyf6td-d1e814-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e814-d1e108">
+                  <lb ed="#P" n="37" type="fixed=236-r"/>VIso § ii. libro de iudiciis et partibus in 
+      <lb ed="#P" n="38"/>diciorum  in quibus plures 
+      litigio<lb ed="#P" n="39" break="no"/>rum anfractus versantur. Et quia 
+      cleri<lb ed="#P" n="40" break="no"/>cos istis immisceri non decet ii. quest. vii. 
+      <lb ed="#P" n="41"/>sicut sacerdotes. Nec sufficit clericis 
+      <lb ed="#P" n="42"/>ab istis abstinere: sed decet eos vitam 
+      <lb ed="#P" n="43"/>honestam seruare. Ideo subiicit de vita. 
+      <lb ed="#P" n="44"/>et houestate clericorum. Ioan. Mona. Cardi.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e814-Dd1e129" type="et-sextus-l3t1-c1"><!-- mo-l3t1-c1" -->
+               <head xml:id="nyf6td-d1e814-Hd1e132">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e814-d1e134">
+                  <lb ed="#P" n="68" type="fixed=237-v"/>CLerici. hic quis 
+      amiit<lb ed="#P" n="69" break="no"/>dignitatem 
+      clerici<lb ed="#P" n="70" break="no"/>tam temporequam trina monitione 
+      <lb ed="#P" n="71"/>si ab incepto hic prohibito non 
+      <lb ed="#P" n="72"/>desistat dignitati et ita 
+      liquen<lb ed="#P" n="73" break="no"/>quod esse clericum est habere 
+      di<lb ed="#P" n="74" break="no"/>pnitatem. iiii. dist. denique i. eso. 
+      <lb ed="#P" n="75"/>Nam inter seruos contingit 
+      ali<lb ed="#P" n="76" break="no"/>quos habere dignitatem. ff de 
+      <lb ed="#P" n="77"/>vsufruc l. sed et si quis 
+      edifica<lb ed="#P" n="78" break="no"/>uerit. §. i. Et inter dei seruos. 
+      <lb ed="#P" n="79"/>iclerici debent esse precipui: et 
+      <lb ed="#P" n="80"/>ob hoc a cleros quod est sors dicti sunt / quasi in sortem 
+      de<lb ed="#P" n="81" break="no"/>mini precipue vocati . Et qui contineantur appellatione 
+      <lb ed="#P" n="82"/>clerici / habetur. xxi. dist. cleros: et priuilegium de quo hic a 
+      <lb ed="#P" n="83"/>gitur non est concessum persone sed dignirati / seu toti 
+      co<lb ed="#P" n="84" break="no"/>legio clericorum infra de sententia excommunicationis. 
+      Con<lb ed="#P" n="85" break="no"/>tigit arg. supra de foro compe. si diligenti: et hoc priuilegium 
+      a<lb ed="#P" n="86" break="no"/>mittitur trina monitione quando ei non paretur / vt hic / et 
+      <lb ed="#P" n="87"/>supra eodem ex literis et infra de senten. excom. contingit ii. 
+      de<lb ed="#P" n="88" break="no"/>trahentes No. dignitati detrahi per delictum vt hic / et 
+      <lb ed="#P" n="89"/>eam inquinari. supra eo. cum decorem in fi. et eam excludi. C. vbi 
+      <lb ed="#P" n="90"/>sena. vel clar. l. i. ioculatores hoc est ioci in publicum late 
+      <lb ed="#P" n="91"/>res / facientes spectaculum proprii corporis. supra eo cum 
+      de<lb ed="#P" n="92" break="no"/>corem. ff. de his qui no. infa. l. ii. §. fi. Recreare tamen infirmum. 
+      <lb ed="#P" n="93"/>per iocum in occulto seu ex alia causa honesta et consimili 
+      <lb ed="#P" n="94"/>facere / non reprobo goliardos) vulgare est Gallicorum 
+      Bul<lb ed="#P" n="95" break="no"/>fones vulgare est Tuscorum annum continuum. ff. de 
+      sta<lb ed="#P" n="96" break="no"/>tu. lib. Cum heres. § sticum arg. ff. de public. et vecti. commis. 
+      <lb ed="#P" n="97"/>l. fi. § sunt autem. ff. de vsuca. l. iii. Et in hoc est noni iuris 
+      e<lb ed="#P" n="98" break="no"/>dictio: quia absque monitione quis non amittebat priuilegium 
+      <lb ed="#P" n="99"/>clericale / vt d. c. ex literis et. c. contingit: ergo hoc 
+      tempore<lb ed="#P" n="100" break="no"/>factum cum cursum anni facit aliquem perdere statum 
+      cleri<lb ed="#P" n="101" break="no"/>ci/ simile infra hoc lib. de heret. Cum contumacia de eta. et 
+      qua<lb ed="#P" n="102" break="no"/>li. Cum bone ignominiosam. ff. de his qui no. infa. l. ii. §. 
+      igno<lb ed="#P" n="103" break="no"/>miniosa et §. fi. vi. q. iii. fames exercuerint Cum enim 
+      cle<lb ed="#P" n="104" break="no"/>rici Mimis Ioculatoribus / et histrionibus / non habeant in 
+      <lb ed="#P" n="105"/>tendere. supra eodem clerici i. Peso. Minus eorum artem habent 
+      <lb ed="#P" n="106"/>exercere. lxiii. distin. non liceat iure hoc est ipso facto sine 
+      <lb ed="#P" n="107"/>alio hominis adminiculo. supra hoc lib. de elect. quam sit in fi. et. c. 
+      <lb ed="#P" n="108"/>cupientes. § i. clericali hoc intelligo de clericis non in 
+      sa<lb ed="#P" n="109" break="no"/>cris constitutis: quia in sacris constituti priuilegium cle 
+      <lb ed="#P" n="110"/>ricale non amittunt / vt desinant esse clerici: sed eos 
+      opo<lb ed="#P" n="111" break="no"/>tet clericaliter viuere / vnde licet existentes in sacris 
+      ma<lb ed="#P" n="112" break="no"/>gis peccent non tamen amittunt clericatum propter 
+      ca<lb ed="#P" n="113" break="no"/>racterem impressum. supra qui clerici vel vo. c. i. et. ii. et infra. de 
+      cle<lb ed="#P" n="114" break="no"/>ric. conin. sane. in fi. Io. Mo. Card. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

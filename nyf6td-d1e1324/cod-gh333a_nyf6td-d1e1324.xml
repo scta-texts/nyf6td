@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 2</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 2</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="339-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1324" type="et-sextus-l4t2"><!-- mo-l4t2"
+              -->
+            <head xml:id="nyf6td-d1e1324-Hd1e101">Titulus 2</head>
+            <div xml:id="nyf6td-d1e1324-Dd1e103" type="et-sextus-l4t2-rubric"><!-- mo-l4t2-rubric" -->
+               <head xml:id="nyf6td-d1e1324-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1324-d1e108">
+                  <lb ed="#P" n="3" type="fixed=339-r"/>VIso de sponsalibus in genere / nunc prosequitur 
+      <lb ed="#P" n="4"/>vnam speciem. Ioan. Mona. Cardi. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1324-Dd1e116" type="et-sextus-l4t2-c1"><!-- mo-l4t2-c1" -->
+               <head xml:id="nyf6td-d1e1324-Hd1e119">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1324-d1e121">
+                  <lb ed="#P" n="89" type="fixed=339-r"/>SI infantes. Hec aefia: ale 
+      he<lb ed="#P" n="90" break="no"/>CEr q nque dicta. 
+      <lb ed="#P" n="91"/>Ecce primum infantes . i. vii. 
+      <lb ed="#P" n="92"/>innis minores. C. de iure delibe. 
+      <lb ed="#P" n="93"/>l. si infanti. supra hoc libro de tempo. 
+      <lb ed="#P" n="94"/>ordi. nullus: et supra eo. literas. et cap. 
+      <lb ed="#P" n="95"/>accessit. ff. de sponsa l. in 
+      sponsali<lb ed="#P" n="96" break="no"/>bus. xxxii. q. ii. vbi pro eis it 
+      ma<lb ed="#P" n="97" break="no"/>uoribus / secus si essent maiores 
+      <lb ed="#P" n="98"/>et sponsalia contraherentur ipsis. 
+      <lb ed="#P" n="99"/>scientibus et non 
+      contradicenti<lb ed="#P" n="100" break="no"/>pus: tunc enim consentire 
+      presu<lb ed="#P" n="101" break="no"/>muntur. ff. de sponsa. sed que patris. ff. soluto matrim l. ii. §. 
+      <lb ed="#P" n="102"/>voluntatem conualescunt infra hoc libro de reg. iuris. non 
+      <lb ed="#P" n="103"/>firmatur. Et consensus nouus verus vel presumptus est 
+      <lb ed="#P" n="104"/>necessarius / argu. ff. loca l. item queritur. §. finali. et l. 
+      <lb ed="#P" n="105"/>sequen. et hic statim subiicit nulla hec est alia nullitas ab 
+      <lb ed="#P" n="106"/>illa que est. supra ti. proxi. c. vno. in fine. Nam hic est nullitas 
+      con<lb ed="#P" n="107" break="no"/>sensus simpliciter / sed ibi est nullitas pro tempore contractus / 
+      <lb ed="#P" n="108"/>ex quo non est nata adhuc obligatio: sed est spes in debitus 
+      <lb ed="#P" n="109"/>iri vt ibi notatur pubes vt masculus qui impleuit. xiiii. 
+      <lb ed="#P" n="110"/>annum / et mulier que impleuit. xii. Sed dicuntur a 
+      impube<lb ed="#P" n="111" break="no"/>res qui sunt minores dictis annis. insti. de nup. in prin. in. 
+      <lb ed="#P" n="112"/>sti. quib. mo. tute. finitur. in prin. supplebat) b. supra eo. de illis 
+      <lb ed="#P" n="113"/>et de sponsa. iuuenis / et supra ca. ad id quod de futuro supra eo a 
+      no<lb ed="#P" n="114" break="no"/>bis not. non tenuit supra eo. litteras / e. c. accessit subfecutam 
+      <lb ed="#P" n="115"/>supra de spons. ad id quod modum ff. de ritu nup. minorem agebatur 
+    </p>
+               <p xml:id="nyf6td-d1e1324-d1e182">
+                  <lb ed="#P" n="116"/>¶ Nota generale / si non valet vt ago / valeat tamen vt 
+      <lb ed="#P" n="117"/>valere  potest. supra eo a nobis. 
+    </p>
+               <p xml:id="nyf6td-d1e1324-d1e189">
+                  <lb ed="#P" n="118"/>¶ Sed quare secus in electione vbi intenditur ad 
+      matri<lb ed="#P" n="119" break="no"/>monium contrahendum: si non valet vt ago / nec tamen 
+      va<lb ed="#P" n="120" break="no"/>tet vt valere potest: vt pote sicut postulatio / supra de 
+      po<lb ed="#P" n="121" break="no"/>stulatio. capitulo vltimo. 
+    </p>
+               <p xml:id="nyf6td-d1e1324-d1e200">
+                  <lb ed="#P" n="122"/>¶ Sol. vbi contrahitur intentione contrahentium matri 
+      <lb ed="#P" n="123"/>monium carnale / consensus est sine quo cetera frustrantur 
+      <lb ed="#P" n="124"/>xxxii. q. secunda. vel. xxix. q. prim. §. his ita. in principio / et 
+      su<lb ed="#P" n="125" break="no"/>pra de sponsa. tua. in fine. Sed vbi est consensus 
+      legi<lb ed="#P" n="126" break="no"/>timus / saltem quo ad sponsalia. Si non valet / vt ago¬ 
+      <!--cod-gh333a-0811.xml-->
+      <pb ed="#P" n="339-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>propter materiam indebitam ad matrimonium: valet tamen 
+      con<lb ed="#P" n="2" break="no"/>sensus / qui licet non operetus in id quod intendit / operatur 
+      <lb ed="#P" n="3"/>amen iiu materia ad iuofalia dlipolita aro ff de pac l. ite 
+      <lb ed="#P" n="4"/>si vnus. §. si acceptilatio. Sed d desit  consensus non 
+      <lb ed="#P" n="5"/>valet quod agitur ff. de acceptila. An inutilis / secus in 
+      con<lb ed="#P" n="6" break="no"/>trario / vt in electione et postulatione predictis vbi 
+      consen<lb ed="#P" n="7" break="no"/>sus eligentium nihil agit quod nec etiam consensus esse potui. 
+      <lb ed="#P" n="8"/>cum electus non possit esse sponsus / et idem in postulatione quo 
+      <lb ed="#P" n="9"/>ab eis non dependet / sed a gratia presidentis. supra hoc lib. de 
+      <lb ed="#P" n="10"/>elec. cupientes. § penul.
+     </p>
+               <p xml:id="nyf6td-d1e1324-d1e242">
+      ¶ Item in matrimonio 
+      carna<lb ed="#P" n="11" break="no"/>li non est proprie materia vel forma / cum solus consensus 
+      suf<lb ed="#P" n="12" break="no"/>ficiat verbo / nutu / vel alias expressus. supra eo. cum apud / et. c. 
+      <lb ed="#P" n="13"/>tue / et infra. de coniug. seruo. cap. fina. Sed secus in electione. 
+      <lb ed="#P" n="14"/>et postulatione que certis formis habent fieri. 
+    </p>
+               <p xml:id="nyf6td-d1e1324-d1e253">
+                  <lb ed="#P" n="15"/>¶ Nec obstat. supra eo. cap. tua nos. in fine / vbi tangitur de 
+      for<lb ed="#P" n="16" break="no"/>ma: quia ibi vocat formam quencunque modum exprimendi 
+      con<lb ed="#P" n="17" break="no"/>sensum.
+     </p>
+               <p xml:id="nyf6td-d1e1324-d1e262">
+      ¶ Item carnalia citius conualescunt quam 
+      spiri<lb ed="#P" n="18" break="no"/>tualia: sicus naturalia quam artificiata: nam et si ars immut 
+      <lb ed="#P" n="19"/>tur naturam / non tamen ei attingit / licet quantum potest 
+      mul<lb ed="#P" n="20" break="no"/>tum laboret: et matrimonium spirituale est quasi artificiatum 
+      <lb ed="#P" n="21"/>respectu matrimonii carnalis / quod iure naturali iiiciatur. 
+      <lb ed="#P" n="22"/>distin i. ius naturale. supra de transla. episcopi. licet. in prin¬ 
+    </p>
+               <p xml:id="nyf6td-d1e1324-d1e275">
+                  <lb ed="#P" n="23"/>¶ Et per illud capi. posset responderi quod per 
+      postulatio<lb ed="#P" n="24" break="no"/>nem seu electionem non est iniitiatum spirituale matrimo 
+      <lb ed="#P" n="25"/>nium / sed initiatur ex consensu eligentium et electi vt ibi: vt 
+      <lb ed="#P" n="26"/>de non est mirum si precedentia consensu euacuentur / 
+      for<lb ed="#P" n="27" break="no"/>tius quam illa que consensu ligantur argu. infra hoc libro tit. 
+      pro<lb ed="#P" n="28" break="no"/>xi. per cathecismum 
+    </p>
+               <p xml:id="nyf6td-d1e1324-d1e291">
+                  <lb ed="#P" n="29"/>¶ Item electio est que cadit verisimiliter in sapientes. 
+      <lb ed="#P" n="30"/>quia patrem eligunt et rectorem futurum plurium / et ideo 
+      eo<lb ed="#P" n="31" break="no"/>rum culpa multum contaminat 
+    </p>
+               <p xml:id="nyf6td-d1e1324-d1e300">
+                  <lb ed="#P" n="32"/>¶ Sed fatui et fatue / maiores et minores matrimonia 
+      con<lb ed="#P" n="33" break="no"/>trahunt supra de resti. spo. ex parte. 
+    </p>
+               <p xml:id="nyf6td-d1e1324-d1e308">
+                  <lb ed="#P" n="34"/>¶ Unde de talibus accipi debuit quod elici ex eisdem 
+      po<lb ed="#P" n="35" break="no"/>fuit obliganturff. de sponsa. in sponsalibus / cum enim hic. 
+      <lb ed="#P" n="36"/>agatur de re appetibili per naturam / qui tacet 
+      consen<lb ed="#P" n="37" break="no"/>tire videtur ff. manda. qui fidem / et l. qui patitur / et infra hoc 
+      <lb ed="#P" n="38"/>lib. de regu. iuris. qui tacet. Idem in casu premisso argu. ff. 
+      <lb ed="#P" n="39"/>de ritu nup. minorem alias s. quam in casibus precedenti 
+      <lb ed="#P" n="40"/>bus obligantur ff. de spon. fllio. et de ritu nup. non 
+      cogi<lb ed="#P" n="41" break="no"/>tur / et l. sequen. Ioan. Mona. Cardi.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

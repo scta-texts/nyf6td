@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prologus</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prologus</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="8-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+        <div xml:id="nyf6td-d1apro"><!-- alias="mo-prol" -->
+            <head xml:id="nyf6td-d1apro-Hd1e101">Prologus</head>
+            <p xml:id="nyf6td-d1apro-d1e103">
+               <lb ed="#P" n="4" type="fixed=1-v"/>IN nomine domini a Amen. 
+    </p>
+            <p xml:id="nyf6td-d1apro-d1e108">
+               <lb ed="#P" n="5"/>¶ Secundum <name xml:id="nyf6td-d1apro-Nd1e112">philosophum</name>: scire 
+      <lb ed="#P" n="6"/>est rem per causam 
+      cognosce<lb ed="#P" n="7" break="no"/>re. xxiii. q. viii. c. occidit infra 
+      de<lb ed="#P" n="8" break="no"/>testi. c. cum causam 
+    </p>
+            <p xml:id="nyf6td-d1apro-d1e121">
+               <lb ed="#P" n="9"/>¶ Cause autem sunt 
+      qua<lb ed="#P" n="10" break="no"/>tuor / due essendi / vt materia et 
+      <lb ed="#P" n="11"/>forma. xxxii. q. ii. c. quod vero 
+      <lb ed="#P" n="12"/>non formatum / et de Con. di. ii. 
+      <lb ed="#P" n="13"/>quia corpus. et c. panis. et di. iiii 
+      <lb ed="#P" n="14"/>c. in synodo. Et due fiendi vt 
+      <lb ed="#P" n="15"/>efficiens et finis. xxiii. q. v. c. de occidendis. et c. non frustra. 
+    </p>
+            <p xml:id="nyf6td-d1apro-d1e139">
+               <lb ed="#P" n="16"/>¶ Et est notandum quod finis est causa causarum in intentione 
+      <lb ed="#P" n="17"/>sed effectus causarum est in executione. xxxv. di. ab exordio 
+      <lb ed="#P" n="18"/>et. c. sexto die. verbi gratia. Intendo domificare ad hunc finem 
+      <lb ed="#P" n="19"/>vt domus me protegat a canmatibus id est a caloribus 
+      inten<lb ed="#P" n="20" break="no"/>sis et pluuiis. hic finis mouet efficientem. Efficiens motus 
+      <lb ed="#P" n="21"/>preparat materiam: et tandem in materia preparata inducit 
+      <lb ed="#P" n="22"/>formam ex quibus elicitur finis vt effectus causarum. 
+    </p>
+            <p xml:id="nyf6td-d1apro-d1e158">
+               <lb ed="#P" n="23"/>¶ Uolens ergo huius libri habere scientiam / debet 
+      cogno<lb ed="#P" n="24" break="no"/>scere causas vt que materialis: que formalis: que efficiens 
+      <lb ed="#P" n="25"/>que finalis. Et dicit Ber. in prima glo. prohemii compila. 
+      <lb ed="#P" n="26"/>antique quod ipse decretales sub singulis titulis collocate 
+      <lb ed="#P" n="27"/>sunt subiectum seu materia libri decretalium. Sed hoc nihil 
+      <lb ed="#P" n="28"/>est quia ipse decretales vt premittitur collocate nihil aliud 
+      <lb ed="#P" n="29"/>sunt quam ipse liber et sic idem erit materia et liber. Et nihil 
+      <lb ed="#P" n="30"/>est causa sui ipsius. 
+    </p>
+            <p xml:id="nyf6td-d1apro-d1e178">
+               <lb ed="#P" n="31"/>¶ Alii dixerunt quod materia huius libri sunt decretales 
+      ex<lb ed="#P" n="32" break="no"/>trauagantes / et noue constitutiones superaddite. Et hoc 
+      <lb ed="#P" n="33"/>videtur colligi hoc prohemio et in prohemio antique 
+      com<lb ed="#P" n="34" break="no"/>pilationis. §. Sane. Et isti pro se videntur habere Azo qui 
+      <lb ed="#P" n="35"/>dixit in consimili materia in summa circa prin. Quod tres 
+      <lb ed="#P" n="36"/>codices scilicet Gregorianus / hermogenianus / et 
+      Theo<lb ed="#P" n="37" break="no"/>dosianus. et constitutiontes extrauagantes sunt materia 
+      <lb ed="#P" n="38"/>propria codicis. Et est argumentum quod materia digestorum 
+      <lb ed="#P" n="39"/>est pene duo milia librorum et plusquam tricesies milia versuum 
+      <lb ed="#P" n="40"/>C. de iure enucle. l. ii. § primo. Et grosso modo loquendo 
+      <lb ed="#P" n="41"/>isti dicunt vera vt si quis mihi diceret materia huius domus 
+      <lb ed="#P" n="42"/>sumpta fuit vt ligna et lapides in silua et lapidicinis vicinis. 
+    </p>
+            <p xml:id="nyf6td-d1apro-d1e207">
+               <lb ed="#P" n="43"/>¶ Uerum si quis loquatur de subiecto seu causa materiali: 
+      <lb ed="#P" n="44"/>ad quod vel ad quam reducuntur omnia que tractantur in arte 
+      <lb ed="#P" n="45"/>illa seu quod est predicabile de omnibus tractatis in arte 
+      <lb ed="#P" n="46"/>tunc dicerem quod bonum ecclesiasticum id est fidelium directiuum 
+      <lb ed="#P" n="47"/>esset subiectum huius libri. di. iiii § omnes. etc. Canon / quod sic 
+      <lb ed="#P" n="48"/>probo. Si scientia est sub scientia: et subiectum sub subiecto 
+      <lb ed="#P" n="49"/>Uerbi gratia Arithmetica et subalternat sibi musicam. Sic 
+      sub<lb ed="#P" n="50" break="no"/>iectum arithmetice quod est numerus subalternat sibi 
+      sub<lb ed="#P" n="51" break="no"/>iectum musice quod est numerus sonorus. Et constat quod hec 
+      sci<lb ed="#P" n="52" break="no"/>enti a subalternatur seu supponitur ethice hoc est morali 
+      phi<lb ed="#P" n="53" break="no"/>losophie vt. C. de secundis nup. l. i. in fine. et. c. vt clericorum 
+      <lb ed="#P" n="54"/>mores infra de vi. et hone. cle. Nam ethica dicta est ab ethi 
+      <lb ed="#P" n="55"/>quod est mos et ychos scientia quasi moralis scientia. 
+    </p>
+            <p xml:id="nyf6td-d1apro-d1e238">
+               <lb ed="#P" n="56"/>¶ Et hec habet tres partes: scilicet monasticam. In qua 
+      <lb ed="#P" n="57"/>agitur de regimine suiipsius. Economicam in qua agitur de 
+      re<lb ed="#P" n="58" break="no"/>gimine domus: et politicam in qua agitur de regimine 
+      ciui<lb ed="#P" n="59" break="no"/>tatis: et hoc innuunt nonnulle expositiones. Et secundum has 
+      par<lb ed="#P" n="60" break="no"/>tes debet fieri assensus: alias est vsurpatio. Nam est 
+      absur<lb ed="#P" n="61" break="no"/>dum quod carens monastica eleuetur ad ycononicam de eta. et qua 
+      <lb ed="#P" n="62"/>li. c. Indecorum Et carens yconomica eleuetur ad politicam. 
+      <lb ed="#P" n="63"/>xlvii. di. §. Necesse. et. xlviii. distinct. In primo Arg. ff. de 
+      mu<lb ed="#P" n="64" break="no"/>ner et honor. vt gradatim. responso. primo. et. l. honor. § 
+      ge<lb ed="#P" n="65" break="no"/>rendorum. Nunc tamen dispositio vniuersi que in predictis 
+      <lb ed="#P" n="66"/>vsurpat tam in brachio seculari quam ecclesiastico ponit mundum 
+      <lb ed="#P" n="67"/>in statu in quo degit: et sicut vbi sistit naturalis 
+      philoso<lb ed="#P" n="68" break="no"/>phus: incipit medicus: quia naturalis philosophus 
+      princ<lb ed="#P" n="69" break="no"/>pia sue artis dat in vniuersali. Sed medicus illa exequitur 
+      <lb ed="#P" n="70"/>in particulari quia medicus non sanat hominem sed hunc iuuat. 
+      <lb ed="#P" n="71"/>Sic vbi terminatur ethica vt in principlis generalibus inchoat 
+      <lb ed="#P" n="72"/>hec facultas que est ad punitionem delictorum: emendationem 
+      <lb ed="#P" n="73"/>morum: ad decisionem factorum dubiorum.
+     </p>
+            <p xml:id="nyf6td-d1apro-d1e280">
+      ¶ Ad facta 
+      particu<lb ed="#P" n="74" break="no"/>laria in tribuis praedictis partibus ethice regulariter 
+      descen<lb ed="#P" n="75" break="no"/>dendo. vnde sicut naturalis philosophie medicinalis 
+      scien<lb ed="#P" n="76" break="no"/>tia est practica: sic moralis philosophie facultas. Et ideo 
+      <lb ed="#P" n="77"/>hec facultas non debet exponi theologice: nec 
+      philosophi<lb ed="#P" n="78" break="no"/>ce nisi quatenus facit ad praxim ad quam est hec scientia ne 
+      <lb ed="#P" n="79"/>omnia dicantur in omnibus sed quilibet sit suis terminis conten- 
+      <lb ed="#P" n="80"/>tus.
+     </p>
+            <p xml:id="nyf6td-d1apro-d1e298">
+      ¶ Cum igitur in tota ethica sit subiectum bonum hu¬ 
+      <!--cod-gh333a-0125.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="81"/>manum: ergo in hoc libro sibi subalternato bonum 
+      modifica<lb ed="#P" n="82" break="no"/>tum erit subiectum. nam scientia subalternata quandoque 
+      con<lb ed="#P" n="83" break="no"/>trahit totum subiectum vt dictum est de musica 
+      subalterna<lb ed="#P" n="84" break="no"/>ta arithmetice et quandoque partem vt philosophia 
+      natura<lb ed="#P" n="85" break="no"/>lis est de corpore nobili: et medicina sibi subalternata 
+      contra<lb ed="#P" n="86" break="no"/>hit non totum subiectum sed partem: quia ipsa est de 
+      corpo<lb ed="#P" n="87" break="no"/>re humano: sic in proposito bonum ecclesiasticum est 
+      subie<lb ed="#P" n="88" break="no"/>ctum.
+     </p>
+            <p xml:id="nyf6td-d1apro-d1e323">
+      ¶ Item scientia subalternat sibi aliam quia vna dicit 
+      <lb ed="#P" n="89"/>propter quid vt geometria dicit propter quid vulnera 
+      circu<lb ed="#P" n="90" break="no"/>laria tardius sanantur: sed non dicit quia eo quod ad factum non 
+      <lb ed="#P" n="91"/>applicat sed cirurgia dicit hoc casu quia non propter quid sic 
+      <lb ed="#P" n="92"/>moralis scientia dicit popter quid suo modo prout moralia 
+      <lb ed="#P" n="93"/>principia patiuntur sed hec ars quia dicendo sic / statutum est de 
+      <lb ed="#P" n="94"/>consti. prin. l. i. ff. Et praedictis duobus modis subiectum est 
+      praedi<lb ed="#P" n="95" break="no"/>cabile de omnibus quae sunt in hac scientia ad finem huius scientie quae 
+      <lb ed="#P" n="96"/>tangitur infra Sic dico bonum ciuile id est ciuium directiuum esse 
+      mate<lb ed="#P" n="97" break="no"/>riam iuris ciuilis Arg. ff. de iusti. et iu l. ius ci. Insti. de 
+      ui<lb ed="#P" n="98" break="no"/>na. gen. et ciuili. § primo. et § pe i. di. ius ciuile. et iiii. di. c. i. 
+      <lb ed="#P" n="99"/>§ primo et. c. erit.
+     </p>
+            <p xml:id="nyf6td-d1apro-d1e349">
+      ¶ Causa autem formalis duplex est: forma 
+      <lb ed="#P" n="100"/>tractandi et forma tractatus. Forma autem tractatus idem est 
+      <lb ed="#P" n="101"/>quod diuisio libri in partes: et primo hic liber diuiditur in tres 
+      <lb ed="#P" n="102"/>partes. in prohemium in quo narratur intentum huius libri in 
+      genera<lb ed="#P" n="103" break="no"/>li. Et in tractatum i de summa tri. et fid. ca. in quo sit 
+      prosecu<lb ed="#P" n="104" break="no"/>tio narratorum generaliter in speciali et in epilogium infra de reg. iur. 
+      <lb ed="#P" n="105"/>Et ille titulus est epilogatiuus sen recapitulatiuus nam 
+      <lb ed="#P" n="106"/>iuribus positis in. v. libris ex eorum aliquibus elicitur regula 
+      <lb ed="#P" n="107"/>qua multa iura recapitulat in vnam diffinitionem: notatur infra hoc 
+      <lb ed="#P" n="108"/>lib. de regn. iii. in rubri.
+     </p>
+            <p xml:id="nyf6td-d1apro-d1e371">
+      ¶ Forma autem tractandi idem est quod 
+      <lb ed="#P" n="109"/>modus agendi qui est multiplex / narratiuus exemplorum / 
+      positi<lb ed="#P" n="110" break="no"/>uus / deciliuus / seu declaratius narratorum et iurium 
+      antiquo<lb ed="#P" n="111" break="no"/>rum infra de eta. et quali. c. a multis. Et iste modus est communis in 
+      <lb ed="#P" n="112"/>hac arte. Est etiam quandoque probatiuus infra hoc libro de summa 
+      tri<lb ed="#P" n="113" break="no"/>et side ca. c. vno . ii. responso. infra hoc libro. de hereti. ca. Cum 
+      <lb ed="#P" n="114"/>secundum leges. Et reprobatiuus etiam quandoque consuetudinis infra 
+      <lb ed="#P" n="115"/>hoc lib. de peniten. et remi. c. ii. in fi. et infra hoc libro de consuetu. 
+      <lb ed="#P" n="116"/>c. i. et. ii. Et quandoque iurium antiquorum infra hoc libro de conces. preben. c. 
+      <lb ed="#P" n="117"/>detestanda. Quandoque etiam opinionum alteri adherendo infra hoc 
+      <lb ed="#P" n="118"/>lib. de preben. c. quia sepe. Item modificatiuus infra hoc lib. de  
+      <lb ed="#P" n="119"/>elec. c. cum ex eo.
+     </p>
+            <p xml:id="nyf6td-d1apro-d1e397">
+      ¶ Et scias quod in hoc opere allegando infra et supra non 
+      <lb ed="#P" n="120"/>sequor differentias temporis in condendo: sed in hoc sequar 
+      <lb ed="#P" n="121"/>ordinem antique compilationis vnde allegando de hoc libro 
+      <lb ed="#P" n="122"/>dicam infra et supra Nisi sim in ti. de quo allegabo.
+     </p>
+            <p xml:id="nyf6td-d1apro-d1e406">
+      ¶ Causa vero 
+      ef<lb ed="#P" n="123" break="no"/>ficiens fuit dominus Bonifacius papa. viii. vt efficiens 
+      prin<lb ed="#P" n="124" break="no"/>cipalis. Sed instrumentalis seu cooperans fuit vnus 
+      Ar<lb ed="#P" n="125" break="no"/>chos id est princeps hoc est pincipium capiens vnus epi. hoc est 
+      <lb ed="#P" n="126"/>superintendens. xxi. di. c. Cleros. Et vnus doctor qui est 
+      di<lb ed="#P" n="127" break="no"/>ctus a docendo: et doceo idem est quod denuncio vel cieo id est voco: 
+      <lb ed="#P" n="128"/>moneo vel congrego. Isti ergo tres coadiutores principia 
+      <lb ed="#P" n="129"/>sumpserunt et in illis superintenderunt et domum scientie in 
+      <lb ed="#P" n="130"/>hoc volumine tradite sciuerunt id est congregauerant infra hoc 
+      <lb ed="#P" n="131"/>prohemio. versicu. per venerabiles.
+     </p>
+            <p xml:id="nyf6td-d1apro-d1e428">
+      ¶ Et merito efficiens 
+      <lb ed="#P" n="132"/>principalis vocatus est Bonifacius hoc est bonum faciens  
+      <lb ed="#P" n="133"/>qui ambigua et incerta iura elucidare curauit et noua multa 
+      <lb ed="#P" n="134"/>vtilia adiecit: vt infra hoc prohemio. §. Sane. Uel dictus 
+      <lb ed="#P" n="135"/>Bonifacius a fascia id est ligatura. vt sit sensus. Bonifacius / 
+      <lb ed="#P" n="136"/>id est boni ligatura. Nam sparsim bonum ligauit et 
+      rede<lb ed="#P" n="137" break="no"/>git in hunc librum
+     </p>
+            <p xml:id="nyf6td-d1apro-d1e445">
+      ¶ Et dico ligauit bonum: quod est triplex 
+      <lb ed="#P" n="138"/>scilicet honestum quo admorum reformationes: et vtile quo ad 
+      cau<lb ed="#P" n="139" break="no"/>sarum decisiones / et delectabile quo ad illuminationem 
+      intelle<lb ed="#P" n="140" break="no"/>ctus et accensionem effectus / et hic vere habet nomen pape. 
+    </p>
+            <p xml:id="nyf6td-d1apro-d1e454">
+               <lb ed="#P" n="141"/>¶ Quia pape est interiectio admirantis Et ipse nomen 
+      <lb ed="#P" n="142"/>habet a re Quia admirabilis est intelligentia et efficacissimus 
+      <lb ed="#P" n="143"/>eloquentia et ideo papa dici debet et dicitur etiam papa id est pater patrum. 
+    </p>
+            <p xml:id="nyf6td-d1apro-d1e463">
+               <lb ed="#P" n="144"/>¶ Finis autem huius lib. est vt mores reformentur et vitia 
+      pu<lb ed="#P" n="145" break="no"/>niantur et iurgia terminantur traditionibus hic contentia 
+      <lb ed="#P" n="146"/>infra hoc prohemio. §. Quem librum. et § precedenti. in fine. et. C. de 
+      <lb ed="#P" n="147"/>vete. iii. enucle l. prima. circa primum. Ex quibus apparet quis 
+      ti<lb ed="#P" n="148" break="no"/>tu. huius li. et cui parti philosophie supponatur. J. Mo. Car.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

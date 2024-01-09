@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 10</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 10</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="136-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e258" type="et-sextus-l1t10"><!-- mo-l1t10"
+              -->
+            <head xml:id="nyf6td-d1e258-Hd1e101">Titulus 10</head>
+            <div xml:id="nyf6td-d1e258-Dd1e103" type="et-sextus-l1t10-rubric"><!-- mo-l1t10-rubric" -->
+               <head xml:id="nyf6td-d1e258-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e258-d1e108">
+                  <lb ed="#P" n="3" type="fixed=135-r"/>¶ Preficiendi per electionem debent esse in certa etate. supra 
+      <lb ed="#P" n="4"/>de elec. cum in cunctis: et qualitate / vt notatur. supra ti. 
+      proxi<lb ed="#P" n="5" break="no"/>mo / in rubrica / et in ordine iam habito. supra eo a multis / vel in 
+      <lb ed="#P" n="6"/>breui habituro supra eo. vt abbates: et cap. preterea infra hoc 
+      <lb ed="#P" n="7"/>libro de preben. si pro pauperibus. Ideo subiicitur rubrica. 
+      <lb ed="#P" n="8"/>de etate et qualita etc. Ioan. Mona. Card. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e258-Dd1e125" type="et-sextus-l1t10-c1"><!-- mo-l1t10-c1" -->
+               <head xml:id="nyf6td-d1e258-Hd1e128">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e258-d1e130">
+                  <lb ed="#P" n="55" type="fixed=135-r"/>PErmittimus, Hic permittur 
+      <lb ed="#P" n="56"/>episcopis 
+      dispen<lb ed="#P" n="57" break="no"/>sandi potestas: in certo casu hic 
+      <lb ed="#P" n="58"/>posito / qui non erat diffinitus. supra 
+      <lb ed="#P" n="59"/>de elec. cum in cunctis. §. inferio 
+      <lb ed="#P" n="60"/>ra. cum. d. §. loquatur in persona. 
+      <lb ed="#P" n="61"/>tibus et dignitatibus curam 
+      ani<lb ed="#P" n="62" break="no"/>marum habentibus. 
+    </p>
+               <p xml:id="nyf6td-d1e258-d1e150">
+                  <lb ed="#P" n="63"/>¶ Sed quero episcopus habet. 
+      <lb ed="#P" n="64"/>in permissum de dispensando 
+      ho<lb ed="#P" n="65" break="no"/>casu / habet tamen in precepto de 
+      <lb ed="#P" n="66"/>conferendo dignitates ecclesiasticas. infra de offi. 
+      archipresbr<lb ed="#P" n="67" break="no"/>teri: vt singule. Nunquid veniet episcopus ad permissumi¬ 
+      <!--cod-gh333a-0394.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="68"/>vbi potest implere preceptum. Et videtur quod non quia 
+      pro<lb ed="#P" n="69" break="no"/>ceptum debet precedere permissum. 
+    </p>
+               <p xml:id="nyf6td-d1e258-d1e172">
+                  <lb ed="#P" n="70"/>¶ Sed contra iam hec permissio esset inutilis / vt plerunque. 
+      <lb ed="#P" n="71"/>solutio videtur potius implendum preceptum quam 
+      permis<lb ed="#P" n="72" break="no"/>sum ar. ff. de decur. l. generaliter. §. spurios. et l. spurii. § 
+      mi<lb ed="#P" n="73" break="no"/>norens. 
+    </p>
+               <p xml:id="nyf6td-d1e258-d1e183">
+                  <lb ed="#P" n="74"/>¶ Uel dic hic non accipi verbum permittimus proprie / 
+      sed<lb ed="#P" n="75" break="no"/>pro concedimus vt hic: priuilegium meretur amittere 
+      qui<lb ed="#P" n="76" break="no"/>permissa: id est concessa abutitur potestate. xii. q. iii. in prin. 
+      <lb ed="#P" n="77"/>priuilegium  etlicet optimus sit eligendus. lxiii. di. 
+      ma<lb ed="#P" n="78" break="no"/>tropolitano: satis tamen est ne malus existat. xvi. q. vii. 
+      si<lb ed="#P" n="79" break="no"/>monasterium. 
+    </p>
+               <p xml:id="nyf6td-d1e258-d1e200">
+                  <lb ed="#P" n="80"/>¶ Dic meliorem eligendum si equa facilitate potest haberi 
+    </p>
+               <p xml:id="nyf6td-d1e258-d1e205">
+                  <lb ed="#P" n="81"/>¶ Item debet eligi melior / quo ad id de quo agitur non 
+      <lb ed="#P" n="82"/>obsistat vt pote mores et scientia / quibus pollere debet 
+      <lb ed="#P" n="83"/>promouendus. supra hoc libro de elec. licet dispensare hoc 
+      <lb ed="#P" n="84"/>est dare: nam largum largiter datur / quando ius 
+      commu<lb ed="#P" n="85" break="no"/>ne ex causa infringitur / que vtinam respiciatur ex parte vt 
+      <lb ed="#P" n="86"/>gentis necessitatis / vel euidentis vtilitatis beneficii / cum 
+      <lb ed="#P" n="87"/>rector datur / alias non est dispensatio sed dissipatio  vt ait 
+      <lb ed="#P" n="88"/>beatus Bernadus. Nam prouideri debet beneficiis / 
+      po<lb ed="#P" n="89" break="no"/>tius quam personis supra. de elac. cum nobis olim in fi. 
+      Io<lb ed="#P" n="90" break="no"/>innes Mo. Cardinalis 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

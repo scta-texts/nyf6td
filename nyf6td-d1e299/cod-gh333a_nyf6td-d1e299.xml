@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 12</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 12</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="139-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e299" type="et-sextus-l1t12"><!-- mo-l1t12"
+              -->
+            <head xml:id="nyf6td-d1e299-Hd1e101">Titulus 12</head>
+            <div xml:id="nyf6td-d1e299-Dd1e103" type="et-sextus-l1t12-c1"><!-- mo-l1t12-c1" -->
+               <head xml:id="nyf6td-d1e299-Hd1e106">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e299-d1e108">
+                  <lb ed="#P" n="84" type="fixed=138-v"/>Altercationis, Hec 
+      abere<lb ed="#P" n="85" break="no"/>tio antiqua 
+      fuf<lb ed="#P" n="86" break="no"/>vtrum bigami essent nudati 
+      ve<lb ed="#P" n="87" break="no"/>nudandi priuilegio canonis 
+      su<lb ed="#P" n="88" break="no"/>is suadente. xvii. q. iiii. vt not. 
+      <lb ed="#P" n="89"/>lxxxiiii. di. quisquis que 
+      decidi<lb ed="#P" n="90" break="no"/>hic.
+     </p>
+               <p xml:id="nyf6td-d1e299-d1e126">
+      ¶ Et intelligo a hoc. c. qui. 
+      <lb ed="#P" n="91"/>quis de clericis: in minoribus 
+      <lb ed="#P" n="92"/>ordinibus constitutis: non de 
+      con<lb ed="#P" n="93" break="no"/>stitutis in sacris. supra eo. c. vltio 
+      <lb ed="#P" n="94"/>coraculo id est responso. C. de 
+      di<lb ed="#P" n="95" break="no"/>uer. res l. fi. bigamos) vere vi 
+      <lb ed="#P" n="96"/>interpretatiue: vere quia duas habuit vxores. xxvi. di. vna. 
+      <lb ed="#P" n="97"/>tantum: et c. deinde. et. c. accusatus. C. de diuer. res l. fi. interpret 
+      <lb ed="#P" n="98"/>tiue: quia contraxit cum corrupta  supra eo de biga. xxxii. d. seriati. 
+      <lb ed="#P" n="99"/>xxxiii. dins. Maritum. priuilegio Duplex est 
+      praeuilegiuncla<lb ed="#P" n="100" break="no"/>ricorum praecipuum inter alia quae habent / vnum est ne vexentur in 
+      perse<lb ed="#P" n="101" break="no"/>nis / vel inrebus. C. de epi. etcle. l. i. et. ii. hoc priuilegium perdit 
+      oiu<lb ed="#P" n="102" break="no"/>gatus / siue sit bigamus: siue non / eetiam pustrinam monitionem / le non 
+      <lb ed="#P" n="103"/>sit coniugatus infra de vita et honesta. cler. cap. vlti. et de cler. comnum 
+      <lb ed="#P" n="104"/>aa ioannes c. c. ex parte. 
+    </p>
+               <p xml:id="nyf6td-d1e299-d1e159">
+                  <lb ed="#P" n="105"/>¶ Hodie de hoc tene quod scribitur infra. de cler. conius. hoc. 
+      <lb ed="#P" n="106"/>libro. cap. vno. 
+    </p>
+               <p xml:id="nyf6td-d1e299-d1e166">
+                  <lb ed="#P" n="107"/>¶ Et est aliud priuilegium quod habentper canonem. xvii. 
+      <lb ed="#P" n="108"/>1. iiii. si quis suadente et hoc priuilegium amittit bigamus 
+      <lb ed="#P" n="109"/>vt d. cap. quisquis: quod videtur ferende sententie / et hic 
+      de<lb ed="#P" n="110" break="no"/>citur omni priuilegio clericali esse nudatos / quod est 
+      late<lb ed="#P" n="111" break="no"/>addictos id s astrictos. C. de appel. addictos / et. C. de epi. 
+      <lb ed="#P" n="112"/>iudi. addictos non obstante] Nota casum vbi non valetus 
+      <lb ed="#P" n="113"/>consuetudo / et vbicunque expresse a iure prohibetur / et aliis 
+      <lb ed="#P" n="114"/>modis non valet vt not. supra hoc libro de consuetudi. 
+      sub<lb ed="#P" n="115" break="no"/>rubricat 
+      <lb ed="#P" n="116"/>Et mitum c est dic reprobari coniuetudinemicum ecum 
+      <lb ed="#P" n="117"/>sia villam / castrum siue ciuitatem potest consuetudine 
+      vo<lb ed="#P" n="118" break="no"/>prescriptione obtinere: quare quod fuit suum / et sine 
+      pecca<lb ed="#P" n="119" break="no"/>to sui amisit non poterit consuetudine acquirere. 
+    </p>
+               <p xml:id="nyf6td-d1e299-d1e198">
+                  <lb ed="#P" n="120"/>¶ Forsan olim laici clericis dare consueuerant / nunc 
+      eco<lb ed="#P" n="121" break="no"/>tra: ne clerici suis iuribus se spolient / et illa dent potestatem 
+      <lb ed="#P" n="122"/>seculari. 
+      <lb ed="#P" n="123"/>i Uel dic conduetudinem olli que oriretur ex sequela 
+      pls<lb ed="#P" n="124" break="no"/>ris iuris ar. supra hoc libro. de elec. quia sepe: quia tunc in 
+      se<lb ed="#P" n="125" break="no"/>quela huius haberent clerici malam fidem / et sic non 
+      pre<lb ed="#P" n="126" break="no"/>scriberent / ar. supra de prescrip. veniens: secus si ortum 
+      aliun<lb ed="#P" n="127" break="no"/>de haberet anathemate Non est sententia: sed potius 
+      <lb ed="#P" n="128"/>comminatio. C commi. epist. per tocum: et ideo contratium 
+      <lb ed="#P" n="129"/>faciensr non est excommunicatus infra de lagita cabibi. 
+      <lb ed="#P" n="130"/>vno. Io. mo. Car.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

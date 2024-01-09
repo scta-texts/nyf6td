@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 13</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 13</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="317-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1056" type="et-sextus-l3t13"><!-- mo-l3t13"
+              -->
+            <head xml:id="nyf6td-d1e1056-Hd1e101">Titulus 13</head>
+            <div xml:id="nyf6td-d1e1056-Dd1e103" type="et-sextus-l3t13-rubric"><!-- mo-l3t13-rubric" -->
+               <head xml:id="nyf6td-d1e1056-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1056-d1e108">
+                  <lb ed="#P" n="46" type="fixed=315-r"/>Do de sepulturis que de iure communi 
+      ha<lb ed="#P" n="47" break="no"/>oent fieri in ecclesia parrochiali / etiam 
+      <lb ed="#P" n="48"/>de iure communi decime debentur  supra 
+      eod<lb ed="#P" n="49" break="no"/>cum contingat / et supra de parrochiis ca. vltimo 
+    </p>
+               <p xml:id="nyf6td-d1e1056-d1e119">
+                  <lb ed="#P" n="50"/>¶ Ideo annectit de decimis  Io. Mo. Car. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1056-Dd1e125" type="et-sextus-l3t13-c1"><!-- mo-l3t13-c1" -->
+               <head xml:id="nyf6td-d1e1056-Hd1e128">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1056-d1e130">
+                  <lb ed="#P" n="135" type="fixed=315-r"/>DIscretioni. ut habetur in 
+      inte<lb ed="#P" n="136" break="no"/>gra. relatum fuit 
+      Gre<lb ed="#P" n="137" break="no"/>go. sx. quod praedicatores et minores in 
+      <lb ed="#P" n="138"/>quis praedicationibus asserebant quod 
+      nie<lb ed="#P" n="139" break="no"/>mo tenebatur decimas soluere ex 
+      sn<lb ed="#P" n="140" break="no"/>cepto: ex quo contingebat quod laici 
+      qui<lb ed="#P" n="141" break="no"/>erant in praestatione decimarum remist 
+      <lb ed="#P" n="142"/>remissiores fiebant / propter quod hoc 
+      <lb ed="#P" n="143"/>in isto capitulo prohibetur: mandando 
+      eisdu<lb ed="#P" n="144" break="no"/>(vt ad solutionem decimarum 
+      laicipro<lb ed="#P" n="145" break="no"/>pto animo sint intenti / et est consi 
+      <lb ed="#P" n="146"/>mile. supra eo. tua nobnis. Io. Mo. Card.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1056-Dd1e160" type="et-sextus-l3t13-c2"><!-- mo-l3t13-c2" -->
+               <head xml:id="nyf6td-d1e1056-Hd1e163">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e1056-d1e165">
+                  <lb ed="#P" n="16" type="fixed=316-r"/>STatuto. In bac decri. filex. 
+      <lb ed="#P" n="17"/>qumm arcabaaddum 
+      <lb ed="#P" n="18"/>induitum duas declarationes 
+      po<lb ed="#P" n="19" break="no"/>nit: secunda ibi. §. statumus r 
+      <lb ed="#P" n="20"/>Secundo. §. religioros duos 
+      <lb ed="#P" n="21"/>oidines a dictis declarationibus 
+      <lb ed="#P" n="22"/>excipt. Tertio. §. vbi aute queo 
+      <lb ed="#P" n="23"/>stionem tacitam dissoluit. Qua 
+      <lb ed="#P" n="24"/>to. §. sane et. § sequen. diuersos 
+      <lb ed="#P" n="25"/>casus super decimis annectit. 
+      Eccon<lb ed="#P" n="26" break="no"/>ergo exfediti de priuile. 
+      dudi<lb ed="#P" n="27" break="no"/>habebat / na trisbipetrati rescripti est consideradu. supra de 
+      <lb ed="#P" n="28"/>e. ea te / et iitium. supra de elec. dudii. i. atiquas propter ratio em 
+      <lb ed="#P" n="29"/>odicta cum initiu sit spectandum seu inspiclendum: psertimin 
+      istia<lb ed="#P" n="30" break="no"/>priuilegiis qua absorbet iura allorum ar 1ra de censi. quanto et. c. 
+      <lb ed="#P" n="31"/>ex parte extendatur. Et est ratio: quia verbum portio 
+      <lb ed="#P" n="32"/>nis facit vt amplius media  parte non debeat. ff. de vel 
+      <lb ed="#P" n="33"/>bo. signifi. nome fillarum. § portionis. ff. de vsufruc. etia qui 
+      <lb ed="#P" n="34"/>non est Ex hoc ver. et seque. quida no. quod que non sunt ve 
+      <lb ed="#P" n="35"/>rissimslla verbo generali non comphendutur et no infra hoc 
+      libi<lb ed="#P" n="36" break="no"/>de re. iur. in generali vbi autem hic respodet tacite 
+      que<lb ed="#P" n="37" break="no"/>tioni: que insurgit ex dicto immediate pacedeti. Nam si 
+      per<lb ed="#P" n="38" break="no"/>dictam exemptionem curati enormiter lederentur 
+      dioco<lb ed="#P" n="39" break="no"/>ani ipsis curatis vt sequitur prouidere teneret. supra de 
+      sup<lb ed="#P" n="40" break="no"/>pien. negli prela. sicut et de preben. de monachis et c. 
+      auari<lb ed="#P" n="41" break="no"/>tie et no. hoc tit. hoc lib. c. i. in fi. §. sane iste. §. et eius 
+      intelie<lb ed="#P" n="42" break="no"/>ctus colligitur. supra de his que fiunt a prela. sine consen. cap. 
+      <lb ed="#P" n="43"/>cum apostolica vbi sunt argumenta pro et contra de ista 
+      ma<lb ed="#P" n="44" break="no"/>teria anted laterane. Sed quid in dubio  responde 
+      <lb ed="#P" n="45"/>persumam ipsas concessas in feudum post concisium quia 
+      te<lb ed="#P" n="46" break="no"/>nens sure communi non est capaxnec prescribere potest 
+      <lb ed="#P" n="47"/>eas. supra de prescrip. causam. supra eo. dudum et. c. prohibemus ar. 
+      <lb ed="#P" n="48"/>supra de electioni. constitutis / et etiam hec presumam 
+      pro<lb ed="#P" n="49" break="no"/>pter pericnlum a nime ar nfra de homic. ad audientiam. et 
+      in<lb ed="#P" n="50" break="no"/>ra de cler. excomm. min. ililud. Et consimilis questio not. 
+      <lb ed="#P" n="51"/>cxxiii. q. i. in prin. vbi queritur si dubitetur de malencio 
+      an<lb ed="#P" n="52" break="no"/>precesserit vel sequutm fuerit contractum matrimonii. Et 
+      <lb ed="#P" n="53"/>est presumendum quod impedimentu matrimonii fuerit 
+      subse<lb ed="#P" n="54" break="no"/>cutum arg. C. de edil. actio l. iii. 
+    </p>
+               <p xml:id="nyf6td-d1e1056-d1e252">
+                  <lb ed="#P" n="55"/>¶ Nec obssat. ff. de vsuris cum de in rem verso: quia loquit 
+      <lb ed="#P" n="56"/>vbi illud quod agitur non est contra ius / sed secundum vel 
+      <lb ed="#P" n="57"/>breter exeptis Na si ecclesie essent exempte / et sic per 
+      con<lb ed="#P" n="58" break="no"/>equens decime dictis ecclesiis de iure communi debiter 
+      <lb ed="#P" n="59"/>tunc diocesanus non haberet se intromittere. Sic 
+      intelli<lb ed="#P" n="60" break="no"/>go hic et supra de sup. negli. prela. sicur. 
+    </p>
+               <p xml:id="nyf6td-d1e1056-d1e268">
+                  <lb ed="#P" n="61"/>¶ Si vero dicte ecclesie non essent exempte licet ille 
+      deci<lb ed="#P" n="62" break="no"/>me illis ecclesiis de iure debite sint / exemptorum diocesa 
+      <lb ed="#P" n="63"/>nus potest procedere. supra hoc lib. de preben. c. i. in fi. 
+      deci<lb ed="#P" n="64" break="no"/>males. Et est ratio na translatio rerum et possessionum 
+      <lb ed="#P" n="65"/>in allas personas non facit vt ecclesia ius decimarum 
+      amit<lb ed="#P" n="66" break="no"/>tat. supra eo. cum in tua argu. ff. de serul. rusti. predio. certo 
+      ge<lb ed="#P" n="67" break="no"/>neri. C. rem alie. geren. etc. l. vna / nisi vt sequitur. Nec 
+      pro<lb ed="#P" n="68" break="no"/>eo. simile per ola. supra eo. cum contingatu. Io. Mo. Car. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

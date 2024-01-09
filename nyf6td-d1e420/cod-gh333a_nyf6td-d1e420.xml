@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 18</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 18</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="165-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e420" type="et-sextus-l1t18"><!-- mo-l1t18"
+              -->
+            <head xml:id="nyf6td-d1e420-Hd1e101">Titulus 18</head>
+            <div xml:id="nyf6td-d1e420-Dd1e103" type="et-sextus-l1t18-rubric"><!-- mo-l1t18-rubric" -->
+               <head xml:id="nyf6td-d1e420-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e420-d1e108">
+                  <lb ed="#P" n="28" type="fixed=165-r"/>Iso de iudicibus et maioritatibus 
+      <lb ed="#P" n="29"/>eorum / quia est debitum 
+      honesta<lb ed="#P" n="30" break="no"/>tis: vt creditor antequam 
+      conuenia<lb ed="#P" n="31" break="no"/>iudicialiter debitorem / ipsum 
+      con<lb ed="#P" n="32" break="no"/>ueniat extra iudicium 
+      denuncia<lb ed="#P" n="33" break="no"/>tionibus. C. de pigno. debitores 
+      <lb ed="#P" n="34"/>ff de seruitu. vrba. predio. quidasm 
+      <lb ed="#P" n="35"/>hiberus / insti. de actio. §. 
+      appella<lb ed="#P" n="36" break="no"/>nus: et sic conueniendo debitorem 
+      <lb ed="#P" n="37"/>metu iudiciorum deuenitur 
+      quam<lb ed="#P" n="38" break="no"/>doque ad pacta a et transactiones 
+      <lb ed="#P" n="39"/>Ideo post premissa de istis subiicitur / et quid sit pactum / set 
+      <lb ed="#P" n="40"/>vnde dicatur / habetur. ff. eo. titu l. prima. 
+    </p>
+               <p xml:id="nyf6td-d1e420-d1e139">
+                  <lb ed="#P" n="41"/>¶ Et dico pactum id est pacis actum / quia ex diuersis 
+      moti<lb ed="#P" n="42" break="no"/>bus condescendunt contrahentes: et tandem conueniunt pr 
+      <lb ed="#P" n="43"/>pacta / vt pote venditore diminuente: et emptore angent 
+      <lb ed="#P" n="44"/>post diuersos contrahentium motus: deuenitur ad pactum id 
+      <lb ed="#P" n="45"/>est pacis actum. Nam pax vt ait Isidorus. idem est quod 
+      <lb ed="#P" n="46"/>status tramquillus / qui habetur in pacti concordia / et iste 
+      mo<lb ed="#P" n="47" break="no"/>tus traditur ff. eo. titu. l. i. § conuentionum. et. C. de rescind. 
+      <lb ed="#P" n="48"/>vend. si voluntate. Ioan. Mo. Cardi. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e420-Dd1e160" type="et-sextus-l1t18-c1"><!-- mo-l1t18-c1" -->
+               <head xml:id="nyf6td-d1e420-Hd1e163">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e420-d1e165">
+                  <lb ed="#P" n="110" type="fixed=165-r"/>PActum. Casus lbera 
+      se<lb ed="#P" n="111" break="no"/>pultura potest per 
+      pa<lb ed="#P" n="112" break="no"/>ctum prorsus tolli: seu diminui. 
+      <lb ed="#P" n="113"/>Nota etiam quod per pacta potest 
+      re<lb ed="#P" n="114" break="no"/>nunciari priuilegio. sed contra. ff 
+      <lb ed="#P" n="115"/>communia predio. caueri. Solu. libe 
+      <lb ed="#P" n="116"/>ra sepultura non potest debere 
+      se<lb ed="#P" n="117" break="no"/>uitutem priuato: quia seruitus 
+      <lb ed="#P" n="118"/>computatur inter bona: licet non 
+      sic<lb ed="#P" n="119" break="no"/>in bonis. ff. de acquir. rerum 
+      domi<lb ed="#P" n="120" break="no"/>in bonis. ff. de vsufruc. lega l. 
+      pri<lb ed="#P" n="121" break="no"/>ma. Et iam quod est iuris diuini fieret priuati: quod esse 
+      <lb ed="#P" n="122"/>non potest de consecra. di. prima lingua. infra de rerum. 
+      <lb ed="#P" n="123"/>permuta. mancipia. Sed libera sepultura / seu cemiterium 
+      <lb ed="#P" n="124"/>potest debere seruitutem alii cemiterio vel ecclesie. Nam 
+      <lb ed="#P" n="125"/>ecclesia potest esse subiecta calteri per censum dannuum / 
+      <lb ed="#P" n="126"/>et per alias seruitutes. supra de elect. querelam. supra de 
+      <lb ed="#P" n="127"/>maior. et obedienti. his qui infra de capel. mona. dilectus. 
+      <lb ed="#P" n="128"/>infra de eccle. edifican. ad audientiam. xviii. q. ii. seruitium. 
+      <lb ed="#P" n="129"/>Licet enim sepulchrum non sit in bonis: ius tamen 
+      sepe<lb ed="#P" n="130" break="no"/>liendi et commoditas reputatur inter bona / vnde hoc ius 
+      pon<lb ed="#P" n="131" break="no"/>test remitti vel acquiri. ff. de seruitu. seruitutes. § 
+      serui<lb ed="#P" n="132" break="no"/>tus / de sepul. vio l. tertia. §. si quis in hereditarium. ff. de 
+      <lb ed="#P" n="133"/>religio. et sumper funerum / quod pater. §. exheredatis. C. 
+      <lb ed="#P" n="134"/>de pactis. inter emptor. et venditor. l. vltima. C. de 
+      reli<lb ed="#P" n="135" break="no"/>gio. et sump. funer. statuam. Et euidens est / quod 
+      propha<lb ed="#P" n="136" break="no"/>num prophano potest debere seruitutem / vt. C. et. ff. de serul. 
+      <!--cod-gh333a-0457.xml-->
+      <pb ed="#P" n="165-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>ergo phanum phano / et est expressum. supra de consue. cum 
+      di<lb ed="#P" n="2" break="no"/>lectus / et infra de verbo. significatio. abbate. 
+    </p>
+               <p xml:id="nyf6td-d1e420-d1e237">
+                  <lb ed="#P" n="3"/>¶ Nec obstat. d. lex. nemo que loquitur vbi non intererat 
+      <lb ed="#P" n="4"/>paciscentis / secus si interesset. ff de distrac. pigno l. si 
+      cre<lb ed="#P" n="5" break="no"/>ditor. §. vltimo 
+    </p>
+               <p xml:id="nyf6td-d1e420-d1e246">
+                  <lb ed="#P" n="6"/>¶ Nec obstat l. caueri / per distinctionem iam dictam [a 
+      vo<lb ed="#P" n="7" break="no"/>bis scilicet religiosis: vt infra subiicitur ne aliquos id est 
+      <lb ed="#P" n="8"/>nullos: et sic fit subrogatio priuilegii vel certos vt pote 
+      <lb ed="#P" n="9"/>quatuor de certa regione sic sit derogatio. ff. de verbo. 
+      si<lb ed="#P" n="10" break="no"/>gnificatio. derogatur debetis ff. eo. titu. nemo / dic 
+      vi<lb ed="#P" n="11" break="no"/>ibi derogetur vel etiam abrogetur: vt est premissum. 
+    </p>
+               <p xml:id="nyf6td-d1e420-d1e262">
+                  <lb ed="#P" n="12"/>¶ Sed contra. supra de arbi. cum tempore. Solu. Illud 
+      priui<lb ed="#P" n="13" break="no"/>legium nedum erat in fauorem priuilegiati / sed ecclesie. 
+      <lb ed="#P" n="14"/>Romane: sed hic solum in fauorem priuilegiati. Et quo ad 
+      <lb ed="#P" n="15"/>se quis potest renunciare vt ibi notatur. Io. Mo. Car.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e420-Dd1e274" type="et-sextus-l1t18-c2"><!-- mo-l1t18-c2" -->
+               <head xml:id="nyf6td-d1e420-Hd1e277">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e420-d1e279">
+                  <lb ed="#P" n="46" type="fixed=166-r"/>QVamuis, 3 Pactum quandoque est 
+      <lb ed="#P" n="47"/>rinualidum: quod tamen 
+      val<lb ed="#P" n="48" break="no"/>latum iureiurando est vallidum  
+      Ecce<lb ed="#P" n="49" break="no"/>ergo tradebatur) idem si post. Et 
+      ra<lb ed="#P" n="50" break="no"/>tio infra eodem allegatur ciuilis. C. de 
+      <lb ed="#P" n="51"/>pactis sclet pactum quod dotali. Et. C. 
+      <lb ed="#P" n="52"/>de colla. pactum fueritscilicet 
+      conuenti<lb ed="#P" n="53" break="no"/>debebit ratio huius notatur infra hoc 
+      <lb ed="#P" n="54"/>lib. de reg. iur. non est obligatorium / 
+      <lb ed="#P" n="55"/>sunt hec verba infra de iureturan. cum 
+      <lb ed="#P" n="56"/>contingat. Et dic hoc casu / metu vel vi non interueniento 
+      <lb ed="#P" n="57"/>tenet quod agitur vt hic 
+    </p>
+               <p xml:id="nyf6td-d1e420-d1e308">
+                  <lb ed="#P" n="58"/>¶ Sed dato quod interueniant adhuc ista: tenent mero 
+      <lb ed="#P" n="59"/>iure. infra. de iureiuran. si vero compulsa tamen dolo vel 
+      <lb ed="#P" n="60"/>vi: vel metu agere postest vt relaxetur iuramentum quo 
+      re<lb ed="#P" n="61" break="no"/>laxato agere poterit ar. supra quod metu causa ad aures et infra. 
+      <lb ed="#P" n="62"/>delurtur debitres. dlo. cdbs ar
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e420-Dd1e322" type="et-sextus-l1t18-c3"><!-- mo-l1t18-c3" -->
+               <head xml:id="nyf6td-d1e420-Hd1e325">Capitulum 3</head>
+               <p xml:id="nyf6td-d1e420-d1e327">
+                  <lb ed="#P" n="59" type="fixed=167-r"/>QUia. Huius decretalis potest esse casus 
+      posi<lb ed="#P" n="60" break="no"/>tio in terminis. supra eo. c. i. Et primo factum ponit. 
+      <lb ed="#P" n="61"/>Secundo versi. nos his) illud decidit mendicam 
+      <lb ed="#P" n="62"/>tes vt heremite et carmelite a imagistri 
+      praedi<lb ed="#P" n="63" break="no"/>catorum ministriaminorum / prioris) heremitarum 
+      <lb ed="#P" n="64"/>vel beate marie de monte carmeli eorundem scilicet priorum 
+      prae<lb ed="#P" n="65" break="no"/>dicatorum ministrorum scilicet minorum heremitarum et de monte 
+      <lb ed="#P" n="66"/>carmeli priorum prouincialium sint licita vt quia a lure non 
+      re<lb ed="#P" n="67" break="no"/>probata et honesta vt quia non sunt contra bonos mores 
+      <lb ed="#P" n="68"/>hec enim censentur impossibilia et ob hoc non obligant. ff. de 
+      <lb ed="#P" n="69"/>reg. iur. impossibilium infra hoc lib. de reg. iur. c. nemo potest. 
+    </p>
+               <p xml:id="nyf6td-d1e420-d1e353">
+                  <lb ed="#P" n="70"/>¶ Uel dic licitum iure scripto: sed honestum i honoris statum 
+      <lb ed="#P" n="71"/>quod de equitate non licet inspectis qualitate et 
+      accidentia<lb ed="#P" n="72" break="no"/>facti. ff de regul. iur. semper in conuentionibus. et. ff. de 
+      ritu<lb ed="#P" n="73" break="no"/>nup. semper. et. l. si qua nihil. §. si vxor obseruari supra eo. cap. i. 
+      <lb ed="#P" n="74"/>Rassenssum forte hoc dicit : ne videretur contrarium de 
+      bo<lb ed="#P" n="75" break="no"/>nis que tenent dicti minores que sunt ecclesie romane i1fra 
+      <lb ed="#P" n="76"/>hoc lib. de verbo. significa. exiit: hodie est ista constitutio 
+      re<lb ed="#P" n="77" break="no"/>stricta quo ad predicatores et minores vt in extranagant. 
+      <lb ed="#P" n="78"/>super cathedram. § huius quoque versi. nos etenim. 
+      Ioan<lb ed="#P" n="79" break="no"/>cdona. ardinalis
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

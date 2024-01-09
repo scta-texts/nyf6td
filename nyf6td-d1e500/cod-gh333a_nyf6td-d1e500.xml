@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 22</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 22</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="178-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e500" type="et-sextus-l1t22"><!-- mo-l1t22"
+              -->
+            <head xml:id="nyf6td-d1e500-Hd1e101">Titulus 22</head>
+            <div xml:id="nyf6td-d1e500-Dd1e103" type="et-sextus-l1t22-rubric"><!-- mo-l1t22-rubric" -->
+               <head xml:id="nyf6td-d1e500-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e500-d1e108">
+                  <lb ed="#P" n="105" type="fixed=178-r"/>ARbitri. sunt siniles: in 
+      <lb ed="#P" n="106"/>dicibus. ff. eo l. i. ii. 
+      <lb ed="#P" n="107"/>1. vi. c. a iudicibus. 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e117">
+                  <lb ed="#P" n="108"/>¶ Dicto ergo de indicibus 
+      ser<lb ed="#P" n="109" break="no"/>quitur videre de arbitris. 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e124">
+                  <lb ed="#P" n="110"/>¶ Uel dic cum iudicia 
+      nonnuli<lb ed="#P" n="111" break="no"/>las moras habeant. ff. vt leg. 
+      <lb ed="#P" n="112"/>no. cau. l. etiam i Respon. Et 
+      ma<lb ed="#P" n="113" break="no"/>tu iudiciorum ad arbitros 
+      re<lb ed="#P" n="114" break="no"/>curritur ideo ante ti. de 
+      iudi<lb ed="#P" n="115" break="no"/>praemittit de arb¬ 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e140">
+                  <lb ed="#P" n="116"/>¶ Et dic quod arbiter est nomen 
+      <lb ed="#P" n="117"/>equiuocum aliquando efftuaccipitur pro iudice delegate 
+      <lb ed="#P" n="118"/>vt ff. qui satisda. cogan. ab arbitris et l. sequen. 
+      <lb ed="#P" n="119"/>Aliquando accipitur pro arbitro sumpto in causa 
+      suspitio<lb ed="#P" n="120" break="no"/>nis / et ab istis appellatur. supra hoc libro de offi. de lega. ab 
+      ar<lb ed="#P" n="121" break="no"/>bitris 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e157">
+                  <lb ed="#P" n="122"/>¶ Aliquando accipitur pro reuelatore consiliorum: vnde 
+      <lb ed="#P" n="123"/>Salustius / procul arbitris omnibus remotis. 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e164">
+                  <lb ed="#P" n="124"/>¶ Aliquando accipitur arbiter in quem ex mera voluntate 
+      <lb ed="#P" n="125"/>contractantium est conuentum sic accipitur hic. et. ff. et. C. 
+      <lb ed="#P" n="126"/>eo. ti l. pri. et a tali non appellatur. C. eo l. prima cuius 
+      <lb ed="#P" n="127"/>sententia siue equa sine iniqua est tenenda et sibi imputer. 
+      <lb ed="#P" n="128"/>qui compromisit. ff. eo. l. diem. § stari. et. ii. q. vii. arbitrarii: et 
+      <lb ed="#P" n="129"/>coram tali arbitro non potest fieri reconuentio: nec de 
+      ma<lb ed="#P" n="130" break="no"/>toribus causis potest arbiter assumi. supra eo cum dilectus. supra 
+      <lb ed="#P" n="131"/>de in integ. resti. causa in fi¬ 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e184">
+                  <lb ed="#P" n="132"/>¶ Et dictus est arbiter ab arbitrando / et arbitrari est 
+      esti<lb ed="#P" n="133" break="no"/>mare: nam arbiter estimat inter partes: et dicitur arbitenr 
+      <lb ed="#P" n="134"/>quasi arcens bis inter: nam iter bilis / hoc est ire que 
+      habe<lb ed="#P" n="135" break="no"/>tur ex anfractibus iudiciorum / per abitros artatur. 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e195">
+                  <lb ed="#P" n="136"/>¶ Et notandum quod arbitrorum duo sunt genera. ff. pro 
+      so<lb ed="#P" n="137" break="no"/>cio l. si societatem. §. arbitrorum vnde nullus est arbiter 
+      cu<lb ed="#P" n="138" break="no"/>ius dictum non redigitur ad arbitrium boni viri vt d. § 
+      <lb ed="#P" n="139"/>stari alter cuius dictum redigitur ad arbitrium bont viri 
+      <lb ed="#P" n="140"/>ar. supra de iureiur. quintauallis. et. c. veniens. ff. de oper. liber. 
+      <lb ed="#P" n="141"/>si libertus. Ita et in primo genere arbitrorum si 
+      compromit<lb ed="#P" n="142" break="no"/>tatur in duos et de tertio assumendo in certo sit 
+      compromit<lb ed="#P" n="143" break="no"/>sum non tenet vt ff. eo. item si vnus. § si in duos 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e215">
+                  <lb ed="#P" n="144"/>¶ Et dato quod ex clausula indeterminata assumatur tertius 
+      <lb ed="#P" n="145"/>non valet / vt d. §. et. supra eo. innotuit. 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e222">
+                  <lb ed="#P" n="146"/>¶ Et est ratio: quia hec forma est a iure reprobata: et ob hoc 
+      <lb ed="#P" n="147"/>materie vniri non potest: hoc est questioni decidende. Et 
+      <lb ed="#P" n="148"/>forma secundum philoso. est indiuisibilis / et hoc habetur. 
+      <lb ed="#P" n="149"/>in hac materia. ff. eo. ti. parui. in fi¬ 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e234">
+                  <lb ed="#P" n="150"/>¶ Et arbitria ad instar iudiciorum sunt reducta. ff. eo. 
+      titu<lb ed="#P" n="151" break="no"/>lo. l. prima. 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e241">
+      <!--cod-gh333a-0483.xml-->
+                  <pb ed="#P" n="178-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>¶ Et sicut iudicium est actus qui vult recte nunciari. C. 
+      qui<lb ed="#P" n="2" break="no"/>dar. tuto. vl cura. po. l. vniuersis / ergo et arbitrium. vnde vbi par 
+      <lb ed="#P" n="3"/>tes sibi non prouident de tertio quoquomodo: ius partibus 
+      <lb ed="#P" n="4"/>prouidet. ff. eo. item si vnus. § principaliter: 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e259">
+                  <lb ed="#P" n="5"/>¶ Sed vbi partes sibi male prouident vt d. §. si 
+      inte<lb ed="#P" n="6" break="no"/>duos: ius partibus non prouidet et factum illegitimunc assa 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e266">
+                  <lb ed="#P" n="7"/>¶ Sed in secundo arbitro dico secus: nec mirum: quia iste 
+      se<lb ed="#P" n="8" break="no"/>cundus laxiorem habet potestatem / quae reduci potest ad 
+      ar<lb ed="#P" n="9" break="no"/>bitrium boni viri / et est casus. supra eo. cum a nobis. 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e275">
+                  <lb ed="#P" n="10"/>¶ Et iste proprie dicitur arbitrator  quid in dubio. ff. de 
+      in<lb ed="#P" n="11" break="no"/>di l. i. in suo simili notatur. Et no. Inno. in d. c. quintaua. 
+      <lb ed="#P" n="12"/>lis. Io. mo. Cardinalis 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e500-Dd1e285" type="et-sextus-l1t22-c1"><!-- mo-l1t22-c1" -->
+               <head xml:id="nyf6td-d1e500-Hd1e288">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e500-d1e290">
+                  <lb ed="#P" n="62" type="fixed=179-v"/>ex tribus, Hac decretaliob 
+      <lb ed="#P" n="63"/>uiatur opinioni 
+      fran<lb ed="#P" n="64" break="no"/>dulente que habebat argumentum 
+      <lb ed="#P" n="65"/>ff. eo. tit. diem. §. si plures. 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e301">
+                  <lb ed="#P" n="66"/>¶ Et est ratio huius decretalis 
+      <lb ed="#P" n="67"/>vbi duo arbitri omino essent 
+      con<lb ed="#P" n="68" break="no"/>cordes in vnam sententiam: et 
+      ter<lb ed="#P" n="69" break="no"/>tius omnino aduersus valeret a 
+      <lb ed="#P" n="70"/>duorum sententia. vt d. §. si plures et 
+      <lb ed="#P" n="71"/>ff de re iudi. duo ex tribus: ergo 
+      <lb ed="#P" n="72"/>multo magis vbi tertius (in ali¬ 
+      <!--cod-gh333a-0485.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="73"/>quo bsaltem) concordat: secus vt hic: vbi tres in 
+      summa<lb ed="#P" n="74" break="no"/>discordant. ff de re iudi. inter pares in fine. Io. mo. Car.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e500-Dd1e328" type="et-sextus-l1t22-c2"><!-- mo-l1t22-c2" -->
+               <head xml:id="nyf6td-d1e500-Hd1e331">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e500-d1e333">
+                  <lb ed="#P" n="123" type="fixed=179-v"/>VT quastionibus, Hec decretalis 
+      im<lb ed="#P" n="124" break="no"/>mutat de iure ciuil. 
+      <lb ed="#P" n="125"/>daliquid vt lites facilius finiantur ff. eo. sia 
+      <lb ed="#P" n="126"/>in tres alias sub lege. Item si vnus / 
+      simi<lb ed="#P" n="127" break="no"/>Ile. supra hoc lib. de offi. ordi. vt litigantes. 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e346">
+                  <lb ed="#P" n="128"/>¶ Et hec decretalis tres abitros reducit 
+      <lb ed="#P" n="129"/>/ad tres indices cum clausula / quod si non
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e353">
+      <!--cod-gh333a-0486.xml-->
+                  <pb ed="#P" n="180-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>¶ Et quod hic dicitur sumitur ex doctrina glo. supra de 
+      offi<lb ed="#P" n="2" break="no"/>cio delega. cum causa¬ 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e366">
+                  <lb ed="#P" n="3"/>¶ Et hec decretalis habet tria dicta. Primo ad dicenda 
+      <lb ed="#P" n="4"/>prohemium ponit. Secundo versi. statuimus) ius nouum 
+      <lb ed="#P" n="5"/>statuit. Tertio versiculo circa respondet tacite 
+      questio<lb ed="#P" n="6" break="no"/>ni celerius quod habent desiderare iudices. ff. si. cert. lpet. 
+      <lb ed="#P" n="7"/>l. quidam. supra de dolo et contuma. finem videatur vt d. l. si 
+      iun<lb ed="#P" n="8" break="no"/>tres repleta) a hec verba sumuntur. C. de iud. properandum 
+      <lb ed="#P" n="9"/>§. cum autem heremo imitari. 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e385">
+                  <lb ed="#P" n="10"/>¶ Sed que est ratio e Dic quod arbtri a partibus eligum 
+      <lb ed="#P" n="11"/>tur / et ius quod est minus datum a partibus supplet. 
+      <lb ed="#P" n="12"/>vtre alias. ff. eo. Item si vnus. § principaliter / que ratio non 
+      <lb ed="#P" n="13"/>habet locum in iudicibus qui maiori maturitate creantur. 
+      <lb ed="#P" n="14"/>et ideo ius ita non habet curare / supple in eo quod presum. 
+      <lb ed="#P" n="15"/>tur factum firmius. 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e401">
+                  <lb ed="#P" n="16"/>¶ Item in iudicibus attenditur rigor: cum iudices non de 
+      <lb ed="#P" n="17"/>beant esse clementiores lege autenti. de iudi. §. oportet 
+      <lb ed="#P" n="18"/>columna sexta¬ 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e410">
+                  <lb ed="#P" n="19"/>¶ Et de iuris rigore / factum tribus iudicibus 
+      commisa<lb ed="#P" n="20" break="no"/>sum / duo non possunt expedire: vt ff de re iudic. duo ex 
+      tu<lb ed="#P" n="21" break="no"/>bus. Secus in arbitris qui prout visum est eis pronunci 
+      <lb ed="#P" n="22"/>ant. c
+     </p>
+               <p xml:id="nyf6td-d1e500-d1e421">
+      ¶ Dic ergo nihil esse immutatum in iudicibus. Nam 
+      <lb ed="#P" n="23"/>aut sunt ordinarii / aut delegati. Siordinarii quilibet 
+      pro<lb ed="#P" n="24" break="no"/>cedere potest. ff de offi. consulis. l. i. si delegati / aut 
+      simpli<lb ed="#P" n="25" break="no"/>citer. Et tunc vnus non potest sine altero. ff de re iudi. duo 
+      <lb ed="#P" n="26"/>extribus / aut non simpliciter et hoc dupliciter. Aut cum 
+      <lb ed="#P" n="27"/>clausula  vos vel duo aut vnus vestrum / et tunc quiliber. 
+      <lb ed="#P" n="28"/>potest occupare. supra hoc lib. de offi. deleg. cum plures i. 
+      Re<lb ed="#P" n="29" break="no"/>spon. Nec mirum / quia hoc casu duo ordinarii et delegati 
+      equu<lb ed="#P" n="30" break="no"/>parantur no. ff de re iudic. pomponius alias incipit si vni. 
+    </p>
+               <p xml:id="nyf6td-d1e500-d1e441">
+                  <lb ed="#P" n="31"/>¶ Aat est clausula / quod si non omnes etc. Et tunc tene. supra de 
+      <lb ed="#P" n="32"/>offi. de lega. prudentiam. §. adiicimus. et c. causam matrimo / 
+      <lb ed="#P" n="33"/>nii. Io. mona. Cardinalis.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

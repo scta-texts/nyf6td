@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 10</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 10</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="395-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1551" type="et-sextus-l5t10"><!-- mo-l5t10"
+              -->
+            <head xml:id="nyf6td-d1e1551-Hd1e101">Titulus 10</head>
+            <div xml:id="nyf6td-d1e1551-Dd1e103" type="et-sextus-l5t10-rubric"><!-- mo-l5t10-rubric" -->
+               <head xml:id="nyf6td-d1e1551-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1551-d1e108">
+                  <lb ed="#P" n="133" type="fixed=395-r"/>DIctum est sura de criminibus: 
+      quor<lb ed="#P" n="134" break="no"/>commissio seu 
+      perpe<lb ed="#P" n="135" break="no"/>tratio est totius coniuncti / quia 
+      <lb ed="#P" n="136"/>actus sunt totius coniuncti 
+      se<lb ed="#P" n="137" break="no"/>cundum Philosophum: vnde dicto 
+      <lb ed="#P" n="138"/>de criminibus: fuit equum tracta 
+      <lb ed="#P" n="139"/>re de his quae purgant crimina. Et 
+      <lb ed="#P" n="140"/>sicut ipsa sunt totius comiuncti: vt 
+      <lb ed="#P" n="141"/>est dictum: ita fit duplex 
+      purga<lb ed="#P" n="142" break="no"/>tio criminum / quo ad corpus 
+      prin<lb ed="#P" n="143" break="no"/>cipaliter / per penas: quo ad 
+      ani<lb ed="#P" n="144" break="no"/>mam principaliter per penitentias et remissiones per 
+      debi<lb ed="#P" n="145" break="no"/>tas commutationes: ideo hic annectit de penit. et remissio. 
+    </p>
+               <p xml:id="nyf6td-d1e1551-d1e139">
+                  <lb ed="#P" n="146"/>¶ Fit enim quedam compensatio quod hoc video in 
+      con<lb ed="#P" n="147" break="no"/>tractibus / dono tibi rem modo non teneor tibi / sed tu. 
+      mi<lb ed="#P" n="148" break="no"/>hi: quia tum es obligatus mihi naturaliter ad antidora 
+      <lb ed="#P" n="149"/>ff. de peti. hered l. sed et si lege. §. consuluit. et hoc casuest 
+      que<lb ed="#P" n="150" break="no"/>dam permutatio / vt d. §. que a Philosopho vocatur 
+      compensa<lb ed="#P" n="151" break="no"/>tio: ipso dicente de eo qui liberalitatem recipit / eum 
+      recom<lb ed="#P" n="152" break="no"/>pensare oportet: hoc idem videmus in delictis / das mihi¬ 
+      <!--cod-gh333a-0927.xml-->
+      <pb ed="#P" n="395-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>dam num in remea: abest mihi / et adest tibi saltem in affectu 
+      <lb ed="#P" n="2"/>tuo expleto: in pena fiet compensatio quia tu dabis 
+      mihi<lb ed="#P" n="3" break="no"/>opensationem in pena in qua tibi aberit et mihi aderit. Et 
+      <lb ed="#P" n="4"/>sic iniusticia que est inequalitas: peristam commutationem / sen 
+      <lb ed="#P" n="5"/>recompensationem / reducetur ad equalitatem / de hoc no. supra 
+      <lb ed="#P" n="6"/>titu. proximo. c. fi. §. ceterum. 
+    </p>
+               <p xml:id="nyf6td-d1e1551-d1e176">
+                  <lb ed="#P" n="7"/>¶ Sed cum anima sinpraeferenda corpori. C. de sacrosan. eccle. 
+      <lb ed="#P" n="8"/>l. sancimus / e sic iste titulus praecedentem praecedere debet. Sol. 
+      secundum<lb ed="#P" n="9" break="no"/>philosophum / ala est sicut tabula rasa in qua nihil 
+      depin<lb ed="#P" n="10" break="no"/>gitur / depictibilis tamen scientia et vertutibus / quae vnita corpori contagiono 
+      <lb ed="#P" n="11"/>ex vnione cugcorpore recipit. Nam corpus nndum ex peccato 
+      <lb ed="#P" n="12"/>primorum parentum habet corruptionem. Et ob hoc sicut est 
+      <lb ed="#P" n="13"/>primo corpus contagiosum: siue ex eo aggrauatur anima 
+      ita<lb ed="#P" n="14" break="no"/>debuit a purgatione corporis per penas inchoari. Sicut vt 
+      <lb ed="#P" n="15"/>deo / baptismus est lotio prima corporis exterius / et 
+      ani<lb ed="#P" n="16" break="no"/>me interius / et ab ablutione corporis incipit. Io. Mo. Car.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1551-Dd1e201" type="et-sextus-l5t10-c1"><!-- mo-l5t10-c1" -->
+               <head xml:id="nyf6td-d1e1551-Hd1e204">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1551-d1e206">
+                  <lb ed="#P" n="113" type="fixed=395-v"/>ROmana, duo dicit. Primo quod 
+      ar<lb ed="#P" n="114" break="no"/>chiepiscopus Remensis / vbi 
+      <lb ed="#P" n="115"/>eius officialis non potest compellere. 
+      <lb ed="#P" n="116"/>subditos suffraganeorum ad 
+      conferi<lb ed="#P" n="117" break="no"/>dum fabrice Remen. eccle. ipsos 
+      ti<lb ed="#P" n="118" break="no"/>bont charitatiue monere. Secundo 
+      di<lb ed="#P" n="119" break="no"/>cit quod archiepiscous in concedendis 
+      in<lb ed="#P" n="120" break="no"/>dulgentiis non excedat formam 
+      conci<lb ed="#P" n="121" break="no"/>liignalis. Et lege sic iteram Remen 
+      <lb ed="#P" n="122"/>archiepiscous vel eius officialis 
+      ne<lb ed="#P" n="123" break="no"/>(quaquam tibi pro quaestoribus etc. 
+      resiste<lb ed="#P" n="124" break="no"/>re quia forsan volunt pro aliis audiri parere super 
+      conuoca<lb ed="#P" n="125" break="no"/>tione populi: cuius ratio potest esse duplex: prima quia in istos 
+      <lb ed="#P" n="126"/>archiepiscopus non habet a iure communi iurisditionem. supra de off. ord. pasto 
+      <lb ed="#P" n="127"/>ralis 1. Neso. secunda quia materia in qua vult archiepiscopus sibi par 
+      <lb ed="#P" n="128"/>reri / non habet iuri executionem: sed charitatiuam solicitationem / vt 
+      <lb ed="#P" n="129"/>ina subiicit. et. supra de censib. c. cum apostolus. §. sustinemus. nec 
+      causcella<lb ed="#P" n="130" break="no"/>ria dat litteras hoc casucom pulsorias: sed procedit secundum conciliuma 
+      <lb ed="#P" n="131"/>generale. supra eo. cum ex eo. coram ipsisarchiepiscopo / vel eius officia 
+      <lb ed="#P" n="132"/>libus / cipsorum quaestorum generalis supra eo. cum ex eo. Io. Mo. Card.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1551-Dd1e253" type="et-sextus-l5t10-c2"><!-- mo-l5t10-c2" -->
+               <head xml:id="nyf6td-d1e1551-Hd1e256">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e1551-d1e258">
+                  <lb ed="#P" n="23" type="fixed=396-r"/>SI episcopus. Duo dicit: primo 
+      <lb ed="#P" n="24"/>casus 
+      reserua<lb ed="#P" n="25" break="no"/>ti episcopis non transeunt sub sura 
+      <lb ed="#P" n="26"/>nerali commissione / vt not infra hoc 
+      <lb ed="#P" n="27"/>lib. de reg. iur. in generali. secum 
+      <lb ed="#P" n="28"/>do: consuetudo non  prodest vt 
+      <lb ed="#P" n="29"/>aliquis sibi eligat confessorem 
+      pre<lb ed="#P" n="30" break="no"/>ter sui superioris licentiam. Et 
+      <lb ed="#P" n="31"/>est ratio quia ista consuetudo est 
+      <lb ed="#P" n="32"/>set ecclesiis onerosa. Cum ouis 
+      <lb ed="#P" n="33"/>propria sine pastore suo recedere. 
+      <lb ed="#P" n="34"/>ab ouili. supra de consuet. c. i. Et quia ius commune notorium 
+      <lb ed="#P" n="35"/>supra eo. omnis / contra istam pugnat: iam haberet malam 
+      <lb ed="#P" n="36"/>fidem cum qua non prescribitur: vt infra hoc lib. de regn. iur. 
+      <lb ed="#P" n="37"/>capitulo secundo 
+    </p>
+               <p xml:id="nyf6td-d1e1551-d1e293">
+                  <lb ed="#P" n="38"/>¶ Et consuetudo contra ius scriptum non tenet nisi 
+      pre<lb ed="#P" n="39" break="no"/>scripta. supra de consue. c. finali. et noti. supra hoc lib. de priuileg. 
+      <lb ed="#P" n="40"/>cum persone. Ioan. Mona. Cardinalis
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1551-Dd1e303" type="et-sextus-l5t10-c3"><!-- mo-l5t10-c3" -->
+               <head xml:id="nyf6td-d1e1551-Hd1e306">Capitulum 3</head>
+               <p xml:id="nyf6td-d1e1551-d1e308">
+                  <lb ed="#P" n="77" type="fixed=396-r"/>INdulgentia, Hec decreta. 
+      obul<lb ed="#P" n="78" break="no"/>Ee iai. is 
+      concessio<lb ed="#P" n="79" break="no"/>nibus episcoporum concedentium 
+      indul<lb ed="#P" n="80" break="no"/>gentias ampliores / quam concedat 
+      com<lb ed="#P" n="81" break="no"/>cilium generale. supra eo. cum ex eo / quos 
+      <lb ed="#P" n="82"/>vidi facere fraudem dicto concilio. Nam 
+      <lb ed="#P" n="83"/>videntes quod extra territorium. 
+      <lb ed="#P" n="84"/>suum indulgentias concedere non 
+      post<lb ed="#P" n="85" break="no"/>sunt infra de sent. excommuni. a nobis / primo 
+      <lb ed="#P" n="86"/>eas concedebant sub ratihabitione proprii episcopi: que fraus hoc / 
+      <lb ed="#P" n="87"/>c. merito reprobatur: quia episcopus proprius: vltra concilium 
+      praedi<lb ed="#P" n="88" break="no"/>ctum non posset concedere. Ergo nec vltra ratum habere. ff. 
+      <lb ed="#P" n="89"/>rem ratam haberi l. bonorum 1 ve. Ex hoc etiam. c. reprobatur 
+      <lb ed="#P" n="90"/>glo. in. d. c. cum ex eo. posita. 
+    </p>
+               <p xml:id="nyf6td-d1e1551-d1e341">
+                  <lb ed="#P" n="91"/>¶ Sed quero episcopus concedit indulgentiam vltra dictum 
+      <lb ed="#P" n="92"/>concilium: nunquid saltem pro. numero dierum quod potest da 
+      <lb ed="#P" n="93"/>re episcopus: habentur argu. pro et contra infra hoc lib. de reg. iuris 
+      <lb ed="#P" n="94"/>vtile. Et credo istam indulgentiam in nullo bvalere: sicur 
+      <lb ed="#P" n="95"/>indiscretam et superfluam: vt d. c. cum ex eo. §. iad hec ibi vires. 
+      <lb ed="#P" n="96"/>non obtinent: quod intelligo: nec in totum nec in partem. 
+      <lb ed="#P" n="97"/>presertim in materia non iure communi procedente: sed ex 
+      <lb ed="#P" n="98"/>priuilegio in corpore iuris clauso. supra eo. quod autem. et. c. cum 
+      <lb ed="#P" n="99"/>ex eo § fina. et supra de exces. prela. accedentibus. Quod si qua 
+      <lb ed="#P" n="100"/>dem priuilegium ex quo trahitur ad perniciem: non 
+      tenete<lb ed="#P" n="101" break="no"/>xi. q. iii. priuilegium. supra de deci. suggestum. ff. de vulga. et 
+      pu<lb ed="#P" n="102" break="no"/>pil. substitu l. ex facto. ii. Nso. Ex quo enim iste ratificans 
+      <lb ed="#P" n="103"/>facit contra mentem dicti concilii: tunc ex eo: non debet per 
+      <lb ed="#P" n="104"/>illud intentum consequi / arg. ff. solu. matri. si ab hostibus. ii. 
+      <lb ed="#P" n="105"/>gso. vnde forsan habet locum brocardicum. Si non valet. 
+      <lb ed="#P" n="106"/>vt ago. etc. de quo non supra hoc lib. de despon. impub. c. si 
+      infar<lb ed="#P" n="107" break="no"/>tes. § primo. Quidam contra arg. ff. de vsur. placuit. ff. de in 
+      <lb ed="#P" n="108"/>re dotium. siue generalis. C. de donatio. sancimus. in prin. 
+      <lb ed="#P" n="109"/>ff. de aqua quotidi. et estiua l. prima. §. item queritur. 
+    </p>
+               <p xml:id="nyf6td-d1e1551-d1e385">
+                  <lb ed="#P" n="110"/>¶ Item hic agitur de pene remissione quod est 
+      fanorabi<lb ed="#P" n="111" break="no"/>le. et sic ampliandum infra hoc lib. de reg. iur. odia. de peni. 
+      di<lb ed="#P" n="112" break="no"/>stinctio. prima / pene: sed dic premissa iure communi 
+      proce<lb ed="#P" n="113" break="no"/>dunt: sed hoc casud fit gratia: que propter peccatum facit 
+      <lb ed="#P" n="114"/>tis reputatur indebita. Et in facto anime / reus in vno. 
+      <lb ed="#P" n="115"/>est reus in omnibus quo ad gratiam qua priuatur infra de 
+      re<lb ed="#P" n="116" break="no"/>gul. iur. defleat. Io. Mo. Card. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

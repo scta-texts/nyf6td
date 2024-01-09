@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 8</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 8</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="300-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e955" type="et-sextus-l3t8"><!-- mo-l3t8"
+              -->
+            <head xml:id="nyf6td-d1e955-Hd1e101">Titulus 8</head>
+            <div xml:id="nyf6td-d1e955-Dd1e103" type="et-sextus-l3t8-rubric"><!-- mo-l3t8-rubric" -->
+               <head xml:id="nyf6td-d1e955-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e955-d1e108">
+                  <lb ed="#P" n="88" type="fixed=299-r"/>SVpra eo. capitulo secundo habetur. a. 
+      <lb ed="#P" n="89"/>sede vacari 
+      <lb ed="#P" n="90"/>te Capitulum vice episcopi in collatione 
+      pro<lb ed="#P" n="91" break="no"/>bendarum non fungatur: et quia hoc 
+      interpre<lb ed="#P" n="92" break="no"/>tationem recipit / vt infra capitulo 
+      proximo<lb ed="#P" n="93" break="no"/>ideo de hoc subiicit Bonifacus. viii. Io. Car. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e955-Dd1e125" type="et-sextus-l3t8-c1"><!-- mo-l3t8-c1" -->
+               <head xml:id="nyf6td-d1e955-Hd1e128">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e955-d1e130">
+                  <lb ed="#P" n="44" type="fixed=299-v"/>SI ad episcopum, Hec 
+      decri<lb ed="#P" n="45" break="no"/>ta. habe. 
+      <lb ed="#P" n="46"/>iiii. partes / seu. iiii. dicta. 
+      Ecce<lb ed="#P" n="47" break="no"/>primum vt prelatus Nam 
+      ca<lb ed="#P" n="48" break="no"/>pitulo episcopus aliquando interest vt 
+      cane<lb ed="#P" n="49" break="no"/>nicus / aliquando vt prelatus. supra de 
+      con<lb ed="#P" n="50" break="no"/>cessio. praeben. postulastis. et supra 
+      ho<lb ed="#P" n="51" break="no"/>lib. de appella. a collatione episcopus 
+      <lb ed="#P" n="52"/>vt s. solus possit conferre 
+      benefi<lb ed="#P" n="53" break="no"/>cia si capitulum) etc. et cum 
+      coni<lb ed="#P" n="54" break="no"/>lio a quid importent hec verba 
+      <lb ed="#P" n="55"/>habetur pro et contra. ff. de admini. turo l. itaque. §. papinia. 
+      <lb ed="#P" n="56"/>nus et l. titium. § i. et. supra de elec. cum in veteri. et de arbit. cum 
+      <lb ed="#P" n="57"/>olim [ in mora supra de conces. prebem. quia diuersitatem et hic 
+      ca<lb ed="#P" n="58" break="no"/>sus adiicitur ad illum / quia ibi mere spectabat collatio ad 
+      <lb ed="#P" n="59"/>episcopum: hic cum certa adiectione differenda Et sic nota: 
+      mo<lb ed="#P" n="60" break="no"/>dus potestatis alicui datus: debet intelligi si possit fic 
+      <lb ed="#P" n="61"/>ri vt hic ad idem est: vbi commode fieri non potest vt in 
+      ca<lb ed="#P" n="62" break="no"/>su sequenti / alias periculum beneficio vacanti immineret 
+      <lb ed="#P" n="63"/>quod esse non debet vt hic. supra hoc lib. de concessio. preben. 
+      <lb ed="#P" n="64"/>quia cunctis. §. econtra 
+    </p>
+               <p xml:id="nyf6td-d1e955-d1e178">
+                  <lb ed="#P" n="65"/>¶ Et sunt paria / quod quid fieri non possit: seu quod commod 
+      <lb ed="#P" n="66"/>b fieri non possit: et quod fiat seu quod per me non stet quin 
+      fi<lb ed="#P" n="67" break="no"/>at. ff. de ver. signi. nepos et ff. de conditio. et demon l. si quis 
+      <!--cod-gh333a-0731.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="68"/>ita legauerit infra hoc lib. de reg. iur. imputari. 
+    </p>
+               <p xml:id="nyf6td-d1e955-d1e194">
+                  <lb ed="#P" n="69"/>¶ Sed contra: forma non seruatur isti collatori attribui 
+      <lb ed="#P" n="70"/>nec seruari potest / episcopo mortuo / ergo non tenet quod ag 
+      <lb ed="#P" n="71"/>ff de arbit l. parui.
+     </p>
+               <p xml:id="nyf6td-d1e955-d1e203">
+      ¶ Solu. illa derigore: hec de 
+      equita<lb ed="#P" n="72" break="no"/>te / ne beneficia diu vacent: que est praeferenda rigori infra 
+      ho<lb ed="#P" n="73" break="no"/>lib. de rer. permuta. c. i. C. de iudic. l. placuit / vel ibi 
+      amb<lb ed="#P" n="74" break="no"/>principalia / hic vnum principale: aliud non: arg. ff. de 
+      pecul<lb ed="#P" n="75" break="no"/>lega l. i. et. ii. in remotis. 
+    </p>
+               <p xml:id="nyf6td-d1e955-d1e215">
+                  <lb ed="#P" n="76"/>¶ Contra: difficultas prestationis non reddit obligatia 
+      <lb ed="#P" n="77"/>nem inutilem. ff. de ver. obligationi l. ii. §. i. 
+    </p>
+               <p xml:id="nyf6td-d1e955-d1e222">
+                  <lb ed="#P" n="78"/>¶ Solu. ad praecedens contrarium et adistud vbi modus in 
+      sp<lb ed="#P" n="79" break="no"/>ritualibus additur impossibilis vel grauis: vt hic et verum 
+      <lb ed="#P" n="80"/>praecedenti: ille reiicitur nec reddit rem inutilem: vt infra de 
+      con<lb ed="#P" n="81" break="no"/>di. appo. c. i. secus in contractibus 
+    </p>
+               <p xml:id="nyf6td-d1e955-d1e233">
+                  <lb ed="#P" n="82"/>¶ Item periculum imminens vt hic: ius immutat / quod 
+      <lb ed="#P" n="83"/>alias esset seruandum infra hoc lib. de sepultu. is qui et c. f. et a 
+      <lb ed="#P" n="84"/>hoc lib. de testa. c. ii. 
+    </p>
+               <p xml:id="nyf6td-d1e955-d1e242">
+                  <lb ed="#P" n="85"/>¶ Uel dic episcopus et capitulum sunt vnum corpus cuius 
+      episco<lb ed="#P" n="86" break="no"/>est caput et canonici membra infra de his que fiunt aprela. 
+      si<lb ed="#P" n="87" break="no"/>ne consen. capit. nouit Arg. infra de ver. signi. cum clerici: 
+      vn<lb ed="#P" n="88" break="no"/>de inter istos dicitur spirituale coniugium infra. de testa. 
+      rean<lb ed="#P" n="89" break="no"/>sisti. § penul. Et ideo citius potest deuolui propter societa 
+      <lb ed="#P" n="90"/>tem huius collegii. potestas de vno ad alterum argu. lxu. 
+      <lb ed="#P" n="91"/>distinct. c. vlt. et. C. quando non peten. partes l. vna. Ioan.
+      <lb ed="#P" n="92"/>Mo. Cardina.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

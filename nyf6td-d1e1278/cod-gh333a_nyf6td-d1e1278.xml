@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 24</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 24</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="335-v"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1278" type="et-sextus-l3t24"><!-- mo-l3t24"
+              -->
+            <head xml:id="nyf6td-d1e1278-Hd1e101">Titulus 24</head>
+            <div xml:id="nyf6td-d1e1278-Dd1e103" type="et-sextus-l3t24-rubric"><!-- mo-l3t24-rubric" -->
+               <head xml:id="nyf6td-d1e1278-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1278-d1e108">
+                  <lb ed="#P" n="115" type="fixed=335-r"/>VIso hoc tertio libro, qua clericis 
+      vel<lb ed="#P" n="116" break="no"/>monachis competant: hic prosequitur quo 
+      <lb ed="#P" n="117"/>eis non competunt / vt s. negotiis 
+      seculari<lb ed="#P" n="118" break="no"/>bus non immisceant: vnde de hoc subiicit. Io. 
+      <lb ed="#P" n="119"/>lannes Monach. Carde 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1278-Dd1e122" type="et-sextus-l3t24-c1"><!-- mo-l3t24-c1" -->
+               <head xml:id="nyf6td-d1e1278-Hd1e125">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1278-d1e127">
+                  <lb ed="#P" n="18" type="fixed=335-v"/>STatutum, Hic deciditur verus quereli. 
+      <lb ed="#P" n="19"/>nam notant Goffre. et Inno. qui 
+      <lb ed="#P" n="20"/>rectores ecclesiarum audientes leges non 
+      <lb ed="#P" n="21"/>erant excommunicati per constitutionem. supra 
+      <lb ed="#P" n="22"/>eodem super specula. hostien. et Bernar. in 
+      con<lb ed="#P" n="23" break="no"/>trarium notantibus honorii. supra eo. 
+      supe<lb ed="#P" n="24" break="no"/>specula clementis hec constitutio non est in hac 
+      compilia<lb ed="#P" n="25" break="no"/>tione et incipiebat habito / cuius mens hic recitatur 
+      ple<lb ed="#P" n="26" break="no"/>banie  iam enim habendo perpetuas capellas sub se / 
+      ple<lb ed="#P" n="27" break="no"/>bania reputatur dignitas / et ideo comprehenditur sub 
+      sta<lb ed="#P" n="28" break="no"/>tuto honorii / non sic de rectoria non habente sub se 
+      capel<lb ed="#P" n="29" break="no"/>las. Io. Mona. Cardi. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1278-Dd1e157" type="et-sextus-l3t24-c2"><!-- mo-l3t24-c2" -->
+               <head xml:id="nyf6td-d1e1278-Hd1e160">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e1278-d1e162">
+                  <lb ed="#P" n="92" type="fixed=335-v"/>VT periculosa. Hec 
+      decreta<lb ed="#P" n="93" break="no"/>lis habet tria 
+      <lb ed="#P" n="94"/>dicta. Primo inhibitionem poniti 
+      <lb ed="#P" n="95"/>Secundo. §. si quis violatoris 
+      <lb ed="#P" n="96"/>bus inhibitionis huius penam 
+      <lb ed="#P" n="97"/>simponit. Tertio. §. doctores pro 
+      <lb ed="#P" n="98"/>hibitionem predictam ad alias 
+      <lb ed="#P" n="99"/>personas extendit expresse 
+      di<lb ed="#P" n="100" break="no"/>expressa et tacita professione est 
+      <lb ed="#P" n="101"/>dictum. supra hoc lib. de elec. nullus 
+      <lb ed="#P" n="102"/>et. c. ex eo. in fine temere. Qui 
+      <lb ed="#P" n="103"/>ex causa est licitum habitum 
+      <lb ed="#P" n="104"/>transformare arg. supra de vita et honesta. cleri. si quis ex 
+      cle<lb ed="#P" n="105" break="no"/>ricis partis a sunt enim paria quod quid fiat a toto 
+      capi<lb ed="#P" n="106" break="no"/>tulo / vel maiori parte. supra de his que fsunt a maio. parte 
+      ca<lb ed="#P" n="107" break="no"/>pitu. primo. et capitulo vltimo 
+    </p>
+               <p xml:id="nyf6td-d1e1278-d1e199">
+                  <lb ed="#P" n="108"/>¶ Sed contra. supra de elect. si religiosus hoc libro dic vt ibi. 
+      <lb ed="#P" n="109"/>in. §. quia vero 
+    </p>
+               <p xml:id="nyf6td-d1e1278-d1e206">
+                  <lb ed="#P" n="110"/>¶ Item contra hoc lib. de testa. religiosus. primo veso. dic 
+      <lb ed="#P" n="111"/>vt ibi tenet temerarius violator hec verba expone / vt infra 
+      <lb ed="#P" n="112"/>hoc lib. de senten. excommunicationis. cum medicinalis § 
+      <lb ed="#P" n="113"/>si quis autem retinere. Quid si magister scit 
+      monachi<lb ed="#P" n="114" break="no"/>in scholis suis iuxta cathedram suam / et domum habere / et 
+      <lb ed="#P" n="115"/>ipsum audire: an doctor et auditor sint excommunicati: 
+      vi<lb ed="#P" n="116" break="no"/>detur quod auditor sit ligatus: quia hic inhibetur simpliciter 
+      <lb ed="#P" n="117"/>supra eo. non magno / ergo quocunque casu audiat videtur 
+      inhi<lb ed="#P" n="118" break="no"/>bitum. ff. de postul. quos prohibet / et supra eo. super specula 
+    </p>
+               <p xml:id="nyf6td-d1e1278-d1e228">
+                  <lb ed="#P" n="119"/>¶ Idem in doctore quia videtur esse in schola / hoc est in 
+      va<lb ed="#P" n="120" break="no"/>catione studii. ex quo scit monachum ipsum audire. Sed 
+      <lb ed="#P" n="121"/>verba hic posita sunt pro doctore / vt hic in scholis suis 
+      pre<lb ed="#P" n="122" break="no"/>sumpserit retinere 
+    </p>
+               <p xml:id="nyf6td-d1e1278-d1e240">
+                  <lb ed="#P" n="123"/>¶ Sed dices forte quod verbum retinere est contra ipsum: vt 
+      <lb ed="#P" n="124"/>retinere sit pro recto tenere: arg. ff. de verborum 
+      significa<lb ed="#P" n="125" break="no"/>tio. verbum reddendi argu. infra de peniten. et remissio. quod in 
+      te<lb ed="#P" n="126" break="no"/>§ primo 
+    </p>
+               <p xml:id="nyf6td-d1e1278-d1e251">
+                  <lb ed="#P" n="127"/>¶ Dic tamen vt prius nam scholari sicut et cuilibet alii 
+      <lb ed="#P" n="128"/>inhiberi non potest quin faciat in suo quod vult / etiam si 
+      alii<lb ed="#P" n="129" break="no"/>noceat: dummodo animo nocendi non faciat. ff. de damno. 
+      <!--cod-gh333a-0804.xml-->
+      <pb ed="#P" n="336-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>infec l. proculus. ff. de aqua pluuia l. prima. §. denique / sic 
+      <lb ed="#P" n="2"/>culpa hoc casu non potest imputari doctori / qui extra 
+      <lb ed="#P" n="3"/>scholas scholarem cohercendi ius non habet. 
+    </p>
+               <p xml:id="nyf6td-d1e1278-d1e273">
+                  <lb ed="#P" n="4"/>¶ Et sic monachus non potest iura ciuilia audire / ita nec 
+      <lb ed="#P" n="5"/>docere. C. de male. et mathe l. culpa. Io. Mo. Cardi.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1278-Dd1e281" type="et-sextus-l3t24-c3"><!-- mo-l3t24-c3" -->
+               <head xml:id="nyf6td-d1e1278-Hd1e284">Capitulum 3</head>
+               <p xml:id="nyf6td-d1e1278-d1e286">
+                  <lb ed="#P" n="6" type="fixed=337-r"/>Psconus. Helhuus hri 
+      mui<lb ed="#P" n="7" break="no"/>uis clei. cas si 
+      inten<lb ed="#P" n="8" break="no"/>dit negocio per quod potest de 
+      <lb ed="#P" n="9"/>ueniri ad penam sangumis / 
+      ho<lb ed="#P" n="10" break="no"/>est dupliciter: nam hoc facit vt 
+      <lb ed="#P" n="11"/>pars: et sic est doctrina quid 
+      agen<lb ed="#P" n="12" break="no"/>dum est infra hoc libro de homici. 
+      pre<lb ed="#P" n="13" break="no"/>latis: aut hoc facit vt superior: vt 
+      <lb ed="#P" n="14"/>pote alii committendo vt hic / et 
+      <lb ed="#P" n="15"/>i secundum hoc istud capit. habet 
+      <lb ed="#P" n="16"/>duas partes. Nam factum primo ponens illud decidit. ii 
+      <lb ed="#P" n="17"/>versicu. Nam licet) illius decisi causam reddit / dic erg 
+      <lb ed="#P" n="18"/>exequatur absit enim vt ea que propter bonum et 
+      lici<lb ed="#P" n="19" break="no"/>tum facimus aut habemus: si quidem propter hoc 
+      prete<lb ed="#P" n="20" break="no"/>nostram voluntatem quicquam mali acciderit nobis 
+      impute<lb ed="#P" n="21" break="no"/>tur. xxiii. questio. v. de occidendis non liceat supra eo. 
+      sen<lb ed="#P" n="22" break="no"/>tentiam. Ioan. Mona. Cardi. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

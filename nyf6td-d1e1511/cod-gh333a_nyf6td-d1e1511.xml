@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 8</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 8</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="390-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1511" type="et-sextus-l5t8"><!-- mo-l5t8"
+              -->
+            <head xml:id="nyf6td-d1e1511-Hd1e101">Titulus 8</head>
+            <div xml:id="nyf6td-d1e1511-Dd1e103" type="et-sextus-l5t8-rubric"><!-- mo-l5t8-rubric" -->
+               <head xml:id="nyf6td-d1e1511-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1511-d1e108">
+                  <lb ed="#P" n="83" type="fixed=389-v"/>DIcto supra de priuilegis 
+      qui<lb ed="#P" n="84" break="no"/>bus diminuuntur 
+      iu<lb ed="#P" n="85" break="no"/>ra ordinariorum. Sequitur de 
+      <lb ed="#P" n="86"/>ininuriis et damno 
+      dato<lb ed="#P" n="87" break="no"/>quibus iura diminuuntur subdit 
+      <lb ed="#P" n="88"/>rum.
+     </p>
+               <p xml:id="nyf6td-d1e1511-d1e124">
+      ¶ Uel dic dicto de 
+      exces<lb ed="#P" n="89" break="no"/>sibus priuilegiatorum ex quib 
+      <lb ed="#P" n="90"/>sequuntur iniurie et damna des 
+      <lb ed="#P" n="91"/>tur: ideo post predicta de 
+      inin<lb ed="#P" n="92" break="no"/>riis et damno dato subiicit. Et 
+      <lb ed="#P" n="93"/>quid sit iniuria et damnum 
+      da<lb ed="#P" n="94" break="no"/>Vum habetur ff. de iniur l. prima. P. primo. et de dam. infec. 
+      <lb ed="#P" n="95"/>nf. iii. Ioan. mona. Cardi.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1511-Dd1e143" type="et-sextus-l5t8-c1"><!-- mo-l5t8-c1" -->
+               <head xml:id="nyf6td-d1e1511-Hd1e146">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1511-d1e148">
+      <!--cod-gh333a-0916.xml-->
+                  <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="66" type="fixed=390-r"/>Tsipignorationes, Hoc. c. 
+      <lb ed="#P" n="67"/>tria nar. 
+      <lb ed="#P" n="68"/>rat. Primo ponit prohibitionis 
+      <lb ed="#P" n="69"/>faciende rationem. Secundo ib. 
+      <lb ed="#P" n="70"/>(vt tamen) subiicit prohibitionem 
+      <lb ed="#P" n="71"/>Tertio ibiilli autem roborat. 
+      <lb ed="#P" n="72"/>hibitionem per pene adiectionem 
+      <lb ed="#P" n="73"/>elocutio italicorum pregraua 
+      <lb ed="#P" n="74"/>tur quod est iniquum . C. de 
+      <lb ed="#P" n="75"/>inof. testa l. si quis in suo. circa 
+      fi<lb ed="#P" n="76" break="no"/>nem. et ina hoc lib. de reg. iur. non debet 
+    </p>
+               <p xml:id="nyf6td-d1e1511-d1e179">
+                  <lb ed="#P" n="77"/>¶ Sed nunqui d heres pro defuncto conuenitur a dic quod 
+      <lb ed="#P" n="78"/>sic: quia eadem persona heres cum defuncto censetur: in autem. 
+      <lb ed="#P" n="79"/>de iuretur. a morien. presti. ii. P. colla. v. et ibi no. et. ff. de 
+      ex<lb ed="#P" n="80" break="no"/>ceptio. rei iudic. exceptio rei. et. ff. de acqui. posse. cum here 
+      <lb ed="#P" n="81"/>des i. P. et. ff. de ver. signifi. nihil aliud 
+    </p>
+               <p xml:id="nyf6td-d1e1511-d1e192">
+                  <lb ed="#P" n="82"/>¶ Idem in procuratore / tutore. vel curatore seu 
+      actoremu<lb ed="#P" n="83" break="no"/>nicipii. ff de excep. rei iudic. l. si mater. § hoc iure. et l. etiam 
+      <lb ed="#P" n="84"/>eandem. primo P.
+     </p>
+               <p xml:id="nyf6td-d1e1511-d1e201">
+      ¶ Not. idem in fideiussore qui pro 
+      illa<lb ed="#P" n="85" break="no"/>pro quo fide iussit conuenitur / salua distinctionec auten. 
+      prae<lb ed="#P" n="86" break="no"/>sente. C. de fide iusso.
+     </p>
+               <p xml:id="nyf6td-d1e1511-d1e209">
+      ¶ Et est ratio omnim precedentium 
+      secundum<lb ed="#P" n="87" break="no"/>philosophum: vbi vnum propter alterum vtrobique tantum 
+      vni<lb ed="#P" n="88" break="no"/>vt dictis iuribus probatur: et ff. de eden. quedam. §. nihil. ff. 
+      <lb ed="#P" n="89"/>de lega. ii. l. imperator. § fina. cum l. seq. et. sed 
+    </p>
+               <p xml:id="nyf6td-d1e1511-d1e218">
+                  <lb ed="#P" n="90"/>¶ Sed quid si debitor condemnatur / nunquid est eo ipso 
+      <lb ed="#P" n="91"/>fide iussor condemnatus: et videtur quod non: quia res 
+      inte<lb ed="#P" n="92" break="no"/>alios acta. et c. supra de senten. et re iudic. quamuis: et. c. cum 
+      super<lb ed="#P" n="93" break="no"/>et de fide instr. inter dilectos. C. res inter alios acta l. i. cum 
+      <lb ed="#P" n="94"/>similibus. econtra videtur quod sic. ff. iudica. sol. l. i. et. ff de fide 
+      <lb ed="#P" n="95"/>iusso l. grece. §. ii. vbi dicitur quod ex codemnatione debitoris 
+      <lb ed="#P" n="96"/>tenetur fide iussor 
+    </p>
+               <p xml:id="nyf6td-d1e1511-d1e236">
+                  <lb ed="#P" n="97"/>¶ Sol distingue aut est fide iussor contractus: aut iudicii. 
+      <lb ed="#P" n="98"/>et si quidem fideiussor interuenit in contractum condemnato de 
+      <lb ed="#P" n="99"/>bitore: fide iussor non intelligitur condemnatus: imo est 
+      agen<lb ed="#P" n="100" break="no"/>dum cum eo actione ex stipulatu. ff. de pigno l. grece. § si cum 
+      <lb ed="#P" n="101"/>defensore: quia ibi agitur cum vtrisque. Si enim codemnate 
+      <lb ed="#P" n="102"/>debitore codemnaretur fideiussor: ad quid ageretur cum fidetussora 
+      <lb ed="#P" n="103"/>imo sufficeret quod cum debitore ageretur / cum sit alia  
+      obla<lb ed="#P" n="104" break="no"/>gatio principalis et fideiussoris. insti de fideusso. in prin. 
+    </p>
+               <p xml:id="nyf6td-d1e1511-d1e256">
+                  <lb ed="#P" n="105"/>¶ Si autem interuenit fideiussor in iudiciis: si tantum 
+      pro<lb ed="#P" n="106" break="no"/>misit reum iudicio sisti  condemnato reo absoluitur 
+      fideius<lb ed="#P" n="107" break="no"/>sor: quia iam adimpleuit quod promisit / videlicet fecit reum 
+      <lb ed="#P" n="108"/>stare in iudicio. ff de fideiussor l. grece. §. primo 
+    </p>
+               <p xml:id="nyf6td-d1e1511-d1e267">
+                  <lb ed="#P" n="109"/>¶ Si autem iudicatum solui promisit tantum codemnat 
+      <lb ed="#P" n="110"/>reo condemnatur fideiussor per consequens. ff. iudica. sol. 
+      <lb ed="#P" n="111"/>l. prima.
+     </p>
+               <p xml:id="nyf6td-d1e1511-d1e276">
+      ¶ Idem est dicendum si totius cause acceptus 
+      <lb ed="#P" n="112"/>est fide iussor / vt predicto. §. ff de fideiusso l. grece. §. primo 
+      <lb ed="#P" n="113"/>ad finem. Saltem quo ad hoc quod fiat executio in bonis 
+      ff<lb ed="#P" n="114" break="no"/>deiussoris. C. de vsur. rei iudic. l. fina. §. fi. 
+    </p>
+               <p xml:id="nyf6td-d1e1511-d1e286">
+                  <lb ed="#P" n="115"/>¶ Quid si iste cui represalie sunt concesse clericum illius 
+      <lb ed="#P" n="116"/>ciuitatis (contra quem represalie erant concessc) pignora 
+      <lb ed="#P" n="117"/>uit: erat tamen iste clericus debitor eius: ratione cuius 
+      con<lb ed="#P" n="118" break="no"/>cedebantur represalie: nunquid habet locum pena huius 
+      <lb ed="#P" n="119"/>decre. Et videtur quod sic: quia indistincte loquitur: ergo in 
+      <lb ed="#P" n="120"/>distincte est intelligenda. ff de offi. preto l. tertia i. q. iii. 
+      sali<lb ed="#P" n="121" break="no"/>uator. ibi. in nomine veri procuratoris 
+    </p>
+               <p xml:id="nyf6td-d1e1511-d1e304">
+                  <lb ed="#P" n="122"/>¶ Dic contra: hec constitutio respicit hunc effectum: 
+      scili<lb ed="#P" n="123" break="no"/>cet alium pro lalio non pignorari / nec grauari vt hic: quod 
+      <lb ed="#P" n="124"/>non est in hoc casu: presertim cum hec assuefactio sit 
+      odio<lb ed="#P" n="125" break="no"/>sa et sic restringenda i1fra hoc lib. de reg. iur. odia. et ibi no. 
+    </p>
+               <p xml:id="nyf6td-d1e1511-d1e315">
+                  <lb ed="#P" n="126"/>¶ Item in casu posito erat licitum pignorare debitorem. 
+      <lb ed="#P" n="127"/>argu. ff. de his que in fraud. cred. ait pretor. §. si debitorem. 
+    </p>
+               <p xml:id="nyf6td-d1e1511-d1e322">
+                  <lb ed="#P" n="128"/>¶ Et vt predixi effectus seu finis intentus considere 
+      <lb ed="#P" n="129"/>tur. ff. de verborum obliga. cum seruus. et. C. de instiru. si 
+      ma<lb ed="#P" n="130" break="no"/>ter.
+     </p>
+               <p xml:id="nyf6td-d1e1511-d1e331">
+      ¶ Utrum autem dominus temporalis deficiens in 
+      iu<lb ed="#P" n="131" break="no"/>re reddendo: vel ciuitas conueniri possit. no. xxiiii. q. ii. 
+      do<lb ed="#P" n="132" break="no"/>minuset d. glo. hic non corrigitur / quia hic inhibetur: 
+      ne<lb ed="#P" n="133" break="no"/>alius pro alio grauetur. quod non est in casu posito: sed 
+      pro<lb ed="#P" n="134" break="no"/>vitio suo dominus vel ciuitas conuenitur legibus. C. 
+      n<lb ed="#P" n="135" break="no"/>ssi. pro patre. et. C. ne vxor pro mari. et. C. de actio. et obliga. 
+      <lb ed="#P" n="136"/>ob causas equitati P. C. vt nullus ex vita l. vna. lib. xi. con. 
+      <lb ed="#P" n="137"/>stitutione Auten. vt non fiant pigno. ii. Nso. col. v. auten. 
+      <lb ed="#P" n="138"/>vt nulli iudic. §. quoniam vero. cola. ix. earum) 
+      represalia<lb ed="#P" n="139" break="no"/>rum / [in n personis ecclesiasticis) scilicet clericis / in 
+      quo<lb ed="#P" n="140" break="no"/>cunque ordine constitutis / templariis / hospitalariis: et 
+      con<lb ed="#P" n="141" break="no"/>uersis quibusubet religiosis: qui omnes persone 
+      ecclesia<lb ed="#P" n="142" break="no"/>stice appellantur. xvii. q. iiii. quisquis. et gaudent, priuilegio 
+      ec<lb ed="#P" n="143" break="no"/>clesiastico. xxvii. q. prima. vt lex. infra. de sententia excommu¬. 
+      <lb ed="#P" n="144"/>nica. parrochianos.
+     </p>
+               <p xml:id="nyf6td-d1e1511-d1e364">
+      ¶ Idem etiam de solenniter 
+      peni<lb ed="#P" n="145" break="no"/>tentibus. xi. questio. prima. aliud. xii. q. i. duo sunt in illis 
+      <lb ed="#P" n="146"/>id estrepresaliis. specialius inhibemus quia plus so¬ 
+      <!--cod-gh333a-0917.xml-->
+      <pb ed="#P" n="390-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>let timeri quod speciamuliur inhibetur / quam quod generaliter 
+      <lb ed="#P" n="2"/>xxiii. distinct. quamquam. Et plus valet specialis cautio quam g 
+      <lb ed="#P" n="3"/>neralis. ff. si quis cautio l. sed et si. §. quesitum: item specialis: 
+      <lb ed="#P" n="4"/>appellatio. supra de appella. c. super eo.
+     </p>
+               <p xml:id="nyf6td-d1e1511-d1e387">
+      ¶ Et plus valet licentia 
+      <lb ed="#P" n="5"/>specialis quam generalis. supra hoc lib. de reb. eccle. non alie. c. hoc 
+      <lb ed="#P" n="6"/>consultissimo / dic de hoc / vt habes in glo. xxiii. dist. quamquam 
+      i<lb ed="#P" n="7" break="no"/>sonas praedictas id est ecclesiasticas  ipsarum id est personarum 
+      eccle<lb ed="#P" n="8" break="no"/>siasticarum consuetudinem] nota consuetudinem contra ecclesiasti 
+      <lb ed="#P" n="9"/>causa libertatem non valere / et abusum reputari extendi fac di 
+      <lb ed="#P" n="10"/>ferentiam inter extendi et concedi: quia ciuitas vel superior 
+      debi<lb ed="#P" n="11" break="no"/>concedere. Sed ad personam cui fit concessio dicitur fieri extensio ad 
+      <lb ed="#P" n="12"/>easdem id est personas ecclsiasticas praesumptionem huius i. ccessit 
+      <lb ed="#P" n="13"/>nem / vel extensionem represaliarum reuocauerunt sed quid si in 
+      <lb ed="#P" n="14"/>fra mensem istum: ad actum fuerit processum: scilicet quia persona 
+      eccla<lb ed="#P" n="15" break="no"/>siastica fuit pro alia pignorata / nuquid habebit locum pena 
+      hu<lb ed="#P" n="16" break="no"/>ius decreta. infra mensem arg. supra de elect. commissa is. 
+      P<lb ed="#P" n="17" break="no"/>ff. de verb. obli. in illa stipulatione et l. insulam 
+    </p>
+               <p xml:id="nyf6td-d1e1511-d1e418">
+                  <lb ed="#P" n="18"/>¶ Dic quod si est processum vsque ad actum / totum est in statum 
+      pri<lb ed="#P" n="19" break="no"/>stinum reuocandum infra mensem i1fra hoc lib. de senten. excommuni. 
+      qu<lb ed="#P" n="20" break="no"/>cumque. ver. vel si ad bonorum / alias pena ista locum habebit 
+      vn<lb ed="#P" n="21" break="no"/>uersitas Nota vniuersitatem non debere excommunicari infra. 
+      <lb ed="#P" n="22"/>hoc lib. de sent. excon. c. Romana: in fi simile. supra hoc lib. de 
+      <lb ed="#P" n="23"/>vsuris. c. vsurarum. §. qui vero contra. Io. Mo. Car. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 21</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 21</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="332-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1217" type="et-sextus-l3t21"><!-- mo-l3t21"
+              -->
+            <head xml:id="nyf6td-d1e1217-Hd1e101">Titulus 21</head>
+            <div xml:id="nyf6td-d1e1217-Dd1e103" type="et-sextus-l3t21-rubric"><!-- mo-l3t21-rubric" -->
+               <head xml:id="nyf6td-d1e1217-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1217-d1e108">
+                  <lb ed="#P" n="23" type="fixed=332-r"/>DIctum est de religiosis domibus / et 
+      capellia<lb ed="#P" n="24" break="no"/>monachorum. Et quia ecclesie ac eorum 
+      alta<lb ed="#P" n="25" break="no"/>da consecrari debent: ideo de eis subii cit 
+      <lb ed="#P" n="26"/>Ioan. Mona. Cardi. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1217-Dd1e120" type="et-sextus-l3t21-c1"><!-- mo-l3t21-c1" -->
+               <head xml:id="nyf6td-d1e1217-Hd1e123">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1217-d1e125">
+                  <lb ed="#P" n="49" type="fixed=332-r"/>SI ecclesiam, Hec decretalis habet 
+      tria<lb ed="#P" n="50" break="no"/>dicta. Ecce piinmum 
+      conl<lb ed="#P" n="51" break="no"/>quum) illud dicitur contiguum alteri cuius 
+      <lb ed="#P" n="52"/>extrema sese contingunt: simile infra. de senten. 
+      <lb ed="#P" n="53"/>excommunica. si ciuitas in fine videatur simile. 
+      <lb ed="#P" n="54"/>supra hoc lib. de prebend. is cui. §. non sic autem. 
+      <lb ed="#P" n="55"/>non vnum hic. §. declarat quando dicuntur duo 
+      cemi<lb ed="#P" n="56" break="no"/>teria / vel vnum. Ioan. Mona. Cardi.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

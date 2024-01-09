@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 10</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 10</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="305-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e995" type="et-sextus-l3t10"><!-- mo-l3t10"
+              -->
+            <head xml:id="nyf6td-d1e995-Hd1e101">Titulus 10</head>
+            <div xml:id="nyf6td-d1e995-Dd1e103" type="et-sextus-l3t10-rubric"><!-- mo-l3t10-rubric" -->
+               <head xml:id="nyf6td-d1e995-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e995-d1e108">
+                  <lb ed="#P" n="57" type="fixed=305-r"/>CVm res ecclesiastica 
+      <lb ed="#P" n="58"/>quandoque alienetur. vt supra 
+      ti<lb ed="#P" n="59" break="no"/>tu. proximo / et vnus modus 
+      <lb ed="#P" n="60"/>alienandi fit per permutatio 
+      <lb ed="#P" n="61"/>nem. supra de reb. eccle. non 
+      alie<lb ed="#P" n="62" break="no"/>nan. c. i. ideo. subiicit de rerum. 
+      <lb ed="#P" n="63"/>parmutatio. 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e126">
+                  <lb ed="#P" n="64"/>¶ Et notandum quod 
+      permuta<lb ed="#P" n="65" break="no"/>tio  est vnius rei pro 
+      altera<lb ed="#P" n="66" break="no"/>prestatio. Nam permutatio ex 
+      <lb ed="#P" n="67"/>voluntate conuenientium 
+      ini<lb ed="#P" n="68" break="no"/>tium efficax non capit / sed ex 
+      <!--cod-gh333a-0742.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="69"/>traditione rei: secus in emptione que habet initium 
+      efficar<lb ed="#P" n="70" break="no"/>ex solo consensu partium contrahentium. ff. co. l. prima § 
+      <lb ed="#P" n="71"/>item emptio. Et inde dicta est permutatio: quia est 
+      imu<lb ed="#P" n="72" break="no"/>tatio speciei pro specie: sed tunc est per id est valde hoc est 
+      ef<lb ed="#P" n="73" break="no"/>ficaciter re tradita 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e154">
+                  <lb ed="#P" n="74"/>¶ Et fit permutatio de re temporali ad temporale / et de spiritua 
+      <lb ed="#P" n="75"/>li ad spirituale / non de temporali ad spirituale: vel econtra / quia 
+      <lb ed="#P" n="76"/>tunc esset symonia: sed temprale ad temporale commutetur: et 
+      spiri<lb ed="#P" n="77" break="no"/>tuale ad spirituale vt contractus non commisceantur. 
+      su<lb ed="#P" n="78" break="no"/>pra eo. capitulo finali 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e167">
+                  <lb ed="#P" n="79"/>¶ Ceterum domini auctoritate sua permutare possunt 
+      <lb ed="#P" n="80"/>sed non domini: vt persone ecclesiastice auctoritate 
+      super<lb ed="#P" n="81" break="no"/>rioris bsi causa rationabilis subsit. supra eo. c. primo supra de reb. 
+      <lb ed="#P" n="82"/>eccle. non alie. c. i. et. supra eo. cum vniuersorum. 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e179">
+                  <lb ed="#P" n="83"/>¶ Et permutatio venditionem precessit / et eius origo et 
+      ne<lb ed="#P" n="84" break="no"/>cessitas ab indigent ia hominum originen sumpsit. ff. de 
+      con<lb ed="#P" n="85" break="no"/>trahen. empt l. i. et in prohe. ff. in fine 
+      <lb ed="#P" n="86"/>Sed quomodo potest fieri permutatio in 
+      benefi<lb ed="#P" n="87" break="no"/>ciis / cum permutatio vigorem non habeat vt predixi / nisi 
+      <lb ed="#P" n="88"/>re tradita: et pro spirituali nihil debet dari seu promitti 
+      <lb ed="#P" n="89"/>i. quest. ii. quam pio 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e197">
+                  <lb ed="#P" n="90"/>¶ Sol. hec permutatio non fit autoritate beneficiatorum: sed 
+      <lb ed="#P" n="91"/>totumponitur in arbitrio superioris qui ex causis 
+      pro<lb ed="#P" n="92" break="no"/>positis ad permutationem procedit seu illam denegabii 
+      <lb ed="#P" n="93"/>supra eo. quesitum et. xvi. q. vii. memini 1fa de excessib. prela. c. si 
+      <lb ed="#P" n="94"/>cut vnire. Io. Mo. Card. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e995-Dd1e211" type="et-sextus-l3t10-c1"><!-- mo-l3t10-c1" -->
+               <head xml:id="nyf6td-d1e995-Hd1e214">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e995-d1e216">
+                  <lb ed="#P" n="99" type="fixed=305-v"/>LIcet. Impetranii pimum 
+      <lb ed="#P" n="100"/>beneficium debetur 
+      re<lb ed="#P" n="101" break="no"/>gulariter. supra de offi. delega. ex 
+      <lb ed="#P" n="102"/>parte primi. supra hoc lib. de preben. 
+      <lb ed="#P" n="103"/>si clericus: hoc tamen fallita 
+      ex<lb ed="#P" n="104" break="no"/>causis certis vt hic et supra hoc 
+      la<lb ed="#P" n="105" break="no"/>bro de preben. is cui et. c. si tibi 
+      <lb ed="#P" n="106"/>absenti no. diocesis 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e236">
+                  <lb ed="#P" n="107"/>¶ Quid si in ciuitate / videtur 
+      <lb ed="#P" n="108"/>quod non. supra de rescriptis. Radul. 
+      <lb ed="#P" n="109"/>phus b 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e245">
+                  <lb ed="#P" n="110"/>¶ Quid si in ecclesia cathedni 
+      <lb ed="#P" n="111"/>li videtur quod non supra hoc lib. de prebend. quamuis i. § i. dic 
+      con<lb ed="#P" n="112" break="no"/>tra vtrobique quia d. c. Radulphus loquitur in rescriptis 
+      <lb ed="#P" n="113"/>de iustitia que sunt stricti  iuris. supra de rescrip. nonnull. 
+      <lb ed="#P" n="114"/>in fine et. d. c. quamuis: in prin¬ 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e258">
+                  <lb ed="#P" n="115"/>¶ Sed in statutis et honoribus aliud est. lxiii. dist. lacrorum 
+      <lb ed="#P" n="116"/>nfra. de verb. signifi. cum clerici. C. de municip. et origi. l. filios 
+      <lb ed="#P" n="117"/>lib. x. Nam ibi nomine diocesis ciuitatem comprehendit: 
+      sic<lb ed="#P" n="118" break="no"/>et quandoque nomen ecclesie cathedralis continet. supra de vsu 
+      <lb ed="#P" n="119"/>pal. c. i. et. c. ad honorem. 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e272">
+                  <lb ed="#P" n="120"/>¶ Et nomine cathedralis continetur metropolitana: vii. 
+      <lb ed="#P" n="121"/>q. iii. scitote et d. c. quamuis in fine spectent quando quis est 
+      <lb ed="#P" n="122"/>apostolicus expectans vel non non supra hoc lib. de rescrip. cu. 
+      <lb ed="#P" n="123"/>aliquibus formam que est illa supra. in rubr. notatur ad tuamr 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e283">
+                  <lb ed="#P" n="124"/>¶ Quid si ad collationem diuersorum: seu illa sint in 
+      diuen<lb ed="#P" n="125" break="no"/>sis diocesibus: videtur secus / quia vt predixi hec decreta 
+      <lb ed="#P" n="126"/>ponit exc cptionem a regula: vnde regulam tenebo nisi 
+      <lb ed="#P" n="127"/>reperiam expresse vitiatam. ff de reg. iur l. i. C. de appel. l. 
+      <lb ed="#P" n="128"/>precipimus in fine 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e296">
+                  <lb ed="#P" n="129"/>¶ Dic contra nec in dictis verbis notatur iuris diuersitas 
+      <lb ed="#P" n="130"/>ars. de tempo. rest. in integ. l. vlti. 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e303">
+                  <lb ed="#P" n="131"/>¶ Sed in istis terminis propositus fuit casus. Et dico istos 
+      <lb ed="#P" n="132"/>prelatos in ista permutatione debere conuenire in vnim 
+      <lb ed="#P" n="133"/>ac si esset vnus: vnde isti duo vice vnius funguntur ara 
+      <lb ed="#P" n="134"/>infra. de senten. ex communi. cum illorum. §. si vero claustralis 
+      <lb ed="#P" n="135"/>ff. de conditio. et demonstra. cui fundus in fine / alias non est 
+      <lb ed="#P" n="136"/>permutatio et tunc regulam tenebo libere  sine pacto / 
+      <lb ed="#P" n="137"/>promisso / seu conditione illicita / transactione prima. q. ii 
+      <lb ed="#P" n="138"/>quam piofraude tunc enim non valeret g supra hoc libro de 
+      re<lb ed="#P" n="139" break="no"/>nuncis. c. secundo 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e325">
+                  <lb ed="#P" n="140"/>¶ Sedquero ego qui habeo pingnebeneficium: tecum 
+      <!--cod-gh333a-0744.xml-->
+      <pb ed="#P" n="306-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>qui habes tenue permuto h. dicit expectans quod non vale. 
+      <lb ed="#P" n="2"/>permutatio in sui preiudicium: quia saltem est 
+      fraudulen<lb ed="#P" n="3" break="no"/>senta re ipsa arg. supra hoc lib. de renuncia. c. ii. 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e343">
+                  <lb ed="#P" n="4"/>¶ Sed ibi renuncians minori habuit maius vacans post 
+      <lb ed="#P" n="5"/>modum / vnde ipso facto videtur fraus inesse et de hoc 
+      no<lb ed="#P" n="6" break="no"/>ta infra hoc lib. de reg. iur. scienti: sed hic est econtra 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e353">
+                  <lb ed="#P" n="7"/>¶ Item ad idem arg. ff. de diuort. si filia. ff solu. matri. fili 
+      <lb ed="#P" n="8"/>sed ibi auferetur si non fieret interpretatio fraudis: sed hic 
+      <lb ed="#P" n="9"/>non aufertur: sed differtur. 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e362">
+                  <lb ed="#P" n="10"/>¶ Item arg. supra de presumptio. quia verissimiliter. Sed ibi. 
+      <lb ed="#P" n="11"/>prima facie erat preiudicium enorme contra illum qui 
+      dice<lb ed="#P" n="12" break="no"/>batur renunciasse arg. supra de renuncia. super hoc: hic non 
+      <lb ed="#P" n="13"/>tum de consensu vtriusque constaret: vnde dic dictam 
+      per<lb ed="#P" n="14" break="no"/>mutationem valere argu. ff. de contrah. emptio. si quis 
+      <lb ed="#P" n="15"/>donationis. 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e378">
+                  <lb ed="#P" n="16"/>¶ Et constat quod emptio et venditio a permutatione 
+      ori<lb ed="#P" n="17" break="no"/>ginem sumpsit. ff. de contrahen. emptio l. i. in 
+      princi<lb ed="#P" n="18" break="no"/>Si igitur tenet venditio vt d. l. si quis et sic in casu proposito¬ 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e387">
+                  <lb ed="#P" n="19"/>¶ Item hic non videtur vacatio iuris fictione: sed 
+      con<lb ed="#P" n="20" break="no"/>rinuatio ministerio presidentis arg. ff. de constitu. pecu l. Et 
+      <lb ed="#P" n="21"/>licet. et. ff. de diuort. diuortium et ff. de testa. mili l. quod dic. 
+      <lb ed="#P" n="22"/>tur. §. miles / ibi quasi coniuncto toto munere. supra eo. quesitum 
+      <lb ed="#P" n="23"/>et facit ad hoc infra. eodem in fine 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e400">
+                  <lb ed="#P" n="24"/>¶ Nec obstat verbum infra. eodem resignent quia ibi non est 
+      <lb ed="#P" n="25"/>proprie resignatio / sed totum potestati superioris i reserus 
+      <lb ed="#P" n="26"/>tur vt supra eo. in rubrica notatur. 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e409">
+                  <lb ed="#P" n="27"/>¶ Et licet sit resignatio quo ad beneficiatum totum 
+      ponen<lb ed="#P" n="28" break="no"/>tem in dispositione superioris / non tamen est quo ad 
+      presi<lb ed="#P" n="29" break="no"/>dentem nisi post ipsius acceptationem. supra de 
+      renuncia<lb ed="#P" n="30" break="no"/>admonet et. c. quod in dubiis. Et tunc transfert personam 
+      <lb ed="#P" n="31"/>de loco ad locum. supra eo. quesitum rigori) n. C. de iudic. 
+      <lb ed="#P" n="32"/>olacuit impediri 
+    </p>
+               <p xml:id="nyf6td-d1e995-d1e426">
+                  <lb ed="#P" n="33"/>¶ Et sic nota sub genere non complecti illa de quibus 
+      <lb ed="#P" n="34"/>non est verissimile ipsa comprehendi sub genere: de qua 
+      ma<lb ed="#P" n="35" break="no"/>teria no. infra hoc libro de regul. iuris. in generali. Ioan. 
+      <lb ed="#P" n="36"/>Mona. Cardinalis.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

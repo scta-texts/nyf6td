@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 5</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 5</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="193-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e607" type="et-sextus-l2t5"><!-- mo-l2t5"
+              -->
+            <head xml:id="nyf6td-d1e607-Hd1e101">Titulus 5</head>
+            <div xml:id="nyf6td-d1e607-Dd1e103" type="et-sextus-l2t5-rubric"><!-- mo-l2t5-rubric" -->
+               <head xml:id="nyf6td-d1e607-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e607-d1e108">
+                  <lb ed="#P" n="15"/>QVia, In causis est iuramentum prestandum 
+      <lb ed="#P" n="16"/>vt supra titulo proximo per totum. Et in 
+      <lb ed="#P" n="17"/>ter causas alias pre ceteris / causa 
+      spolia<lb ed="#P" n="18" break="no"/>tionis est multipliciter priuilegiata argu. supra 
+      <lb ed="#P" n="19"/>co. in literis. et. iii. q. prima episcopi. Ideo 
+      pri<lb ed="#P" n="20" break="no"/>mo de restitu. spolia. subiicit. Io. Mo. Car. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e607-Dd1e125" type="et-sextus-l2t5-c1"><!-- mo-l2t5-c1" -->
+               <head xml:id="nyf6td-d1e607-Hd1e128">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e607-d1e130">
+                  <lb ed="#P" n="102" type="fixed=193-r"/>FRequens. Hecc vecsuasggum 
+      <lb ed="#P" n="103"/>Cet spoc. cione 
+      po<lb ed="#P" n="104" break="no"/>sita in medium exceptionis a. Et 
+      ha<lb ed="#P" n="105" break="no"/>bet. v. dicta. Primo proemium ad 
+      d<lb ed="#P" n="106" break="no"/>cenda ponit secundo ver. 
+      statui<lb ed="#P" n="107" break="no"/>mus in ciuilibus de exceptione 
+      spo<lb ed="#P" n="108" break="no"/>lationis facta: tertio ver. sedisi in 
+      <lb ed="#P" n="109"/>criminalibus de eadem exceptione 
+      <lb ed="#P" n="110"/>spoliationis statuit: quarto. §. illus 
+      <lb ed="#P" n="111"/>quinto. §. solet: sexto. §. ad hoc 
+      pri<lb ed="#P" n="112" break="no"/>mo tribus tacitis questionibus 
+      re<lb ed="#P" n="113" break="no"/>sponsum tribuit frequens in hoc notatactuum 
+      frequen<lb ed="#P" n="114" break="no"/>tiam assidua) in hoc notat temporis continuationem circunstro 
+      <lb ed="#P" n="115"/>pit id. circum circa strepitum facit spoliationis Et sic 
+      spo<lb ed="#P" n="116" break="no"/>liationis exceptio calumniose proponitur et ideo 
+      calumnio<lb ed="#P" n="117" break="no"/>se obuiatur vt hic / et infra. de exceptio. pia idem in 
+      perempto<lb ed="#P" n="118" break="no"/>ria infra de dolo et couma. finem itemittitur id est progatur labores. 
+      <!--cod-gh333a-0513.xml-->
+      <pb ed="#P" n="193-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>hoc sumitur auten. vt diui. iussio. colla. viii. et arg. supra hoc 
+      <lb ed="#P" n="2"/>libro in prohemio amputare et audaciam per 
+      condemna<lb ed="#P" n="3" break="no"/>tionem expen. et per alios modos infra de penis calumniam 
+      <lb ed="#P" n="4"/>ab actore esset enim iniquum quod reus exciperet contra actorem 
+      <lb ed="#P" n="5"/>de spoliatione ab alio facta. Cum nullus alterius odio de 
+      <lb ed="#P" n="6"/>beat pregrauari. C. de in offi. testa. si quis in suo infra de his qua 
+      <lb ed="#P" n="7"/>fiunt a maiori parte capi. quesiuit. C. penis. sancimus infra 
+      ho<lb ed="#P" n="8" break="no"/>lib. de regn. iur. non debet non postponat cognoscendo et 
+      di<lb ed="#P" n="9" break="no"/>finiendo / non tamen exequendo / cum non sit in quo fiat 
+      executi<lb ed="#P" n="10" break="no"/>cum a tertio reus sit spoliatus. Ideo restitutio ipsius est 
+      ex<lb ed="#P" n="11" break="no"/>pectanda. supra eo. cum olim. ii.
+     </p>
+               <p xml:id="nyf6td-d1e607-d1e200">
+      ¶ Sed si a quocumque et est ratio 
+      <lb ed="#P" n="12"/>huius casus ad preceden. Quia accusatus amicis 
+      indu<lb ed="#P" n="13" break="no"/>get et multi assisterent restituto qui deficerent spoliato. Nam 
+      <lb ed="#P" n="14"/>regulariter homines sequuntur formam non naturam arg. xi. q. iin 
+      <lb ed="#P" n="15"/>pauper. Unde Quidius in fastis in princ. Dat pretium 
+      mo<lb ed="#P" n="16" break="no"/>res et donat census honores. Arbor dat flores flos fructus 
+      <lb ed="#P" n="17"/>fructus odores / Census amicitias / pauper vbique iacet 
+      <lb ed="#P" n="18"/>lxv. dierum] artatur ergo hoc tempus probandi timore calumnic. 
+      <lb ed="#P" n="19"/>infra hoc lib. de exceptio. pia §. si quis i1nfa de senten. excommunic. solet. 
+    </p>
+               <p xml:id="nyf6td-d1e607-d1e220">
+                  <lb ed="#P" n="20"/>¶ Sed numquid hec dilatio potest a iudice prorogari / dico quod 
+      <lb ed="#P" n="21"/>sic ex causa: saltem ex clausula generali. Si qua mihi iusta 
+      cau<lb ed="#P" n="22" break="no"/>sa videbitur. ff. ex quib. caus. maio l. i. ad finem. Sed non et 
+      <lb ed="#P" n="23"/>proprie prorogatio tunc: vt ff. de minori l. quod si minor. §. 
+      restitu<lb ed="#P" n="24" break="no"/>tio post diem Sic dies in quo proponitur excommunicatio 
+      subtr<lb ed="#P" n="25" break="no"/>hitur: vt d. ca. pia Alioquin id est si exceptionem spoliationis 
+      <lb ed="#P" n="26"/>obiectam non probauerit interim pendente dilatione in qua 
+      <lb ed="#P" n="27"/>impeditus est procedere in principali arg. supra de procura. 
+      audi<lb ed="#P" n="28" break="no"/>tis ob hoc infa hoc lib. de dolo et contuma. actor 
+      prohibita<lb ed="#P" n="29" break="no"/>nota. supra quod met. causa. c. vlt. puniendus ad arbitrium presidem 
+      <lb ed="#P" n="30"/>tis. supra de off. de leg. de causis in fine maiori parte hec 
+      po<lb ed="#P" n="31" break="no"/>test dici grauis causa: que est de omnibus bonis / vel 
+      maio<lb ed="#P" n="32" break="no"/>ri parte arg. ff. de excusa. tuto. propter litem insti. de excu. 
+      tu<lb ed="#P" n="33" break="no"/>to. §. Item propter litem / et licet. d. ll. corrigantur per autem. vt 
+      <lb ed="#P" n="34"/>hi qui oblig. §. ii. iii. iiii. colla. v. Noticia tamen legis 
+      ab<lb ed="#P" n="35" break="no"/>rogate bona est / que allegari potest propter eius rationem / 
+      <lb ed="#P" n="36"/>insti. de testa. in princ. et. supra de iudic. nouit. § i. et est equa hec 
+      <lb ed="#P" n="37"/>interpretatio: cum accidentia subiecta non denominent nisi 
+      ad<lb ed="#P" n="38" break="no"/>sit in toto vel in maiori parte arg. ff. de lega. iii. legatis 
+      ser<lb ed="#P" n="39" break="no"/>uis § si vnus / et non infra hoc lib. de verb. signi. sicut destitutum id s 
+      <lb ed="#P" n="40"/>spoliatum intellectu et est notatu dignum ius conditum: sic est 
+      <lb ed="#P" n="41"/>interpretandum / vt non sit  instrumentum deceptionis vel 
+      ma<lb ed="#P" n="42" break="no"/>licie / et ideo quam cito per ius percipitur aperitur via ad 
+      mali<lb ed="#P" n="43" break="no"/>gnandum / et illud ius interpretandum / vt casum verisimilem 
+      con<lb ed="#P" n="44" break="no"/>prehendat / vt hic. ff. ad exhiben l. penul. xxii. q. ii. c. ne quis 
+      ar<lb ed="#P" n="45" break="no"/>bitretur in fi. C. manda l. ab Anastasio in princi i1fra hoc lib. d. 
+      <lb ed="#P" n="46"/>exceptio. pia in princi. nudi. iii. q. ii. c. oportet contendero 
+      <lb ed="#P" n="47"/>id est in iudicio conueniri et criminaliter accusari inermes id est 
+      <lb ed="#P" n="48"/>rebus nostris omnibus vel maiori parte ipsarum spoliati 
+      ini<lb ed="#P" n="49" break="no"/>micis id est accusatoribus qui eo ipso inimici praesumuntur i1fra. 
+      <lb ed="#P" n="50"/>de accusa. meminerimus. supra eo
+     </p>
+               <p xml:id="nyf6td-d1e607-d1e290">
+      ¶ Item cum quis spoliatus 
+      <lb ed="#P" n="51"/>ii. q. ii. nullus potest priuilegium i est defensionem que sequitur 
+      <lb ed="#P" n="52"/>et dic priuilegium flebile quod sequitur et habetur. ff de furt 
+      <lb ed="#P" n="53"/>Itaque in princi. nudatus et sic spoliatus. iii. q. i. episcopi. et. q. i 
+      <lb ed="#P" n="54"/>cum ecclesie de spoliatione facta ab alio quam ab accusatore 
+      ex<lb ed="#P" n="55" break="no"/>cipiat criminaliter accusatus Ei) l est accusato et spoliato 
+      <lb ed="#P" n="56"/>indulgeri si petat: vel assignari si non petat existere) cum 
+      <lb ed="#P" n="57"/>non vult recuperare res cum sibi offeruntur / vel quando non agit 
+      <lb ed="#P" n="58"/>cum potest quod scilicet vt dictum tempus sibi a iudice assu 
+      <lb ed="#P" n="59"/>gnetur. Equitati  que sequenda est. C. de iudic. placuit 
+    </p>
+               <p xml:id="nyf6td-d1e607-d1e313">
+                  <lb ed="#P" n="60"/>¶ Quod si petierit cum potuerit / vt sequitur causam 
+      spoli<lb ed="#P" n="61" break="no"/>tionis contra tertium ad finem excusantur tamensi per iudicem 
+      ste<lb ed="#P" n="62" break="no"/>terit autem. vt sponsal. largi. §. hoc quoque sancimus colla. ix. 
+    </p>
+               <p xml:id="nyf6td-d1e607-d1e322">
+                  <lb ed="#P" n="63"/>¶ Et sic nota quod quis inuitus agere compellitur / 
+      regulari<lb ed="#P" n="64" break="no"/>ter contra. C. vt nemo inuit. agere vel accusa. coga l. i. 
+      prece<lb ed="#P" n="65" break="no"/>dentia tamen et subsequentia vel malitia que timetur / vel aliud 
+      <lb ed="#P" n="66"/>extrinsecus operans: facit / vt nemo agere vel accusare 
+      con<lb ed="#P" n="67" break="no"/>pellatur / vt hic / et. C. de ingen. et manu. l. diffamari infra de 
+      proba<lb ed="#P" n="68" break="no"/>licet infra hoc libr. de appel. legitima in fine. ff. de optio. 
+      lega<lb ed="#P" n="69" break="no"/>mancipiorum spoliationis contra accusatorem obiecte 
+      dein<lb ed="#P" n="70" break="no"/>ceps id est termino elapso accusari id est accusatione procedi. supra 
+      <lb ed="#P" n="71"/>de offi. ordi. irrefragabili. §. excessus infra de exceptio. pastora 
+      <lb ed="#P" n="72"/>lis. infra de appel. personas / et. ca. cum sit Romana. et ca. oblate. 
+    </p>
+               <p xml:id="nyf6td-d1e607-d1e346">
+                  <lb ed="#P" n="73"/>¶ Ad hec copponatur. Et est ratio / agens nomine 
+      eccle<lb ed="#P" n="74" break="no"/>siastico: non agit iure suo sed ecclesiae nomine. supra de dilatio. litere. 
+      <lb ed="#P" n="75"/>Sed agens super re sua priuata nomine suo agit / vnde 
+      si<lb ed="#P" n="76" break="no"/>cut procurator agens nomine alieno non posset excipere de 
+      iuri<lb ed="#P" n="77" break="no"/>suo / sed de iure nomine domini cuius habet exercitium non dominium sic 
+      <lb ed="#P" n="78"/>nec hic arg. ff. de excep. doli si procurator.
+     </p>
+               <p xml:id="nyf6td-d1e607-d1e362">
+      ¶ Item res 
+      eccle<lb ed="#P" n="79" break="no"/>siastice dicuntur publici iuris seu diuini. C. de sacrosanc. 
+      ec<lb ed="#P" n="80" break="no"/>cle. l. vlti. ff. de iusti. et iure l. prima §. publicum. Et sic  
+      de<lb ed="#P" n="81" break="no"/>publico ad priuatum non fit compensatio / nec de vn¬ 
+      <!--cod-gh333a-0513.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#P" n="82"/>actione ad aliam vt C. de compensa l. prima et iii. sic nec 
+      bi<lb ed="#P" n="83" break="no"/>exceptio.
+     </p>
+               <p xml:id="nyf6td-d1e607-d1e380">
+      ¶ Sed quero nunquid per hunc. §. corrigitu 
+      <lb ed="#P" n="84"/>supra de ordi. cogni. c. cum dilectus / vbi agebatur inter perso 
+      <lb ed="#P" n="85"/>nas ecclesiasticas et seculares: dic quod h non quia vtrobia 
+      co<lb ed="#P" n="86" break="no"/>tendebatur de temporalibus que possunt cadere in istum vel alui¬ 
+    </p>
+               <p xml:id="nyf6td-d1e607-d1e389">
+                  <lb ed="#P" n="87"/>¶ Et dicuntur proprie res priuate / quia ipse a priuato 
+      bab<lb ed="#P" n="88" break="no"/>ri possunt: sed proprie hic vocantur res ecclesiastice 
+      qaeno<lb ed="#P" n="89" break="no"/>cadunt in laicum / vt decime et alia spiritualia arg. ff. de 
+      leam<lb ed="#P" n="90" break="no"/>iii. hoc legatum / et ff de auro et arg. lega. quintus. Io. mo. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e607-Dd1e401" type="et-sextus-l2t5-c2"><!-- mo-l2t5-c2" -->
+               <head xml:id="nyf6td-d1e607-Hd1e404">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e607-d1e406">
+                  <lb ed="#P" n="44" type="fixed=194-r"/>AD decimas. Agens 
+      restituto<lb ed="#P" n="45" break="no"/>rio iudicio contra
+      <lb ed="#P" n="46"/>eum qui iure communiiuuatur: debet 
+      do<lb ed="#P" n="47" break="no"/>cere de tifulo legitime] id est 
+      legi<lb ed="#P" n="48" break="no"/>timo titulo. infra hoc lib. de 
+      prescri<lb ed="#P" n="49" break="no"/>ptio c. i. fuissent Et est ratio: vt 
+      <lb ed="#P" n="50"/>infra subiicitur: quia reus contra quen. 
+      <lb ed="#P" n="51"/>gebatur ius commune habebat pro se / vt 
+      <lb ed="#P" n="52"/>hic. Et ideo petitorio probato ra 
+      <lb ed="#P" n="53"/>reo. 1fra de parro. c. vl. infra de decimis 
+      <lb ed="#P" n="54"/>cum contingat possessio et 
+      spoliatio<lb ed="#P" n="55" break="no"/>probate non aduocant / vt fiat restitutio. supra de causa posse. et 
+      pro<lb ed="#P" n="56" break="no"/>prieta. cum ecclesia / et. c. cum dilectus. ff. de rei vendic. officium. 
+      Ci<lb ed="#P" n="57" break="no"/>enim petitorium probatum pro actore aduocaret possessionem a 
+      reo<lb ed="#P" n="58" break="no"/>multo magis petitorium probatum pro reo faciet possessionem 
+      apu<lb ed="#P" n="59" break="no"/>reum possessorem remanere arg. dictorum iurium / et ff. de superfic 
+      la<lb ed="#P" n="60" break="no"/>1§. quod ait.
+     </p>
+               <p xml:id="nyf6td-d1e607-d1e445">
+      ¶ Idem dico vbicumque factum est notorium  pro reo 
+      <lb ed="#P" n="61"/>infra de diuor. significasti ostendatur quod tollat ius commune / vt 
+      pro<lb ed="#P" n="62" break="no"/>uilegium / compositio vel praescriptio 1nfra de decimis. c. iii. et. c. cum 
+      con<lb ed="#P" n="63" break="no"/>tingat 1ra de praescripti. de quarta infra de his que fiunt a prel. cum 
+      <lb ed="#P" n="64"/>apostolica 1ra de donatio. apostolice. Ioan. Mo. Cardi.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

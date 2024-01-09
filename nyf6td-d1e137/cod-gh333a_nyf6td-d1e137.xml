@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 4</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 4</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="47-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e137" type="et-sextus-l1t4"><!-- mo-l1t4"
+              -->
+            <head xml:id="nyf6td-d1e137-Hd1e101">Titulus 4</head>
+            <div xml:id="nyf6td-d1e137-Dd1e103" type="et-sextus-l1t4-rubric"><!-- mo-l1t4-rubric" -->
+               <head xml:id="nyf6td-d1e137-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e137-d1e108">
+                  <lb ed="#P" n="82" type="fixed=47-r"/>DIcto de iure scripto: 
+      sequi<lb ed="#P" n="83" break="no"/>tur de iure non scripto: vt 
+      po<lb ed="#P" n="84" break="no"/>te de consuetudine a 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e117">
+                  <lb ed="#P" n="85"/>¶ Et notandum quod iuris ciui 
+      <lb ed="#P" n="86"/>lis: due sunt species ius 
+      scri<lb ed="#P" n="87" break="no"/>prtum: vt est lex . Ius non 
+      <lb ed="#P" n="88"/>scriptum. vt est consuetudo. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e128">
+                  <lb ed="#P" n="89"/>¶ Et vocatur ius ciuile 
+      <lb ed="#P" n="90"/>quia a duabus ciuitatibus 
+      <lb ed="#P" n="91"/>scilicet Atheniensium et 
+      lace<lb ed="#P" n="92" break="no"/>demoniorum originem 
+      tra<lb ed="#P" n="93" break="no"/>xit: Et sicut lex expresso 
+      con<lb ed="#P" n="94" break="no"/>sensu populi conditur: consuetudo tacito consensu. insti de 
+      <lb ed="#P" n="95"/>iur. natur. genti. et ciuili. §. constat. et. §. ex non scripto. et. § 
+      se<lb ed="#P" n="96" break="no"/>quem. et ff. de legi. et sena. consul. l. de quibus et l. sed ea. et l. de 
+      <lb ed="#P" n="97"/>stin. est. et. c. sequenti. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e150">
+                  <lb ed="#P" n="98"/>¶ Et queritur quid sit consuetudo et vnde dicatur / et quo 
+      <lb ed="#P" n="99"/>sit eius virtus / ac ipsius diuisio. Et dic. quod consuetudoc est 
+      <lb ed="#P" n="100"/>ius non scriptum moribus populi diurnis inductum d. vt 
+      <lb ed="#P" n="101"/>d. §. ex non scripto. et prima. di. consuetudo. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e162">
+                  <lb ed="#P" n="102"/>¶ Sed contra: consuetudo est factum: ergo non ius. supra hoc 
+      <lb ed="#P" n="103"/>lib. de constitu. c. primo. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e169">
+                  <lb ed="#P" n="104"/>¶ Sol. Dic vt ibi. Item contra mores diuturni: ex 
+      tem<lb ed="#P" n="105" break="no"/>pore habentur. Si ergo tristus non est modus tollende vel indum 
+      <lb ed="#P" n="106"/>cende obligationis. ff de actio. et obli .l. obligationum fere. §. 
+      pla<lb ed="#P" n="107" break="no"/>cet ergo nec mores diuturni inducent obligationem: et sic 
+      <lb ed="#P" n="108"/>per consequens nec ius / cum obligatio sit iuris vinculum 
+      <lb ed="#P" n="109"/>hoc est ius vinciens vt insti. de obliga. in prin¬ 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e185">
+                  <lb ed="#P" n="110"/>¶ Sol. Solum tempus non est modus tollende vel 
+      indu<lb ed="#P" n="111" break="no"/>cende obligationis / sed tacitus: cum hic consensus ex actum 
+      <lb ed="#P" n="112"/>bus diuturnis elicitus. vt dictis iuribus. Nam sicut in 
+      <lb ed="#P" n="113"/>praescriptione rei singularis ius aquiritur ex diuturno vsuu 
+      <lb ed="#P" n="114"/>ff. si serui. vendi l. si quis diuturno. ff. de aqua 
+      quoti<lb ed="#P" n="115" break="no"/>et estiua l. hoc iure. §. ductus aque. Sic ex diuturnis § 
+      <lb ed="#P" n="116"/>actibus ius consuetudinarium inducitur. Et dicitur 
+      comn<lb ed="#P" n="117" break="no"/>suetudo quasi communis assuetudo. Nam in communi omniur 
+      <lb ed="#P" n="118"/>est vsus prima di. §. consuetudo 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e207">
+                  <lb ed="#P" n="119"/>¶ Et notandum quod virtus consuetudinis est multiplex 
+      <lb ed="#P" n="120"/>quia ipsa est iuris introductiua / et suppletiua iuris. vbi 
+      <lb ed="#P" n="121"/>ius deficit. prima distinctione consuetudo. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e216">
+                  <lb ed="#P" n="122"/>¶ Item consuetudo est ad similia tractatiua vt in eis ius 
+      <lb ed="#P" n="123"/>constituat. supra eo. cum olim. insti de satisda. in fine. xi. di. quis 
+      <lb ed="#P" n="124"/>nesciat. et. C. de veteri iure enucl. l. prima. §. sed si que leges 
+      <lb ed="#P" n="125"/>et. ff. de legi l. de quibus ibi tunc quod proximum. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e227">
+                  <lb ed="#P" n="126"/>¶ Item est iuris dubii interpretatiua. supra eo. cum dilectus 
+      <lb ed="#P" n="127"/>et. ff. eo. si de interpretatione 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e235">
+                  <lb ed="#P" n="128"/>¶ Item est iuris imitatiua in d. §. ex non scripto. et C. que 
+      <lb ed="#P" n="129"/>sit longa consuetudo l. v. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e242">
+                  <lb ed="#P" n="130"/>¶ Item est iuris abrogatiua / et quandoque derogatiua: hec 
+      <lb ed="#P" n="131"/>enim differunt. ff. de verbo. significa. derogatur. Nam abro 
+      <lb ed="#P" n="132"/>gatur ius: quando prorsus tollitur. Sed ipsum derogatur 
+      <lb ed="#P" n="133"/>quando pro parte tollitur. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e253">
+                  <lb ed="#P" n="134"/>¶ Unde consuetudo alteri abrogat et alteri derogat 
+      scili<lb ed="#P" n="135" break="no"/>cet quod consuetudo est vniuersalis vel particularis. ff. 
+      con<lb ed="#P" n="136" break="no"/>munia predio l. venditor. § si constat. et. ff. eo. sed ea¬ 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e262">
+                  <lb ed="#P" n="137"/>¶ Item consuetudo est iuris firmatoria 4. distinctione 
+      <lb ed="#P" n="138"/>§ leges. et C. de veter. iure enucle l. prima. §. sed si que 
+      le<lb ed="#P" n="139" break="no"/>ges infra de prescrip. veniens / est etiam gratie delatoria infra 
+      ec<lb ed="#P" n="140" break="no"/>c. ff. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e273">
+                  <lb ed="#P" n="141"/>¶ Et est sciendum quod consuetudo diuiditur in rationabilem et 
+      irra<lb ed="#P" n="142" break="no"/>tionabilem: approbatam / seu reprobatam. Et dico illam 
+      ra<lb ed="#P" n="143" break="no"/>tionabilem et approbatam / que clauditur sub dicta 
+      diffini<lb ed="#P" n="144" break="no"/>tione: alias irrationabilem voco. Nam si qua constitutio 
+      <lb ed="#P" n="145"/>non sit ius hoc est bonum et equum seu vtile in loco: iam non 
+      <lb ed="#P" n="146"/>est consuetudo quia non est ius. ff. de iusti. et iur. l. pe. in prin. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e289">
+                  <lb ed="#P" n="147"/>¶ Item si consuetudo processerit in suis actibus contra 
+      la<lb ed="#P" n="148" break="no"/>gem diuinam reproba. est: quia seruus tollere 
+      legen<lb ed="#P" n="149" break="no"/>domini non potest. Et hoc potius accusat quam excusat. xii. di. consue 
+      <lb ed="#P" n="150"/>tudinem. supra eo. cum tanto infra de de symo. satis / et. c. sequen. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e301">
+                  <lb ed="#P" n="151"/>¶ Et est ratio / licet priuatorum pactis iura ipsorum 
+      tolla<lb ed="#P" n="152" break="no"/>possunt / non tamen iura publica. ff de pac. Ius publicum 
+      <lb ed="#P" n="153"/>et. l. inter debitorem: licet inter se paciscentes possint sibi 
+      prae<lb ed="#P" n="154" break="no"/>iudicare vt ff de pac l. epistola § primo. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e312">
+                  <lb ed="#P" n="155"/>¶ Et constat quod ius publicum in sacris et sacerdotibus. et in 
+      <!--cod-gh333a-0219.xml-->
+      <pb ed="#P" n="47-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>magistratibus consistit. ff. de iusti. et iur l. prima. §. huius. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e325">
+                  <lb ed="#P" n="2"/>¶ Et ideo contra legem m diuinam consuetudo non tenet se 
+      <lb ed="#P" n="3"/>fed assueffaciens in hoc grauiter obligatur vt dictis in 
+      <lb ed="#P" n="4"/>ribus. Requiritur per etiam quod sit prescripta. supra eo. cum tanto. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e334">
+                  <lb ed="#P" n="5"/>¶ Item est irrationabilis etiam si non sit directo 
+      contr<lb ed="#P" n="6" break="no"/>legem diuinam: et homines deducantur per eam ad 
+      peccan<lb ed="#P" n="7" break="no"/>dum. supra eo. ex parte. Et est ratio. Sicut lege diuina 
+      prohi<lb ed="#P" n="8" break="no"/>betur peccatum. ita et illa per que peruenitur a ad illum 
+      <lb ed="#P" n="9"/>arg. ff. de spon. l. oratio. ff. de conditio. insti l. que sub 
+      condi<lb ed="#P" n="10" break="no"/>tione. §. si sub iureiurando. et not infra hoc lib. de regn. iuris. c. 
+      <lb ed="#P" n="11"/>cum quid prohibetur. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e352">
+                  <lb ed="#P" n="12"/>¶ Item si consuetudo est contra ius publicum quo ad 
+      par<lb ed="#P" n="13" break="no"/>tem que est in magistratibus / adhuc non tenet. supra eo. ad 
+      no<lb ed="#P" n="14" break="no"/>stram. et. c. seq. vel quia. neruum ecclesiastice disci pline rum 
+      <lb ed="#P" n="15"/>peret. supra eodem. c. eum inter. et. c. cum venerabilis i1nfra de offi. 
+      <lb ed="#P" n="16"/>ordi. irrefragabili ii. respon. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e365">
+                  <lb ed="#P" n="17"/>¶ Est etiam consuetudo irrationabilis: habito respectu 
+      <lb ed="#P" n="18"/>ad ipsum factum infra. de symo. ea. que. ipsa tamen relata ad 
+      <lb ed="#P" n="19"/>indigentiam rectorum superior piam consuetudinem et 
+      lau<lb ed="#P" n="20" break="no"/>dabilem qua subuenitur a flliis spiritualibus rectoribus 
+      <lb ed="#P" n="21"/>faciet obseruari infra de simo. ad apostolicam 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e379">
+                  <lb ed="#P" n="22"/>¶ Ex quibus colligitur quid est consuetudo et quanta. Nam 
+      <lb ed="#P" n="23"/>habet quantitatem virtutis non molis: cum non sit aliquid 
+      <lb ed="#P" n="24"/>corporeum: sicut omnia iura habent quantitatem virtutis 
+      <lb ed="#P" n="25"/>ff. de acquir. re. do. seruus. §. incorporales. insti. de reb. 
+      cor<lb ed="#P" n="26" break="no"/>por. et incorpora. per totum / apparet etiam qualis sit. Io. 
+      <lb ed="#P" n="27"/>mo. Cardinalis 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e137-Dd1e396" type="et-sextus-l1t4-c1"><!-- mo-l1t4-c1" -->
+               <head xml:id="nyf6td-d1e137-Hd1e399">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e137-d1e401">
+                  <lb ed="#P" n="59" type="fixed=49-r"/>COusuetudinem, hic. 
+      <lb ed="#P" n="60"/>decre et 
+      <lb ed="#P" n="61"/>ali et sequenti tangitur de 
+      con<lb ed="#P" n="62" break="no"/>uetudine reproba. quia est. 
+      co<lb ed="#P" n="63" break="no"/>ra lus publicum. quod 
+      co<lb ed="#P" n="64" break="no"/>irit in sacris et sacerdotibus 
+      <lb ed="#P" n="65"/>t predixi. Sed primo. tertio. 
+      <lb ed="#P" n="66"/>et quarto. capitu. tangitur 
+      <lb ed="#P" n="67"/>de consuetudine proba non 
+      <lb ed="#P" n="68"/>existat. xxii. q. iiii. inter 
+      cete<lb ed="#P" n="69" break="no"/>a. 1. hoc libro de iurelurand. 
+      <lb ed="#P" n="70"/>contingit. Et huius ratio 
+      no<lb ed="#P" n="71" break="no"/>catur infra hoc lib. de regul. 
+      lu<lb ed="#P" n="72" break="no"/>non est obligatorium adimplere. C. de assesso l. 
+      ne<lb ed="#P" n="73" break="no"/>mo. arg. infra de celebratione missa. capitu. te referente. et 
+      ca<lb ed="#P" n="74" break="no"/>pitu. consuiuisti infra hoc libro de preben. capitu. cum singula. 
+      <lb ed="#P" n="75"/>Predicta sunt prohibita in eadem ecclesia 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e440">
+                  <lb ed="#P" n="76"/>¶ Sed nunquid in diuersis: dic quod non / sicut habe re 
+      or<lb ed="#P" n="77" break="no"/>ficium in vna / et dignitatem in alia / hec expressa non 
+      repro<lb ed="#P" n="78" break="no"/>bata tollerentur officia perpetua secus si temporalia. vt 
+      <lb ed="#P" n="79"/>ommendaticia. Sed cum hec decretalis loquatur in 
+      secu<lb ed="#P" n="80" break="no"/>laribus: quod in religiosis videturiecus: quia 
+      ministe<lb ed="#P" n="81" break="no"/>rio eorum largitas / eorum est magis reproba. set ob hoc 
+      ver<lb ed="#P" n="82" break="no"/>dum perpetua / non ponitur infra. hoc lib. de preben. cum 
+      sin<lb ed="#P" n="83" break="no"/>gula. Et tene. tex. d. decretalis. Io. mo. Car. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e137-Dd1e461" type="et-sextus-l1t4-c2"><!-- mo-l1t4-c2" -->
+               <head xml:id="nyf6td-d1e137-Hd1e464">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e137-d1e466">
+                  <lb ed="#P" n="47" type="fixed=51-r"/>NOn putamus, Ratio huius decretalis 
+      <lb ed="#P" n="48"/>colligitur: tam hic: quam hoc
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e473">
+      ¶ Etiam 
+      <lb ed="#P" n="49"/>hic confunderetur dignitas magistratuum. 
+      <lb ed="#P" n="50"/>Cum appellationum a cause / maiores 
+      iudi<lb ed="#P" n="51" break="no"/>ces requirant. ff. de minoribus l. prefecti 
+      <lb ed="#P" n="52"/>iff de appell. l. prima. §. si quis. 2. q. 6. §. 
+      for<lb ed="#P" n="53" break="no"/>ma.
+     </p>
+               <p xml:id="nyf6td-d1e137-d1e486">
+      ¶ Nec decet quod vsus subditorum immutet 
+      statu<lb ed="#P" n="54" break="no"/>tum / et dignitatem iudicum: quia iudicum potestas: non 
+      a<lb ed="#P" n="55" break="no"/>priuatis procedit: sed a iure dante vel confirmante arg. ff. 
+      <lb ed="#P" n="56"/>de verbo. significa l. obuenire.
+     </p>
+               <p xml:id="nyf6td-d1e137-d1e495">
+      ¶ Item iudices qui 
+      sun<lb ed="#P" n="57" break="no"/>patres debent dare normam subditis non econtra / sicui 
+      <lb ed="#P" n="58"/>expectari a subditis non econtra. C. de episco. et cleri l. 
+      iu<lb ed="#P" n="59" break="no"/>bemus. in fine.
+     </p>
+               <p xml:id="nyf6td-d1e137-d1e505">
+      ¶ Nam leges quarum iudices debent 
+      <lb ed="#P" n="60"/>esse seruatores d / non econtra: vt d. l. iubemus / 
+      constrin<lb ed="#P" n="61" break="no"/>gunt subditos. C. de legi l. leges sacratissime. auten. de 
+      iu<lb ed="#P" n="62" break="no"/>reiurn. quod presta. ab his / circa medium. col. 2. infra de eo qua 
+      <lb ed="#P" n="63"/>mit. in po. causa rei seruande. Cum venissent / et ideo vsu 
+      <lb ed="#P" n="64"/>subditorum: non tollitur ius iudicum hoc casu¬ 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e518">
+                  <lb ed="#P" n="65"/>¶ Sed a subdelegato officialis qui potest vnam causam 
+      <lb ed="#P" n="66"/>committere / ad quem appellabitur dic ad proximum 
+      super<lb ed="#P" n="67" break="no"/>riorem cum hoc sit regulare: vt d. l. prefecti: et infra de appella. 
+      <lb ed="#P" n="68"/>tionibus. dilecti. ii. Ioan. Mona. Cardi.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e137-Dd1e530" type="et-sextus-l1t4-c3"><!-- mo-l1t4-c3" -->
+               <head xml:id="nyf6td-d1e137-Hd1e533">Capitulum 3</head>
+               <p xml:id="nyf6td-d1e137-d1e535">
+                  <lb ed="#P" n="115" type="fixed=51-v"/>Non est, Hec decretalis 
+      <lb ed="#P" n="116"/>dicit quod episcopi 
+      <lb ed="#P" n="117"/>possut praescribere contra cap. 
+      <lb ed="#P" n="118"/>tula. Sed contra videtur. l. 
+      <lb ed="#P" n="119"/>de his que fiunt a prela. sine 
+      <lb ed="#P" n="120"/>consen. capi. c. nouit. et. c. 
+      se<lb ed="#P" n="121" break="no"/>quen. Sed dic contraria 
+      lo<lb ed="#P" n="122" break="no"/>quuntur de iure hic / secus 
+      de<lb ed="#P" n="123" break="no"/>consuetudine. Nec est miru. 
+      <lb ed="#P" n="124"/>si illud quod est capitis et 
+      me<lb ed="#P" n="125" break="no"/>brorum in communi vt d. c. e5. 
+      <lb ed="#P" n="126"/>xv. q. vii. episcopus nuilius 
+      <lb ed="#P" n="127"/>per consuetudinem possit ab¬ 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e566">
+                  <lb ed="#P" n="128"/>¶ tribui capiti / et est 
+      expre<lb ed="#P" n="129" break="no"/>sum infra d. c. noscitur.
+     </p>
+               <p xml:id="nyf6td-d1e137-d1e573">
+      ¶ Uel dic quod hec decretalis in factis 
+      sin<lb ed="#P" n="130" break="no"/>gularium personarum loquitur. Sed vbi maior discussio 
+      <lb ed="#P" n="131"/>requireretur sicut in institutione abbatum: secus videre. 
+      <lb ed="#P" n="132"/>vt d. c. arg.  de elec. transmissa in fine 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e582">
+                  <lb ed="#P" n="133"/>¶ Nam maior a maiori discussione eget ac maiori 
+      inte<lb ed="#P" n="134" break="no"/>gritate: vt ibidem et hoc innuit tex. in verbo subditorum. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e590">
+                  <lb ed="#P" n="135"/>¶ Et vidi quod vnus epscopus vnum abbatem deposuit 
+      con<lb ed="#P" n="136" break="no"/>silio capituli non requisito / pretendens consuetudinem / et 
+      <lb ed="#P" n="137"/>fuit appellatum. Et ex hac causa impugnabatur processus 
+      <lb ed="#P" n="138"/>episcopi.
+     </p>
+               <p xml:id="nyf6td-d1e137-d1e601">
+      ¶ Et id abbas certe diocesis sit subdiius suo 
+      dio<lb ed="#P" n="139" break="no"/>cesano. : ipse solus non corrigitur in deponendo vt causat 
+      <lb ed="#P" n="140"/>in instituendo. Sed illi quibus preferedus est ipe per confirm 
+      <lb ed="#P" n="141"/>tionem seu aurerendus per depositionem et ob hoc subdit 
+      <lb ed="#P" n="142"/>tus proprie nosi dicitur sed potius quoddam vniuersum. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e612">
+                  <lb ed="#P" n="143"/>¶ Quia omnes presidentes sunt vniuersitas qbus 
+      pr<lb ed="#P" n="144" break="no"/>sunt d virtute vt ait philo. Et ideo in arduis episcopus 
+      si<lb ed="#P" n="145" break="no"/>ne consilio capituli non procedit  iuste etiam per 
+      consue<lb ed="#P" n="146" break="no"/>tudinem quam dico hoc casu non prescriptibilem / licet in 
+      au<lb ed="#P" n="147" break="no"/>duis possit consuetudo prescribi / vt dictis iuribus 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e625">
+                  <lb ed="#P" n="148"/>¶ Alii tamen contra. propter rationem in principio tactam. 
+      <lb ed="#P" n="149"/>Et vt hec decretalis adiiciat regulam ad iura antiqua 
+      <lb ed="#P" n="150"/>hic in certis casibus concedentia vt in. c. ea noscitur. et infa. 
+      <lb ed="#P" n="151"/>de offi. ordi. irrefragabui. ii. respon. Io. mo. Car.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e137-Dd1e638" type="et-sextus-l1t4-c4"><!-- mo-l1t4-c4" -->
+               <head xml:id="nyf6td-d1e137-Hd1e641">Capitulum 4</head>
+               <p xml:id="nyf6td-d1e137-d1e643">
+                  <lb ed="#P" n="39" type="fixed=52-v"/>CVm in tua. Ex hac decret. 
+      <lb ed="#P" n="40"/>seuidenter 
+      colli<lb ed="#P" n="41" break="no"/>gitur quod notatur. supra eo. cim 
+      <lb ed="#P" n="42"/>aliquibus. Nam non 
+      obstar<lb ed="#P" n="43" break="no"/>tia in litera gratiosa post 
+      <lb ed="#P" n="44"/>a: consuetudinem non tollut. 
+      <lb ed="#P" n="45"/>Sed ipsa consuetudo differt 
+      <lb ed="#P" n="46"/>gratiam ne tamen vage 
+      diffe<lb ed="#P" n="47" break="no"/>ratur prefigitur terminus in 
+      <lb ed="#P" n="48"/>ra quem habens 
+      consuetudi<lb ed="#P" n="49" break="no"/>lem ipsa vtatur. antiqores. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e669">
+                  <lb ed="#P" n="50"/>¶ Est enim equum quod 
+      anti<lb ed="#P" n="51" break="no"/>quiores preferatur. supra de 
+      con<lb ed="#P" n="52" break="no"/>suetu. c. quoniam non existit) ratio: cum solus papa 
+      ha<lb ed="#P" n="53" break="no"/>beat de illis ordinare nfra de prebend. c. licet hoc lib. et. 
+      <lb ed="#P" n="54"/>pectent. 
+    </p>
+               <p xml:id="nyf6td-d1e137-d1e682">
+                  <lb ed="#P" n="55"/>¶ Nota artationem fieri ne lus alterius corrumpatur: 
+      <lb ed="#P" n="56"/>vel plus debito prorogetur. vt infra hoc libro de elec. vt 
+      <lb ed="#P" n="57"/>quis. et infra. titulo proximo. c. primo. in fine: et. ff. de succe. 
+      edi<lb ed="#P" n="58" break="no"/>cto l. est prima. §. largius. et. § sequenti. Io. mo. Cardinalis.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 12</title>
+            <author ref="#JohannesMonachus">Johannes Monachus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 12</title>
+               <date when="2024-01-09">January 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-gh333a">Paris, 1535</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="311-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="nyf6td-d1e1036" type="et-sextus-l3t12"><!-- mo-l3t12"
+              -->
+            <head xml:id="nyf6td-d1e1036-Hd1e101">Titulus 12</head>
+            <div xml:id="nyf6td-d1e1036-Dd1e103" type="et-sextus-l3t12-rubric"><!-- mo-l3t12-rubric" -->
+               <head xml:id="nyf6td-d1e1036-Hd1e106">Rubrica</head>
+               <p xml:id="nyf6td-d1e1036-d1e108">
+                  <lb ed="#P" n="154" type="fixed=311-r"/>TEstantes. De quorum testanento est 
+      <lb ed="#P" n="155"/>dictum / quandoqueeligunt 
+      se<lb ed="#P" n="156" break="no"/>pulturam vt in. c. primo eo. Et ipsi testan. 
+      <lb ed="#P" n="157"/>tes post mortem habent sepeliri / quando 
+      <lb ed="#P" n="158"/>que secundum sui electionem et quandoque 
+      <lb ed="#P" n="159"/>secundum iuris electionem / et quandoque 
+      <lb ed="#P" n="160"/>secundum maiorum suorum consuetudi¬ 
+      <!--cod-gh333a-0755.xml-->
+      <pb ed="#P" n="311-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>nam infra. eodem. c. i. et. c. ii. et. c. licet et. c. fina. ideo subiicit de 
+      se<lb ed="#P" n="2" break="no"/>pultur. Ioan. Mona. Cardina. 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1036-Dd1e138" type="et-sextus-l3t12-c1"><!-- mo-l3t12-c1" -->
+               <head xml:id="nyf6td-d1e1036-Hd1e141">Capitulum 1</head>
+               <p xml:id="nyf6td-d1e1036-d1e143">
+                  <lb ed="#P" n="82" type="fixed=311-v"/>ANimarum, Hec decretalis 
+      <lb ed="#P" n="83"/>habet tria dicta. 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e150">
+                  <lb ed="#P" n="84"/>¶ Nam quidam libertatem 
+      ele<lb ed="#P" n="85" break="no"/>ctionis sepulture voto / vel fide 
+      <lb ed="#P" n="86"/>interposita / iuramento seu alias 
+      <lb ed="#P" n="87"/>promittendo impediebant vnde 
+      <lb ed="#P" n="88"/>circa hoc primoprohibitionem 
+      po<lb ed="#P" n="89" break="no"/>nit in ver. statuentes inductos 
+      <lb ed="#P" n="90"/>iii. §. si vero inducentes contra 
+      <lb ed="#P" n="91"/>dictam prohibitionem diuersis 
+      <lb ed="#P" n="92"/>penis punitin virtute hec vel 
+      <lb ed="#P" n="93"/>ba et sequentia inducunt peccatum mortale si non 
+      parea<lb ed="#P" n="94" break="no"/>tur. supra de maior. et obedien. si quis venerit / et illud nisi 
+      for<lb ed="#P" n="95" break="no"/>san quis dicat quod ista sunt verba comminationis infra de iure 
+      pa<lb ed="#P" n="96" break="no"/>tro. relatum ain fine ad vouendum. 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e181">
+                  <lb ed="#P" n="97"/>¶ Sed quare illud quod possum eligere / non possum vt 
+      <lb ed="#P" n="98"/>to vel inramento / vel alio modo firmare / 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e188">
+                  <lb ed="#P" n="99"/>¶ Sol. hec electio est pars vltime voluntatis b. Et quia 
+      <lb ed="#P" n="100"/>vltima volintas debet esse liberad. C. de sacrosanct. 
+      ec<lb ed="#P" n="101" break="no"/>cle. l. i. ob hoc ligari non debet libertas dictis vinculis 
+      ar<lb ed="#P" n="102" break="no"/>gn infra de sponsal gemma. argu. C. de inutil. stipula. libera. 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e200">
+                  <lb ed="#P" n="103"/>¶ Item ins eligit sepulturam morienti: si moriens 
+      sibi<lb ed="#P" n="104" break="no"/>non eligat infra eo. c. i. et. c. seq. i. Pso. et. c. vlti. vnde hoc ius non 
+      <lb ed="#P" n="105"/>debet impediri nisi nuda et mera testantis electione vt his 
+      <lb ed="#P" n="106"/>et non adiectione: quoniam libertas electionis tolleretur. 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e211">
+                  <lb ed="#P" n="107"/>¶ Item electio sepulture est ius speciale contra ius 
+      com<lb ed="#P" n="108" break="no"/>mune inductum infra versi. proximo. 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e218">
+                  <lb ed="#P" n="109"/>¶ Et hoc speciale solus princeps (qui est. supra ius) inducere 
+      <lb ed="#P" n="110"/>potest. Et ob hoc sicut non potest alius a principe 
+      tol<lb ed="#P" n="111" break="no"/>lere ius commune / ita nec aliud ius speciale inducere: que 
+      <lb ed="#P" n="112"/>artetur ius commune 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e229">
+                  <lb ed="#P" n="113"/>¶ Et ex hoc concluditur quare hic deceptus punitur / 
+      si<lb ed="#P" n="114" break="no"/>cut contra iura attentans firmitatis quia hec premissa 
+      <lb ed="#P" n="115"/>tollunt libertatem electionis: et ideo quia hec sunt contra 
+      <lb ed="#P" n="116"/>substantiam electionis: ob hoc hic adiecta inficiunt electio 
+      <lb ed="#P" n="117"/>nem arg. infra de conditio. appo. c. vltimo. 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e242">
+                  <lb ed="#P" n="118"/>¶ Et ob hoc electione sublata mortuus secundum dicta 
+      <lb ed="#P" n="119"/>men iuris communis est sepeliendus infra eo. versicu. 
+      proxi<lb ed="#P" n="120" break="no"/>mo sepulturam) 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e251">
+                  <lb ed="#P" n="121"/>¶ Nota hanc decisionem optimam: nam sic deciditur quod inducens 
+      <lb ed="#P" n="122"/>contra iura commodum non habeat nec inductus contra 
+      <lb ed="#P" n="123"/>premissa faciat / et quod secundum ius commune illi fiat. 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e261">
+                  <lb ed="#P" n="124"/>¶ Est ergo sancta decisio quia male agens punitur vt 
+      <lb ed="#P" n="125"/>male inducens ab intento cadat / et male inductus qui 
+      indu<lb ed="#P" n="126" break="no"/>ctioni huius consensit: electionem sepulture perdat / et iud 
+      <lb ed="#P" n="127"/>commune inconcussum remaneat corporum supra eo cum 
+      li<lb ed="#P" n="128" break="no"/>beris ad eosdem) 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e274">
+                  <lb ed="#P" n="129"/>¶ Et est ratio isti fecerunt indebitum. supra eo i. Neso. et. ii. et ideo 
+      <lb ed="#P" n="130"/>quod est eis indebitum et debitum ecclesie parrochiali: ili 
+      <!--cod-gh333a-0756.xml-->
+      <pb ed="#P" n="312-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>est restituendum 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e290">
+                  <lb ed="#P" n="2"/>¶ Sed quomodo propter fatuitatem vnius fratris 
+      contra<lb ed="#P" n="3" break="no"/>hanc prohibitionem facientis / ecclesias et cemiteria 
+      indu<lb ed="#P" n="4" break="no"/>centium punientur / respondeo ecclesia debet scire 
+      quan<lb ed="#P" n="5" break="no"/>do recipit alienum iure communi: quomodo vel qua electione 
+      <lb ed="#P" n="6"/>est effectum suum. 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e303">
+                  <lb ed="#P" n="7"/>¶ Et ideo est sibi impigendum si diligenter non quesiuit 
+      <lb ed="#P" n="8"/>quod enim non est meum debeo credere ad alios 
+      perti<lb ed="#P" n="9" break="no"/>nere. C. vnde vi conquerebatur eo ipso id est sine alteriut 
+      <lb ed="#P" n="10"/>iuris adminiculo not. supra hoc lib. de electi. quam sit in fine. 
+      Io<lb ed="#P" n="11" break="no"/>an. Mona. Cardinalis 
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1036-Dd1e317" type="et-sextus-l3t12-c2"><!-- mo-l3t12-c2" -->
+               <head xml:id="nyf6td-d1e1036-Hd1e320">Capitulum 2</head>
+               <p xml:id="nyf6td-d1e1036-d1e322">
+                  <lb ed="#P" n="35" type="fixed=312-v"/>CVm quis, Hec decre. habet 
+      <lb ed="#P" n="36"/>tria dicta. 
+      Ecce<lb ed="#P" n="37" break="no"/>primum [sacramenta. Nam 
+      <lb ed="#P" n="38"/>cum concurrebant ecclesia 
+      par<lb ed="#P" n="39" break="no"/>rochialis in qua quis 
+      consu<lb ed="#P" n="40" break="no"/>uit recipere ecclesiastica 
+      sa<lb ed="#P" n="41" break="no"/>cramenta in qua quis de 
+      iu<lb ed="#P" n="42" break="no"/>re communi habet sepulturam 
+      <lb ed="#P" n="43"/>e alter locus in quo 
+      consue<lb ed="#P" n="44" break="no"/>uerunt maiores illius 
+      sepeli<lb ed="#P" n="45" break="no"/>ri: dico nulla electione facte 
+      <lb ed="#P" n="46"/>peristurrecclesiam partocbis 
+      <lb ed="#P" n="47"/>lem esse potiorem Argu. ff. ad municipa ile.t libertus. §. 
+      pre<lb ed="#P" n="48" break="no"/>scriptio. 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e355">
+                  <lb ed="#P" n="49"/>¶ Nam sicut natura originis est potior aquisitione: vt 
+      <lb ed="#P" n="50"/>d. §. Sic natura regenerationis que est per sacramenta 
+      <lb ed="#P" n="51"/>que debent assumi in ecclesia parrochiali / erit potior 
+      con<lb ed="#P" n="52" break="no"/>suetudine que dat ius sepulture arg. ff. de lib. et posthu. l. 
+      <lb ed="#P" n="53"/>filio. §. quesitum portionem] arg. ff. de lega. primo titie 
+      tex<lb ed="#P" n="54" break="no"/>tores. secus si instructior esset in vno loco. Nam a 
+      ma<lb ed="#P" n="55" break="no"/>iori est facienda denominatio argu. ff. de statu homi l. 
+      <lb ed="#P" n="56"/>queritur et non infra hoc lib. de ver. signi. c. vlti 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e375">
+                  <lb ed="#P" n="57"/>¶ Ubi autem quis dicatur habere domicilium et per 
+      que<lb ed="#P" n="58" break="no"/>modum constituitur / habetur ff. de ver. signifi. in lege. C. 
+      <lb ed="#P" n="59"/>de incol. ciues lib. x. Si quis hoc. §. deciditur dubium de 
+      <lb ed="#P" n="60"/>ciorum non supra eo. fraternitatem. Io. Mo. Cardi.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1036-Dd1e387" type="et-sextus-l3t12-c3"><!-- mo-l3t12-c3" -->
+               <head xml:id="nyf6td-d1e1036-Hd1e390">Capitulum 3</head>
+               <p xml:id="nyf6td-d1e1036-d1e392">
+                  <lb ed="#P" n="10" type="fixed=313-r"/>IS qui. Hec decreta. duo dicit. Et 
+      <lb ed="#P" n="11"/>ce primum dicte ville arg 
+      <lb ed="#P" n="12"/>ff. de pignor. debitor. ff. de hered. in 
+      <lb ed="#P" n="13"/>sti. ex facto. §. rerum / et ff. de ver. 
+      signi<lb ed="#P" n="14" break="no"/>malum in fine deportari Not. 
+      peri<lb ed="#P" n="15" break="no"/>culum imminens ius commune 
+      immi<lb ed="#P" n="16" break="no"/>tat. supra hoc lib. de procura. si duo. §. 
+      sa<lb ed="#P" n="17" break="no"/>ne / et infra. eo. capi. fina. Tumulanda a 
+      <lb ed="#P" n="18"/>ff. ad municipal. filii. §. vidua bff. de 
+      <lb ed="#P" n="19"/>senato. femine. C. de incol. l. fina. lib. 
+      <lb ed="#P" n="20"/>x. quod est verum si fuit legitima vxor argu. ff. ad 
+      municia<lb ed="#P" n="21" break="no"/>pal. l. de iure. §. fina. Ioan. Mona. Cardi.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1036-Dd1e423" type="et-sextus-l3t12-c4"><!-- mo-l3t12-c4" -->
+               <head xml:id="nyf6td-d1e1036-Hd1e426">Capitulum 4</head>
+               <p xml:id="nyf6td-d1e1036-d1e428">
+                  <lb ed="#P" n="128" type="fixed=313-v"/>LIcet. Hic duo dominrecce ergo consuetudo) 
+      non<lb ed="#P" n="129" break="no"/>ta hic quod consuetudo / et electio / et ius 
+      <lb ed="#P" n="130"/>commune dant ius sepulture. Et consuetudo hic. 
+      <lb ed="#P" n="131"/>dat quod ius commne denegat tumulandi 
+      Sed<lb ed="#P" n="132" break="no"/>cum hic sit disiuncta cuius erit electio: videtur 
+      <lb ed="#P" n="133"/>in dubio aordinem scripture seruandum. supra hoc 
+      <lb ed="#P" n="134"/>lib. de praebem mandato. et sic habens c consuetudinem obtinebit vt 
+      <lb ed="#P" n="135"/>hic et supra cum quis i. Neso. et amici defuncti quorum interest et quibus 
+      <lb ed="#P" n="136"/>imminet cura tumulandi.
+     </p>
+               <p xml:id="nyf6td-d1e1036-d1e450">
+      ¶ Sed videtur quod ecclesia 
+      parro<lb ed="#P" n="137" break="no"/>chialis habeat electionem vt notatur. supra eo. cum quis 1. Neso. 
+      arg<lb ed="#P" n="138" break="no"/>supra hoc lib. de rescrip. duobus i. eso. dic ecclesiam parrochialim 
+      <lb ed="#P" n="139"/>contendentem cum alia potiorem 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e459">
+                  <lb ed="#P" n="140"/>¶ Sed si non contendat / dic amicos habere electionem 
+      <lb ed="#P" n="141"/>huius vel illius.
+     </p>
+               <p xml:id="nyf6td-d1e1036-d1e466">
+      ¶ Uel dic ecclesiam parrochialem potiorem. 
+      <lb ed="#P" n="142"/>vbi parrochianus decedit in parrochia: sed si alibi secus 
+      <lb ed="#P" n="143"/>vt hic et. c. is qui ibi in qua potius. Et ratio potest esse pro¬ 
+      <!--cod-gh333a-0760.xml-->
+      <pb ed="#P" n="314-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#P" n="1"/>pter onus incumbens amicis sepulturam) cum hoc casu non 
+      <lb ed="#P" n="2"/>sit in potestate paterna / cum sepultura sit post mortem 
+      <lb ed="#P" n="3"/>quo filiusfamilias non est in paterna potestate iudicare. / 
+      <lb ed="#P" n="4"/>id est in vltima voluntate dare: nam sicut iudicium in 
+      vn<lb ed="#P" n="5" break="no"/>sensu idem est quod vltima voluntas / vt not. supra de iudic. in rub. 
+      <lb ed="#P" n="6"/>sic iudicare in vno sensu / idem est quod in vltima voluntate 
+      re<lb ed="#P" n="7" break="no"/>linquere / vt hic non potest ff de dona. causa mor. cum is 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e496">
+                  <lb ed="#P" n="8"/>¶ Sed hoc fallit in castrensi vel quasi peculio / vt hic. Et 
+      <lb ed="#P" n="9"/>est castrense peculium quod a parentibus vel cognatis in 
+      mi<lb ed="#P" n="10" break="no"/>litis degenti donatum est: vel quod ipse filiusfa. in militia 
+      ac<lb ed="#P" n="11" break="no"/>quisiuit que acquisiturus non esset nisi militaret. ff. de 
+      ca<lb ed="#P" n="12" break="no"/>stren. peculio l. castrense.
+     </p>
+               <p xml:id="nyf6td-d1e1036-d1e509">
+      ¶ Sed quasi castrense d est quia 
+      <lb ed="#P" n="13"/>acquirit filiusfa. aduocatus / in aduocando. Nam isti militant. 
+      <lb ed="#P" n="14"/>C. de aduoca. diuerso. iudic. aduocati. Ioan. Mo. Cardi.
+    </p>
+            </div>
+            <div xml:id="nyf6td-d1e1036-Dd1e517" type="et-sextus-l3t12-c5"><!-- mo-l3t12-c5" -->
+               <head xml:id="nyf6td-d1e1036-Hd1e520">Capitulum 5</head>
+               <p xml:id="nyf6td-d1e1036-d1e522">
+                  <lb ed="#P" n="49" type="fixed=314-v"/>REligiosi. Et est ratio huins 
+      ca<lb ed="#P" n="50" break="no"/>pituli / quia sicut de 
+      <lb ed="#P" n="51"/>iure communi quis debet 
+      sepeli<lb ed="#P" n="52" break="no"/>ri vbi audit diuina / et ecclesiastic. 
+      <lb ed="#P" n="53"/>recipit sacramenta. supra eo. cum quis. 
+      <lb ed="#P" n="54"/>primo respon. Sic monachus 
+      au<lb ed="#P" n="55" break="no"/>dire debet diuina / et ecclesiastic. 
+      <lb ed="#P" n="56"/>recipere sacramenta in suo mon 
+      <lb ed="#P" n="57"/>sterio non possunt Simile. supra 
+      eo<lb ed="#P" n="58" break="no"/>Is qui.
+     </p>
+               <p xml:id="nyf6td-d1e1036-d1e546">
+      ¶ Nam impossibili. 
+      <lb ed="#P" n="59"/>tas et incommoditas ius 
+      com<lb ed="#P" n="60" break="no"/>mune immutant / vt hic et ibi. 
+    </p>
+               <p xml:id="nyf6td-d1e1036-d1e553">
+                  <lb ed="#P" n="61"/>¶ Sed contra infra de excessi. prelato. nimis iniqua vero et 
+      si<lb ed="#P" n="62" break="no"/>quis decedentium.
+     </p>
+               <p xml:id="nyf6td-d1e1036-d1e560">
+      ¶ Sol. hanc intellige secundum illam 
+      <lb ed="#P" n="63"/>vt monachus eligat vbi ad suum monasterium portari non 
+      <lb ed="#P" n="64"/>potest / vt ibi / alias non vt hic nolle b supra hoc lib. de 
+      ele<lb ed="#P" n="65" break="no"/>ctio. si religiosus. xii. quest i. non dicatis. supra hoc lib. de 
+      te<lb ed="#P" n="66" break="no"/>stamen. capitu. ii. respon. primo. Ioan. Mona. Cardi.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
