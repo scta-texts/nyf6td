@@ -55,7 +55,7 @@
          <div xml:id="nyf6td-d1epRo" type="et-sextus-prooemium"><!-- mo-proemium"
               -->
             <head xml:id="nyf6td-d1epRo-Hd1e101">Prooemium</head>
-            <div xml:id="nyf6td-d1epRo-Dd1e103" alias="mo-prooemium-p1">
+           <div xml:id="nyf6td-d1epRo-Dd1e103"><!--  alias="mo-prooemium-p1" -->
                <p xml:id="nyf6td-d1epRo-d1e105">
                   <lb ed="#P" n="67" type="fixed=6-r"/>BOnifacius. Hoc prohemium a diuiditur in 
       <lb ed="#P" n="68"/>duas partes. Primo premittit salutationem 
@@ -172,7 +172,7 @@
       be<lb ed="#P" n="155" break="no"/>nedixit. xxi. distin. c. denique. Io. Car. 
     </p>
             </div>
-            <div xml:id="nyf6td-d1epRo-Dd1e325" alias="mo-prooemium-p2">
+           <div xml:id="nyf6td-d1epRo-Dd1e325"><!-- alias="mo-prooemium-p2" -->
                <p xml:id="nyf6td-d1epRo-d1e327">
                   <lb ed="#P" n="102" type="fixed=8-r"/>SAcrosancte, Hec epistola 
       di<lb ed="#P" n="103" break="no"/>uiditur in 
