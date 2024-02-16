@@ -211,7 +211,7 @@
             <div xml:id="nyf6td-d1e137-Dd1e396" type="et-sextus-l1t4-c1"><!-- mo-l1t4-c1" -->
                <head xml:id="nyf6td-d1e137-Hd1e399">Capitulum 1</head>
                <p xml:id="nyf6td-d1e137-d1e401">
-                  <lb ed="#P" n="59" type="fixed=49-r"/><quote source="nyf6td-d1e137-Qxcya8a" source="http://scta.info/resource/wef6td-d1e137-d1e128@3-3">COnsuetudinem</quote>, In hac 
+                  <lb ed="#P" n="59" type="fixed=49-r"/><quote xml:id="nyf6td-d1e137-Qxcya8a" source="http://scta.info/resource/wef6td-d1e137-d1e128@3-3">COnsuetudinem</quote>, In hac 
       <lb ed="#P" n="60"/>decre<lb ed="#P" n="61" break="no"/>ali 
                   et sequenti tangitur de 
       con<lb ed="#P" n="62" break="no"/>uetudine reproba. quia est. 
