@@ -88,30 +88,30 @@
             <!--cod-gh333a-0146.xml-->
             <cb ed="#P" n="b"/>
             <lb ed="#P" n="75" type="fixed=12-r"/>
-            <quote xml:id="nyf6td-d1e88-Qd1e168">Licet Romanus</quote>. casus
+            <quote xml:id="nyf6td-d1e88-Qd1e168" target="http://scta.info/resource/wef6td-d1e88-d1e124@3-4">Licet Romanus</quote>. casus
             <!-- missing line break --> 
             Secun<lb ed="#P" n="76" break="no"/>da constitutio prime 
             aduer<lb ed="#P" n="77" break="no"/>sa: eam tollit. Sed constitutio / 
             <lb ed="#P" n="78"/>statutum vel consuetudinem 
             spe<lb ed="#P" n="79" break="no"/>cialia praecedentia et 
             rationabilia<lb ed="#P" n="80" break="no"/>non tollit: nisi expresse caueatum 
-            <lb ed="#P" n="81"/>in ipsa habere. C. de test. l. 
-            <lb ed="#P" n="82"/>omnium. et dic habere 
+            <lb ed="#P" n="81"/>in ipsa habere. <ref xml:id="nyf6td-d1e88-Rnbvzz8" target="http://scta.info/resource/azsw2e-d1e3684"><!-- target imprecise; 6.23.19-->C. de test. l. 
+            <lb ed="#P" n="82"/>omnium.</ref> et dic habere 
             delibera<lb ed="#P" n="83" break="no"/>tus cum sit tota vniuersitas 
             vir<lb ed="#P" n="84" break="no"/>tute: secundum philo. vel dic 
-            <lb ed="#P" n="85"/>propter consiliarios / vel 
-            dic<lb ed="#P" n="86" break="no"/>omnia iura i vim omnium in 
-            <lb ed="#P" n="87"/>rium reuocare) contra infra de capel. mo. c. ex parte.
+            <lb ed="#P" n="85"/>propter consiliarios / vel dic
+            <lb ed="#P" n="86"/>omnia iura id est vim omnium 
+            iu<lb ed="#P" n="87" break="no"/>rium reuocare contra infra de capel. mo. c. ex parte.
           </p>
           <p xml:id="nyf6td-d1e88-d1e199">
-            ¶ Soluo 
-            <lb ed="#P" n="88"/>ibiest casus diuersus non aduersus / et est ratio diuersitatis 
+            ¶ Solue 
+            <lb ed="#P" n="88"/>ibi est casus diuersus non aduersus / et est ratio diuersitatis 
             <lb ed="#P" n="89"/>inter dictos casus: ibi loquitur quando rescriptum datur. 
             <lb ed="#P" n="90"/>contra ius commune: quia tunc non videretur princeps 
             tolle<lb ed="#P" n="91" break="no"/>re legem per rescriptum nisi fiat mentio / vel nisi faciat 
             men<lb ed="#P" n="92" break="no"/>tionem de ea. Secus de constitutione: quae est prime aduersa. 
             <lb ed="#P" n="93"/>quia lex conditionem habet c cum magna solennitate quae 
-            ha<lb ed="#P" n="94" break="no"/>betur. C. de legibus et constitu. l. humanum. Et ideo princeps 
+            ha<lb ed="#P" n="94" break="no"/>betur. <ref xml:id="nyf6td-d1e88-Ryy8i8u" target="http://scta.info/resource/azsw2e-d1e204"><!--target imprecise-->C. de legibus et constitu. l. humanum.</ref> Et ideo princeps 
             <lb ed="#P" n="95"/>deliberatus de condendo iure alicui: primo aduerso / 
             pri<lb ed="#P" n="96" break="no"/>mum tollit: non sic mandando rescriptum / quod cum tanta 
             <lb ed="#P" n="97"/>deliberatione non datur.
